@@ -24,6 +24,7 @@ const config = {
   devServer: {
     contentBase: 'src/www',
     devtool: 'eval',
+    host: '0.0.0.0',
     hot: true,
     inline: true,
     port: 3000,

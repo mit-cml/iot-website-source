@@ -3,6 +3,8 @@ npm-debug.log
 build
 coverage
 .eslintcache
+.vagrant
+*~*
 
 # Exclude compiled files
 /lib
