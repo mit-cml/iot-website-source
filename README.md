@@ -76,12 +76,12 @@ to GitHub.
 
 Assuming you do not have a copy of the site do (from your home directory):
 
-    git clone git@iot.appinventor.mit.edu iot-website
+    git clone git@iot.appinventor.mit.edu iot-pages
     cd iot-website-source/docs/build/
-    rsync -v -a * ../../../iot-website/
+    rsync -v -a * ../../../iot-pages/
     cd ../src/www
-    rsync -v -a blocks ../../../../iot-website/
-    cd ../../../../iot-website
+    rsync -v -a blocks ../../../../iot-pages/
+    cd ../../../../iot-pages
     git add . --all
     git commit # <– This will invoke an editor for you to put in the commit comment
 
