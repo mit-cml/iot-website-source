@@ -1,4 +1,9 @@
+#!env python
+import os
+import shutil
+import sys
 
+appRoutesHeader = '''
 import React from 'react';
 import {
   Route,
@@ -9,67 +14,13 @@ import {
 // Here we define all our material-ui ReactComponents.
 import Master from './Master';
 import Home from './Home';
+'''
 
-import Arduino101AccelerometerPage from './tmp/Arduino101Accelerometer/Page';
+appRoutesChunk = '''
+import %(page)sPage from './tmp/%(page)s/Page';
+'''
 
-import Arduino101ButtonPage from './tmp/Arduino101Button/Page';
-
-import Arduino101GyroscopePage from './tmp/Arduino101Gyroscope/Page';
-
-import Arduino101HumidityPage from './tmp/Arduino101Humidity/Page';
-
-import Arduino101LedPage from './tmp/Arduino101Led/Page';
-
-import Arduino101LightSensorPage from './tmp/Arduino101LightSensor/Page';
-
-import Arduino101MoisturePage from './tmp/Arduino101Moisture/Page';
-
-import Arduino101ProximitySensorPage from './tmp/Arduino101ProximitySensor/Page';
-
-import Arduino101RgbLcdPage from './tmp/Arduino101RgbLcd/Page';
-
-import Arduino101ServoPage from './tmp/Arduino101Servo/Page';
-
-import BluetoothLEPage from './tmp/BluetoothLE/Page';
-
-import MicroBitAccelerometerPage from './tmp/MicroBitAccelerometer/Page';
-
-import MicroBitButtonPage from './tmp/MicroBitButton/Page';
-
-import MicroBitDeviceInformationPage from './tmp/MicroBitDeviceInformation/Page';
-
-import MicroBitDfuControlPage from './tmp/MicroBitDfuControl/Page';
-
-import MicroBitEventPage from './tmp/MicroBitEvent/Page';
-
-import MicroBitGeneBicAttributePage from './tmp/MicroBitGeneBicAttribute/Page';
-
-import MicroBitGenericAccessPage from './tmp/MicroBitGenericAccess/Page';
-
-import MicroBitGenericAttributePage from './tmp/MicroBitGenericAttribute/Page';
-
-import MicroBitIoPinPage from './tmp/MicroBitIoPin/Page';
-
-import MicroBitLedPage from './tmp/MicroBitLed/Page';
-
-import MicroBitMagnetometerPage from './tmp/MicroBitMagnetometer/Page';
-
-import MicroBitTemperaturePage from './tmp/MicroBitTemperature/Page';
-
-import MicroBitUartPage from './tmp/MicroBitUart/Page';
-
-import TeacherCurriculumPage from './tmp/TeacherCurriculum/Page';
-
-import TeacherExemplarsPage from './tmp/TeacherExemplars/Page';
-
-import TeacherHowTosPage from './tmp/TeacherHowTos/Page';
-
-import TeacherTopPage from './tmp/TeacherTop/Page';
-
-import TeacherTutorialPage from './tmp/TeacherTutorial/Page';
-
-import MicroBitPage from './tmp/MicroBit/Page';
-
+appRoutesFooter = '''
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
  *
@@ -121,3 +72,77 @@ const AppRoutes = (
 );
 
 export default AppRoutes;
+'''
+
+
+pageTemplate = '''
+import React from 'react';
+import Title from 'react-title-component';
+import MarkdownElement from '../../MarkdownElement';
+import %(page)sText from './%(page)s.md';
+
+const %(page)sPage = () => (
+  <div>
+    <Title render={(previousTitle) => `Internet of Things - ${previousTitle}`} />
+    <MarkdownElement text={%(page)sText} />
+  </div>
+);
+
+export default %(page)sPage;
+'''
+
+workDir = os.path.dirname(os.path.realpath(__file__))
+
+def processPage(filename):
+    f = open('%s/src/app/pages/%s' % (workDir, filename))
+    rootname = filename.split('.')[0]
+    ext = filename.split('.')[1]
+    if ext != 'md':
+        return                  # Not a Markdown file, skip it
+    lines = f.readlines()
+    f.close()
+    # header = lines[0]
+    rest = lines
+    # rest = lines[1:]
+    # if header[0] != '%':
+    #     print '%s: No Magic, skipping' % filename
+    #     return                  # This markdown file is not ready
+    # path = header[1:]
+    ## Make sure the directory is created
+    try:
+        os.makedirs('%s/src/app/tmp/%s' % (workDir, rootname))
+    except OSError:
+        pass                 # We get here if the directory already exists
+    ## Create the .md file without the header
+    f = open('%s/src/app/tmp/%s/%s.md' % (workDir, rootname, rootname), 'w')
+    for line in rest:
+        f.write(line)
+        f.write('\n')
+    f.close()
+    ## Create Pages.js
+    f = open('%s/src/app/tmp/%s/Page.js' % (workDir, rootname), 'w')
+    f.write(pageTemplate % { 'dirname' : workDir,
+                             'page' :  rootname,
+                             'previous' : 'TEMP FOR NOW'})
+    f.close()
+    return appRoutesChunk % { 'page' : rootname}
+
+def main():
+    shutil.rmtree('%s/src/app/tmp' % workDir, True)
+    pages = os.listdir('src/app/pages')
+    chunks = []
+    for page in pages:
+        print 'Processing %s' % page
+        chunk = processPage(page)
+        if chunk:               # Only add it if it isn't None
+            chunks.append(chunk)
+    f = open('src/app/AppRoutes.js', 'w')
+    f.write(appRoutesHeader)
+    for chunk in chunks:
+        f.write(chunk)
+    f.write(appRoutesFooter)
+    f.close()
+
+if __name__ == '__main__':
+    main()
+

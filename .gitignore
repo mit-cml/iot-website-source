@@ -6,6 +6,7 @@ coverage
 .vagrant
 ubuntu-xenial-16.04-cloudimg-console.log
 *~*
+/docs/src/app/tmp
 
 # Exclude compiled files
 /lib

@@ -1,16 +1,18 @@
-# Getting Started
+#+OPTIONS: num:nil toc:nil author:nil email:nil timestamp:nil creator:nil
+* Getting Started
 
 In order to modify the IoT website you will need some software. We use
 “vagrant” to create a virtual machine to run this software to ensure
 that the correct versions are being used, regardless of platform and
 platform version.
 
-You will need to install “VirtualBox” and “vagrant” <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+You will need to install “VirtualBox” and “vagrant” [fn::If you are running under Linux, you can avoid using VirtualBox and can
+use “lxc” instead, which is much faster. See me for details.]
 
 VirtualBox can be found at:
-<https://www.virtualbox.org/wiki/Downloads>
+[[https://www.virtualbox.org/wiki/Downloads]]
 
-Vagrant can be found at: <https://www.vagrantup.com/downloads.html>
+Vagrant can be found at: [[https://www.vagrantup.com/downloads.html]]
 
 Download the appropriate installers and run them.
 
@@ -20,24 +22,27 @@ source repository (assuming you are starting from your home directory)
 Issue the following commands (The “#” and stuff after it is a comment,
 don't type it in!):
 
+#+BEGIN_EXAMPLE
     git clone git@github.com:mit-cml/iot-website-source
     cd iot-website-source
     vagrant up  # <– This step will take a *long* time, particularly
                 #    the first time you run it.
+#+END_EXAMPLE
 
 At this point vagrant is downloading a ubuntu (linux) VM, starting it up
 in VirtualBox and provisioning it, which means it is downloading the
 software needed to build the website. This takes quite awhile, but only
 the first time you do the “vagrant up” command.
 
-# Building the site from Source
+* Building the site from Source
 
 Once the commands above are finished (successfully). You can now do:
 
+#+BEGIN_EXAMPLE
     vagrant ssh # <– This will connect you to the virtual machine
                 #    your next command will be in the context of the
                 #    virtual machine
-    
+
     # the next four lines might not be necessary, but Hal and Mark
     # needed them. They are normally done by the provisioning of
     # of the vagrant VM. But that can fail, so this ensures they
@@ -46,51 +51,57 @@ Once the commands above are finished (successfully). You can now do:
     npm install
     cd docs
     npm install
-    
+
     # finally, do
-    
+
     cd /vagrant/docs
     python makepages.py
     npm run browser:development
+#+END_EXAMPLE
 
 This will compile the source of the website. It will be obvious if there
 are errors. If all goes well, you can go to “localhost:3000” on your
 host machine with a browser of your choice and see the site.
 
-# Building the site for public distribution
+* Building the site for public distribution
 
 To build the site for upload to the distribution location you do:
 
+#+BEGIN_EXAMPLE
     cd /vagrant/docs
     python makepages.py
     npm run browser:build
+#+END_EXAMPLE
 
 If all goes well you can type “exit” (or control-D) to leave the virtual
 machine. You then do:
 
+#+BEGIN_EXAMPLE
     vagrant halt
+#+END_EXAMPLE
 
 This will shutdown the virtual machine. You can then to a “vagrant up”
 in the future to test/build the site again. It should be much faster
 then the initial time.
 
-## Updating the deployed site
+** Updating the deployed site
 
 At this point you are going to clone (or “pull” if you already have a
 copy) the production built website. You will then update the site from
 the files you built above and then you will push it out to production.
 
-**IMPORTANT**: You will not be able to do this until you are authorized.
-Send your “ssh” public key (**not** private key) to jis@mit.edu and I can
+*IMPORTANT*: You will not be able to do this until you are authorized.
+Send your “ssh” public key (*not* private key) to jis@mit.edu and I can
 add you.
 
 The details here are for the site as run from our own server at
-<http://iot.appinventor.mit.edu>. These details will change when we
+[[http://iot.appinventor.mit.edu]]. These details will change when we
 move to GitHub.
 
 Assuming you do not have a copy of the site do (from your home
 directory):
 
+#+BEGIN_EXAMPLE
     git clone git@iot.appinventor.mit.edu iot-pages
     cd iot-website-source/docs/build/
     rsync -v -a * ../../../iot-pages/
@@ -99,10 +110,11 @@ directory):
     cd ../../../../iot-pages
     git add . --all
     git commit # <– This will invoke an editor for you to put in the commit comment
+#+END_EXAMPLE
 
 The site should now be updated.
 
-# Where the pages are&#x2026;
+* Where the pages are...
 
 Adding pages is a bit complicated, but editing the content of existing
 pages should be pretty easy.
@@ -111,7 +123,7 @@ Page source (in Markdown) live in /vagrant/docs/src/app/pages. You can
 edit any of the pages in that directory and rebuild the site and you
 will see your changes.
 
-## Adding a new page
+** Adding a new page
 
 This is a little more complicated, but only a little.
 
@@ -122,7 +134,7 @@ that are there to see how to do it. You then need to edit
 hierarchy of pages defined there. Again, look at the existing pages as
 a guide.
 
-**DO NOT EDIT /vagrant/docs/src/app/AppRoutes.js** This file is
+*DO NOT EDIT /vagrant/docs/src/app/AppRoutes.js* This file is
  automatically generated by the makepages.py script (which is why you
  edit the script to add a page).
 
@@ -134,14 +146,3 @@ there (using the code there as a guide).
 
 When you are done, use the “npm run browser:development” (after
 running the makepages.py script) to test out your additions.
-
-<div id="footnotes">
-<h2 class="footnotes">Footnotes: </h2>
-<div id="text-footnotes">
-
-<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara">If you are running under Linux, you can avoid using VirtualBox and can
-use “lxc” instead, which is much faster. See me for details.</div></div>
-
-
-</div>
-</div>
