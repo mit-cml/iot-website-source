@@ -17,7 +17,7 @@ Assuming you have a “GitHub” account, you should clone the website
 source repository (assuming you are starting from your home directory)
 
 Issue the following commands (The “#” and stuff after it is a comment,
-don’t time it in!):
+don’t type it in!):
 
     git clone git@github.com:mit-cml/iot-website-source
     cd iot-website-source
