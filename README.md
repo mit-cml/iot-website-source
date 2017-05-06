@@ -37,6 +37,15 @@ Once the commands above are finished (successfully). You can now do:
                 #    your next command will be in the context of the
                 #    virtual machine
     
+    # the next four lines might not be necessary, but Hal and Mark
+    # needed them
+    cd /vagrant
+    npm install
+    cd docs
+    npm install
+
+    # finally, do
+
     cd /vagrant/docs
     npm run browser:development
 
