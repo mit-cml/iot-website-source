@@ -158,7 +158,9 @@ class Master extends Component {
     const styles = this.getStyles();
     const title =
       router.isActive('/teachers') ? 'Teachers' :
-          router.isActive('/components') ? 'Components' : '';
+        router.isActive('/students') ? 'Students' :
+          router.isActive('/makers') ? 'Makers' :
+            router.isActive('/components') ? 'Components' : '';
 
     let docked = false;
     let showMenuIconButton = true;

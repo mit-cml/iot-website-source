@@ -134,8 +134,8 @@ class AppNavDrawer extends Component {
           <ListItem
             primaryText="Teachers"
             primaryTogglesNestedList={true}
-            value="/teachers/toppage"
-            href="#/teachers/toppage"
+            value="/teachers/intro"
+            href="#/teachers/intro"
             nestedItems={[
               <ListItem
                 primaryText="Tutorials"
@@ -158,6 +158,18 @@ class AppNavDrawer extends Component {
                 href="#/teachers/curriculum"
               />,
             ]}
+          />
+          <ListItem
+            primaryText="Students"
+            primaryTogglesNestedList={true}
+            value="/students/intro"
+            href="#/students/intro"
+          />
+          <ListItem
+            primaryText="Makers"
+            primaryTogglesNestedList={true}
+            value="/makers/intro"
+            href="#/makers/intro"
           />
           <Divider />
             <Subheader>RESOURCES</Subheader>

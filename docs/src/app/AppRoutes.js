@@ -10,8 +10,6 @@ import {
 import Master from './Master';
 import Home from './Home';
 
-import Arduino101Page from './tmp/Arduino101/Page';
-
 import Arduino101AccelerometerPage from './tmp/Arduino101Accelerometer/Page';
 
 import Arduino101ButtonPage from './tmp/Arduino101Button/Page';
@@ -26,17 +24,11 @@ import Arduino101LightSensorPage from './tmp/Arduino101LightSensor/Page';
 
 import Arduino101MoisturePage from './tmp/Arduino101Moisture/Page';
 
-import Arduino101PinsPage from './tmp/Arduino101Pins/Page';
-
 import Arduino101ProximitySensorPage from './tmp/Arduino101ProximitySensor/Page';
-
-import Arduino101PWMMotorPage from './tmp/Arduino101PWMMotor/Page';
 
 import Arduino101RgbLcdPage from './tmp/Arduino101RgbLcd/Page';
 
 import Arduino101ServoPage from './tmp/Arduino101Servo/Page';
-
-import Arduino101SoundRecorderPage from './tmp/Arduino101SoundRecorder/Page';
 
 import BluetoothLEPage from './tmp/BluetoothLE/Page';
 
@@ -74,9 +66,21 @@ import TeacherExemplarsPage from './tmp/TeacherExemplars/Page';
 
 import TeacherHowTosPage from './tmp/TeacherHowTos/Page';
 
-import TeacherTopPage from './tmp/TeacherTop/Page';
-
 import TeacherTutorialPage from './tmp/TeacherTutorial/Page';
+
+import Arduino101Page from './tmp/Arduino101/Page';
+
+import Arduino101PWMMotorPage from './tmp/Arduino101PWMMotor/Page';
+
+import Arduino101PinsPage from './tmp/Arduino101Pins/Page';
+
+import Arduino101SoundRecorderPage from './tmp/Arduino101SoundRecorder/Page';
+
+import StudentIntroPage from './tmp/StudentIntro/Page';
+
+import TeacherIntroPage from './tmp/TeacherIntro/Page';
+
+import MakerIntroPage from './tmp/MakerIntro/Page';
 
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
@@ -91,13 +95,18 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
-
     <Route path="teachers">
+      <Route path="intro" component={TeacherIntroPage} />
       <Route path="tutorials" component={TeacherTutorialPage} />
-      <Route path="toppage" component={TeacherTopPage} />
       <Route path="howtos" component={TeacherHowTosPage} />
       <Route path="exemplars" component={TeacherExemplarsPage} />
       <Route path="curriculum" component={TeacherCurriculumPage} />
+    </Route>
+    <Route path="students">
+      <Route path="intro" component={StudentIntroPage} />
+    </Route>
+    <Route path="makers">
+      <Route path="intro" component={MakerIntroPage} />
     </Route>
     <Route path="components">
       <Route path="bluetoothle" component={BluetoothLEPage} />
