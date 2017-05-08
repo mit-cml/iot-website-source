@@ -34,13 +34,18 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
-
     <Route path="teachers">
+      <Route path="intro" component={TeacherIntroPage} />
       <Route path="tutorials" component={TeacherTutorialPage} />
-      <Route path="toppage" component={TeacherTopPage} />
       <Route path="howtos" component={TeacherHowTosPage} />
       <Route path="exemplars" component={TeacherExemplarsPage} />
       <Route path="curriculum" component={TeacherCurriculumPage} />
+    </Route>
+    <Route path="students">
+      <Route path="intro" component={StudentIntroPage} />
+    </Route>
+    <Route path="makers">
+      <Route path="intro" component={MakerIntroPage} />
     </Route>
     <Route path="components">
       <Route path="bluetoothle" component={BluetoothLEPage} />
@@ -121,7 +126,6 @@ def processPage(filename):
     f = open('%s/src/app/tmp/%s/%s.md' % (workDir, rootname, rootname), 'w')
     for line in rest:
         f.write(line)
-        f.write('\n')
     f.close()
     ## Create Pages.js
     f = open('%s/src/app/tmp/%s/Page.js' % (workDir, rootname), 'w')
@@ -132,8 +136,11 @@ def processPage(filename):
     return appRoutesChunk % { 'page' : rootname}
 
 def main():
+    import re
+    M = re.compile('.*\.md$')
     shutil.rmtree('%s/src/app/tmp' % workDir, True)
     pages = os.listdir('src/app/pages')
+    pages = filter(M.match, pages) # Get rid of backup files, only MD files please
     chunks = []
     for page in pages:
         print 'Processing %s' % page
