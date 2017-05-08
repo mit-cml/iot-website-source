@@ -1,0 +1,88 @@
+# Arduino101Pins
+
+The Arduino101Pins extension provides a general purpose interface to any hardware connected to the digital or analog I/O pins.
+
+## Properties
+
++ <a name="Analog"></a>`Analog` – Set or get whether the pin is an analog pin (true) or digital pin (false). Default: digital (false).
+
+
+![get Arduino101Pins1 Analog ](blocks/Arduino101Pins.Analog_getter.svg)
+
+
+![set Arduino101Pins1 Analog  to](blocks/Arduino101Pins.Analog_setter.svg)
+
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
+
+
+![get Arduino101Pins1 BluetoothDevice ](blocks/Arduino101Pins.BluetoothDevice_getter.svg)
+
+
+![set Arduino101Pins1 BluetoothDevice  to](blocks/Arduino101Pins.BluetoothDevice_setter.svg)
+
++ <a name="Output"></a>`Output` – Set or get whether the pin is an input or output pin. This only applies to digital pins. Analog pins are read-only. See the <a href="#/component/arduinopwm">Arduino 101 PWM</a> extension for treating digital pins as 'analog' outputs.
+
+
+![get Arduino101Pins1 Output ](blocks/Arduino101Pins.Output_getter.svg)
+
+
+![set Arduino101Pins1 Output  to](blocks/Arduino101Pins.Output_setter.svg)
+
++ <a name="Pin"></a>`Pin` – 
+
+
+![get Arduino101Pins1 Pin ](blocks/Arduino101Pins.Pin_getter.svg)
+
+
+![set Arduino101Pins1 Pin  to](blocks/Arduino101Pins.Pin_setter.svg)
+
+## Methods
+
++ <a name="FeatureAvailable"></a>`FeatureAvailable` – Check whether the feature is currently available for the device connected via the
+ <code>BluetoothDevice</code> property. If no device is currently connected, this method will
+ always return false.
+
+![call Arduino101Pins1 FeatureAvailable](blocks/Arduino101Pins.FeatureAvailable.svg)
+
++ <a name="ReadPinState"></a>`ReadPinState` – Read the current state of the pin. After the value is read, it will be reported through the
+ <code><a href="#/component/arduinopins/PinStateReceived">PinStateReceived</a></code> event.
+
+![call Arduino101Pins1 ReadPinState](blocks/Arduino101Pins.ReadPinState.svg)
+
++ <a name="RequestPinStateUpdates"></a>`RequestPinStateUpdates` – Request updates to the state of the pin. New values will be reported by the
+ <code><a href="#/components/arduinopins/PinStateReceived">PinStateReceived</a></code>
+ event.
+
+![call Arduino101Pins1 RequestPinStateUpdates](blocks/Arduino101Pins.RequestPinStateUpdates.svg)
+
++ <a name="UnregisterForUpdates"></a>`UnregisterForUpdates` – Stop receiving updates for the pin. Note that there still may be pending notifications to the
+ <code>PinStateReceived</code> event that will need to be processed after this call.
+
+![call Arduino101Pins1 UnregisterForUpdates](blocks/Arduino101Pins.UnregisterForUpdates.svg)
+
++ <a name="WritePinState"></a>`WritePinState` – Write a new value for the pin. This is only a valid operation if the Output property is set
+ to true. For digital pins, a non zero value will be converted to 1 (HIGH) and a zero value will
+ be converted to 0 (LOW). For analog pins, the value must be between 0 and 1023, inclusive. Any
+ values outside of this range will be truncated. To write analog outputs to digital pins using
+ pulse width modulation, see the <a href="#/component/arduinopwm">Arduino101PWM</a> extension.
+
+![call Arduino101Pins1 WritePinStatevalue](blocks/Arduino101Pins.WritePinState.svg)
+
+## Events
+
++ <a name="PinStateReceived"></a>`PinStateReceived` – After the pin is read or an update is received, the <code>PinStateReceived</code> event will
+ be run to inform the app about the state of the pin. The value parameter will indicate the
+ pin state. For digital pins, it will be either 0 for off or 1 for on. For analog pins, it will
+ be an integer in the range [0, 1023].
+
+![when Arduino101Pins1 PinStateReceived value do](blocks/Arduino101Pins.PinStateReceived.svg)
+
++ <a name="PinStateWritten"></a>`PinStateWritten` – After the pin is written, the <code>PinStateWritten</code> event will be run to indicate a
+ successful operation. The value parameter will indicate the value written to the Arduino from
+ the App Inventor app, not necessarily the value passed by the caller to
+ <code>WritePinState</code>. For example, in the case of the analog pins the value will be
+ truncated to fit within the range of [0, 1023].
+
+![when Arduino101Pins1 PinStateWritten value do](blocks/Arduino101Pins.PinStateWritten.svg)
+
+

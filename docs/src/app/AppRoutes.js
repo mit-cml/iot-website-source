@@ -10,6 +10,8 @@ import {
 import Master from './Master';
 import Home from './Home';
 
+import Arduino101Page from './tmp/Arduino101/Page';
+
 import Arduino101AccelerometerPage from './tmp/Arduino101Accelerometer/Page';
 
 import Arduino101ButtonPage from './tmp/Arduino101Button/Page';
@@ -24,13 +26,21 @@ import Arduino101LightSensorPage from './tmp/Arduino101LightSensor/Page';
 
 import Arduino101MoisturePage from './tmp/Arduino101Moisture/Page';
 
+import Arduino101PinsPage from './tmp/Arduino101Pins/Page';
+
 import Arduino101ProximitySensorPage from './tmp/Arduino101ProximitySensor/Page';
+
+import Arduino101PWMMotorPage from './tmp/Arduino101PWMMotor/Page';
 
 import Arduino101RgbLcdPage from './tmp/Arduino101RgbLcd/Page';
 
 import Arduino101ServoPage from './tmp/Arduino101Servo/Page';
 
+import Arduino101SoundRecorderPage from './tmp/Arduino101SoundRecorder/Page';
+
 import BluetoothLEPage from './tmp/BluetoothLE/Page';
+
+import MicroBitPage from './tmp/MicroBit/Page';
 
 import MicroBitAccelerometerPage from './tmp/MicroBitAccelerometer/Page';
 
@@ -68,8 +78,6 @@ import TeacherTopPage from './tmp/TeacherTop/Page';
 
 import TeacherTutorialPage from './tmp/TeacherTutorial/Page';
 
-import MicroBitPage from './tmp/MicroBit/Page';
-
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
  *
@@ -106,6 +114,7 @@ const AppRoutes = (
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
+      <Route path="arduino101" component={Arduino101Page} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />
       <Route path="arduinogyroscope" component={Arduino101GyroscopePage} />
@@ -113,9 +122,12 @@ const AppRoutes = (
       <Route path="arduinoled" component={Arduino101LedPage} />
       <Route path="arduinolightsensor" component={Arduino101LightSensorPage} />
       <Route path="arduinomoisture" component={Arduino101MoisturePage} />
+      <Route path="arduinopins" component={Arduino101PinsPage} />
       <Route path="arduinoproximitysensor" component={Arduino101ProximitySensorPage} />
+      <Route path="arduinopwm" component={Arduino101PWMMotorPage} />
       <Route path="arduinorgblcd" component={Arduino101RgbLcdPage} />
       <Route path="arduinoservo" component={Arduino101ServoPage} />
+      <Route path="arduinosoundrecorder" component={Arduino101SoundRecorderPage} />
     </Route>
   </Route>
 );

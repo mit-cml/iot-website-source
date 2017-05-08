@@ -57,6 +57,7 @@ const AppRoutes = (
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
+      <Route path="arduino101" component={Arduino101Page} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />
       <Route path="arduinogyroscope" component={Arduino101GyroscopePage} />
@@ -64,9 +65,12 @@ const AppRoutes = (
       <Route path="arduinoled" component={Arduino101LedPage} />
       <Route path="arduinolightsensor" component={Arduino101LightSensorPage} />
       <Route path="arduinomoisture" component={Arduino101MoisturePage} />
+      <Route path="arduinopins" component={Arduino101PinsPage} />
       <Route path="arduinoproximitysensor" component={Arduino101ProximitySensorPage} />
+      <Route path="arduinopwm" component={Arduino101PWMMotorPage} />
       <Route path="arduinorgblcd" component={Arduino101RgbLcdPage} />
       <Route path="arduinoservo" component={Arduino101ServoPage} />
+      <Route path="arduinosoundrecorder" component={Arduino101SoundRecorderPage} />
     </Route>
   </Route>
 );

@@ -175,6 +175,8 @@ class AppNavDrawer extends Component {
               <ListItem
                 primaryText="Arduino 101"
                 primaryTogglesNestedList={true}
+                value="/components/arduino101"
+                href="#/components/arduino101"
                 nestedItems={[
                   <ListItem
                     primaryText="Accelerometer"
@@ -212,9 +214,19 @@ class AppNavDrawer extends Component {
                     href="#/components/arduinomoisture"
                   />,
                   <ListItem
+                    primaryText="Pins"
+                    value="/components/arduinopins"
+                    href="#/components/arduinopins"
+                  />,
+                  <ListItem
                     primaryText="Proximity Sensor"
                     value="/components/arduinoproximitysensor"
                     href="#/components/arduinoproximitysensor"
+                  />,
+                  <ListItem
+                    primaryText="PWM Motor"
+                    value="/components/arduinopwm"
+                    href="#/components/arduinopwm"
                   />,
                   <ListItem
                     primaryText="RGB Lcd"
@@ -226,13 +238,18 @@ class AppNavDrawer extends Component {
                     value="/components/arduinoservo"
                     href="#/components/arduinoservo"
                   />,
+                  <ListItem
+                    primaryText="Sound Recorder"
+                    value="/components/arduinosoundrecorder"
+                    href="#/components/arduinosoundrecorder"
+                  />,
                 ]}
               />,
               <ListItem
                 primaryText="Micro-bit"
                 primaryTogglesNestedList={true}
-	        value="/components/microbit"
- 	        href="#/components/microbit"
+                value="/components/microbit"
+                href="#/components/microbit"
                 nestedItems={[
                   <ListItem
                     primaryText="Introduction"
