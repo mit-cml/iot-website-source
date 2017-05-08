@@ -108,7 +108,7 @@ const AppRoutes = (
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
     </Route>
-    <Route path="components">
+    <Route path="documentation">
       <Route path="bluetoothle" component={BluetoothLEPage} />
       <Route path="microbit" component={MicroBitPage} />
       <Route path="microbitaccelerometer" component={MicroBitAccelerometerPage} />

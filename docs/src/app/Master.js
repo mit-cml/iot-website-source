@@ -160,7 +160,7 @@ class Master extends Component {
       router.isActive('/teachers') ? 'Teachers' :
         router.isActive('/students') ? 'Students' :
           router.isActive('/makers') ? 'Makers' :
-            router.isActive('/components') ? 'Components' : '';
+            router.isActive('/documentation') ? 'Documentation' : '';
 
     let docked = false;
     let showMenuIconButton = true;
