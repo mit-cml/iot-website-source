@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    apt-get install -y nodejs nodejs-legacy npm emacs24-nox
+    apt-get install -y nodejs nodejs-legacy npm emacs24-nox entr
     su ubuntu -c "cd /vagrant && npm install"
     su ubuntu -c "cd /vagrant/docs && npm install"
   SHELL
