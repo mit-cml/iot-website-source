@@ -117,8 +117,7 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <b>Empowering young people through mobile computing to impact the world of
-          everyday objects.
+        <b>Empowering young people through mobile computing to impact the world of everyday objects.
         </b>
 
         <p>
@@ -162,19 +161,19 @@ class HomePage extends Component {
       <FullWidthSection useContent={true} contentStyle={styles}>
         <HomeFeature
           heading="Teachers"
-          route="/get-started"
-          img="images/teachers.svg"
+          route="/teachers/intro"
+          img="images/teachers.jpg"
           firstChild={true}
         />
         <HomeFeature
           heading="Students"
-          route="/get-started"
-          img="images/students.svg"
+          route="/students/intro"
+          img="images/students.jpg"
         />
         <HomeFeature
           heading="Makers"
-          route="/get-started"
-          img="images/makers.svg"
+          route="/makers/intro"
+          img="images/makers.jpg"
           lastChild={true}
         />
       </FullWidthSection>
@@ -208,6 +207,27 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
+        <p>
+          <b>Takes computing off of the screen and into the world of
+            everyday things</b>
+        </p>
+        <p>
+          Developing IoT applications using App Inventor works in the same way as
+          developing any other mobile application with App Inventor, except that
+          App Inventor IoT allows you to communicate with physical and digital
+          objects in your everyday lives. App Inventor IoT achieves this by
+          connecting with popular physical computing platforms such as Arduino and
+          Raspberry Pi.
+        </p>
+        <p>
+          Using Arduino allows App Inventor creators to connect all kinds of
+          sensors (e.g., temperature, light, or sound) and other inputs (like
+          buttons and switches).  App Inventors can then write code for the
+          Arduino to trigger other connected outputs (like turning on a light,
+          playing a sound, or moving a motor), or send events to other devices
+          like our smartphones.
+        </p>
+        <br/>
       <p>
         <b>What is the Internet of Things?</b>
       </p>
@@ -220,28 +240,6 @@ class HomePage extends Component {
         linked over the Internet via a mobile app. IoT is increasingly found in
         our homes through our thermostats, light bulbs and microwaves as well as
         more sophisticated objects like wearable medical devices.
-      </p>
-      <br/>
-      <p>
-        <b>Takes computing off of the screen and into the world of
-           everyday things</b>
-      </p>
-
-      <p>
-        Developing IoT applications using App Inventor works in the same way as
-        developing any other mobile application with App Inventor, except that
-        App Inventor IoT allows you to communicate with physical and digital
-        objects in your everyday lives. App Inventor IoT achieves this by
-        connecting with popular physical computing platforms such as Arduino and
-        Raspberry Pi.
-      </p>
-      <p>
-        Using Arduino allows App Inventor creators to connect all kinds of
-        sensors (e.g., temperature, light, or sound) and other inputs (like
-        buttons and switches).  App Inventors can then write code for the
-        Arduino to trigger other connected outputs (like turning on a light,
-        playing a sound, or moving a motor), or send events to other devices
-        like our smartphones.
       </p>
       </FullWidthSection>
     );

@@ -84,7 +84,7 @@ class Master extends Component {
       p: {
         margin: '0 auto',
         padding: 0,
-        color: lightWhite,
+        color: darkWhite,
         maxWidth: 356,
       },
       browserstack: {
@@ -160,7 +160,8 @@ class Master extends Component {
       router.isActive('/teachers') ? 'Teachers' :
         router.isActive('/students') ? 'Students' :
           router.isActive('/makers') ? 'Makers' :
-            router.isActive('/documentation') ? 'Documentation' : '';
+            router.isActive('/documentation') ? 'Documentation' :
+              router.isActive('/resources') ? 'Resources' : '';
 
     let docked = false;
     let showMenuIconButton = true;
@@ -187,35 +188,35 @@ class Master extends Component {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <FlatButton
-              href="#/get-started"
+              labelStyle={styles.iconButton}
+              href="#/teachers/intro"
               label="Teachers"
-              secondary={false}
             />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <FlatButton
-              href="#/get-started"
-              label="Students"
-              secondary={false}
-            />
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/students/intro"
+                label="Students"
+              />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <FlatButton
-              href="#/get-started"
-              label="Makers"
-              secondary={false}
-            />
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/makers/intro"
+                label="Makers"
+              />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <FlatButton
-              href="#/get-started"
-              label="Resources"
-              secondary={false}
-            />
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/resources/intro"
+                label="Resources"
+              />
             </span>
           }
 
           zDepth={1}
 
           iconElementLeft={
-            <IconButton><NavigationClose/></IconButton>
+            <IconButton><NavigationClose /></IconButton>
           }
 
           iconElementRight={
@@ -248,7 +249,12 @@ class Master extends Component {
         <FullWidthSection style={styles.footer}>
           <p style={prepareStyles(styles.p)}>
             <a href="http://appinventor.mit.edu" target="_blank">
-              <img src="images/logo-white.png" height="64" width="auto" />
+              <img src="images/MIT_logo.gif" height="32" width="auto" />
+            </a>
+          </p>
+          <p>
+            <a href="http://appinventor.mit.edu" target="_blank">
+              Contact Us: appinventor@mit
             </a>
           </p>
         </FullWidthSection>

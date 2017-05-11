@@ -167,182 +167,223 @@ class AppNavDrawer extends Component {
             primaryTogglesNestedList={true}
             value="/students/intro"
             href="#/students/intro"
+            nestedItems={[
+              <ListItem
+                primaryText="Tutorials"
+                value="/students/tutorials"
+                href="#/students/tutorials"
+              />,
+              <ListItem
+                primaryText="How-to's"
+                value="/students/howtos"
+                href="#/students/howtos"
+              />,
+              <ListItem
+                primaryText="Exemplars"
+                value="/students/exemplars"
+                href="#/students/exemplars"
+              />,
+            ]}
           />
           <ListItem
             primaryText="Makers"
             primaryTogglesNestedList={true}
             value="/makers/intro"
             href="#/makers/intro"
+            nestedItems={[
+              <ListItem
+                primaryText="Tutorials"
+                value="/makers/tutorials"
+                href="#/makers/tutorials"
+              />,
+              <ListItem
+                primaryText="How-to's"
+                value="/makers/howtos"
+                href="#/makers/howtos"
+              />,
+              <ListItem
+                primaryText="Exemplars"
+                value="/makers/exemplars"
+                href="#/makers/exemplars"
+              />,
+            ]}
           />
           <ListItem
             primaryText="Resources"
             primaryTogglesNestedList={true}
+            value="/resources/intro"
+            href="#/resources/intro"
             nestedItems={[
-                <ListItem
-              primaryText="Support"
-              primaryTogglesNestedList={true}
-              nestedItems={[
-             <ListItem
-               primaryText="Documentation"
-               primaryTogglesNestedList={true}
-               nestedItems={[
-                 <ListItem
-                   primaryText="BluetoothLE"
-                   value="/documentation/bluetoothle"
-                   href="#/documentation/bluetoothle"
-                 />,
-                 <ListItem
-                   primaryText="Arduino 101"
-                   primaryTogglesNestedList={true}
-                   value="/documentation/arduino101"
-                   href="#/documentation/arduino101"
-                   nestedItems={[
-                     <ListItem
-                       primaryText="Accelerometer"
-                       value="/documentation/arduinoaccelerometer"
-                       href="#/documentation/arduinoaccelerometer"
-                     />,
-                     <ListItem
-                       primaryText="Button"
-                       value="/documentation/arduinobutton"
-                       href="#/documentation/arduinobutton"
-                     />,
-                     <ListItem
-                       primaryText="Gyroscope"
-                       value="/documentation/arduinogyroscope"
-                       href="#/documentation/arduinogyroscope"
-                     />,
-                     <ListItem
-                       primaryText="Humidity"
-                       value="/documentation/arduinohumidity"
-                       href="#/documentation/arduinohumidity"
-                     />,
-                     <ListItem
-                       primaryText="LED"
-                       value="/documentation/arduinoled"
-                       href="#/documentation/arduinoled"
-                     />,
-                     <ListItem
-                       primaryText="Light Sensor"
-                       value="/documentation/arduinolightsensor"
-                       href="#/documentation/arduinolightsensor"
-                     />,
-                     <ListItem
-                       primaryText="Moisture"
-                       value="/documentation/arduinomoisture"
-                       href="#/documentation/arduinomoisture"
-                     />,
-                     <ListItem
-                       primaryText="Pins"
-                       value="/documentation/arduinopins"
-                       href="#/documentation/arduinopins"
-                     />,
-                     <ListItem
-                       primaryText="Proximity Sensor"
-                       value="/documentation/arduinoproximitysensor"
-                       href="#/documentation/arduinoproximitysensor"
-                     />,
-                     <ListItem
-                       primaryText="PWM Motor"
-                       value="/documentation/arduinopwm"
-                       href="#/documentation/arduinopwm"
-                     />,
-                     <ListItem
-                       primaryText="RGB Lcd"
-                       value="/documentation/arduinorgblcd"
-                       href="#/documentation/arduinorgblcd"
-                     />,
-                     <ListItem
-                       primaryText="Servo"
-                       value="/documentation/arduinoservo"
-                       href="#/documentation/arduinoservo"
-                     />,
-                     <ListItem
-                       primaryText="Sound Recorder"
-                       value="/documentation/arduinosoundrecorder"
-                       href="#/documentation/arduinosoundrecorder"
-                     />,
-                   ]}
-                 />,
-                 <ListItem
-                   primaryText="Micro-bit"
-                   primaryTogglesNestedList={true}
-                   value="/documentation/microbit"
-                   href="#/documentation/microbit"
-                   nestedItems={[
-                     <ListItem
-                       primaryText="Introduction"
-                       value="/documentation/microbitcomponent"
-                       href="#/documentation/microbitcomponent"
-                     />,
-                     <ListItem
-                       primaryText="Accelerometer"
-                       value="/documentation/microbitaccelerometer"
-                       href="#/documentation/microbitaccelerometer"
-                     />,
-                     <ListItem
-                       primaryText="Button"
-                       value="/documentation/microbitbutton"
-                       href="#/documentation/microbitbutton"
-                     />,
-                     <ListItem
-                       primaryText="Device Information"
-                       value="/documentation/microbitdeviceinformation"
-                       href="#/documentation/microbitdeviceinformation"
-                     />,
-                     <ListItem
-                       primaryText="Dfu Control"
-                       value="/documentation/microbitdfucontrol"
-                       href="#/documentation/microbitdfucontrol"
-                     />,
-                     <ListItem
-                       primaryText="Event"
-                       value="/documentation/microbitevent"
-                       href="#/documentation/microbitevent"
-                     />,
-                     <ListItem
-                       primaryText="Generic Access"
-                       value="/documentation/microbitgenericaccess"
-                       href="#/documentation/microbitgenericaccess"
-                     />,
-                     <ListItem
-                       primaryText="Generic Attribute"
-                       value="/documentation/microbitgenericattribute"
-                       href="#/documentation/microbitgenericattribute"
-                     />,
-                     <ListItem
-                       primaryText="io Pin"
-                       value="/documentation/microbitiopin"
-                       href="#/documentation/microbitiopin"
-                     />,
-                     <ListItem
-                       primaryText="LED"
-                       value="/documentation/microbitled"
-                       href="#/documentation/microbitled"
-                     />,
-                     <ListItem
-                       primaryText="Magnetometer"
-                       value="/documentation/microbitmagnetometer"
-                       href="#/documentation/microbitmagnetometer"
-                     />,
-                     <ListItem
-                       primaryText="Temperature"
-                       value="/documentation/microbitemperature"
-                       href="#/documentation/microbittemperature"
-                     />,
-                     <ListItem
-                       primaryText="UART"
-                       value="/documentation/microbituart"
-                       href="#/documentation/microbituart"
-                     />,
-                   ]}
-                 />,
-               ]}
-              />
+              <ListItem
+                primaryText="Extensions"
+                value="/extensions/intro"
+                href="#/extensions/intro"
+              />,
+              <ListItem
+                primaryText="Support"
+                primaryTogglesNestedList={true}
+                nestedItems={[
+                  <ListItem
+                    primaryText="Documentation"
+                    primaryTogglesNestedList={true}
+                    nestedItems={[
+                      <ListItem
+                        primaryText="BluetoothLE"
+                        value="/documentation/bluetoothle"
+                        href="#/documentation/bluetoothle"
+                      />,
+                      <ListItem
+                        primaryText="Arduino 101"
+                        primaryTogglesNestedList={true}
+                        value="/documentation/arduino101"
+                        href="#/documentation/arduino101"
+                        nestedItems={[
+                          <ListItem
+                            primaryText="Accelerometer"
+                            value="/documentation/arduinoaccelerometer"
+                            href="#/documentation/arduinoaccelerometer"
+                          />,
+                          <ListItem
+                            primaryText="Button"
+                            value="/documentation/arduinobutton"
+                            href="#/documentation/arduinobutton"
+                          />,
+                          <ListItem
+                            primaryText="Gyroscope"
+                            value="/documentation/arduinogyroscope"
+                            href="#/documentation/arduinogyroscope"
+                          />,
+                          <ListItem
+                            primaryText="Humidity"
+                            value="/documentation/arduinohumidity"
+                            href="#/documentation/arduinohumidity"
+                          />,
+                          <ListItem
+                            primaryText="LED"
+                            value="/documentation/arduinoled"
+                            href="#/documentation/arduinoled"
+                          />,
+                          <ListItem
+                            primaryText="Light Sensor"
+                            value="/documentation/arduinolightsensor"
+                            href="#/documentation/arduinolightsensor"
+                          />,
+                          <ListItem
+                            primaryText="Moisture"
+                            value="/documentation/arduinomoisture"
+                            href="#/documentation/arduinomoisture"
+                          />,
+                          <ListItem
+                            primaryText="Pins"
+                            value="/documentation/arduinopins"
+                            href="#/documentation/arduinopins"
+                          />,
+                          <ListItem
+                            primaryText="Proximity Sensor"
+                            value="/documentation/arduinoproximitysensor"
+                            href="#/documentation/arduinoproximitysensor"
+                          />,
+                          <ListItem
+                            primaryText="PWM Motor"
+                            value="/documentation/arduinopwm"
+                            href="#/documentation/arduinopwm"
+                          />,
+                          <ListItem
+                            primaryText="RGB Lcd"
+                            value="/documentation/arduinorgblcd"
+                            href="#/documentation/arduinorgblcd"
+                          />,
+                          <ListItem
+                            primaryText="Servo"
+                            value="/documentation/arduinoservo"
+                            href="#/documentation/arduinoservo"
+                          />,
+                          <ListItem
+                            primaryText="Sound Recorder"
+                            value="/documentation/arduinosoundrecorder"
+                            href="#/documentation/arduinosoundrecorder"
+                          />,
+                        ]}
+                      />,
+                      <ListItem
+                        primaryText="Micro-bit"
+                        primaryTogglesNestedList={true}
+                        value="/documentation/microbit"
+                        href="#/documentation/microbit"
+                        nestedItems={[
+                          <ListItem
+                            primaryText="Introduction"
+                            value="/documentation/microbitcomponent"
+                            href="#/documentation/microbitcomponent"
+                          />,
+                          <ListItem
+                            primaryText="Accelerometer"
+                            value="/documentation/microbitaccelerometer"
+                            href="#/documentation/microbitaccelerometer"
+                          />,
+                          <ListItem
+                            primaryText="Button"
+                            value="/documentation/microbitbutton"
+                            href="#/documentation/microbitbutton"
+                          />,
+                          <ListItem
+                            primaryText="Device Information"
+                            value="/documentation/microbitdeviceinformation"
+                            href="#/documentation/microbitdeviceinformation"
+                          />,
+                          <ListItem
+                            primaryText="Dfu Control"
+                            value="/documentation/microbitdfucontrol"
+                            href="#/documentation/microbitdfucontrol"
+                          />,
+                          <ListItem
+                            primaryText="Event"
+                            value="/documentation/microbitevent"
+                            href="#/documentation/microbitevent"
+                          />,
+                          <ListItem
+                            primaryText="Generic Access"
+                            value="/documentation/microbitgenericaccess"
+                            href="#/documentation/microbitgenericaccess"
+                          />,
+                          <ListItem
+                            primaryText="Generic Attribute"
+                            value="/documentation/microbitgenericattribute"
+                            href="#/documentation/microbitgenericattribute"
+                          />,
+                          <ListItem
+                            primaryText="io Pin"
+                            value="/documentation/microbitiopin"
+                            href="#/documentation/microbitiopin"
+                          />,
+                          <ListItem
+                            primaryText="LED"
+                            value="/documentation/microbitled"
+                            href="#/documentation/microbitled"
+                          />,
+                          <ListItem
+                            primaryText="Magnetometer"
+                            value="/documentation/microbitmagnetometer"
+                            href="#/documentation/microbitmagnetometer"
+                          />,
+                          <ListItem
+                            primaryText="Temperature"
+                            value="/documentation/microbitemperature"
+                            href="#/documentation/microbittemperature"
+                          />,
+                          <ListItem
+                            primaryText="UART"
+                            value="/documentation/microbituart"
+                            href="#/documentation/microbituart"
+                          />,
+                        ]}
+                      />,
+                    ]}
+                  />,
+                ]}
+              />,
             ]}
-        />
-      ]}
-    />
+          />
         </SelectableList>
       </Drawer>
     );

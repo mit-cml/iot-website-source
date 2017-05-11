@@ -40,7 +40,15 @@ import Arduino101SoundRecorderPage from './tmp/Arduino101SoundRecorder/Page';
 
 import BluetoothLEPage from './tmp/BluetoothLE/Page';
 
+import ExtensionsIntroPage from './tmp/ExtensionsIntro/Page';
+
+import MakerExemplarsPage from './tmp/MakerExemplars/Page';
+
+import MakerHowTosPage from './tmp/MakerHowTos/Page';
+
 import MakerIntroPage from './tmp/MakerIntro/Page';
+
+import MakerTutorialPage from './tmp/MakerTutorial/Page';
 
 import MicroBitPage from './tmp/MicroBit/Page';
 
@@ -70,7 +78,15 @@ import MicroBitTemperaturePage from './tmp/MicroBitTemperature/Page';
 
 import MicroBitUartPage from './tmp/MicroBitUart/Page';
 
+import ResourceIntroPage from './tmp/ResourceIntro/Page';
+
+import StudentExemplarsPage from './tmp/StudentExemplars/Page';
+
+import StudentHowTosPage from './tmp/StudentHowTos/Page';
+
 import StudentIntroPage from './tmp/StudentIntro/Page';
+
+import StudentTutorialPage from './tmp/StudentTutorial/Page';
 
 import TeacherCurriculumPage from './tmp/TeacherCurriculum/Page';
 
@@ -104,9 +120,21 @@ const AppRoutes = (
     </Route>
     <Route path="students">
       <Route path="intro" component={StudentIntroPage} />
+      <Route path="tutorials" component={StudentTutorialPage} />
+      <Route path="howtos" component={StudentHowTosPage} />
+      <Route path="exemplars" component={StudentExemplarsPage} />
     </Route>
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
+      <Route path="tutorials" component={MakerTutorialPage} />
+      <Route path="howtos" component={MakerHowTosPage} />
+      <Route path="exemplars" component={MakerExemplarsPage} />
+    </Route>
+    <Route path="extensions">
+      <Route path="intro" component={ExtensionsIntroPage} />
+    </Route>
+    <Route path="resources">
+      <Route path="intro" component={ResourceIntroPage} />
     </Route>
     <Route path="documentation">
       <Route path="bluetoothle" component={BluetoothLEPage} />

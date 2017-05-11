@@ -43,9 +43,21 @@ const AppRoutes = (
     </Route>
     <Route path="students">
       <Route path="intro" component={StudentIntroPage} />
+      <Route path="tutorials" component={StudentTutorialPage} />
+      <Route path="howtos" component={StudentHowTosPage} />
+      <Route path="exemplars" component={StudentExemplarsPage} />
     </Route>
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
+      <Route path="tutorials" component={MakerTutorialPage} />
+      <Route path="howtos" component={MakerHowTosPage} />
+      <Route path="exemplars" component={MakerExemplarsPage} />
+    </Route>
+    <Route path="extensions">
+      <Route path="intro" component={ExtensionsIntroPage} />
+    </Route>
+    <Route path="resources">
+      <Route path="intro" component={ResourceIntroPage} />
     </Route>
     <Route path="documentation">
       <Route path="bluetoothle" component={BluetoothLEPage} />
