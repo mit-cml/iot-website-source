@@ -14,7 +14,7 @@ Vagrant can be found at: <https://www.vagrantup.com/downloads.html>
 
 Download the appropriate installers and run them.
 
-Assuming you have a “GitHub” account, you should clone the website
+Assuming you have a GitHub account, you should clone the website
 source repository (assuming you are starting from your home directory)
 
 Issue the following commands (The “#” and stuff after it is a comment,
@@ -52,13 +52,14 @@ Once you are running, you are ready to edit. See *Where the pages are&#x2026;* b
 
 You don't need vagrant if you have or can get node.js yourself. This means you're responsible for keeping your tools updated, as Vagrant isn't there to do it for you. This is probably much faster at initial setup than the Vagrant path.
 
-Install node.js: <https://nodejs.org/en/download/>
+Things you need:
+* node.js: <https://nodejs.org/en/download/>
+* python 2 (not 3): <https://www.python.org/downloads/>
 
-Assuming you have a “GitHub” account, you should clone the website
+Assuming you have a GitHub account, you should clone the website
 source repository (assuming you are starting from your home directory)
 
-Issue the following commands (The “#” and stuff after it is a comment,
-don't type it in!):
+Issue the following commands:
 
     git clone git@github.com:mit-cml/iot-website-source
 
