@@ -76,6 +76,7 @@ class Master extends Component {
       },
       footer: {
         backgroundColor: grey900,
+        color: darkWhite,
         textAlign: 'center',
       },
       a: {
@@ -248,14 +249,45 @@ class Master extends Component {
         />
         <FullWidthSection style={styles.footer}>
           <p style={prepareStyles(styles.p)}>
-            <a href="http://appinventor.mit.edu" target="_blank">
+            <a href="http://web.mit.edu" target="_blank">
               <img src="images/MIT_logo.gif" height="32" width="auto" />
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="http://csail.mit.edu" target="_blank">
+              <img src="images/csail-2.png" height="32" width="auto" />
+            </a>
+          </p >
+          <p>
+            <a COLOR="f44336" href="mailto://appinventor@mit.edu">
+              Contact Us: appinventor@mit.edu
+            </a>
+          </p >
+          <p>
+            <a href="http://appinventor.mit.edu" target="_blank">
+              <img src="images/google_icon.jpg" height="32" width="auto" />
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="http://appinventor.mit.edu" target="_blank">
+              <img src="images/insta_icon.jpg" height="32" width="auto" />
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="http://appinventor.mit.edu" target="_blank">
+              <img src="images/facebook_icon.jpg" height="32" width="auto" />
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="http://appinventor.mit.edu" target="_blank">
+              <img src="images/youtube_icon.jpg" height="32" width="auto" />
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="http://appinventor.mit.edu" target="_blank">
+              <img src="images/twitter_icon.jpg" height="32" width="auto" />
             </a>
           </p>
           <p>
-            <a href="http://appinventor.mit.edu" target="_blank">
-              Contact Us: appinventor@mit
-            </a>
+            <a href="http://appinventor.mit.edu" target="_blank" />
+          </p>
+          <p>
+          Copyright 2017 MIT App Inventor Project, All rights reserved
           </p>
         </FullWidthSection>
       </div>

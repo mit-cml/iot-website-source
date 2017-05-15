@@ -2,12 +2,13 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import HomeFeature from './HomeFeature';
 import FullWidthSection from './FullWidthSection';
-import RaisedButton from 'material-ui/RaisedButton';
+// Used for donate section button.
+// import RaisedButton from 'material-ui/RaisedButton';
 import withWidth, {LARGE} from 'material-ui/utils/withWidth';
 import spacing from 'material-ui/styles/spacing';
 import typography from 'material-ui/styles/typography';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import {green400, blue400, blue800, cyan500, grey200, darkWhite} from 'material-ui/styles/colors';
+import {darkWhite} from 'material-ui/styles/colors';
 
 class HomePage extends Component {
 
@@ -84,7 +85,7 @@ class HomePage extends Component {
     return (
       <FullWidthSection style={styles.root}>
         <div style={styles.tagline}>
-          <h1 style={styles.h1}>MIT App Inventor - Internet of Things</h1>
+          <h2 style={styles.h1}>MIT App Inventor - Internet of Things</h2>
         </div>
       </FullWidthSection>
     );
@@ -111,14 +112,13 @@ class HomePage extends Component {
 
     return (
       <FullWidthSection
-        style={styles.root}
+        style="{styles.root}; font-weight: bold;"
         useContent={true}
         contentStyle={styles.content}
         contentType="p"
         className="home-purpose"
       >
-        <b>Empowering young people through mobile computing to impact the world of everyday objects.
-        </b>
+        <b>Empowering young people through mobile computing to impact the world of everyday objects.</b>
 
         <p>
           MIT App Inventor is an intuitive, visual programming
@@ -227,12 +227,12 @@ class HomePage extends Component {
           playing a sound, or moving a motor), or send events to other devices
           like our smartphones.
         </p>
-        <br/>
-      <p>
-        <b>What is the Internet of Things?</b>
-      </p>
+        <br />
+        <p>
+          <b>What is the Internet of Things?</b>
+        </p>
 
-      <p>
+        <p>
         Internet of Things (IoT) refers to the connection of everyday objects to
         the Internet and to one another, creating smarter devices and more control
         for the users of them. Many everyday objects are being designed with
