@@ -36,32 +36,36 @@ const AppRoutes = (
     <Route path="home" component={Home} />
     <Route path="teachers">
       <Route path="intro" component={TeacherIntroPage} />
-      <Route path="tutorials" component={TeacherTutorialPage} />
+      <Route path="tutorials" component={TeacherTutorialsPage} />
       <Route path="howtos" component={TeacherHowTosPage} />
-      <Route path="exemplars" component={TeacherExemplarsPage} />
+      <Route path="examples" component={TeacherExamplesPage} />
       <Route path="curriculum" component={TeacherCurriculumPage} />
     </Route>
     <Route path="students">
       <Route path="intro" component={StudentIntroPage} />
-      <Route path="tutorials" component={StudentTutorialPage} />
+      <Route path="tutorials" component={StudentTutorialsPage} />
       <Route path="howtos" component={StudentHowTosPage} />
-      <Route path="exemplars" component={StudentExemplarsPage} />
+      <Route path="examples" component={StudentExamplesPage} />
     </Route>
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
-      <Route path="tutorials" component={MakerTutorialPage} />
+      <Route path="tutorials" component={MakerTutorialsPage} />
       <Route path="howtos" component={MakerHowTosPage} />
-      <Route path="exemplars" component={MakerExemplarsPage} />
     </Route>
-    <Route path="extensions">
-      <Route path="intro" component={ExtensionsIntroPage} />
+    <Route path="getstarted">
+      <Route path="intro" component={GetStartedIntroPage} />
     </Route>
-    <Route path="resources">
-      <Route path="intro" component={ResourceIntroPage} />
+    <Route path="help">
+      <Route path="intro" component={HelpIntroPage} />
     </Route>
-    <Route path="documentation">
-      <Route path="bluetoothle" component={BluetoothLEPage} />
-      <Route path="microbit" component={MicroBitPage} />
+    <Route path="devices">
+      <Route path="intro" component={DevicesIntroPage} />
+    </Route>
+    <Route path="bluetoothle">
+      <Route path="bluetoothleintro" component={BluetoothLEIntroPage} />
+    </Route>
+    <Route path="microbit">
+      <Route path="microbitintro" component={MicroBitIntroPage} />
       <Route path="microbitaccelerometer" component={MicroBitAccelerometerPage} />
       <Route path="microbitbutton" component={MicroBitButtonPage} />
       <Route path="microbitdeviceinformation" component={MicroBitDeviceInformationPage} />
@@ -74,7 +78,9 @@ const AppRoutes = (
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
-      <Route path="arduino101" component={Arduino101Page} />
+    </Route>
+    <Route path="arduino101">
+      <Route path="arduino101intro" component={Arduino101IntroPage} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />
       <Route path="arduinogyroscope" component={Arduino101GyroscopePage} />
@@ -88,6 +94,12 @@ const AppRoutes = (
       <Route path="arduinorgblcd" component={Arduino101RgbLcdPage} />
       <Route path="arduinoservo" component={Arduino101ServoPage} />
       <Route path="arduinosoundrecorder" component={Arduino101SoundRecorderPage} />
+    </Route>
+    <Route path="faq">
+      <Route path="faq" component={FAQPage} />
+    </Route>
+    <Route path="forum">
+      <Route path="forum" component={ForumPage} />
     </Route>
   </Route>
 );

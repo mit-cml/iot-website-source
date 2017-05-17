@@ -161,8 +161,8 @@ class Master extends Component {
       router.isActive('/teachers') ? 'Teachers' :
         router.isActive('/students') ? 'Students' :
           router.isActive('/makers') ? 'Makers' :
-            router.isActive('/documentation') ? 'Documentation' :
-              router.isActive('/resources') ? 'Resources' : '';
+            router.isActive('/getstarted') ? 'Get Started' :
+              router.isActive('/help') ? 'Help' : '';
 
     let docked = false;
     let showMenuIconButton = true;
@@ -193,23 +193,29 @@ class Master extends Component {
               href="#/teachers/intro"
               label="Teachers"
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/students/intro"
                 label="Students"
               />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/makers/intro"
                 label="Makers"
               />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
-                href="#/resources/intro"
-                label="Resources"
+                href="#/getstarted/intro"
+                label="Get Started"
+              />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/help/intro"
+                label="Help"
               />
             </span>
           }
@@ -250,7 +256,7 @@ class Master extends Component {
         <FullWidthSection style={styles.footer}>
           <p style={prepareStyles(styles.p)}>
             <a href="http://web.mit.edu" target="_blank">
-              <img src="images/MIT_logo.gif" height="32" width="auto" />
+              <img src="images/MIT_logo.gif" height="24" width="auto" />
             </a>
             &nbsp;&nbsp;&nbsp;
             <a href="http://csail.mit.edu" target="_blank">
@@ -258,8 +264,12 @@ class Master extends Component {
             </a>
           </p >
           <p>
-            <a COLOR="f44336" href="mailto://appinventor@mit.edu">
+            <a href="mailto://appinventor@mit.edu">
               Contact Us: appinventor@mit.edu
+            </a>
+            <br />
+            <a href="http://appinventor.mit.edu">
+              MIT App Inventor
             </a>
           </p >
           <p>
