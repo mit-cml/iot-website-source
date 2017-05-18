@@ -42,8 +42,6 @@ import BluetoothLEIntroPage from './tmp/BluetoothLEIntro/Page';
 
 import DevicesIntroPage from './tmp/DevicesIntro/Page';
 
-import ExtensionsIntroPage from './tmp/ExtensionsIntro/Page';
-
 import FAQPage from './tmp/FAQ/Page';
 
 import ForumPage from './tmp/Forum/Page';
@@ -141,10 +139,10 @@ const AppRoutes = (
       <Route path="intro" component={GetStartedIntroPage} />
     </Route>
     <Route path="help">
-      <Route path="intro" component={HelpIntroPage} />
+     <Route path="intro" component={HelpIntroPage} />
     </Route>
     <Route path="devices">
-      <Route path="intro" component={DevicesIntroPage} />
+      <Route path="devicesintro" component={DevicesIntroPage} />
     </Route>
     <Route path="bluetoothle">
       <Route path="bluetoothleintro" component={BluetoothLEIntroPage} />
@@ -164,7 +162,7 @@ const AppRoutes = (
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
-    <Route path="arduino101">
+      <Route path="arduino101">
       <Route path="arduino101intro" component={Arduino101IntroPage} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />

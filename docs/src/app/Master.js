@@ -162,7 +162,13 @@ class Master extends Component {
         router.isActive('/students') ? 'Students' :
           router.isActive('/makers') ? 'Makers' :
             router.isActive('/getstarted') ? 'Get Started' :
-              router.isActive('/help') ? 'Help' : '';
+              router.isActive('/help') ? 'Help' :
+                router.isActive('/devices') ? 'Devices' :
+                  router.isActive('/bluetoothle') ? 'BluetoothLE' :
+                    router.isActive('/microbit') ? 'Micro Bit' :
+                      router.isActive('/arduino101') ? 'Arduino 101' :
+                        router.isActive('/faq') ? 'FAQ' :
+                          router.isActive('/forum') ? 'Forum' : '';
 
     let docked = false;
     let showMenuIconButton = true;

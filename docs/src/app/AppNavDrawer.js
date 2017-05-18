@@ -152,8 +152,8 @@ class AppNavDrawer extends Component {
               />,
               <ListItem
                 primaryText="Examples"
-                value="/teachers/exemplars"
-                href="#/teachers/exemplars"
+                value="/teachers/examples"
+                href="#/teachers/examples"
               />,
               <ListItem
                 primaryText="Curriculum"
@@ -180,8 +180,8 @@ class AppNavDrawer extends Component {
               />,
               <ListItem
                 primaryText="Examples"
-                value="/students/exemplars"
-                href="#/students/exemplars"
+                value="/students/examples"
+                href="#/students/examples"
               />,
             ]}
           />
@@ -203,14 +203,14 @@ class AppNavDrawer extends Component {
               />,
               <ListItem
                 primaryText="Examples"
-                value="/makers/exemplars"
-                href="#/makers/exemplars"
+                value="/makers/examples"
+                href="#/makers/examples"
               />,
             ]}
           />
           <ListItem
             primaryText="Get Started"
-            value="/getstarted/intro"
+            value="/getstartedintro"
             href="#/getstarted/intro"
           />
           <ListItem
@@ -222,8 +222,8 @@ class AppNavDrawer extends Component {
               <ListItem
                 primaryText="Devices"
                 primaryTogglesNestedList={true}
-                value="/devices/intro"
-                href="#/devices/intro"
+                value="/devices/devicesintro"
+                href="#/devices/devicesintro"
                 nestedItems={[
                   <ListItem
                     primaryText="BluetoothLE"
@@ -375,13 +375,13 @@ class AppNavDrawer extends Component {
               />,
               <ListItem
                 primaryText="FAQ"
-                value="/faq/intro"
-                href="#/faq/intro"
+                value="/faq/faq"
+                href="#/faq/faq"
               />,
               <ListItem
                 primaryText="Forum"
-                value="/forum/intro"
-                href="#/forum/intro"
+                value="/forum/forum"
+                href="#/forum/forum"
               />,
             ]}
           />
