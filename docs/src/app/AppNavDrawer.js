@@ -201,11 +201,6 @@ class AppNavDrawer extends Component {
                 value="/makers/howtos"
                 href="#/makers/howtos"
               />,
-              <ListItem
-                primaryText="Examples"
-                value="/makers/examples"
-                href="#/makers/examples"
-              />,
             ]}
           />
           <ListItem

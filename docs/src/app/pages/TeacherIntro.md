@@ -12,5 +12,5 @@ There are a few differences between a regular MIT App Inventor app and an MIT Ap
 
 -   [Tutorials](#/teachers/tutorials)
 -   [How-To’s](#/teachers/howtos)
--   [Examples](#/teachers/exemplars)
+-   [Examples](#/teachers/examples)
 -   [Curriculum ideas](#/teachers/curriculum)
