@@ -185,7 +185,7 @@ class Master extends Component {
       styles.footer.paddingLeft = 256;
     }
 
-    //noinspection JSAnnotator
+    // noinspection JSAnnotator
     return (
       <div>
         <Title render="Internet of Things" />
@@ -261,51 +261,14 @@ class Master extends Component {
           open={navDrawerOpen}
         />
         <FullWidthSection style={styles.footer}>
-          <p style={prepareStyles(styles.p)}>
-            <a href="http://web.mit.edu" target="_blank">
-              <img src="images/MIT_logo.gif" height="24" width="auto" />
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://csail.mit.edu" target="_blank">
-              <img src="images/csail-2.png" height="32" width="auto" />
-            </a>
-          </p >
-          <p>
-            <a backgound-color="#a5cf47"href="mailto://appinventor@mit.edu">
-              Contact Us: appinventor@mit.edu
-            </a>
-            <br />
-            <a style={{Color: '#a5cf47'}} href="http://appinventor.mit.edu">
-              MIT App Inventor
-            </a>
-          </p >
-          <p>
-            <a href="http://appinventor.mit.edu" target="_blank">
-              <img src="images/google_icon.jpg" height="32" width="auto" />
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://appinventor.mit.edu" target="_blank">
-              <img src="images/insta_icon.jpg" height="32" width="auto" />
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://appinventor.mit.edu" target="_blank">
-              <img src="images/facebook_icon.jpg" height="32" width="auto" />
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://appinventor.mit.edu" target="_blank">
-              <img src="images/youtube_icon.jpg" height="32" width="auto" />
-            </a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://appinventor.mit.edu" target="_blank">
-              <img src="images/twitter_icon.jpg" height="32" width="auto" />
-            </a>
-          </p>
-          <p>
-            <a href="http://appinventor.mit.edu" target="_blank" />
-          </p>
-          <p>
-          Copyright 2017 MIT App Inventor Project, All rights reserved
-          </p>
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/">
+            <img alt="Creative Commons License" src="images/sa_3.0_88x31.png" />
+          </a>
+          <br /> This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+            Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+          <br /> © 2012-2017 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a>
+          <br />
+          <a href="http://appinventor.mit.edu/explore/contact.html">Contact Us</a>
         </FullWidthSection>
       </div>
     );
