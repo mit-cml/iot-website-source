@@ -8,6 +8,6 @@ MIT App Inventor IoT needs an **external device to connect to and communicate wi
 
 ### MIT App Inventor IoT resources can be found on the following pages:
 
--  Tutorials (link)
--  How-To’s (link)
--  Examples (link)
+-   [Tutorials](#/students/tutorials)
+-   [How To’s](#/students/howtos)
+-   [Examples](#/students/examples)
