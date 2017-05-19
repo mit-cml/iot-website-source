@@ -1,4 +1,5 @@
 # Getting Started with Vagrant (recommended)
+This currently does NOT work on Windows. See "Setting up on Windows" below.
 
 In order to modify the IoT website you will need some software. We use
 “vagrant” to create a virtual machine to run this software to ensure
@@ -80,6 +81,38 @@ When you start working on the site for the day, you will change into the docs di
 This will compile the source of the website. It will be obvious if there are errors. If all goes well, you can go to “localhost:3000” on your host machine with a browser and see the site.
 
 Once you are running, you are ready to edit. See *Where the pages are&#x2026;* below.
+
+# Setting up on Windows (without Vagrant - sort of recommended)
+
+Install [Github Desktop](https://github-windows.s3.amazonaws.com/GitHubSetup.exe), [Python 2.7](https://www.python.org/downloads/), and [node.js](https://nodejs.org/en/download/).
+
+Add Python to your path variable:
+- Go to My Computer :arrow_right: Properties :arrow_right: Advanced :arrow_right: Environment Variables
+- Under User Variables, add `;C:\Python27` to the end of the user path Variables
+- If there is no User Path variable, create it and add `C:\Python27`
+
+Clone the repository using Github Desktop. The default location is `Documents\GitHub\iot-website-source`. Know where it went.
+
+Open Powershell, change (cd) into the repository directory, from above. In the directory, run:
+```
+> npm install
+> cd docs
+> npm install
+```
+and that's it! You're ready for "Using on Windows Without Vagrant," below.
+
+# Using on Windows Without Vagrant
+
+There will be two powershell windows. One will run the server, the other will have a script that you re-run to apply any new changes.
+
+In Powershell, change into the `iot-website-source\docs` directory, and run `python makepages.py` (if you use tab to autocomplete, it will be rewrite it to `python .\makepages.py` and that's fine.)
+
+Open a second pwershell instance, change into the same directory and run `npm run browser:development`.
+
+Open your browser and go to `localhost:3000`.
+
+When you make changes to the files and want to see them in the browser, go to the first Powershell window and re-run `python makepages.py`. (You can use the up arrow on the keyboard so you don't have to re-type it.)
+
 
 # Where the pages are&#x2026;
 
