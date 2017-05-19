@@ -185,6 +185,7 @@ class Master extends Component {
       styles.footer.paddingLeft = 256;
     }
 
+    //noinspection JSAnnotator
     return (
       <div>
         <Title render="Internet of Things" />
@@ -270,11 +271,11 @@ class Master extends Component {
             </a>
           </p >
           <p>
-            <a href="mailto://appinventor@mit.edu">
+            <a backgound-color="#a5cf47"href="mailto://appinventor@mit.edu">
               Contact Us: appinventor@mit.edu
             </a>
             <br />
-            <a href="http://appinventor.mit.edu">
+            <a style={{Color: '#a5cf47'}} href="http://appinventor.mit.edu">
               MIT App Inventor
             </a>
           </p >
