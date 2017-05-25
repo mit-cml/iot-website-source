@@ -142,7 +142,7 @@ class AppNavDrawer extends Component {
                 href="#/teachers/tutorials"
               />,
               <ListItem
-                primaryText="How To's"
+                primaryText="How Tos"
                 value="/teachers/howtos"
                 href="#/teachers/howtos"
               />,
@@ -150,11 +150,6 @@ class AppNavDrawer extends Component {
                 primaryText="Examples"
                 value="/teachers/examples"
                 href="#/teachers/examples"
-              />,
-              <ListItem
-                primaryText="Curriculum"
-                value="/teachers/curriculum"
-                href="#/teachers/curriculum"
               />,
             ]}
           />
@@ -170,7 +165,7 @@ class AppNavDrawer extends Component {
                 href="#/students/tutorials"
               />,
               <ListItem
-                primaryText="How To's"
+                primaryText="How Tos"
                 value="/students/howtos"
                 href="#/students/howtos"
               />,
@@ -193,7 +188,7 @@ class AppNavDrawer extends Component {
                 href="#/makers/tutorials"
               />,
               <ListItem
-                primaryText="How To's"
+                primaryText="How Tos"
                 value="/makers/howtos"
                 href="#/makers/howtos"
               />,
@@ -367,7 +362,7 @@ class AppNavDrawer extends Component {
               <ListItem
                 primaryText="Forum"
                 value="/forum/forum"
-                href="#/forum/forum"
+                href="https://groups.google.com/forum/#!forum/mitappinventortest"
               />,
             ]}
           />

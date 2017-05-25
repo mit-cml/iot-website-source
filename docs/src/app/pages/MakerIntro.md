@@ -9,5 +9,5 @@ There are a few differences between a regular MIT App Inventor app and an MIT Ap
 ### MIT App Inventor IoT resources can be found on the following pages:
 
 -   [Tutorials](#/makers/tutorials)
--   [How To’s](#/makers/howtos)
+-   [How Tos](#/makers/howtos)
 
