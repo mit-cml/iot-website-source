@@ -112,15 +112,14 @@ class HomePage extends Component {
 
     return (
       <FullWidthSection
-        style="{styles.root}; font-weight: bold;"
+        style={styles.root}
         useContent={true}
         contentStyle={styles.content}
         contentType="p"
         className="home-purpose"
       >
         <b>Empowering young people through mobile computing to impact the world of everyday objects.</b>
-
-        <p>
+        <br /><br />
           MIT App Inventor is an intuitive, visual programming
           environment that allows everyone – even young learners – to build fully
           functional apps for smartphones and tablets. App Inventor is unique among
@@ -130,9 +129,7 @@ class HomePage extends Component {
           known as App Inventors, from 195 countries have created almost 22 million
           apps. MIT App Inventor is changing the way the world creates apps and the
           way that kids learn about mobile computing.
-        </p>
-
-        <p>
+        <br /><br />
           A visual programming language, MIT App Inventor differs from traditional
           text-based programming environments in that it can be used by anyone who
           can use a drag and drop interface. To build an app App Inventors simply
@@ -140,38 +137,46 @@ class HomePage extends Component {
           App Inventor users can incorporate functionality like SMS and geolocation
           into their apps without having to understand the technical complexity
           behind them, or write thousands of lines of code.
-        </p>
-        <p>
-          <i>
-            “After the first App Inventor coding session, [the students were]
-            completely hooked. There isn’t any other application like that.”
-          </i>
-          <p>
-            Tara Chklovski, founder and CEO of Iridescent
-          </p>
-        </p>
+        <br /><br />
+        <i>
+          “After the first App Inventor coding session, [the students were]
+          completely hooked. There isn’t any other application like that.”
+        </i>
+        <br /><br />
+          Tara Chklovski, founder and CEO of Iridescent
       </FullWidthSection>
     );
   }
 
   homeFeatures() {
-    const styles = {maxWidth: 900};
+    const styles = {
+      maxWidth: 900,
+      padding: 0,
+      margin: '0 auto',
+      fontWeight: typography.fontWeightLight,
+      fontSize: 20,
+      lineHeight: '28px',
+      paddingTop: 19,
+      marginBottom: 6,
+      letterSpacing: 0,
+      color: typography.textDarkBlack,
+    };
 
     return (
       <FullWidthSection useContent={true} contentStyle={styles}>
         <HomeFeature
-          heading="Teachers"
+          heading="For Teachers"
           route="/teachers/intro"
           img="images/teachers.jpg"
           firstChild={true}
         />
         <HomeFeature
-          heading="Students"
+          heading="For Students"
           route="/students/intro"
           img="images/students.jpg"
         />
         <HomeFeature
-          heading="Makers"
+          heading="For Makers"
           route="/makers/intro"
           img="images/makers.jpg"
           lastChild={true}
@@ -207,32 +212,26 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <p>
-          <b>Takes computing off of the screen and into the world of
+        <br /><br />
+        <b>Takes computing off of the screen and into the world of
             everyday things</b>
-        </p>
-        <p>
+        <br /><br />
           Developing IoT applications using App Inventor works in the same way as
           developing any other mobile application with App Inventor, except that
           App Inventor IoT allows you to communicate with physical and digital
           objects in your everyday lives. App Inventor IoT achieves this by
           connecting with popular physical computing platforms such as Arduino and
           Raspberry Pi.
-        </p>
-        <p>
+        <br /><br />
           Using Arduino allows App Inventor creators to connect all kinds of
           sensors (e.g., temperature, light, or sound) and other inputs (like
           buttons and switches).  App Inventors can then write code for the
           Arduino to trigger other connected outputs (like turning on a light,
           playing a sound, or moving a motor), or send events to other devices
           like our smartphones.
-        </p>
-        <br />
-        <p>
-          <b>What is the Internet of Things?</b>
-        </p>
-
-        <p>
+        <br /><br />
+        <b>What is the Internet of Things?</b>
+        <br /><br />
         Internet of Things (IoT) refers to the connection of everyday objects to
         the Internet and to one another, creating smarter devices and more control
         for the users of them. Many everyday objects are being designed with
@@ -240,7 +239,6 @@ class HomePage extends Component {
         linked over the Internet via a mobile app. IoT is increasingly found in
         our homes through our thermostats, light bulbs and microwaves as well as
         more sophisticated objects like wearable medical devices.
-      </p>
       </FullWidthSection>
     );
   }

@@ -2,12 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Drawer from 'material-ui/Drawer';
 import {List, ListItem, makeSelectable} from 'material-ui/List';
-import Divider from 'material-ui/Divider';
-import Subheader from 'material-ui/Subheader';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import MenuItem from 'material-ui/MenuItem';
 import {spacing, typography, zIndex} from 'material-ui/styles';
-// import {green400} from 'material-ui/styles/colors';
 
 const SelectableList = makeSelectable(List);
 
@@ -21,10 +16,6 @@ const styles = {
     backgroundColor: '#a5cf47',
     paddingLeft: spacing.desktopGutter,
     marginBottom: 8,
-  },
-  version: {
-    paddingLeft: spacing.desktopGutterLess,
-    fontSize: 16,
   },
 };
 
@@ -43,60 +34,60 @@ class AppNavDrawer extends Component {
     router: PropTypes.object.isRequired,
   };
 
-  state = {
-    muiVersions: [],
-  };
+  // state = {
+  //   muiVersions: [],
+  // };
 
-  componentDidMount() {
-    const self = this;
-    const url = '/versions.json';
-    const request = new XMLHttpRequest();
+  // componentDidMount() {
+  //   const self = this;
+  //   const url = '/versions.json';
+  //   const request = new XMLHttpRequest();
+  //
+  //   request.onreadystatechange = function() {
+  //     if (request.readyState === 4 && request.status === 200) {
+  //       self.setState({
+  //         muiVersions: JSON.parse(request.responseText),
+  //         version: JSON.parse(request.responseText)[0],
+  //       });
+  //     }
+  //   };
+  //
+  //   request.open('GET', url, true);
+  //   request.send();
+  // }
+  //
+  // firstNonPreReleaseVersion() {
+  //   let version;
+  //   for (let i = 0; i < this.state.muiVersions.length; i++) {
+  //     version = this.state.muiVersions[i];
+  //     // If the version doesn't contain '-' and isn't 'HEAD'
+  //     if (!/-/.test(version) && version !== 'HEAD') {
+  //       break;
+  //     }
+  //   }
+  //   return version;
+  // }
 
-    request.onreadystatechange = function() {
-      if (request.readyState === 4 && request.status === 200) {
-        self.setState({
-          muiVersions: JSON.parse(request.responseText),
-          version: JSON.parse(request.responseText)[0],
-        });
-      }
-    };
-
-    request.open('GET', url, true);
-    request.send();
-  }
-
-  firstNonPreReleaseVersion() {
-    let version;
-    for (let i = 0; i < this.state.muiVersions.length; i++) {
-      version = this.state.muiVersions[i];
-      // If the version doesn't contain '-' and isn't 'HEAD'
-      if (!/-/.test(version) && version !== 'HEAD') {
-        break;
-      }
-    }
-    return version;
-  }
-
-  handleVersionChange = (event, index, value) => {
-    if (value === this.firstNonPreReleaseVersion()) {
-      window.location = 'http://www.material-ui.com/';
-    } else {
-      window.location = `http://www.material-ui.com/${value}`;
-    }
-  };
-
-  currentVersion() {
-    if (window.location.hostname === 'localhost') return this.state.muiVersions[0];
-    if (window.location.pathname === '/') {
-      return this.firstNonPreReleaseVersion();
-    } else {
-      return window.location.pathname.replace(/\//g, '');
-    }
-  }
-
-  handleRequestChangeLink = (event, value) => {
-    window.location = value;
-  };
+  // handleVersionChange = (event, index, value) => {
+  //   if (value === this.firstNonPreReleaseVersion()) {
+  //     window.location = 'http://www.material-ui.com/';
+  //   } else {
+  //     window.location = `http://www.material-ui.com/${value}`;
+  //   }
+  // };
+  //
+  // currentVersion() {
+  //   if (window.location.hostname === 'localhost') return this.state.muiVersions[0];
+  //   if (window.location.pathname === '/') {
+  //     return this.firstNonPreReleaseVersion();
+  //   } else {
+  //     return window.location.pathname.replace(/\//g, '');
+  //   }
+  // }
+  //
+  // handleRequestChangeLink = (event, value) => {
+  //   window.location = value;
+  // };
 
   handleTouchTapHeader = () => {
     this.context.router.push('/');
@@ -135,7 +126,12 @@ class AppNavDrawer extends Component {
             href="#"
           />
           <ListItem
-            primaryText="Teachers"
+            primaryText="Getting Started"
+            value="/getstarted/intro"
+            href="#/getstarted/intro"
+          />
+          <ListItem
+            primaryText="For Teachers"
             primaryTogglesNestedList={true}
             value="/teachers/intro"
             href="#/teachers/intro"
@@ -163,7 +159,7 @@ class AppNavDrawer extends Component {
             ]}
           />
           <ListItem
-            primaryText="Students"
+            primaryText="For Students"
             primaryTogglesNestedList={true}
             value="/students/intro"
             href="#/students/intro"
@@ -186,7 +182,7 @@ class AppNavDrawer extends Component {
             ]}
           />
           <ListItem
-            primaryText="Makers"
+            primaryText="For Makers"
             primaryTogglesNestedList={true}
             value="/makers/intro"
             href="#/makers/intro"
@@ -202,11 +198,6 @@ class AppNavDrawer extends Component {
                 href="#/makers/howtos"
               />,
             ]}
-          />
-          <ListItem
-            primaryText="Get Started"
-            value="/getstartedintro"
-            href="#/getstarted/intro"
           />
           <ListItem
             primaryText="Help"

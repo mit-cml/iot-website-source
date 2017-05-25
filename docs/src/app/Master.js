@@ -78,6 +78,8 @@ class Master extends Component {
         backgroundColor: grey900,
         color: darkWhite,
         textAlign: 'center',
+        maxHeight: 200,
+        withWidth: 900,
       },
       a: {
         color: darkWhite,
@@ -158,10 +160,10 @@ class Master extends Component {
     const router = this.context.router;
     const styles = this.getStyles();
     const title =
-      router.isActive('/teachers') ? 'Teachers' :
-        router.isActive('/students') ? 'Students' :
-          router.isActive('/makers') ? 'Makers' :
-            router.isActive('/getstarted') ? 'Get Started' :
+      router.isActive('/getstarted') ? 'Getting Started' :
+        router.isActive('/teachers') ? 'For Teachers' :
+          router.isActive('/students') ? 'For Students' :
+            router.isActive('/makers') ? 'For Makers' :
               router.isActive('/help') ? 'Help' :
                 router.isActive('/devices') ? 'Devices' :
                   router.isActive('/bluetoothle') ? 'BluetoothLE' :
@@ -193,32 +195,32 @@ class Master extends Component {
           onLeftIconButtonTouchTap={this.handleTouchTapLeftIconButton}
           title={
             <span style={styles.title}>Internet of Things
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <FlatButton
-              labelStyle={styles.iconButton}
-              href="#/teachers/intro"
-              label="Teachers"
-            />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/students/intro"
-                label="Students"
-              />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/makers/intro"
-                label="Makers"
-              />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/getstarted/intro"
-                label="Get Started"
+                label="Getting Started"
               />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/teachers/intro"
+                label="For Teachers"
+              />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/students/intro"
+                label="For Students"
+              />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/makers/intro"
+                label="For Makers"
+              />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/help/intro"
@@ -261,11 +263,11 @@ class Master extends Component {
           open={navDrawerOpen}
         />
         <FullWidthSection style={styles.footer}>
-          <a href="https://creativecommons.org/licenses/by-sa/3.0/">
-            <img alt="Creative Commons License" src="images/sa_3.0_88x31.png" />
+          <a href="https://creativecommons.org/licenses/by/4.0/">
+            <img alt="Creative Commons License" src="images/4.0_88x31.png" />
           </a>
-          <br /> This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">
-            Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+          <br /> This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">
+          Creative Commons Attribution 4.0 International License</a>
           <br /> © 2012-2017 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a>
           <br />
           <a href="http://appinventor.mit.edu/explore/contact.html">Contact Us</a>

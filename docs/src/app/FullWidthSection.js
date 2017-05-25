@@ -29,7 +29,7 @@ class FullWidthSection extends Component {
         boxSizing: 'border-box',
       },
       content: {
-        maxWidth: 1200,
+        maxWidth: 900,
         margin: '0 auto',
       },
       rootWhenSmall: {

@@ -34,6 +34,9 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
+    <Route path="getstarted">
+      <Route path="intro" component={GetStartedIntroPage} />
+    </Route>
     <Route path="teachers">
       <Route path="intro" component={TeacherIntroPage} />
       <Route path="tutorials" component={TeacherTutorialsPage} />
@@ -51,9 +54,6 @@ const AppRoutes = (
       <Route path="intro" component={MakerIntroPage} />
       <Route path="tutorials" component={MakerTutorialsPage} />
       <Route path="howtos" component={MakerHowTosPage} />
-    </Route>
-    <Route path="getstarted">
-      <Route path="intro" component={GetStartedIntroPage} />
     </Route>
     <Route path="help">
      <Route path="intro" component={HelpIntroPage} />
