@@ -117,21 +117,22 @@ class HomePage extends Component {
         contentStyle={styles.content}
         contentType="p"
         className="home-purpose"
-      >
-        <b>You can create for the Internet of Things with MIT App Inventor!</b>
-        <br /><br />
-        MIT App Inventor enables people all over the world to build mobile apps that make a difference in their
-        families, schools, and communities.
-        <br /><br />
-        MIT App Inventor is changing the way the world creates apps and the way kids learn about mobile computing.
-        Over 400,000 active and monthly users, known as App Inventors, from 195 countries have created over 22 million
+       >      
+        <h3>You can create apps for the Internet of Things with MIT App Inventor!</h3>
+	<p />
+        MIT App Inventor lets people around the world build mobile apps that can make a difference in their
+        families, schools, and communities&mdash;even if they've never programmed before.
+        <p />
+        MIT App Inventor is changing how the world creates apps and how kids learn about mobile computing.
+        Over 400,000 active inventors a month from 195 countries have created more than 22 million
         apps.
-        <br /><br />
-        Now the power of MIT App Inventor is moving to the Internet of Things (IoT) to impact the world of everyday
-        objects.  Learn more (link to copy below)
+        <p />
+        MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and the universe of connected
+        devices.  <a href="#LearnMore">Learn more</a>
       </FullWidthSection>
     );
   }
+
 
   homeFeatures() {
     const styles = {
@@ -141,7 +142,7 @@ class HomePage extends Component {
       fontWeight: typography.fontWeightLight,
       fontSize: 20,
       lineHeight: '28px',
-      paddingTop: 19,
+      paddingTop: 6,
       marginBottom: 6,
       letterSpacing: 0,
       color: typography.textDarkBlack,
@@ -197,12 +198,12 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <br /><br />
-        <b>Bring computing off the screen and into the world of everyday things!</b>
-        <br /><br />
-        Developing IoT applications using MIT App Inventor works the same way as developing any other mobile app with
-        App Inventor, but now you can communicate with digital and physical objects in your everyday lives.
-        <br /><br />
+	<a name = "LearnMore" />
+        <h3>Bring computing off the screen and into the world of everyday things!</h3>
+        <p />
+        Developing IoT applications using MIT App Inventor works the same way as developing any other mobile apps with
+        App Inventor, but now you can communicate with objects in your everyday life.
+        <p />
         <iframe
           width="900"
           height="645"
@@ -210,23 +211,19 @@ class HomePage extends Component {
           frameBorder="0"
           allowFullScreen={true}
         />
-        <br /><br />
-        People around the world are using MIT App Inventor to invent original mobile apps and experience the power of
-        mobile computing.  More than 400,000 active inventors each month from 195 countries have created over 22 million
-        smartphone apps.  MIT App Inventor IoT now brings that same simplicity and power to the Internet of Things.
-        <br /><br />
+        <p />
         The Internet of Things (IoT) refers to the connection of everyday objects to the Internet and to each other,
         leading to smarter devices and opening up an entire universe of new applications and opportunities.
         With MIT App Inventor IoT, you can enter this universe as a creator, not just a consumer, even if you’ve never
         programmed before.
-        <br /><br />
+        <p />
         Developing IoT applications works the same way as with other MIT App Inventor mobile apps, but now you can
-        program devices, sensor, appliances, instruments. robots—anything that can be connected.   Beyond that, you can
+        program devices, sensor, appliances, instruments. robots&mdash;anything that can be connected.   Not only that, you can
         incorporate smartphone capabilities into your IoT creations.  If you build an app that turns a light on and off,
         you can make the light respond to voice commands.   If you build a heart monitor, you can store the results on
         the Web or email them to trainers.  If you program a mobile robot, you can add geolocation to the robot’s
         sensing abilities.
-        <br /><br />
+        <p />
         App Inventor IoT is designed to operate with an extended collection of interfaces that link to families of
         devices. This first App Inventor IoT release includes software that operates with the Arduino 101 and the BBC
         Micro:Bit, and MIT will be adding more interfaces soon.

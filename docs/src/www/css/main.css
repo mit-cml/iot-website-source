@@ -4,8 +4,9 @@
 /* hightlight.js for syntax highlighting */
 @import "github.css";
 
+/* link color changed from #a13547, which did not have enough contrast */
 a {
-  color: #a5cf47;
+  color: #00ff00;
   text-decoration: none;
 }
 
