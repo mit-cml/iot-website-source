@@ -84,10 +84,9 @@ class AppNavDrawer extends Component {
   //     return window.location.pathname.replace(/\//g, '');
   //   }
   // }
-  //
-  // handleRequestChangeLink = (event, value) => {
-  //   window.location = value;
-  // };
+  handleRequestChangeLink = (event, value) => {
+    window.location = value;
+  };
 
   handleTouchTapHeader = () => {
     this.context.router.push('/');
@@ -361,7 +360,6 @@ class AppNavDrawer extends Component {
               />,
               <ListItem
                 primaryText="Forum"
-                value="/forum/forum"
                 href="https://groups.google.com/forum/#!forum/mitappinventortest"
               />,
             ]}

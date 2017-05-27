@@ -118,32 +118,17 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <b>Empowering young people through mobile computing to impact the world of everyday objects.</b>
+        <b>You can create for the Internet of Things with MIT App Inventor!</b>
         <br /><br />
-          MIT App Inventor is an intuitive, visual programming
-          environment that allows everyone – even young learners – to build fully
-          functional apps for smartphones and tablets. App Inventor is unique among
-          block-based programming environments as it empowers kids to make a
-          real-world difference in their communities in addition to intellectual
-          and creative empowerment. Over 400,000 active and unique monthly users,
-          known as App Inventors, from 195 countries have created almost 22 million
-          apps. MIT App Inventor is changing the way the world creates apps and the
-          way that kids learn about mobile computing.
+        MIT App Inventor enables people all over the world to build mobile apps that make a difference in their
+        families, schools, and communities.
         <br /><br />
-          A visual programming language, MIT App Inventor differs from traditional
-          text-based programming environments in that it can be used by anyone who
-          can use a drag and drop interface. To build an app App Inventors simply
-          place icons representing different functions into a coding window.
-          App Inventor users can incorporate functionality like SMS and geolocation
-          into their apps without having to understand the technical complexity
-          behind them, or write thousands of lines of code.
+        MIT App Inventor is changing the way the world creates apps and the way kids learn about mobile computing.
+        Over 400,000 active and monthly users, known as App Inventors, from 195 countries have created over 22 million
+        apps.
         <br /><br />
-        <i>
-          “After the first App Inventor coding session, [the students were]
-          completely hooked. There isn’t any other application like that.”
-        </i>
-        <br /><br />
-          Tara Chklovski, founder and CEO of Iridescent
+        Now the power of MIT App Inventor is moving to the Internet of Things (IoT) to impact the world of everyday
+        objects.  Learn more (link to copy below)
       </FullWidthSection>
     );
   }
@@ -213,32 +198,38 @@ class HomePage extends Component {
         className="home-purpose"
       >
         <br /><br />
-        <b>Takes computing off of the screen and into the world of
-            everyday things</b>
+        <b>Bring computing off the screen and into the world of everyday things!</b>
         <br /><br />
-          Developing IoT applications using App Inventor works in the same way as
-          developing any other mobile application with App Inventor, except that
-          App Inventor IoT allows you to communicate with physical and digital
-          objects in your everyday lives. App Inventor IoT achieves this by
-          connecting with popular physical computing platforms such as Arduino and
-          Raspberry Pi.
+        Developing IoT applications using MIT App Inventor works the same way as developing any other mobile app with
+        App Inventor, but now you can communicate with digital and physical objects in your everyday lives.
         <br /><br />
-          Using Arduino allows App Inventor creators to connect all kinds of
-          sensors (e.g., temperature, light, or sound) and other inputs (like
-          buttons and switches).  App Inventors can then write code for the
-          Arduino to trigger other connected outputs (like turning on a light,
-          playing a sound, or moving a motor), or send events to other devices
-          like our smartphones.
+        <iframe
+          width="900"
+          height="645"
+          src="https://www.youtube.com/embed/qqaNznnNZ8M"
+          frameBorder="0"
+          allowFullScreen={true}
+        />
         <br /><br />
-        <b>What is the Internet of Things?</b>
+        People around the world are using MIT App Inventor to invent original mobile apps and experience the power of
+        mobile computing.  More than 400,000 active inventors each month from 195 countries have created over 22 million
+        smartphone apps.  MIT App Inventor IoT now brings that same simplicity and power to the Internet of Things.
         <br /><br />
-        Internet of Things (IoT) refers to the connection of everyday objects to
-        the Internet and to one another, creating smarter devices and more control
-        for the users of them. Many everyday objects are being designed with
-        built-in wireless connectivity so they can be monitored, controlled and
-        linked over the Internet via a mobile app. IoT is increasingly found in
-        our homes through our thermostats, light bulbs and microwaves as well as
-        more sophisticated objects like wearable medical devices.
+        The Internet of Things (IoT) refers to the connection of everyday objects to the Internet and to each other,
+        leading to smarter devices and opening up an entire universe of new applications and opportunities.
+        With MIT App Inventor IoT, you can enter this universe as a creator, not just a consumer, even if you’ve never
+        programmed before.
+        <br /><br />
+        Developing IoT applications works the same way as with other MIT App Inventor mobile apps, but now you can
+        program devices, sensor, appliances, instruments. robots—anything that can be connected.   Beyond that, you can
+        incorporate smartphone capabilities into your IoT creations.  If you build an app that turns a light on and off,
+        you can make the light respond to voice commands.   If you build a heart monitor, you can store the results on
+        the Web or email them to trainers.  If you program a mobile robot, you can add geolocation to the robot’s
+        sensing abilities.
+        <br /><br />
+        App Inventor IoT is designed to operate with an extended collection of interfaces that link to families of
+        devices. This first App Inventor IoT release includes software that operates with the Arduino 101 and the BBC
+        Micro:Bit, and MIT will be adding more interfaces soon.
       </FullWidthSection>
     );
   }
