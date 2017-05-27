@@ -149,7 +149,7 @@ move to GitHub.
 Assuming you do not have a copy of the site do (from your home
 directory):
 
-    git clone git@iot.appinventor.mit.edu iot-pages
+    git clone git@iot.appinventor.mit.edu:iot-pages
     cd iot-website-source/docs/build/
     rsync -v -a * ../../../iot-pages/
     cd ../src/www
