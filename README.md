@@ -161,11 +161,11 @@ directory):
 
 This upates your local copy of the production site.
 
-Now push it to production
+Now push it to production, which will update the deployed site:
 
     git push origin master
 
-The deployed site should now be updated.
+
 
 
 
