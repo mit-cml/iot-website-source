@@ -218,7 +218,7 @@ class HomePage extends Component {
         programmed before.
         <p />
         Developing IoT applications works the same way as with other MIT App Inventor mobile apps, but now you can
-        program devices, sensor, appliances, instruments. robots&mdash;anything that can be connected.   Not only that, you can
+        program devices, sensors, appliances, instruments, robots&mdash;anything that can be connected.   Not only that, you can
         incorporate smartphone capabilities into your IoT creations.  If you build an app that turns a light on and off,
         you can make the light respond to voice commands.   If you build a heart monitor, you can store the results on
         the Web or email them to trainers.  If you program a mobile robot, you can add geolocation to the robot’s

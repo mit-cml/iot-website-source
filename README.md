@@ -132,11 +132,12 @@ This will shutdown the virtual machine. You can then to a “vagrant up”
 in the future to test/build the site again. It should be much faster
 then the initial time.
 
-## Updating the deployed site
+## Updating the production site and deploying it
 
 At this point you are going to clone (or “pull” if you already have a
-copy) the production built website. You will then update the site from
-the files you built above and then you will push it out to production.
+copy) the production built website to your local machine. You will
+then update the site from the files you built above and then you will
+push it out to deploy it.
 
 **IMPORTANT**: You will not be able to do this until you are authorized.
 Send your “ssh” public key (**not** private key) to jis@mit.edu and I can
@@ -158,7 +159,13 @@ directory):
     git add . --all
     git commit # <– This will invoke an editor for you to put in the commit comment
 
-The site should now be updated.
+This upates your local copy of the production site.
+
+Now push it to production, which will update the deployed site:
+
+    git push origin master
+
+
 
 
 
