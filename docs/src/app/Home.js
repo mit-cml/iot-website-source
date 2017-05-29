@@ -118,15 +118,15 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
        >      
-        <h3>You can create apps for the Internet of Things with MIT App Inventor!</h3>
-	<p />
+        <b>You can create apps for the Internet of Things with MIT App Inventor!<b>
+	      <br /><br />
         MIT App Inventor lets people around the world build mobile apps that can make a difference in their
         families, schools, and communities&mdash;even if they've never programmed before.
-        <p />
+        <br /><br />
         MIT App Inventor is changing how the world creates apps and how kids learn about mobile computing.
         Over 400,000 active inventors a month from 195 countries have created more than 22 million
         apps.
-        <p />
+        <br /><br />
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and the universe of connected
         devices.  <a href="#LearnMore">Learn more</a>
       </FullWidthSection>
@@ -199,11 +199,11 @@ class HomePage extends Component {
         className="home-purpose"
       >
 	<a name = "LearnMore" />
-        <h3>Bring computing off the screen and into the world of everyday things!</h3>
-        <p />
+        <b>Bring computing off the screen and into the world of everyday things!</b>
+        <br /><br />
         Developing IoT applications using MIT App Inventor works the same way as developing any other mobile apps with
         App Inventor, but now you can communicate with objects in your everyday life.
-        <p />
+        <br /><br />
         <iframe
           width="900"
           height="645"
@@ -211,19 +211,19 @@ class HomePage extends Component {
           frameBorder="0"
           allowFullScreen={true}
         />
-        <p />
+        <br /><br />
         The Internet of Things (IoT) refers to the connection of everyday objects to the Internet and to each other,
         leading to smarter devices and opening up an entire universe of new applications and opportunities.
         With MIT App Inventor IoT, you can enter this universe as a creator, not just a consumer, even if you’ve never
         programmed before.
-        <p />
+        <br /><br />
         Developing IoT applications works the same way as with other MIT App Inventor mobile apps, but now you can
-        program devices, sensors, appliances, instruments, robots&mdash;anything that can be connected.   Not only that, you can
+        program devices, sensor, appliances, instruments. robots&mdash;anything that can be connected.   Not only that, you can
         incorporate smartphone capabilities into your IoT creations.  If you build an app that turns a light on and off,
         you can make the light respond to voice commands.   If you build a heart monitor, you can store the results on
         the Web or email them to trainers.  If you program a mobile robot, you can add geolocation to the robot’s
         sensing abilities.
-        <p />
+        <br /><br />
         App Inventor IoT is designed to operate with an extended collection of interfaces that link to families of
         devices. This first App Inventor IoT release includes software that operates with the Arduino 101 and the BBC
         Micro:Bit, and MIT will be adding more interfaces soon.
