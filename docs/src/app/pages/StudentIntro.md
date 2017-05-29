@@ -2,9 +2,28 @@
 
 # Welcome Students!
 
-You may know that you can use MIT App Inventor to build cool mobile apps with your friends and classmates. And now with the Internet of Things extension to App Inventor (MIT App Inventor IoT) you can build apps that connect to things – physical or digital objects – in your world!
+You might know that MIT App Inventor lets you create exciting apps for
+smartphones and tablets with your friends and classmates. Now, with
+the Internet of Things extension to App Inventor (MIT App Inventor
+IoT) your apps can connect to physical and digital
+objects all around you!
 
-MIT App Inventor IoT needs an **external device to connect to and communicate with.** One of the most common devices used for developing for IoT is **Arduino (arduino.cc). Arduino lets you connect all kinds of sensors** (like sensors that can tell us the temperature, or how loud it is in a room) **and other inputs** (like buttons and switches) to an Arduino. We can then program the Arduino using App Inventor to allow us to **trigger other outputs connected to the Arduino** (like turning on a light, playing a sound, or moving a motor), **or send events to other devices like our smartphones!**
+You can build apps that control lights, buttons, buzzers, motors,
+robots, electrical appliances and a growing universe of connected
+devices.  You can choose from a wealth of sensors&mdash;for temperature, sound,
+light, color, moisture, motion, touch, heart rate and many
+others, with new sensors appearing daily.  You can combine controls
+and sensors with all the other features of your App Inventor apps like
+speech recognition, databases and communication.
+
+To build IoT apps you'll need an <em>IoT device controller</em>, which
+connects to the various devices and manages the communication with your
+smartphone.  One of the most popular device controllers for IoT
+development is the Arduino but there are other controllers
+available.
+
+This first release of MIT App Inventor IoT supports the Arduino 101
+and the BBC:Microbit controllers, with support for more controllers coming.
 
 ### MIT App Inventor IoT resources can be found on the following pages:
 
