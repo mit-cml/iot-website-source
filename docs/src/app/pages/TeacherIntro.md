@@ -23,7 +23,7 @@ IoT development is the Arduino (arduino.cc) but there are other
 controllers on the market. Your students can connect all kinds of
 sensors (like sensors for temperature, or moisture, or noise, or
 light, or color, or motion) and other devices (like buttons and
-switches and relays) to a controller.  Students can use App Inventor
+switches and relays) to a controller.  They can then use App Inventor
 to program the controller to trigger the connected devices (like
 turning on a light, playing a sound, or moving a motor), or signal
 events to other devices, **including smartphones running App Inventor
