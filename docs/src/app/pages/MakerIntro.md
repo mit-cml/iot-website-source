@@ -2,12 +2,36 @@
 
 # Welcome Makers!
 
-Today we are seeing digital devices embedded into our more and more everyday objects - not just our phones – in the Internet of Things (IoT) space. By 2021, it is predicted that there will be 16 billion IoT devices in the world.
+The maker movement has drawn enormous vitality over the past decade
+from two computing breakthroughs.  One is mobile
+computing: we now carry around with us computers of tremendous power
+that can link over the Internet to vast resources of data and computation.
+The other is the Internet of Things (IoT), which brings an entire
+realm of physical objects within the scope of digital sensing and
+control.
 
-There are a few differences between a regular MIT App Inventor app and an MIT App Inventor IoT app. The biggest difference is that an **IoT app needs an external device to connect to and communicate with.** One of the most common devices used for developing for IoT is **Arduino (arduino.cc) but there are other microcontroller devices on the market. We can connect all kinds of sensors** (like sensors that can tell us the temperature, or how loud it is in a room) **and other inputs** (like buttons and switches) **to an Arduino.** We can then program the Arduino using App Inventor to allow us to **trigger other outputs connected to the Arduino** (like turning on a light, playing a sound, or moving a motor), **or send events to other devices like our smartphones!**
+MIT App Inventor (IoT) combines these two advances.  With it, you can
+create mobile apps for smartphones and tablets that control IoT
+sensors, actuator and other devices.  Programming for IoT uses the same
+blocks-based drag-and-drop interface that's made App Inventor so easy to
+use&mdash;even for beginners.
+
+The things you make with MIT App Inventor IoT can read information
+from a panoply of sensors (temperature, moisture, voltage,
+pressure, noise, heart rate, chemicals, &hellip;) and control a host
+of devices (buttons, buzzers, lights, appliances, robots, &hellip;).
+Best of all, you can interface these IoT devices with App Inventor apps
+you create for your smartphone, and take advantage of all the features
+that App Inventor provides, including speech understanding, language
+translation and Web communication.
+
+In order to make App Inventor IoT apps, you'll need an <em>IoT
+controller</em> to manage communication between the devices and your
+phone.  This first release of MIT App Inventor IoT supports the
+Arduino 101 and the BBC:Microbit controllers, with support for more
+controllers coming.
 
 ### MIT App Inventor IoT resources can be found on the following pages:
 
 -   [Tutorials](#/makers/tutorials)
 -   [How Tos](#/makers/howtos)
-
