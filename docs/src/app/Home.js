@@ -36,6 +36,7 @@ class HomePage extends Component {
         margin: '16px auto 16px auto',
         textAlign: 'center',
         maxWidth: 900,
+        lineHeight: '56px',
       },
       label: {
         color: lightBaseTheme.palette.primary1Color,
@@ -117,7 +118,7 @@ class HomePage extends Component {
         contentStyle={styles.content}
         contentType="p"
         className="home-purpose"
-       >      
+       >
         <b>You can create apps for the Internet of Things with MIT App Inventor!</b>
 	      <br /><br />
         MIT App Inventor lets people around the world build mobile apps that can make a difference in their
