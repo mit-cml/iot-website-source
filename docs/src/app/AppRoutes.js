@@ -42,8 +42,6 @@ import BluetoothLEIntroPage from './tmp/BluetoothLEIntro/Page';
 
 import DevicesIntroPage from './tmp/DevicesIntro/Page';
 
-import ExtensionsPage from './tmp/Extensions/Page';
-
 import FAQPage from './tmp/FAQ/Page';
 
 import ForumPage from './tmp/Forum/Page';
@@ -67,6 +65,8 @@ import MicroBitDeviceInformationPage from './tmp/MicroBitDeviceInformation/Page'
 import MicroBitDfuControlPage from './tmp/MicroBitDfuControl/Page';
 
 import MicroBitEventPage from './tmp/MicroBitEvent/Page';
+
+import MicroBitGeneBicAttributePage from './tmp/MicroBitGeneBicAttribute/Page';
 
 import MicroBitGenericAccessPage from './tmp/MicroBitGenericAccess/Page';
 
@@ -100,6 +100,7 @@ import TeacherIntroPage from './tmp/TeacherIntro/Page';
 
 import TutorialsPage from './Tutorials';
 import HowTosPage from './HowTos';
+import LearnMorePage from './LearnMorePage';
 
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
@@ -114,6 +115,7 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
+    <Route path="learnmore" component={LearnMorePage} />
     <Route path="getstarted">
       <Route path="intro" component={GetStartedIntroPage} />
     </Route>

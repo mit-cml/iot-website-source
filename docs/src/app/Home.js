@@ -119,7 +119,7 @@ class HomePage extends Component {
         contentType="p"
         // className="home-purpose"
       >
-        <b>You can create apps for the Internet of Things with MIT App Inventor!</b>
+        <h3>You can create apps for the Internet of Things with MIT App Inventor!</h3>
         <br /><br />
         MIT App Inventor lets people around the world build mobile apps that can make a difference in their
         families, schools, and communities&mdash;even if they've never programmed before.
@@ -200,7 +200,7 @@ class HomePage extends Component {
         className="home-purpose"
       >
         <a name="LearnMore" />
-        <b>Bring computing off the screen and into the world of everyday things!</b>
+        <h3>Bring computing off the screen and into the world of everyday things!</h3>
         <br /><br />
         Developing IoT applications using MIT App Inventor works the same way as developing any other mobile apps with
         App Inventor, but now you can communicate with objects in your everyday life.
