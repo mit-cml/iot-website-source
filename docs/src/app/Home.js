@@ -73,6 +73,9 @@ class HomePage extends Component {
         paddingTop: 16,
         marginBottom: 12,
       },
+      a: {
+        color: '#00728a',
+      },
     };
 
     styles.h2 = Object.assign({}, styles.h1, styles.h2);
@@ -117,7 +120,7 @@ class HomePage extends Component {
         useContent={true}
         contentStyle={styles.content}
         contentType="p"
-        // className="home-purpose"
+        className="home-purpose"
       >
         <h3>You can create apps for the Internet of Things with MIT App Inventor!</h3>
         <br /><br />
@@ -129,7 +132,8 @@ class HomePage extends Component {
         apps.
         <br /><br />
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and the universe of connected
-        devices.                                          <a href="#LearnMore">Learn more</a>
+        devices.
+        <a style={{color: '#00728a'}} href="#LearnMore">&nbsp;Learn more</a>
       </FullWidthSection>
     );
   }
@@ -199,7 +203,6 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <a name="LearnMore" />
         <h3>Bring computing off the screen and into the world of everyday things!</h3>
         <br /><br />
         Developing IoT applications using MIT App Inventor works the same way as developing any other mobile apps with
