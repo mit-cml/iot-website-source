@@ -4,7 +4,7 @@ The Microbit_Accelerometer component lets users configure the Micro:bit's on-boa
 
 The accelerometer's report rate, or period, determines how frequently data will be sent to App Inventor.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='/extensions/Microbit_Accelerometer.aia' target='_blank'>sample AIA</a> for the Micro:bit Accelerometer</li><li>View the <a href='/how-to/Microbit_Accelerometer.html' target='_blank'>how-to instructions</a> for the Micro:bit Accelerometer</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/extensions/Microbit_Accelerometer.aia'target='_blank'>sample AIA</a> for the Micro:bit Accelerometer.</li><li>View the <a href='/how-to/Microbit_Accelerometer.html' target='_blank'>how-to instructions</a> for the Micro:bit Accelerometer.</li></ul>
 
 ## Properties
 
@@ -59,6 +59,9 @@ The accelerometer's report rate, or period, determines how frequently data will 
  <a href="#RequestAccelerometerDataUpdates">request</a> operation.
  The X, Y, and Z values are in thousands of 1 Earth gravity (G=-9.8 m/s<sup>2</sup>), and so
  should be scaled by 1/1000.
+
+ __Parameters__:
+
     + <code>Accelerometer_X</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash; The X value of the accelerometer, in milliG.
     + <code>Accelerometer_Y</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash; The Y value of the accelerometer, in milliG.
     + <code>Accelerometer_Z</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash; The Z value of the accelerometer, in milliG.
@@ -71,10 +74,11 @@ The accelerometer's report rate, or period, determines how frequently data will 
 
 ![when Microbit_Accelerometer1 AccelerometerPeriodReceived Accelerometer_Period do](blocks/Microbit_Accelerometer.AccelerometerPeriodReceived.svg)
 
-+ <a name="WroteAccelerometerPeriod"></a>`WroteAccelerometerPeriod` – The <code>Accelerometer</code> event is run after the Micro:bit reports its period as requested
- by an earlier call to the
++ <a name="WroteAccelerometerPeriod"></a>`WroteAccelerometerPeriod` – The <code>WroteAccelerometerPeriod</code> event is run after the Micro:bit reports its period
+ as requested by an earlier call to the
  <a href="#ReadAccelerometerPeriod"><code>ReadAccelerometerPeriod</code></a> method.
-    + <code>period</code> (_number_) &mdash; The reporting period for the Micro:bit's accelerometer, in milliseconds.
+
+    + <code>Accelerometer_Period</code> (_number_) &mdash; The reporting period for the Micro:bit's accelerometer, in milliseconds.
 
 ![when Microbit_Accelerometer1 WroteAccelerometerPeriod Accelerometer_Period do](blocks/Microbit_Accelerometer.WroteAccelerometerPeriod.svg)
 
