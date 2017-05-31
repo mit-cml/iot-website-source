@@ -42,6 +42,8 @@ import BluetoothLEIntroPage from './tmp/BluetoothLEIntro/Page';
 
 import DevicesIntroPage from './tmp/DevicesIntro/Page';
 
+import ExtensionsPage from './tmp/Extensions/Page';
+
 import FAQPage from './tmp/FAQ/Page';
 
 import ForumPage from './tmp/Forum/Page';
@@ -65,8 +67,6 @@ import MicroBitDeviceInformationPage from './tmp/MicroBitDeviceInformation/Page'
 import MicroBitDfuControlPage from './tmp/MicroBitDfuControl/Page';
 
 import MicroBitEventPage from './tmp/MicroBitEvent/Page';
-
-import MicroBitGeneBicAttributePage from './tmp/MicroBitGeneBicAttribute/Page';
 
 import MicroBitGenericAccessPage from './tmp/MicroBitGenericAccess/Page';
 
