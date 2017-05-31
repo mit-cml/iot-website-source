@@ -160,7 +160,7 @@ class AppNavDrawer extends Component {
             nestedItems={[
               <ListItem
                 primaryText="Tutorials"
-                value="/students/tutorials"
+                value="./tutorials"
                 href="#/students/tutorials"
               />,
               <ListItem

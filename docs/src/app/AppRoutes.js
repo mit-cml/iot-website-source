@@ -56,8 +56,6 @@ import MakerHowTosPage from './tmp/MakerHowTos/Page';
 
 import MakerIntroPage from './tmp/MakerIntro/Page';
 
-import MakerTutorialsPage from './tmp/MakerTutorials/Page';
-
 import MicroBitAccelerometerPage from './tmp/MicroBitAccelerometer/Page';
 
 import MicroBitButtonPage from './tmp/MicroBitButton/Page';
@@ -92,8 +90,6 @@ import StudentHowTosPage from './tmp/StudentHowTos/Page';
 
 import StudentIntroPage from './tmp/StudentIntro/Page';
 
-import StudentTutorialsPage from './tmp/StudentTutorials/Page';
-
 import TeacherCurriculumPage from './tmp/TeacherCurriculum/Page';
 
 import TeacherExamplesPage from './tmp/TeacherExamples/Page';
@@ -102,7 +98,8 @@ import TeacherHowTosPage from './tmp/TeacherHowTos/Page';
 
 import TeacherIntroPage from './tmp/TeacherIntro/Page';
 
-import TeacherTutorialsPage from './tmp/TeacherTutorials/Page';
+import TutorialsPage from './Tutorials';
+import HowTosPage from './HowTos';
 
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
@@ -122,24 +119,24 @@ const AppRoutes = (
     </Route>
     <Route path="teachers">
       <Route path="intro" component={TeacherIntroPage} />
-      <Route path="tutorials" component={TeacherTutorialsPage} />
-      <Route path="howtos" component={TeacherHowTosPage} />
+      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="howtos" component={HowTosPage} />
       <Route path="examples" component={TeacherExamplesPage} />
       <Route path="curriculum" component={TeacherCurriculumPage} />
     </Route>
     <Route path="students">
       <Route path="intro" component={StudentIntroPage} />
-      <Route path="tutorials" component={StudentTutorialsPage} />
-      <Route path="howtos" component={StudentHowTosPage} />
+      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="howtos" component={HowTosPage} />
       <Route path="examples" component={StudentExamplesPage} />
     </Route>
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
-      <Route path="tutorials" component={MakerTutorialsPage} />
-      <Route path="howtos" component={MakerHowTosPage} />
+      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="howtos" component={HowTosPage} />
     </Route>
     <Route path="help">
-     <Route path="intro" component={HelpIntroPage} />
+      <Route path="intro" component={HelpIntroPage} />
     </Route>
     <Route path="devices">
       <Route path="devicesintro" component={DevicesIntroPage} />
@@ -162,7 +159,7 @@ const AppRoutes = (
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
-      <Route path="arduino101">
+    <Route path="arduino101">
       <Route path="arduino101intro" component={Arduino101IntroPage} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />
