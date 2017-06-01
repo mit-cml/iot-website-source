@@ -5,7 +5,7 @@ Extension to read humidity and temperature data from a DHT sensor attached to an
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101Humidity1 BluetoothDevice ](blocks/Arduino101Humidity.BluetoothDevice_getter.svg)
@@ -13,7 +13,7 @@ Extension to read humidity and temperature data from a DHT sensor attached to an
 
 ![set Arduino101Humidity1 BluetoothDevice  to](blocks/Arduino101Humidity.BluetoothDevice_setter.svg)
 
-+ <a name="Pin"></a>`Pin` – 
++ <a name="Pin"></a>`Pin` – The Pin on the Arduino board that the device is wired in to.
 
 
 ![get Arduino101Humidity1 Pin ](blocks/Arduino101Humidity.Pin_getter.svg)
@@ -22,6 +22,12 @@ Extension to read humidity and temperature data from a DHT sensor attached to an
 ![set Arduino101Humidity1 Pin  to](blocks/Arduino101Humidity.Pin_setter.svg)
 
 ## Methods
+
++ <a name="IsSupported"></a>`IsSupported` – Tests whether the Bluetooth low energy device is broadcasting support for the service. If true,
+ calls to TurnOn and TurnOff should work correctly. Otherwise an error will be reported through
+ the Screen's ErrorOccurred event.
+
+![call Arduino101Humidity1 IsSupported](blocks/Arduino101Humidity.IsSupported.svg)
 
 + <a name="ReadHumidity"></a>`ReadHumidity` – Method for ReadHumidity
 

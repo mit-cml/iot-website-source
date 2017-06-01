@@ -12,7 +12,7 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 
 ![set Arduino101Pins1 Analog  to](blocks/Arduino101Pins.Analog_setter.svg)
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101Pins1 BluetoothDevice ](blocks/Arduino101Pins.BluetoothDevice_getter.svg)
@@ -38,11 +38,9 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 
 ## Methods
 
-+ <a name="FeatureAvailable"></a>`FeatureAvailable` – Check whether the feature is currently available for the device connected via the
- <code>BluetoothDevice</code> property. If no device is currently connected, this method will
- always return false.
++ <a name="IsSupported"></a>`IsSupported` – Method for IsSupported
 
-![call Arduino101Pins1 FeatureAvailable](blocks/Arduino101Pins.FeatureAvailable.svg)
+![call Arduino101Pins1 IsSupported](blocks/Arduino101Pins.IsSupported.svg)
 
 + <a name="ReadPinState"></a>`ReadPinState` – Read the current state of the pin. After the value is read, it will be reported through the
  <code><a href="#/component/arduinopins/PinStateReceived">PinStateReceived</a></code> event.

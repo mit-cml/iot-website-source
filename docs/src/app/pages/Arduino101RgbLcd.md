@@ -5,7 +5,7 @@ Extension to interface with the Grove RGB LCD peripheral connected to an Arduino
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101RgbLcd1 BluetoothDevice ](blocks/Arduino101RgbLcd.BluetoothDevice_getter.svg)
@@ -22,6 +22,10 @@ Extension to interface with the Grove RGB LCD peripheral connected to an Arduino
 + <a name="GetText"></a>`GetText` – Method for GetText
 
 ![call Arduino101RgbLcd1 GetText](blocks/Arduino101RgbLcd.GetText.svg)
+
++ <a name="IsSupported"></a>`IsSupported` – Method for IsSupported
+
+![call Arduino101RgbLcd1 IsSupported](blocks/Arduino101RgbLcd.IsSupported.svg)
 
 + <a name="SetBackgroundColor"></a>`SetBackgroundColor` – Method for SetBackgroundColor
 

@@ -4,7 +4,7 @@ Extension to access gyroscopic data from the App Inventor Companion Sketch for A
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101Gyroscope1 BluetoothDevice ](blocks/Arduino101Gyroscope.BluetoothDevice_getter.svg)
@@ -13,6 +13,10 @@ Extension to access gyroscopic data from the App Inventor Companion Sketch for A
 ![set Arduino101Gyroscope1 BluetoothDevice  to](blocks/Arduino101Gyroscope.BluetoothDevice_setter.svg)
 
 ## Methods
+
++ <a name="IsSupported"></a>`IsSupported` – Method for IsSupported
+
+![call Arduino101Gyroscope1 IsSupported](blocks/Arduino101Gyroscope.IsSupported.svg)
 
 + <a name="ReadGyroscopeData"></a>`ReadGyroscopeData` – Method for ReadGyroscopeData
 

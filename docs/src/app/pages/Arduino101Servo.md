@@ -5,7 +5,7 @@ An extension to interface with a servo connected to an Arduino 101 running the A
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101Servo1 BluetoothDevice ](blocks/Arduino101Servo.BluetoothDevice_getter.svg)
@@ -22,6 +22,10 @@ An extension to interface with a servo connected to an Arduino 101 running the A
 ![set Arduino101Servo1 Pin  to](blocks/Arduino101Servo.Pin_setter.svg)
 
 ## Methods
+
++ <a name="IsSupported"></a>`IsSupported` – Method for IsSupported
+
+![call Arduino101Servo1 IsSupported](blocks/Arduino101Servo.IsSupported.svg)
 
 + <a name="SetPosition"></a>`SetPosition` – Method for SetPosition
 

@@ -4,7 +4,7 @@ Extension to programmatically interact with the Grove Sound Recorder attached to
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101SoundRecorder1 BluetoothDevice ](blocks/Arduino101SoundRecorder.BluetoothDevice_getter.svg)
@@ -30,11 +30,11 @@ Extension to programmatically interact with the Grove Sound Recorder attached to
 
 ## Methods
 
-+ <a name="FeatureAvailable"></a>`FeatureAvailable` – Check whether the feature is currently available for the device connected via the
- <code>BluetoothDevice</code> property. If no device is currently connected, this method will
- always return false.
++ <a name="IsSupported"></a>`IsSupported` – Tests whether the Bluetooth low energy device is broadcasting support for the service. If true,
+ calls to TurnOn and TurnOff should work correctly. Otherwise an error will be reported through
+ the Screen's ErrorOccurred event.
 
-![call Arduino101SoundRecorder1 FeatureAvailable](blocks/Arduino101SoundRecorder.FeatureAvailable.svg)
+![call Arduino101SoundRecorder1 IsSupported](blocks/Arduino101SoundRecorder.IsSupported.svg)
 
 + <a name="PlayRecordedSound"></a>`PlayRecordedSound` – Method for PlayRecordedSound
 

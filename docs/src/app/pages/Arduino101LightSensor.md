@@ -4,7 +4,7 @@ Extension to interpret light sensor data from the Arduino 101.
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
 
 
 ![get Arduino101LightSensor1 BluetoothDevice ](blocks/Arduino101LightSensor.BluetoothDevice_getter.svg)
@@ -12,7 +12,7 @@ Extension to interpret light sensor data from the Arduino 101.
 
 ![set Arduino101LightSensor1 BluetoothDevice  to](blocks/Arduino101LightSensor.BluetoothDevice_setter.svg)
 
-+ <a name="Pin"></a>`Pin` – 
++ <a name="Pin"></a>`Pin` – The Pin on the Arduino board that the device is wired in to.
 
 
 ![get Arduino101LightSensor1 Pin ](blocks/Arduino101LightSensor.Pin_getter.svg)
@@ -21,6 +21,12 @@ Extension to interpret light sensor data from the Arduino 101.
 ![set Arduino101LightSensor1 Pin  to](blocks/Arduino101LightSensor.Pin_setter.svg)
 
 ## Methods
+
++ <a name="IsSupported"></a>`IsSupported` – Tests whether the Bluetooth low energy device is broadcasting support for the service. If true,
+ calls to TurnOn and TurnOff should work correctly. Otherwise an error will be reported through
+ the Screen's ErrorOccurred event.
+
+![call Arduino101LightSensor1 IsSupported](blocks/Arduino101LightSensor.IsSupported.svg)
 
 + <a name="ReadLightSensor"></a>`ReadLightSensor` – Method for ReadLightSensor
 
