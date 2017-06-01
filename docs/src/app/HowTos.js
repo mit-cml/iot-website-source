@@ -24,7 +24,52 @@ const howtosList = [
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/HealthyPlant.png',
     link: 'assets/howtos/HealthyPlant.pdf',
-  },
+  },{
+    title: 'Bluetooth Low Energy Basic Connection',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_Basic_Connection.pdf'
+  },{
+    title: 'How to: Use a Button with Arduino',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_Button.pdf'
+  },{
+    title: 'How to: Use a Humidity Sensor with Arduino',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_Humidity_Sensor.pdf'
+  },{
+    title: 'How to: Use a Light Sensor with Arduino',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_Light_Sensor.pdf'
+  },{
+    title: 'How to: Use a Moisture Sensor with Arduino',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_Moisture_Sensor.pdf'
+  },{
+    title: 'How to: Use a Proximity Sensor with Arduino',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_Proximity_Sensor.pdf'
+  },{
+    title: 'How to: Use a RGB LCD with Arduino',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_IoT_RgbLcd.pdf'
+  },{
+    title: 'How to: Set up the Arduino Development Environment',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_IoT_Setup.pdf'
+  },{
+    title: 'LED Control Tutorial',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/HealthyPlant.png',
+    link: 'assets/howtos/MIT_App_Inventor_LED_Control.pdf'
+  }
 ];
 
 const HowTos = () => (

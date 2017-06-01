@@ -9,6 +9,9 @@ import {
 // Here we define all our material-ui ReactComponents.
 import Master from './Master';
 import Home from './Home';
+import TutorialsPage from './Tutorials';
+import HowTosPage from './HowTos';
+import LearnMorePage from './LearnMorePage';
 
 import Arduino101AccelerometerPage from './tmp/Arduino101Accelerometer/Page';
 
@@ -42,6 +45,8 @@ import BluetoothLEIntroPage from './tmp/BluetoothLEIntro/Page';
 
 import DevicesIntroPage from './tmp/DevicesIntro/Page';
 
+import ExtensionsPage from './tmp/Extensions/Page';
+
 import FAQPage from './tmp/FAQ/Page';
 
 import ForumPage from './tmp/Forum/Page';
@@ -56,6 +61,8 @@ import MakerHowTosPage from './tmp/MakerHowTos/Page';
 
 import MakerIntroPage from './tmp/MakerIntro/Page';
 
+import MakerTutorialsPage from './tmp/MakerTutorials/Page';
+
 import MicroBitAccelerometerPage from './tmp/MicroBitAccelerometer/Page';
 
 import MicroBitButtonPage from './tmp/MicroBitButton/Page';
@@ -65,8 +72,6 @@ import MicroBitDeviceInformationPage from './tmp/MicroBitDeviceInformation/Page'
 import MicroBitDfuControlPage from './tmp/MicroBitDfuControl/Page';
 
 import MicroBitEventPage from './tmp/MicroBitEvent/Page';
-
-import MicroBitGeneBicAttributePage from './tmp/MicroBitGeneBicAttribute/Page';
 
 import MicroBitGenericAccessPage from './tmp/MicroBitGenericAccess/Page';
 
@@ -90,6 +95,8 @@ import StudentHowTosPage from './tmp/StudentHowTos/Page';
 
 import StudentIntroPage from './tmp/StudentIntro/Page';
 
+import StudentTutorialsPage from './tmp/StudentTutorials/Page';
+
 import TeacherCurriculumPage from './tmp/TeacherCurriculum/Page';
 
 import TeacherExamplesPage from './tmp/TeacherExamples/Page';
@@ -98,9 +105,7 @@ import TeacherHowTosPage from './tmp/TeacherHowTos/Page';
 
 import TeacherIntroPage from './tmp/TeacherIntro/Page';
 
-import TutorialsPage from './Tutorials';
-import HowTosPage from './HowTos';
-import LearnMorePage from './LearnMorePage';
+import TeacherTutorialsPage from './tmp/TeacherTutorials/Page';
 
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
@@ -115,7 +120,6 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
-    <Route path="learnmore" component={LearnMorePage} />
     <Route path="getstarted">
       <Route path="intro" component={GetStartedIntroPage} />
     </Route>
@@ -138,7 +142,7 @@ const AppRoutes = (
       <Route path="howtos" component={HowTosPage} />
     </Route>
     <Route path="help">
-      <Route path="intro" component={HelpIntroPage} />
+     <Route path="intro" component={HelpIntroPage} />
     </Route>
     <Route path="devices">
       <Route path="devicesintro" component={DevicesIntroPage} />
@@ -161,7 +165,7 @@ const AppRoutes = (
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
-    <Route path="arduino101">
+      <Route path="arduino101">
       <Route path="arduino101intro" component={Arduino101IntroPage} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />

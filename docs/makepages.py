@@ -14,6 +14,9 @@ import {
 // Here we define all our material-ui ReactComponents.
 import Master from './Master';
 import Home from './Home';
+import TutorialsPage from './Tutorials';
+import HowTosPage from './HowTos';
+import LearnMorePage from './LearnMorePage';
 '''
 
 appRoutesChunk = '''
@@ -39,21 +42,21 @@ const AppRoutes = (
     </Route>
     <Route path="teachers">
       <Route path="intro" component={TeacherIntroPage} />
-      <Route path="tutorials" component={TeacherTutorialsPage} />
-      <Route path="howtos" component={TeacherHowTosPage} />
+      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="howtos" component={HowTosPage} />
       <Route path="examples" component={TeacherExamplesPage} />
       <Route path="curriculum" component={TeacherCurriculumPage} />
     </Route>
     <Route path="students">
       <Route path="intro" component={StudentIntroPage} />
-      <Route path="tutorials" component={StudentTutorialsPage} />
-      <Route path="howtos" component={StudentHowTosPage} />
+      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="howtos" component={HowTosPage} />
       <Route path="examples" component={StudentExamplesPage} />
     </Route>
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
-      <Route path="tutorials" component={MakerTutorialsPage} />
-      <Route path="howtos" component={MakerHowTosPage} />
+      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="howtos" component={HowTosPage} />
     </Route>
     <Route path="help">
      <Route path="intro" component={HelpIntroPage} />
