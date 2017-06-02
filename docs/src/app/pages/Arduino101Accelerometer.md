@@ -2,11 +2,11 @@
 
 The Arduino101Accelerometer component lets users configure the Arduino 101'son-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Accelerometer.aia' target='_blank'>sample AIA</a> for the Arduino 101 Accelerometer.</li><li>View the <a href='/how-to/Arduino101Accelerometer.html' target='_blank'>how-to instructions</a> for the Arduino 101 Accelerometer.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Accelerometer.aia' target='_blank'>sample AIA</a> for the Arduino 101 Accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Arduino101Accelerometer.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Accelerometer.</li></ul>
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
 
 
 ![get Arduino101Accelerometer1 BluetoothDevice ](blocks/Arduino101Accelerometer.BluetoothDevice_getter.svg)

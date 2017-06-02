@@ -5,7 +5,7 @@ Extension to interface with a moisture sensor attached ot an Arduino 101 running
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
 
 
 ![get Arduino101Moisture1 BluetoothDevice ](blocks/Arduino101Moisture.BluetoothDevice_getter.svg)

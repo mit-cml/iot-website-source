@@ -5,7 +5,7 @@ Extension to read humidity and temperature data from a DHT sensor attached to an
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
 
 
 ![get Arduino101Humidity1 BluetoothDevice ](blocks/Arduino101Humidity.BluetoothDevice_getter.svg)

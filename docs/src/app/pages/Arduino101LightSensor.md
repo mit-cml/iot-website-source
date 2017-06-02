@@ -4,7 +4,7 @@ Extension to interpret light sensor data from the Arduino 101.
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
 
 
 ![get Arduino101LightSensor1 BluetoothDevice ](blocks/Arduino101LightSensor.BluetoothDevice_getter.svg)
