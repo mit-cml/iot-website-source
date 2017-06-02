@@ -120,6 +120,7 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
+    <Route path="learnmore" component={LearnMorePage} />
     <Route path="getstarted">
       <Route path="intro" component={GetStartedIntroPage} />
     </Route>
