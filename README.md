@@ -1,4 +1,5 @@
 # Getting Started with Vagrant (recommended)
+This currently does NOT work on Windows. See "Setting up on Windows" below.
 
 In order to modify the IoT website you will need some software. We use
 “vagrant” to create a virtual machine to run this software to ensure
@@ -14,7 +15,7 @@ Vagrant can be found at: <https://www.vagrantup.com/downloads.html>
 
 Download the appropriate installers and run them.
 
-Assuming you have a “GitHub” account, you should clone the website
+Assuming you have a GitHub account, you should clone the website
 source repository (assuming you are starting from your home directory)
 
 Issue the following commands (The “#” and stuff after it is a comment,
@@ -52,13 +53,14 @@ Once you are running, you are ready to edit. See *Where the pages are&#x2026;* b
 
 You don't need vagrant if you have or can get node.js yourself. This means you're responsible for keeping your tools updated, as Vagrant isn't there to do it for you. This is probably much faster at initial setup than the Vagrant path.
 
-Install node.js: <https://nodejs.org/en/download/>
+Things you need:
+* node.js: <https://nodejs.org/en/download/>
+* python 2 (not 3): <https://www.python.org/downloads/>
 
-Assuming you have a “GitHub” account, you should clone the website
+Assuming you have a GitHub account, you should clone the website
 source repository (assuming you are starting from your home directory)
 
-Issue the following commands (The “#” and stuff after it is a comment,
-don't type it in!):
+Issue the following commands:
 
     git clone git@github.com:mit-cml/iot-website-source
 
@@ -79,6 +81,38 @@ When you start working on the site for the day, you will change into the docs di
 This will compile the source of the website. It will be obvious if there are errors. If all goes well, you can go to “localhost:3000” on your host machine with a browser and see the site.
 
 Once you are running, you are ready to edit. See *Where the pages are&#x2026;* below.
+
+# Setting up on Windows (without Vagrant - sort of recommended)
+
+Install [Github Desktop](https://github-windows.s3.amazonaws.com/GitHubSetup.exe), [Python 2.7](https://www.python.org/downloads/), and [node.js](https://nodejs.org/en/download/).
+
+Add Python to your path variable:
+- Go to My Computer :arrow_right: Properties :arrow_right: Advanced :arrow_right: Environment Variables
+- Under User Variables, add `;C:\Python27` to the end of the user path Variables
+- If there is no User Path variable, create it and add `C:\Python27`
+
+Clone the repository using Github Desktop. The default location is `Documents\GitHub\iot-website-source`. Know where it went.
+
+Open Powershell, change (cd) into the repository directory, from above. In the directory, run:
+```
+> npm install
+> cd docs
+> npm install
+```
+and that's it! You're ready for "Using on Windows Without Vagrant," below.
+
+# Using on Windows Without Vagrant
+
+There will be two powershell windows. One will run the server, the other will have a script that you re-run to apply any new changes.
+
+In Powershell, change into the `iot-website-source\docs` directory, and run `python makepages.py` (if you use tab to autocomplete, it will be rewrite it to `python .\makepages.py` and that's fine.)
+
+Open a second pwershell instance, change into the same directory and run `npm run browser:development`.
+
+Open your browser and go to `localhost:3000`.
+
+When you make changes to the files and want to see them in the browser, go to the first Powershell window and re-run `python makepages.py`. (You can use the up arrow on the keyboard so you don't have to re-type it.)
+
 
 # Where the pages are&#x2026;
 
