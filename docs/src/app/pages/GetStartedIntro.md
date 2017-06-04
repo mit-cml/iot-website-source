@@ -11,11 +11,11 @@ Inventor.
 To build Internet of Things (IoT) apps with MIT App Inventor, you will be working with external
 hardware. You will need the following:
 
-- [Arduino 101](http://www.arduino.cc/en/Main/ArduinoBoard101) The Arduino 101 is the first IoT controller to be
+- [Arduino 101](http://www.arduino.cc/en/Main/ArduinoBoard101) The Arduino 101 is the first IoT device controller to be
 included in the MIT App Inventor IoT release. Future releases will include other controllers.
 - [SEEED Grove Shield](http://www.seeedstudio.com/Base-Shield-V2-p-1378.html) works with the Arduino 101 to easily
-attach sensors and components.
-- Sensors as needed for specific apps or projects
+attach sensors and modules.
+- Sensors as needed for specific projects
 
 <b>Setting up your computer (~ 30 minutes)</b><br>
 You will first need to install software and set up your computer to work with the Arduino 101 device controller. You can find a tutorial
@@ -29,9 +29,9 @@ on and off. This [Starter Tutorial]() <em>example not yet ready</em> will take a
 
 <b>Then try a How To sensor app</b><br>
 Now that you have tried the Starter Tutorial, you may want to try connecting with different types of sensors and
-components such as:
+modules such as:
 
 - Temperature sensor
 - Button
 
-Visit the [How To](#/teachers/howtos) page for a full list of sensor apps available in this MIT App Inventor IoT release.
+Visit the [How To](#/teachers/howtos) page for a full list of demonstration apps available in this MIT App Inventor IoT release.

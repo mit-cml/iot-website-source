@@ -264,11 +264,9 @@ class Master extends Component {
         />
         <FullWidthSection style={styles.footer}>
           <a href="https://creativecommons.org/licenses/by/4.0/">
-            <img alt="Creative Commons License" src="images/4.0_88x31.png" />
-          </a>
+            <img alt="Creative Commons License" src="images/4.0_88x31.png" /></a>
           <font color="a5cf47">
-          <br />This work is licensed under a
-          <a href="http://creativecommons.org/licenses/by/4.0/">
+          <br />This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">
           <font color="a5cf47">Creative Commons Attribution 4.0 International License</font></a>
           <br /> © 2012-2017 <a href="http://web.mit.edu/"><font color="a5cf47">Massachusetts Institute of Technology</font></a>
           <br />
