@@ -18,13 +18,13 @@ devices.
 
 The biggest difference between ordinary MIT App Inventor apps and MIT
 App Inventor IoT apps is that IoT apps communicate with
-external devices through <em>IoT device controllers</em>. One of the most common device controllers for
+external devices through <em>IoT device controllers</em>. One of the most common controllers for
 IoT development is the Arduino but there are other
 controllers on the market.
 
 Your students can build with all kinds of
-sensors (like sensors for temperature, or moisture, or noise, or
-light, or color, or motion) and other devices (like buttons and
+sensors (like sensors for temperature, moisture, noise,
+light, coolor, motion) and other devices (like buttons and
 switches and relays) to a controller.  They can use App Inventor
 to program the controller to trigger connected devices (like
 turning on lights, playing sounds, or moving motors), or signal
