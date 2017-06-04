@@ -13,7 +13,7 @@ hardware. You will need the following:
 
 - [Arduino 101](http://www.arduino.cc/en/Main/ArduinoBoard101) The Arduino 101 is the first IoT controller to be
 included in the MIT App Inventor IoT release. Future releases will include other controllers.
-- [SEED Grove Shield](http://www.seeedstudio.com/Base-Shield-V2-p-1378.html) works with the Arduino 101 to easily
+- [SEEED Grove Shield](http://www.seeedstudio.com/Base-Shield-V2-p-1378.html) works with the Arduino 101 to easily
 attach sensors and components.
 - Sensors as needed for specific apps or projects
 

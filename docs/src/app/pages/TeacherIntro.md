@@ -28,7 +28,7 @@ light, or color, or motion) and other devices (like buttons and
 switches and relays) to a controller.  They can use App Inventor
 to program the controller to trigger the connected devices (like
 turning on lights, playing sounds, or moving motors), or signal
-events to other devices, <em>including smartphones running student App Inventor
+events to other devices, <em>including smartphones running you students' App Inventor
 apps</em>.
 
 This first release of MIT App Inventor IoT supports the Arduino 101
