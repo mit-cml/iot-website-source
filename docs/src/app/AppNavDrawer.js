@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Drawer from 'material-ui/Drawer';
+import FontIcon from 'material-ui/FontIcon';
+import NavigationClose from 'material-ui/svg-icons/navigation/close';
+import {darkWhite} from 'material-ui/styles/colors';
 import {List, ListItem, makeSelectable} from 'material-ui/List';
 import {spacing, typography, zIndex} from 'material-ui/styles';
 
@@ -112,7 +115,8 @@ class AppNavDrawer extends Component {
         containerStyle={{zIndex: zIndex.drawer - 100}}
       >
         <div style={styles.logo} onTouchTap={this.handleTouchTapHeader}>
-          Internet of Things
+          <FontIcon className="material-icons"><NavigationClose color={darkWhite} /></FontIcon>
+          &nbsp;&nbsp;Internet of Things
         </div>
 
         <SelectableList
