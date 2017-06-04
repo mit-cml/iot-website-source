@@ -18,9 +18,9 @@ attach sensors and components.
 - Sensors as needed for specific apps or projects
 
 <b>Setting up your computer (~ 30 minutes)</b><br>
-You will first need to install software and set up your computer to work with the Arduino 101 device. You can find a tutorial
+You will first need to install software and set up your computer to work with the Arduino 101 device controller. You can find a tutorial
 on how to do this [here](https://drive.google.com/file/d/0B51cwz24uqobMUJwNDVSeGNoQVk/view). You will then need to
-connect MIT App Inventor to the Arduino 101 device and you can learn how to do that 
+connect MIT App Inventor to the Arduino 101.  You can learn how to do that 
 [here](https://drive.google.com/file/d/0B51cwz24uqobanJ2XzhLbGpQOFk/view).
 
 <b>Start with a simple IoT app (~ 30 minutes)</b><br>
