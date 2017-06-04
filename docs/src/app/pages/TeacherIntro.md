@@ -26,7 +26,7 @@ Your students can build with all kinds of
 sensors (like sensors for temperature, or moisture, or noise, or
 light, or color, or motion) and other devices (like buttons and
 switches and relays) to a controller.  They can use App Inventor
-to program the controller to trigger the connected devices (like
+to program the controller to trigger connected devices (like
 turning on lights, playing sounds, or moving motors), or signal
 events to other devices, <em>including smartphones running your students' App Inventor
 apps</em>.
