@@ -24,7 +24,7 @@ controllers on the market.
 
 Your students can build with all kinds of
 sensors (like sensors for temperature, moisture, noise,
-light, color, motion) and other devices (like buttons and
+light, color, or motion) and other devices (like buttons and
 switches and relays) to a controller.  They can use App Inventor
 to program the controller to trigger connected devices (like
 turning on lights, playing sounds, or moving motors), or signal
