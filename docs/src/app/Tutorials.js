@@ -11,9 +11,9 @@ const styles = {
   assetsImage: {
     height: '100%',
     width: '100%',
-    // transform: 'translateX(-50%)',
-    position: 'relative',
-    left: 'auto',
+    transform: 'translateX(-100%)',
+    position: 'absolute',
+    left: '100%',
     cursor: 'pointer',
   },
 };
