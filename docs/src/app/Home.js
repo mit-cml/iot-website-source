@@ -132,8 +132,8 @@ class HomePage extends Component {
         apps.
         <br /><br />
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and the universe of connected
-        devices.
-        <a href="#LearnMore">&nbsp;&nbsp;<font color="#00728a"><u>Learn more</u></font></a>
+        devices.&nbsp;&nbsp;
+        <a style={{color: '#00728a', 'text-decoration': 'underline'}} href="#LearnMore">Learn more</a>
       </FullWidthSection>
     );
   }
