@@ -1,10 +1,12 @@
 # Arduino101PWMMotor
 
-Extension for Arduino 101 that allows the user to manipulate attached motors.
+The Arduino 101 PWM Motor extension lets users control external devices that respond to pulse width modulation, such as continuous motors or lights. On the Arduino 101, digital pins 3, 5, 6, and 9 support pulse width modulation.<br>
+
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101PWMMotor.aia' target='_blank'>sample project</a>.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_PWM_Motor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 PWM Motor.</li></ul>
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a> component with a connection to the Arduino 101.
 
 
 ![get Arduino101PWMMotor1 BluetoothDevice ](blocks/Arduino101PWMMotor.BluetoothDevice_getter.svg)
@@ -17,7 +19,7 @@ Extension for Arduino 101 that allows the user to manipulate attached motors.
 
 ![get Arduino101PWMMotor1 On ](blocks/Arduino101PWMMotor.On_getter.svg)
 
-+ <a name="Speed"></a>`Speed` – 
++ <a name="Speed"></a>`Speed` – The rate of pulse width modulation as a percentage of time. A value of 0 indicates an always-off state, 50 would result in the device being powered for half of each time unit, and 100 results in an always-on state. Default: 100.
 
 
 ![get Arduino101PWMMotor1 Speed ](blocks/Arduino101PWMMotor.Speed_getter.svg)

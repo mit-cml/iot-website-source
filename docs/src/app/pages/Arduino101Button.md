@@ -6,7 +6,7 @@ The Arduino101Button component lets users listen to events triggered by a button
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a> component with a connection to the Arduino 101.
 
 
 ![get Arduino101Button1 BluetoothDevice ](blocks/Arduino101Button.BluetoothDevice_getter.svg)
@@ -59,6 +59,10 @@ The Arduino101Button component lets users listen to events triggered by a button
 + <a name="ButtonStateReceived"></a>`ButtonStateReceived` – The <code>ButtonStateReceived</code> event is run when any button state is received by the
  Bluetooth low energy component from the Arduino. This state value may be the same for
  extended periods of time if the button switch is left in an open or closed state.
+
+ __Parameter__:
+
+     * <code>Button_State</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash; The button state: 0 if released, 1 if pressed.
 
 ![when Arduino101Button1 ButtonStateReceived Button_State do](blocks/Arduino101Button.ButtonStateReceived.svg)
 

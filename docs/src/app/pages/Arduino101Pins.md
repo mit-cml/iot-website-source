@@ -1,6 +1,8 @@
 # Arduino101Pins
 
-The Arduino101Pins extension provides a general purpose interface to any hardware connected to the digital or analog I/O pins.
+The Arduino101Pins extension provides a general purpose interface to any hardware connected to the Arduino's digital or analog I/O pins.<br>
+
+<strong>More links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Pins.aia' target='_blank'>sample project</a>.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Pins.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Pins extension.</li></ul>
 
 ## Properties
 
@@ -12,7 +14,7 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 
 ![set Arduino101Pins1 Analog  to](blocks/Arduino101Pins.Analog_setter.svg)
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a> component with a connection to the Arduino 101.
 
 
 ![get Arduino101Pins1 BluetoothDevice ](blocks/Arduino101Pins.BluetoothDevice_getter.svg)
@@ -20,7 +22,7 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 
 ![set Arduino101Pins1 BluetoothDevice  to](blocks/Arduino101Pins.BluetoothDevice_setter.svg)
 
-+ <a name="Output"></a>`Output` – Set or get whether the pin is an input or output pin. This only applies to digital pins. Analog pins are read-only. See the <a href="#/component/arduinopwm">Arduino 101 PWM</a> extension for treating digital pins as 'analog' outputs.
++ <a name="Output"></a>`Output` – Set or get whether the pin is an input or output pin. This only applies to digital pins. Analog pins are read-only. See the <a href="#/component/arduinopwm">Arduino 101 PWM</a> extension for treating digital pins as 'analog' outputs. Default: input (false).
 
 
 ![get Arduino101Pins1 Output ](blocks/Arduino101Pins.Output_getter.svg)
@@ -28,7 +30,7 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 
 ![set Arduino101Pins1 Output  to](blocks/Arduino101Pins.Output_setter.svg)
 
-+ <a name="Pin"></a>`Pin` – 
++ <a name="Pin"></a>`Pin` – The Arduino pin to read or write. Default: 0.
 
 
 ![get Arduino101Pins1 Pin ](blocks/Arduino101Pins.Pin_getter.svg)
@@ -38,7 +40,9 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 
 ## Methods
 
-+ <a name="IsSupported"></a>`IsSupported` – Method for IsSupported
++ <a name="IsSupported"></a>`IsSupported` – Check whether the feature is currently available for the device connected via the
+ <a href="#BluetoothDevice"><code>BluetoothDevice</code></a> property. If no device is currently
+ connected, this method will always return false.
 
 ![call Arduino101Pins1 IsSupported](blocks/Arduino101Pins.IsSupported.svg)
 
@@ -64,6 +68,11 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
  values outside of this range will be truncated. To write analog outputs to digital pins using
  pulse width modulation, see the <a href="#/component/arduinopwm">Arduino101PWM</a> extension.
 
+ __Parameters__:
+
+     * <code>value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash;
+       The value to write to the pin. Valid values depend on whether the pin is digital or analog.
+
 ![call Arduino101Pins1 WritePinStatevalue](blocks/Arduino101Pins.WritePinState.svg)
 
 ## Events
@@ -73,6 +82,13 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
  pin state. For digital pins, it will be either 0 for off or 1 for on. For analog pins, it will
  be an integer in the range [0, 1023].
 
+ __Parameters__:
+
+     * <code>value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash;
+       The value of the pin read from the Arduino. Valid values depend on whether the pin
+       is digital or analog. For digital pins, a 0 indicates LOW and 1 indicates HIGH.
+       For analog, an integer in the range of [0, 1023] will be returned.
+
 ![when Arduino101Pins1 PinStateReceived value do](blocks/Arduino101Pins.PinStateReceived.svg)
 
 + <a name="PinStateWritten"></a>`PinStateWritten` – After the pin is written, the <code>PinStateWritten</code> event will be run to indicate a
@@ -80,6 +96,13 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
  the App Inventor app, not necessarily the value passed by the caller to
  <code>WritePinState</code>. For example, in the case of the analog pins the value will be
  truncated to fit within the range of [0, 1023].
+
+ __Parameters__:
+
+     * <code>value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash;
+       The value written to the Arduino. Valid values depend on whether the pin is
+       digital or analog. This value is the value written after any transformation by
+       the extension to fit the range appropriate to the pin type.
 
 ![when Arduino101Pins1 PinStateWritten value do](blocks/Arduino101Pins.PinStateWritten.svg)
 
