@@ -4,7 +4,7 @@ The Microbit_Accelerometer component lets users configure the Micro:bit's on-boa
 
 The accelerometer's report rate, or period, determines how frequently data will be sent to App Inventor.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/extensions/Microbit_Accelerometer.aia'target='_blank'>sample AIA</a> for the Micro:bit Accelerometer.</li><li>View the <a href='/how-to/Microbit_Accelerometer.html' target='_blank'>how-to instructions</a> for the Micro:bit Accelerometer.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/resources/Microbit_Accelerometer.aia'target='_blank'>sample AIA</a> for the Micro:bit Accelerometer.</li><li>View the <a href='/how-to/Microbit_Accelerometer.pdf' target='_blank'>how-to instructions</a> for the Micro:bit Accelerometer.</li></ul>
 
 ## Properties
 
