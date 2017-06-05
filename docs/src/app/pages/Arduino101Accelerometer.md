@@ -1,12 +1,12 @@
 # Arduino101Accelerometer
 
-The Arduino101Accelerometer component lets users configure the Arduino 101'son-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
+The Arduino101Accelerometer component lets users configure the Arduino 101's on-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Accelerometer.aia' target='_blank'>sample AIA</a> for the Arduino 101 Accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Arduino101Accelerometer.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Accelerometer.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Accelerometer.aia' target='_blank'>sample project</a> for the Arduino 101 Accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Arduino101Accelerometer.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Accelerometer.</li></ul>
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a> component with a connection to the Arduino 101.
 
 
 ![get Arduino101Accelerometer1 BluetoothDevice ](blocks/Arduino101Accelerometer.BluetoothDevice_getter.svg)
@@ -43,7 +43,7 @@ The Arduino101Accelerometer component lets users configure the Arduino 101'son-b
 ## Events
 
 + <a name="AccelerometerDataReceived"></a>`AccelerometerDataReceived` – The <code>AccelerometerDataReceived</code> event is run whenever accelerometer samples are
- received from the micro:bit. This is usually a result of performing a
+ received from the Arduino 101. This is usually a result of performing a
  <a href="#ReadAccelerometerData">read</a> or
  <a href="#RequestAccelerometerDataUpdates">request</a> operation.
  The X, Y, and Z values are in multiples of 1 Earth gravity (G=-9.8 m/s<sup>2</sup>).

@@ -4,7 +4,7 @@ The Arduino LED component lets users control light-emitting diodes (LEDs) from t
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a> component with a connection to the Arduino 101.
 
 
 ![get Arduino101Led1 BluetoothDevice ](blocks/Arduino101Led.BluetoothDevice_getter.svg)

@@ -1,10 +1,12 @@
 # Arduino101LightSensor
 
-Extension to interpret light sensor data from the Arduino 101.
+The Arduino 101 Light Sensor component lets users receive data from a light sensor attached to the Arduino, however it can be used for any similar device that provides a linear analog signal based on some external phenomenon.<br>
+
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101LightSensor.aia' target='_blank'>sample project</a></li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Light_Sensor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Light Sensor.</li></ul>
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a>component with a connection to the Arduino 101.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The <a href='http://iot.appinventor.mit.edu/#/bluetoothle/bluetoothleintro'>BluetoothLE</a> component with a connection to the Arduino 101.
 
 
 ![get Arduino101LightSensor1 BluetoothDevice ](blocks/Arduino101LightSensor.BluetoothDevice_getter.svg)
@@ -28,22 +30,34 @@ Extension to interpret light sensor data from the Arduino 101.
 
 ![call Arduino101LightSensor1 IsSupported](blocks/Arduino101LightSensor.IsSupported.svg)
 
-+ <a name="ReadLightSensor"></a>`ReadLightSensor` – Method for ReadLightSensor
++ <a name="ReadLightSensor"></a>`ReadLightSensor` – Obtain the most recent reading from the light sensor as reported by the Arduino. On success,
+ the <a href="#LightSensorDataReceived"><code>LightSensorDataReceived</code></a> event will be
+ run.
 
 ![call Arduino101LightSensor1 ReadLightSensor](blocks/Arduino101LightSensor.ReadLightSensor.svg)
 
-+ <a name="RequestLightSensorUpdates"></a>`RequestLightSensorUpdates` – Method for RequestLightSensorUpdates
++ <a name="RequestLightSensorUpdates"></a>`RequestLightSensorUpdates` – Request notification of updates for the light sensor attached to the Arduino 101. The <a
+ href="#LightSensorDataReceived"><code>LightSensorDataReceived</code></a> event will be run as
+ light sensor readings are received from the Arduino.
 
 ![call Arduino101LightSensor1 RequestLightSensorUpdates](blocks/Arduino101LightSensor.RequestLightSensorUpdates.svg)
 
-+ <a name="StopLightSensorUpdates"></a>`StopLightSensorUpdates` – Method for StopLightSensorUpdates
++ <a name="StopLightSensorUpdates"></a>`StopLightSensorUpdates` – Stop listening for notifications of light sensor readings from the Arduino. This only has an
+ effect if there was a previous call to <a
+ href="#RequestLightSensorUpdates"><code>RequestLightSensorUpdates</code></a>. There may be
+ additional pending messages that will be processed after this call.
 
 ![call Arduino101LightSensor1 StopLightSensorUpdates](blocks/Arduino101LightSensor.StopLightSensorUpdates.svg)
 
 ## Events
 
-+ <a name="LightSensorDataReceived"></a>`LightSensorDataReceived` – Event for LightSensorDataReceived
++ <a name="LightSensorDataReceived"></a>`LightSensorDataReceived` – The <code>LightSensorDataReceived</code> event is run when a sample is received from the light
+ sensor attached to the Arduino 101.
 
-![when Arduino101LightSensor1 LightSensorDataReceived reading do](blocks/Arduino101LightSensor.LightSensorDataReceived.svg)
+ __Parameters__:
+
+     * <code>intensity</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html#number">_number_</a>) &mdash; The intensity of the light received from the sensor, linear in the voltage provided by the light sensor.
+
+![when Arduino101LightSensor1 LightSensorDataReceived intensity do](blocks/Arduino101LightSensor.LightSensorDataReceived.svg)
 
 
