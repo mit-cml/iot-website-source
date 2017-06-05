@@ -1,4 +1,4 @@
-## App Inventor IoT FAQ
+## App Inventor IoT FAQ (Draft)
 
 ### Arduino
 * I don't see my arduino when I scan for Bluetooth devices with my app.
