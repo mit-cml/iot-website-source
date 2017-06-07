@@ -1,4 +1,4 @@
-# Devices
+# IoT Devices
 To connect with the world of IoT you need a microcontroller. A microcontroller is a device that allows you to connect and control a whole range of inputs and outputs (sensors, motors, switches, etc.). Currently, App Inventor supports the Arduino and Micro:bit microcontrollers.
 
 We are busy building tutorials for both microcontrollers. Currently, most of them focus on the Arduino platform. You can see them here.
