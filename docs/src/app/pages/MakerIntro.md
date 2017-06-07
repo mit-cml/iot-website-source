@@ -1,6 +1,6 @@
 ## MIT App Inventor IoT for Hobbyists
 
-# Welcome Makers!
+# Welcome, Makers!
 
 The maker movement has drawn enormous vitality over the past decade
 from two computing breakthroughs.  One is mobile
@@ -18,8 +18,8 @@ use&mdash;even for beginners.
 
 The things you make with MIT App Inventor IoT can read information
 from a panoply of sensors (temperature, moisture, voltage,
-pressure, noise, heart rate, chemicals, &hellip;) and control a host
-of devices (buttons, buzzers, lights, appliances, robots, &hellip;).
+pressure, noise, heart rate, chemicals, etc.) and control a host
+of devices (buttons, buzzers, lights, appliances, robots, etc.).
 Best of all, you can interface these IoT devices with App Inventor apps
 you create for your smartphone, and take advantage of all the features
 that App Inventor provides, including speech understanding, language
@@ -28,8 +28,8 @@ translation and Web communication.
 In order to make App Inventor IoT apps, you'll need an <em>IoT
 controller</em> to manage communication between the devices and your
 phone.  This first release of MIT App Inventor IoT supports the
-Arduino 101 and the BBC:Microbit controllers, with support for more
-controllers coming.
+Arduino 101 and the BBC micro:bit controllers, with support for more
+controllers coming soon.
 
 ### MIT App Inventor IoT resources can be found on the following pages:
 

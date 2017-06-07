@@ -1,6 +1,6 @@
 ## MIT App Inventor IoT for Young People
 
-# Welcome Students!
+# Welcome, Students!
 
 You might know that MIT App Inventor lets you create exciting apps for
 smartphones and tablets with your friends and classmates. Now, with
@@ -19,11 +19,11 @@ speech recognition, databases and communication.
 To build IoT apps you'll need an <em>IoT device controller</em>, which
 connects to the various devices and manages the communication with your
 smartphone.  One of the most popular device controllers for IoT
-development is the Arduino but there are other controllers
+development is the Arduino, but there are other controllers
 available.
 
 This first release of MIT App Inventor IoT supports the Arduino 101
-and the BBC:Microbit controllers, with support for more controllers coming.
+and the BBC micro:bit controllers, with support for more controllers coming soon.
 
 ### MIT App Inventor IoT resources can be found on the following pages:
 
