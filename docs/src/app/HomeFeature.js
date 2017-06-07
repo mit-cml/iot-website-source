@@ -109,7 +109,14 @@ class HomeFeature extends Component {
           this.props.lastChild && styles.rootWhenLastChild
         )}
       >
-        <h3 style={styles.heading}>{this.props.heading}</h3>
+        <h3 style={styles.heading}>
+          <Link to={this.props.route}
+                style={{'display': 'block',
+                        'height': '100%',
+                        'color': 'rgba(0,0,0,0.87)'}}>
+            {this.props.heading}
+          </Link>
+        </h3>
         <Link to={this.props.route}>
           <img style={styles.image} src={this.props.img} />
         </Link>
