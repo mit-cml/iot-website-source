@@ -14,7 +14,7 @@ The Arduino 101 Sound Recorder extension lets users control a sound recorder and
 
 ![set Arduino101SoundRecorder1 BluetoothDevice  to](blocks/Arduino101SoundRecorder.BluetoothDevice_setter.svg)
 
-+ <a name="PlayPin"></a>`PlayPin` – The digital pin used to trigger playback. If using the Grove connector, this is one number higher than the digital port (D4 becomes 5).
++ <a name="PlayPin"></a>`PlayPin` – The digital pin used to trigger playback. If using the Grove connector, this is the same number as the digital pin port (D4 becomes 4).
 
 
 ![get Arduino101SoundRecorder1 PlayPin ](blocks/Arduino101SoundRecorder.PlayPin_getter.svg)
@@ -22,7 +22,7 @@ The Arduino 101 Sound Recorder extension lets users control a sound recorder and
 
 ![set Arduino101SoundRecorder1 PlayPin  to](blocks/Arduino101SoundRecorder.PlayPin_setter.svg)
 
-+ <a name="RecordPin"></a>`RecordPin` – The digital pin used to trigger the recording. If using the Grove connector, this is the same as the digital pin port (D4 becomes 4).
++ <a name="RecordPin"></a>`RecordPin` – The digital pin used to trigger the recording. If using the Grove connector, this is one number higher than the digital pin port (D4 becomes 5).
 
 
 ![get Arduino101SoundRecorder1 RecordPin ](blocks/Arduino101SoundRecorder.RecordPin_getter.svg)
