@@ -1,6 +1,6 @@
 ## MIT App Inventor IoT for Educators
 
-# Welcome Teachers!
+# Welcome, Teachers!
 
 The Internet of Things (IoT) is poised to transform modern
 living&mdash;with estimates of more than 20 billion connected devices
@@ -8,7 +8,7 @@ worldwide by 2020.
 
 You may already know that MIT App Inventor lets you 
 help your students create original mobile apps
-that can make real-world differences to themselves and their communities..
+that can make real-world differences to themselves and their communities.
 
 Now, with MIT App Inventor IoT, your students can build apps that
 communicate with physical and digital objects all around them.
@@ -19,20 +19,20 @@ devices.
 The biggest difference between ordinary MIT App Inventor apps and MIT
 App Inventor IoT apps is that IoT apps communicate with
 external devices through <em>IoT device controllers</em>. One of the most common controllers for
-IoT development is the Arduino but there are other
+IoT development is the Arduino, but there are other
 controllers on the market.
 
-Your students can build with all kinds of
+Your students can build apps with all kinds of
 sensors (like sensors for temperature, moisture, noise,
 light, color, or motion) and other devices (like buttons and
-switches and relays) to a controller.  They can use App Inventor
+switches and relays) connected to a controller.  They can use App Inventor
 to program the controller to trigger connected devices (like
 turning on lights, playing sounds, or moving motors), or signal
 events to other devices, <em>including smartphones running your students' App Inventor
 apps</em>.
 
 This first release of MIT App Inventor IoT supports the Arduino 101
-and the BBC:Microbit controllers, with support for more controllers coming.
+and the BBC micro:bit controllers, with support for more controllers coming soon.
 
 ### MIT App Inventor IoT resources can be found on the following pages:
 
