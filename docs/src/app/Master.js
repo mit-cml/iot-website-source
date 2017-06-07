@@ -236,7 +236,7 @@ class Master extends Component {
           }
 
           iconElementRight={
-            <a href="http://appinventor.mit.edu" style={prepareStyles(styles.browserstackLogo)}>
+            <a href="http://appinventor.mit.edu" style={prepareStyles(styles.browserstackLogo)} target='_blank'>
               <img src="images/logo-white.png" width="auto" />
             </a>
           }
