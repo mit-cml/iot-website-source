@@ -202,25 +202,31 @@ class Master extends Component {
                 href="#/getstarted/intro"
                 label="Getting Started"
               />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/teachers/intro"
                 label="For Teachers"
               />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/students/intro"
                 label="For Students"
               />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/makers/intro"
                 label="For Makers"
               />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+              <FlatButton
+                labelStyle={styles.iconButton}
+                href="#/devices/devicesintro"
+                label="Documentation"
+              />
+                  &nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/help/intro"
