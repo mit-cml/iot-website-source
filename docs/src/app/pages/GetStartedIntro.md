@@ -9,9 +9,9 @@ Inventor.
 
 <b>Hardware</b><br>
 To build Internet of Things (IoT) apps with MIT App Inventor, you will be working with external
-hardware. You will need the following:
+hardware. In addition to your laptop and Android mobile device, you will need the following:
 
-- [Arduino 101](http://www.arduino.cc/en/Main/ArduinoBoard101) The Arduino 101 is the first IoT device controller to be
+- [Arduino 101](http://www.arduino.cc/en/Main/ArduinoBoard101) is the first IoT device controller to be
 included in the MIT App Inventor IoT release. Future releases will include other controllers.
 - [SEEED Grove Shield](http://www.seeedstudio.com/Base-Shield-V2-p-1378.html) works with the Arduino 101 to easily
 attach sensors and modules.
