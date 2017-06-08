@@ -131,8 +131,8 @@ class HomePage extends Component {
         Over 400,000 active inventors a month from 195 countries have created more than 22 million
         apps.
         <br /><br />
-        MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and the universe of connected
-        devices.&nbsp;&nbsp;
+        MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and
+        the universe of connected devices.&nbsp;&nbsp;
         <a style={{color: '#00728a', 'text-decoration': 'underline'}} href="#LearnMore">Learn more</a>
       </FullWidthSection>
     );
@@ -188,7 +188,7 @@ class HomePage extends Component {
         fontWeight: typography.fontWeightLight,
         fontSize: 20,
         lineHeight: '28px',
-        paddingTop: 6, //was 19
+        paddingTop: 6, // was 19
         marginBottom: 6,
         letterSpacing: 0,
         color: typography.textDarkBlack,
@@ -209,14 +209,14 @@ class HomePage extends Component {
         App Inventor, but now your apps can interact with objects all around you.
         <br /><br />
         <center>
-        <iframe
-          width="600"  // was 900x645
-          height="430"
-          src="https://www.youtube.com/embed/qqaNznnNZ8M?rel=0"
-          frameBorder="0"
-          allowFullScreen={true}
-        />
-      </center>
+          <iframe
+            width="600"  // was 900x645
+            height="430"
+            src="https://www.youtube.com/embed/qqaNznnNZ8M?rel=0"
+            frameBorder="0"
+            allowFullScreen={true}
+          />
+        </center>
       </FullWidthSection>
     );
   }
