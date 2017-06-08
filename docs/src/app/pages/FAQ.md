@@ -154,8 +154,8 @@ At the top of the sketch file when opened in the Arduino editor is a line:
 
 Changing the name in quotes from `AppInventor` to another name and then uploading the changes to the Arduino will cause the Arduino to advertise under the new name. Due to limitations in the Bluetooth low energy protocol, names are limited to 11 characters or less.
 
-### When I run the arduino sketch, I get ".hh: No Such file or directory"
-This error, referring to Accelerometer.hh or another file that ends in .hh, probably means that your arduino IDE is out of date. Please download the [latest Arduino IDE](https://www.arduino.cc/en/Main/Software) and try again. At time of writing this, the current version is 1.8.3.
+### When I run the Arduino sketch, I get ".hh: No Such file or directory"
+This error, referring to Accelerometer.hh or another file that ends in .hh, probably means that your Arduino IDE is out of date. Please download the [latest Arduino IDE](https://www.arduino.cc/en/Main/Software) and try again. At time of writing this, the current version is 1.8.3.
 
 ### The sensors/outputs on my Arduino are behaving oddly/are very jittery.
 
