@@ -154,6 +154,9 @@ At the top of the sketch file when opened in the Arduino editor is a line:
 
 Changing the name in quotes from `AppInventor` to another name and then uploading the changes to the Arduino will cause the Arduino to advertise under the new name. Due to limitations in the Bluetooth low energy protocol, names are limited to 11 characters or less.
 
+### When I run the arduino sketch, I get ".hh: No Such file or directory"
+This error, referring to Accelerometer.hh or another file that ends in .hh, probably means that your arduino IDE is out of date. Please download the [latest Arduino IDE](https://www.arduino.cc/en/Main/Software) and try again. At time of writing this, the current version is 1.8.3.
+
 ### The sensors/outputs on my Arduino are behaving oddly/are very jittery.
 
 Some hardware require 5V input rather than 3.3V. If you are using the Grove shield, make sure you have the Arduino's power input set to 5V. The <a href="#/arduino101/arduinorgblcd">RGB LCD</a>, for example, requires 5V otherwise there is not enough power to drive the liquid crystal display and characters will not appear.
