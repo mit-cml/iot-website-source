@@ -23,7 +23,7 @@ const howtosList = [
     title: 'How to: Set up the Arduino Development Environment',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/arduino_logo.png',
-    link: 'assets/howtos/MIT_App_Inventor_IoT_Setup.pdf',
+    link: 'assets/tutorials/MIT_App_Inventor_IoT_Setup.pdf',
   }, {
     title: 'Bluetooth Low Energy Basic Connection',
     author: 'MIT App Inventor Project',
