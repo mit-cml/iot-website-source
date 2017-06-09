@@ -6,7 +6,7 @@ Below is a list of frequently asked questions from MIT App Inventor users workin
 * [Companion](#/faq/faq/companion)
 * [Bluetooth Low Energy](#/faq/faq/ble)
 * [Arduino](#/faq/faq/arduino)
-* [Micro:bit](#/faq/faq/microbit)
+* [BBC micro:bit](#/faq/faq/microbit)
 
 ## <a name="/faq/faq/general"></a>General
 
@@ -44,11 +44,11 @@ MIT App Inventor is free to use! However, you will need to provide your own IoT 
 
 ### What hardware do I need to get started?
 
-You will need an Android device (phone or tablet) that supports Android 5.0 or higher and has hardware support for Bluetooth 4.0 low energy. You will also need any of our supported Bluetooth low energy devices ([Micro:bit](https://microbit.org) or [Arduino 101](https://www.arduino.cc)) and a computer to access the [MIT App Inventor site](http://ai2.appinventor.mit.edu) to build your apps.
+You will need an Android device (phone or tablet) that supports Android 5.0 or higher and has hardware support for Bluetooth 4.0 low energy. You will also need any of our supported Bluetooth low energy devices ([BBC micro:bit](https://microbit.org) or [Arduino 101](https://www.arduino.cc)) and a computer to access the [MIT App Inventor site](http://ai2.appinventor.mit.edu) to build your apps.
 
 ### Does IoT have any special hardware requirements?
 
-Our IoT extensions are built around Bluetooth 4.0 low energy. You will need an Android phone or tablet with harrdware for Bluetooth 4.0 or higher running Android 5.0 (Lollipop) or higher to access the Bluetooth hardware. You will also need to obtain one or more supported peripherals for you Micro:bit or Arduino 101.
+Our IoT extensions are built around Bluetooth 4.0 low energy. You will need an Android phone or tablet with harrdware for Bluetooth 4.0 or higher running Android 5.0 (Lollipop) or higher to access the Bluetooth hardware. You will also need to obtain one or more supported peripherals for you micro:bit or Arduino 101.
 
 ### What version of Bluetooth do I need?
 
@@ -68,9 +68,9 @@ We are releasing our Internet of Things components as extensions since can be up
 
 ### Do you support ...?
 
-We currently support Arduino 101 and Micro:bit. We plan to add support for additional Arduino variants and Raspberry Pi in a future release.
+We currently support Arduino 101 and micro:bit. We plan to add support for additional Arduino variants and Raspberry Pi in a future release.
 
-### I don't see the blocks I need for my Arduino/Micro:bit.
+### I don't see the blocks I need for my Arduino/micro:bit.
 
 Check that you have imported the correct extension and dragged an instance of your target device into the designer.
 
@@ -92,7 +92,7 @@ Check the version of your companion app. For the ai2-test server, the companion 
 
 ### Why don't I see my device after scanning for Bluetooth?
 
-If you have other apps running the background on your mobile device that have established a connection to your Bluetooth low energy device, that app may maintain its connection in the background. If you have previously connected with the MIT App Inventor Companion app, you may need to restart and reconnect the app to your MIT App Inventor session. This will free any existing connection between the companion and your Bluetooth low energy device. Lastly, you may need to reset your Bluetooth low energy device. Both the Micro:bit and Arduino microcontrollers have clearly marked reset buttons to accomplish this.
+If you have other apps running the background on your mobile device that have established a connection to your Bluetooth low energy device, that app may maintain its connection in the background. If you have previously connected with the MIT App Inventor Companion app, you may need to restart and reconnect the app to your MIT App Inventor session. This will free any existing connection between the companion and your Bluetooth low energy device. Lastly, you may need to reset your Bluetooth low energy device. Both the micro:bit and Arduino microcontrollers have clearly marked reset buttons to accomplish this.
 
 ### How do I use a Bluetooth device that's not on the supported list?
 
@@ -174,29 +174,29 @@ Check that you have the right pin set in the property tab for the device in the 
 
 Please see the resources published by Arduino AG [online](https://www.arduino.cc/en/Main/FAQ).
 
-## <a name="/faq/faq/microbit"></a>Micro:bit
+## <a name="/faq/faq/microbit"></a>BBC micro:bit
 
-### When I scan for Bluetooth devices I do not see my Micro:bit. Help!
+### When I scan for Bluetooth devices I do not see my micro:bit. Help!
 
-You may not have paired your phone or tablet with the Micro:bit. Your Micro:bit will only be listed if pairing has occurred.
+You may not have paired your phone or tablet with the micro:bit. Your micro:bit will only be listed if pairing has occurred.
 
-### Why do I need to pair my Micro:bit with my phone/tablet?
+### Why do I need to pair my micro:bit with my phone/tablet?
 
-The Micro:bit uses a secure communication channel between it and your mobile device. The pairing code is used to establish this secure channel and protects any data being transferred between your mobile device and the Micro:bit.
+The micro:bit uses a secure communication channel between it and your mobile device. The pairing code is used to establish this secure channel and protects any data being transferred between your mobile device and the micro:bit.
 
-### How do I pair my Micro:bit with my phone/tablet?
+### How do I pair my micro:bit with my phone/tablet?
 
-Tou pair the Micro:bit with your mobile device, you will need to:
+Tou pair the micro:bit with your mobile device, you will need to:
 
 1. Press and hold the A and B buttons, and while holding the buttons press and release the RESET button.
-2. After restarting, the Micro:bit's LED matrix will show the message `PAIRING MODE`.
-3. On your mobile device, you will need to go to the Settings application and open the Bluetooth section. You should see your Micro:bit listed for pairing.
-4. Select your Micro:bit in the list of available Bluetooth devices.
-5. After selecting the Micro:bit from the list on the mobile device, your Micro:bit will alternate between an arrow (&larr;) and the letter A to indicate it has received a pairing request.
+2. After restarting, the micro:bit's LED matrix will show the message `PAIRING MODE`.
+3. On your mobile device, you will need to go to the Settings application and open the Bluetooth section. You should see your micro:bit listed for pairing.
+4. Select your micro:bit in the list of available Bluetooth devices.
+5. After selecting the micro:bit from the list on the mobile device, your micro:bit will alternate between an arrow (&larr;) and the letter A to indicate it has received a pairing request.
 6. Push the A button to accept the pairing request.
-7. The Micro:bit will display a pairing code consisting of six numbers, one at a time. Type this code into your mobile device when prompted for the pairing code.
-8. Accept the pairing code on your mobile device. Your Micro:bit will then show a checkmark/tick (&check;) to indicate success.
+7. The micro:bit will display a pairing code consisting of six numbers, one at a time. Type this code into your mobile device when prompted for the pairing code.
+8. Accept the pairing code on your mobile device. Your micro:bit will then show a checkmark/tick (&check;) to indicate success.
 
-### How can I get more support for my Micro:bit?
+### How can I get more support for my micro:bit?
 
-Please see the resources published by the Micro:bit Foundation [online](https://support.microbit.org/support/home).
+Please see the resources published by the micro:bit Foundation [online](https://support.microbit.org/support/home).
