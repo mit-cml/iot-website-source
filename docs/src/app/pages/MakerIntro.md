@@ -16,14 +16,11 @@ sensors, actuator and other devices.  Programming for IoT uses the same
 blocks-based drag-and-drop interface that's made App Inventor so easy to
 use&mdash;even for beginners.
 
-The things you make with MIT App Inventor IoT can read information
+The apps you make with MIT App Inventor IoT can read information
 from a panoply of sensors (temperature, moisture, voltage,
 pressure, noise, heart rate, chemicals, etc.) and control a host
 of devices (buttons, buzzers, lights, appliances, robots, etc.).
-Best of all, you can interface these IoT devices with App Inventor apps
-you create for your smartphone, and take advantage of all the features
-that App Inventor provides, including speech understanding, language
-translation and Web communication.
+Best of all, you can run these apps from your smartphone, and take advantage of all the features that App Inventor provides, including speech understanding, language translation and Web communication.
 
 In order to make App Inventor IoT apps, you'll need an <em>IoT
 controller</em> to manage communication between the devices and your

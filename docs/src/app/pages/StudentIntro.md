@@ -10,9 +10,7 @@ objects all around you!
 
 You can build apps that control lights, buttons, buzzers, motors,
 robots, electrical appliances and a growing universe of connected
-devices.  You can choose from a wealth of sensors&mdash;for temperature, sound,
-light, color, moisture, motion, touch, heart rate and many
-others, with new sensors appearing daily.  You can combine controls
+devices.  You can use sensors to capture a wealth of data, including temperature, sound, light, color, moisture, motion, touch, heart rate, and many more, with support for new sensors appearing daily.  You can combine controls
 and sensors with all the other features of your App Inventor apps like
 speech recognition, databases and communication.
 

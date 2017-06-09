@@ -122,17 +122,17 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <h3>You can create apps for the Internet of Things with MIT App Inventor!</h3>
+        <h3>Make apps that connect to the Internet of Things with MIT App Inventor!</h3>
         <br /><br />
-        MIT App Inventor lets people around the world build mobile apps that can make a difference in their
-        families, schools, and communities&mdash;even if they've never programmed before.
+        MIT App Inventor helps people around the world build mobile apps that can make a difference for their
+        families, schools, and communities&mdash; even if they've never programmed before.
         <br /><br />
         MIT App Inventor is changing how the world creates apps and how kids learn about mobile computing.
         Over 400,000 active inventors a month from 195 countries have created more than 22 million
         apps.
         <br /><br />
-        MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and the universe of connected
-        devices.&nbsp;&nbsp;
+        MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and
+        the universe of connected devices.&nbsp;&nbsp;
         <a style={{color: '#00728a', 'text-decoration': 'underline'}} href="#LearnMore">Learn more</a>
       </FullWidthSection>
     );
@@ -188,7 +188,7 @@ class HomePage extends Component {
         fontWeight: typography.fontWeightLight,
         fontSize: 20,
         lineHeight: '28px',
-        paddingTop: 6, //was 19
+        paddingTop: 6, // was 19
         marginBottom: 6,
         letterSpacing: 0,
         color: typography.textDarkBlack,
@@ -205,18 +205,18 @@ class HomePage extends Component {
       >
         <h3>Bring computing off the screen and into the world of everyday things!</h3>
         <br /><br />
-        Developing IoT applications using MIT App Inventor works the same way as developing any other mobile apps with
-        App Inventor, but now your apps can interact with objects all around you.
+        You can develop IoT applications the same way you develop any other MIT App Inventor mobile apps,
+        but now you can use the apps to interact with objects all around you.
         <br /><br />
         <center>
-        <iframe
-          width="600"  // was 900x645
-          height="430"
-          src="https://www.youtube.com/embed/qqaNznnNZ8M?rel=0"
-          frameBorder="0"
-          allowFullScreen={true}
-        />
-      </center>
+          <iframe
+            width="600"  // was 900x645
+            height="430"
+            src="https://www.youtube.com/embed/qqaNznnNZ8M?rel=0"
+            frameBorder="0"
+            allowFullScreen={true}
+          />
+        </center>
       </FullWidthSection>
     );
   }
