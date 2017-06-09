@@ -1,6 +1,8 @@
 # Arduino101Led
 
-The Arduino LED component lets users control light-emitting diodes (LEDs) from their App Inventor projects. If the LED is plugged into a pin supporting pulse width modulation (PWM), then the LED's brightness can be controlled by varying the Intensity property. TurnOn and TurnOff methods are used to control the power state of the LED.
+The Arduino LED component lets users control light-emitting diodes (LEDs) from their App Inventor projects. If the LED is plugged into a pin supporting pulse width modulation (PWM), then the LED's brightness can be controlled by varying the Intensity property. TurnOn and TurnOff methods are used to control the power state of the LED.<br>
+
+<strong>More Links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101LED.aia' target='_blank'>sample project</a> for the Arduino 101 LED.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_LED_Control.pdf' target='_blank'>how to instructions</a> for the Arduino 101 LED.</li></ul>
 
 ## Properties
 

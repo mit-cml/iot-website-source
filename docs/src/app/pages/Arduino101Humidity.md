@@ -2,7 +2,7 @@
 
 The Arduino101Humidity component lets users gather humidity and temperature data from a <a href='http://wiki.seeed.cc/Grove-TemperatureAndHumidity_Sensor/' target='_blank'>Grove DHT11 sensor</a>. Temperature data are reported in degrees Celsius and the relative humidity is reported in percent.<br><img class='centered' alt='Image of a Grove temperature and humidity sensor'src='/assets/sensors/Grove-TempAndHumiSensor.jpg'><br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/examples/SampleArduino101Humidity.aia' target='_blank'>sample project</a> for the Arduino 101 Humidity &amp; Temperature sensor.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Humidity_Sensor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Humidity &amp; Temperature sensor.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Humidity.aia' target='_blank'>sample project</a> for the Arduino 101 Humidity sensor.</li><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101TemperatureSensor.aia' target='_blank'>sample project</a> for the Arduino 101 Temperature sensor.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Humidity_Sensor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Humidity sensor.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Temperature_Sensor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Temperature sensor.</li></ul>
 
 ## Properties
 

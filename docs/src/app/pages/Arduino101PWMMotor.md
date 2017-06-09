@@ -2,7 +2,7 @@
 
 The Arduino 101 PWM Motor extension lets users control external devices that respond to pulse width modulation, such as continuous motors or lights. On the Arduino 101, digital pins 3, 5, 6, and 9 support pulse width modulation.<br>
 
-<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101PWMMotor.aia' target='_blank'>sample project</a>.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_PWM_Motor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 PWM Motor.</li></ul>
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101PWMMotor.aia' target='_blank'>sample project</a> for the Arduino 101 Pulse Width Modulation for Motors component.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_PWM_Motor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 PWM Motor.</li></ul>
 
 ## Properties
 

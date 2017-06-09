@@ -2,7 +2,7 @@
 
 The Arduino 101 RGB LCD lets users communicate information on a liquid crystal display (LCD) with optional RGB LED backlight.<br><img src='/assets/sensors/Grove-RGBLCD.jpg' width='50%'><br><strong>Note:</strong> The RGB LCD display requires 5V power rather than 3.3V. If you areconnecting it with the Grove Shield, you will need to make sure the voltage switch is in the 5V position otherwise the display may not function correctly.<br>
 
-<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101RGBLCD.aia' target='_blank'>sample project</a>.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_RgbLcd.pdf' target='_blank'>how to instructions</a> for the RGB LCD.</li></ul>
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101RgbLcd.aia' target='_blank'>sample project</a> for the .</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_RgbLcd.pdf' target='_blank'>how to instructions</a> for the RGB LCD.</li></ul>
 
 ## Properties
 

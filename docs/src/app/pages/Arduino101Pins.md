@@ -2,7 +2,7 @@
 
 The Arduino101Pins extension provides a general purpose interface to any hardware connected to the Arduino's digital or analog I/O pins.<br>
 
-<strong>More links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Pins.aia' target='_blank'>sample project</a>.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Pins.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Pins extension.</li></ul>
+<strong>More links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Pins.aia' target='_blank'>sample project</a> for the Arduino 101 Pins.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Pins.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Pins extension.</li></ul>
 
 ## Properties
 
@@ -47,12 +47,12 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
 ![call Arduino101Pins1 IsSupported](blocks/Arduino101Pins.IsSupported.svg)
 
 + <a name="ReadPinState"></a>`ReadPinState` – Read the current state of the pin. After the value is read, it will be reported through the
- <code><a href="#/component/arduinopins/PinStateReceived">PinStateReceived</a></code> event.
+ <code><a href="#PinStateReceived">PinStateReceived</a></code> event.
 
 ![call Arduino101Pins1 ReadPinState](blocks/Arduino101Pins.ReadPinState.svg)
 
 + <a name="RequestPinStateUpdates"></a>`RequestPinStateUpdates` – Request updates to the state of the pin. New values will be reported by the
- <code><a href="#/components/arduinopins/PinStateReceived">PinStateReceived</a></code>
+ <code><a href="#PinStateReceived">PinStateReceived</a></code>
  event.
 
 ![call Arduino101Pins1 RequestPinStateUpdates](blocks/Arduino101Pins.RequestPinStateUpdates.svg)
@@ -66,7 +66,7 @@ The Arduino101Pins extension provides a general purpose interface to any hardwar
  to true. For digital pins, a non zero value will be converted to 1 (HIGH) and a zero value will
  be converted to 0 (LOW). For analog pins, the value must be between 0 and 1023, inclusive. Any
  values outside of this range will be truncated. To write analog outputs to digital pins using
- pulse width modulation, see the <a href="#/component/arduinopwm">Arduino101PWM</a> extension.
+ pulse width modulation, see the <a href="#/arduino101/arduinopwm">Arduino101PWM</a> extension.
 
  __Parameters__:
 
