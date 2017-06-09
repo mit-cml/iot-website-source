@@ -62,7 +62,7 @@ class LearnMorePage extends Component {
         If you program a mobile robot, you can add geolocation to the robot’s sensing abilities.
         <br /><br />
         App Inventor IoT is designed to operate with an extended collection of interfaces that link to families of
-        devices. This first App Inventor IoT release works with the Arduino 101 and the BBC Micro:Bit, and we will
+        devices. This first App Inventor IoT release works with the Arduino 101 and the BBC micro:bit, and we will
         be adding more devices soon!
       </FullWidthSection>
     );
