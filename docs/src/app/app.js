@@ -19,7 +19,7 @@ ReactGA.initialize('UA-28621056-5'); // Initialize Google Analytics
 // Function that logs a change in page and sends it to Google via
 // ReactGA
 function logPageView() {
-  ReactGA.set({ page: window.location.pathname + window.location.search });
+  ReactGA.set({page: window.location.pathname + window.location.search});
   ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
@@ -30,7 +30,9 @@ function logPageView() {
 render(
   <Router
     history={useRouterHistory(createHashHistory)({queryKey: false})}
-    onUpdate={() => {window.scrollTo(0, 0), logPageView()}}
+    onUpdate={() => {
+      window.scrollTo(0, 0), logPageView();
+    }}
   >
     {AppRoutes}
   </Router>

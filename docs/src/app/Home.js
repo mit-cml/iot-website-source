@@ -8,7 +8,7 @@ import withWidth, {LARGE} from 'material-ui/utils/withWidth';
 import spacing from 'material-ui/styles/spacing';
 import typography from 'material-ui/styles/typography';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import {darkWhite} from 'material-ui/styles/colors';
+import {darkWhite, white} from 'material-ui/styles/colors';
 
 class HomePage extends Component {
 
@@ -39,7 +39,8 @@ class HomePage extends Component {
         lineHeight: '56px',
       },
       label: {
-        color: lightBaseTheme.palette.primary1Color,
+        // color: lightBaseTheme.palette.primary1Color,
+        color: white,
       },
       githubStyle: {
         margin: '16px 32px 0px 8px',
@@ -48,7 +49,7 @@ class HomePage extends Component {
         margin: '16px 32px 0px 32px',
       },
       h1: {
-        color: darkWhite,
+        color: white,
         fontWeight: typography.fontWeightLight,
       },
       h2: {
@@ -133,7 +134,7 @@ class HomePage extends Component {
         <br /><br />
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and
         the universe of connected devices.&nbsp;&nbsp;
-        <a style={{color: '#00728a', 'text-decoration': 'underline'}} href="#LearnMore">Learn more</a>
+        <a style={{color: '#00728a', 'textDecoration': 'underline'}} href="#LearnMore">Learn more</a>
       </FullWidthSection>
     );
   }

@@ -1,22 +1,18 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router';
 import PropTypes from 'prop-types';
-import Title from 'react-title-component';
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
 import FlatButton from 'material-ui/FlatButton';
-import IconMenu from 'material-ui/IconMenu';
-import MenuItem from 'material-ui/MenuItem';
 import spacing from 'material-ui/styles/spacing';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {darkWhite, lightWhite, grey900} from 'material-ui/styles/colors';
+import {lightWhite, grey900, white} from 'material-ui/styles/colors';
 import AppNavDrawer from './AppNavDrawer';
 import FullWidthSection from './FullWidthSection';
 import withWidth, {MEDIUM, LARGE} from 'material-ui/utils/withWidth';
 import NavigationClose from 'material-ui/svg-icons/navigation/menu';
-import FontIcon from 'material-ui/FontIcon';
-import {Tabs, Tab} from 'material-ui/Tabs';
-import {red500, yellow500, blue500} from 'material-ui/styles/colors';
+import ForTeachersMenu from './ForTeachersMenu';
+import ForStudentsMenu from './ForStudentsMenu';
+import ForMakersMenu from './ForMakersMenu';
 
 class Master extends Component {
   static propTypes = {
@@ -76,18 +72,18 @@ class Master extends Component {
       },
       footer: {
         backgroundColor: grey900,
-        color: darkWhite,
+        color: white,
         textAlign: 'center',
         maxHeight: 200,
         withWidth: 900,
       },
       a: {
-        color: darkWhite,
+        color: white,
       },
       p: {
         margin: '0 auto',
         padding: 0,
-        color: darkWhite,
+        color: white,
         maxWidth: 356,
       },
       browserstack: {
@@ -104,7 +100,7 @@ class Master extends Component {
         margin: '0 3px',
       },
       iconButton: {
-        color: darkWhite,
+        color: white,
       },
       iconStyles: {
         marginRight: 24,
@@ -190,11 +186,10 @@ class Master extends Component {
     // noinspection JSAnnotator
     return (
       <div>
-        <Title render="Internet of Things" />
         <AppBar
           onLeftIconButtonTouchTap={this.handleTouchTapLeftIconButton}
           title={
-            <span style={styles.title}>Internet of Things
+            <div style={styles.title}>Internet of Things
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
@@ -202,54 +197,38 @@ class Master extends Component {
                 href="#/getstarted/intro"
                 label="Getting Started"
               />
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/teachers/intro"
-                label="For Teachers"
-              />
-                &nbsp;&nbsp;&nbsp;&nbsp;
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/students/intro"
-                label="For Students"
-              />
-                &nbsp;&nbsp;&nbsp;&nbsp;
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/makers/intro"
-                label="For Makers"
-              />
-                &nbsp;&nbsp;&nbsp;&nbsp;
+              <ForTeachersMenu />
+              <ForStudentsMenu />
+              <ForMakersMenu />
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/devices/devicesintro"
                 label="Documentation"
               />
-                  &nbsp;&nbsp;&nbsp;&nbsp;
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/help/intro"
                 label="Help"
               />
-            </span>
+            </div>
           }
-
           zDepth={1}
-
           iconElementLeft={
             <IconButton><NavigationClose /></IconButton>
           }
-
           iconElementRight={
-            <a href="http://appinventor.mit.edu" style={prepareStyles(styles.browserstackLogo)} target='_blank'>
+            <a href="http://appinventor.mit.edu" style={prepareStyles(styles.browserstackLogo)} target="_blank">
               <img src="images/logo-white.png" width="auto" />
             </a>
           }
-
-          style={styles.appBar}
-          showMenuIconButton={showMenuIconButton}
+          style={
+            styles.appBar
+          }
+          showMenuIconButton={
+            showMenuIconButton
+          }
         />
+
         {title !== '' ?
           <div style={prepareStyles(styles.root)}>
             <div style={prepareStyles(styles.content)}>
@@ -260,6 +239,7 @@ class Master extends Component {
           </div> :
           children
         }
+
         <AppNavDrawer
           style={styles.navDrawer}
           location={location}
@@ -268,15 +248,17 @@ class Master extends Component {
           onChangeList={this.handleChangeList}
           open={navDrawerOpen}
         />
+
         <FullWidthSection style={styles.footer}>
           <a href="https://creativecommons.org/licenses/by/4.0/">
             <img alt="Creative Commons License" src="images/4.0_88x31.png" /></a>
           <font color="a5cf47">
-          <br />This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">
-          <font color="a5cf47">Creative Commons Attribution 4.0 International License</font></a>
-          <br /> © 2012-2017 <a href="http://web.mit.edu/"><font color="a5cf47">Massachusetts Institute of Technology</font></a>
-          <br />
-          <a href="http://appinventor.mit.edu/explore/contact.html"><font color="a5cf47">Contact Us</font></a>
+            <br />This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">
+              <font color="a5cf47">Creative Commons Attribution 4.0 International License</font></a>
+            <br /> © 2012-2017 <a href="http://web.mit.edu/">
+              <font color="a5cf47">Massachusetts Institute of Technology</font></a>
+            <br />
+            <a href="http://appinventor.mit.edu/explore/contact.html"><font color="a5cf47">Contact Us</font></a>
           </font>
         </FullWidthSection>
       </div>
