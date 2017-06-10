@@ -288,7 +288,7 @@ class AppNavDrawer extends Component {
                     ]}
                   />,
                   <ListItem
-                    primaryText="Micro-bit"
+                    primaryText="BBC micro:bit"
                     primaryTogglesNestedList={true}
                     value="/microbit/microbitintro"
                     href="#/microbit/microbitintro"
