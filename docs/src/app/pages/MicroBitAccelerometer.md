@@ -1,14 +1,14 @@
 # Microbit_Accelerometer
 
-The Microbit_Accelerometer component lets users configure the Micro:bit's on-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
+The <code>Microbit_Accelerometer</code> component lets users configure the BBC micro:bit's on-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
 
 The accelerometer's report rate, or period, determines how frequently data will be sent to App Inventor.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/extensions/Microbit_Accelerometer.aia'target='_blank'>sample AIA</a> for the Micro:bit Accelerometer.</li><li>View the <a href='/how-to/Microbit_Accelerometer.html' target='_blank'>how-to instructions</a> for the Micro:bit Accelerometer.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitAccelerometer.aia'target='_blank'>sample project</a> for the micro:bit accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_Accelerometer.pdf' target='_blank'>how to instructions</a> for the micro:bit accelerometer.</li></ul>
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the Micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
 
 
 ![get Microbit_Accelerometer1 BluetoothDevice ](blocks/Microbit_Accelerometer.BluetoothDevice_getter.svg)
@@ -24,13 +24,13 @@ The accelerometer's report rate, or period, determines how frequently data will 
 
 ![call Microbit_Accelerometer1 ReadAccelerometerData](blocks/Microbit_Accelerometer.ReadAccelerometerData.svg)
 
-+ <a name="ReadAccelerometerPeriod"></a>`ReadAccelerometerPeriod` – Read the current report rate for the Micro:bit accelerometer. After the period is read, it will
++ <a name="ReadAccelerometerPeriod"></a>`ReadAccelerometerPeriod` – Read the current report rate for the micro:bit accelerometer. After the period is read, it will
  be received by the
  <a href="#AccelerometerPeriodReceived"><code>AccelerometerPeriodReceived</code></a> event.
 
 ![call Microbit_Accelerometer1 ReadAccelerometerPeriod](blocks/Microbit_Accelerometer.ReadAccelerometerPeriod.svg)
 
-+ <a name="RequestAccelerometerDataUpdates"></a>`RequestAccelerometerDataUpdates` – Request notifications of changes in the Micro:bit's accelerometer. Changes in the accelerometer
++ <a name="RequestAccelerometerDataUpdates"></a>`RequestAccelerometerDataUpdates` – Request notifications of changes in the micro:bit's accelerometer. Changes in the accelerometer
  will be reported at a rate determined by the last period value set by a call to
  <a href="#WriteAccelerometerPeriod"><code>WriteAccelerometerPeriod</code></a>. Accelerometer
  data will be reported through the
@@ -38,15 +38,18 @@ The accelerometer's report rate, or period, determines how frequently data will 
 
 ![call Microbit_Accelerometer1 RequestAccelerometerDataUpdates](blocks/Microbit_Accelerometer.RequestAccelerometerDataUpdates.svg)
 
-+ <a name="StopAccelerometerDataUpdates"></a>`StopAccelerometerDataUpdates` – Stop receiving updates from the Micro:bit's accelerometer. Note that there may be pending
++ <a name="StopAccelerometerDataUpdates"></a>`StopAccelerometerDataUpdates` – Stop receiving updates from the micro:bit's accelerometer. Note that there may be pending
  messages from the device that will still be reported through the
  <a href="#AccelerometerDataReceived"><code>AccelerometerDataReceived</code></a> event.
 
 ![call Microbit_Accelerometer1 StopAccelerometerDataUpdates](blocks/Microbit_Accelerometer.StopAccelerometerDataUpdates.svg)
 
-+ <a name="WriteAccelerometerPeriod"></a>`WriteAccelerometerPeriod` – Use the <code>WriteAccelerometerPeriod</code> method to change how frequently the Micro:bit
++ <a name="WriteAccelerometerPeriod"></a>`WriteAccelerometerPeriod` – Use the <code>WriteAccelerometerPeriod</code> method to change how frequently the micro:bit
  sends accelerometer data to App Inventor. The period is measured in milliseconds. According to
  the micro:bit specification, valid values are 1, 2, 5, 10, 20, 80, 160, and 640 milliseconds.
+
+ __Parameters__:
+
     + <code>period</code> (_number_) &mdash; The new accelerometer reporting period, in milliseconds.
 
 ![call Microbit_Accelerometer1 WriteAccelerometerPeriodperiod](blocks/Microbit_Accelerometer.WriteAccelerometerPeriod.svg)
@@ -68,17 +71,22 @@ The accelerometer's report rate, or period, determines how frequently data will 
 
 ![when Microbit_Accelerometer1 AccelerometerDataReceived Accelerometer_X Accelerometer_Y Accelerometer_Z do](blocks/Microbit_Accelerometer.AccelerometerDataReceived.svg)
 
-+ <a name="AccelerometerPeriodReceived"></a>`AccelerometerPeriodReceived` – The <code>AccelerometerPeriodReceived</code> event is run after the Micro:bit's accelerometer
++ <a name="AccelerometerPeriodReceived"></a>`AccelerometerPeriodReceived` – The <code>AccelerometerPeriodReceived</code> event is run after the micro:bit's accelerometer
  period is read from the device.
-    + <code>Accelerometer_Period</code> (_number_) &mdash; The current reporting interval for the Micro:bit's accelerometer, in milliseconds.
+
+ __Parameters__:
+
+    + <code>Accelerometer_Period</code> (_number_) &mdash; The current reporting interval for the micro:bit's accelerometer, in milliseconds.
 
 ![when Microbit_Accelerometer1 AccelerometerPeriodReceived Accelerometer_Period do](blocks/Microbit_Accelerometer.AccelerometerPeriodReceived.svg)
 
-+ <a name="WroteAccelerometerPeriod"></a>`WroteAccelerometerPeriod` – The <code>WroteAccelerometerPeriod</code> event is run after the Micro:bit reports its period
++ <a name="WroteAccelerometerPeriod"></a>`WroteAccelerometerPeriod` – The <code>WroteAccelerometerPeriod</code> event is run after the micro:bit reports its period
  as requested by an earlier call to the
  <a href="#ReadAccelerometerPeriod"><code>ReadAccelerometerPeriod</code></a> method.
 
-    + <code>Accelerometer_Period</code> (_number_) &mdash; The reporting period for the Micro:bit's accelerometer, in milliseconds.
+ __Parameters__:
+
+    + <code>Accelerometer_Period</code> (_number_) &mdash; The reporting period for the micro:bit's accelerometer, in milliseconds.
 
 ![when Microbit_Accelerometer1 WroteAccelerometerPeriod Accelerometer_Period do](blocks/Microbit_Accelerometer.WroteAccelerometerPeriod.svg)
 
