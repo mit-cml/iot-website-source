@@ -1,0 +1,47 @@
+{/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
+{/*<FlatButton*/}
+{/*labelStyle={styles.iconButton}*/}
+{/*href="#/students/intro"*/}
+{/*label="For Students"*/}
+{/*/>*/}
+{/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
+{/*<FlatButton*/}
+{/*labelStyle={styles.iconButton}*/}
+{/*href="#/makers/intro"*/}
+{/*label="For Makers"*/}
+{/*/>*/}
+{/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
+{/*<FlatButton*/}
+{/*labelStyle={styles.iconButton}*/}
+{/*href="#/devices/devicesintro"*/}
+{/*label="Documentation"*/}
+{/*/>*/}
+{/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
+{/*<FlatButton*/}
+{/*labelStyle={styles.iconButton}*/}
+{/*href="#/help/intro"*/}
+{/*label="Help"*/}
+{/*/>*/}
+
+<span style={styles.title}>
+                <FlatButton
+                  labelStyle={styles.iconButton}
+                  onTouchTap={this.handleTouchTap}
+                  label="For Teachers"
+                />
+                <Popover
+                  open={this.state.open}
+                  anchorEl={this.state.anchorEl}
+                  anchorOrigin={{horizontal: 'left', vertical: 'bottom'}}
+                  targetOrigin={{horizontal: 'left', vertical: 'top'}}
+                  onRequestClose={this.handleRequestClose}
+                  animation={PopoverAnimationVertical}
+                >
+                  <Menu>
+                    <MenuItem primaryText="Tutorials" />
+                    <MenuItem primaryText="How Tos" />
+                    <MenuItem primaryText="Examples" />
+                  </Menu>
+                </Popover>
+              </span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
