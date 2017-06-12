@@ -181,75 +181,77 @@ class AppNavDrawer extends Component {
                     href="#/arduino101/arduinosoundrecorder"
                   />,
                 ]}
-               />,
-                  <ListItem
-                    primaryText="BBC micro:bit"
-                    primaryTogglesNestedList={true}
-                    value="/microbit/microbitintro"
-                    href="#/microbit/microbitintro"
-                    nestedItems={[
-                      <ListItem
-                        primaryText="Accelerometer"
-                        value="/microbit/microbitaccelerometer"
-                        href="#/microbit/microbitaccelerometer"
-                      />,
-                      <ListItem
-                        primaryText="Button"
-                        value="/microbit/microbitbutton"
-                        href="#/microbit/microbitbutton"
-                      />,
-                      <ListItem
-                        primaryText="Device Information"
-                        value="/microbit/microbitdeviceinformation"
-                        href="#/microbit/microbitdeviceinformation"
-                      />,
-                      <ListItem
-                        primaryText="Dfu Control"
-                        value="/microbit/microbitdfucontrol"
-                        href="#/microbit/microbitdfucontrol"
-                      />,
-                      <ListItem
-                        primaryText="Event"
-                        value="/microbit/microbitevent"
-                        href="#/microbit/microbitevent"
-                      />,
-                      <ListItem
-                        primaryText="Generic Access"
-                        value="/microbit/microbitgenericaccess"
-                        href="#/microbit/microbitgenericaccess"
-                      />,
-                      <ListItem
-                        primaryText="Generic Attribute"
-                        value="/microbit/microbitgenericattribute"
-                        href="#/microbit/microbitgenericattribute"
-                      />,
-                      <ListItem
-                        primaryText="io Pin"
-                        value="/microbit/microbitiopin"
-                        href="#/microbit/microbitiopin"
-                      />,
-                      <ListItem
-                        primaryText="LED"
-                        value="/microbit/microbitled"
-                        href="#/microbit/microbitled"
-                      />,
-                      <ListItem
-                        primaryText="Magnetometer"
-                        value="/microbit/microbitmagnetometer"
-                        href="#/microbit/microbitmagnetometer"
-                      />,
-                      <ListItem
-                        primaryText="Temperature"
-                        value="/microbit/microbitemperature"
-                        href="#/microbit/microbittemperature"
-                      />,
-                   <ListItem
-                        primaryText="UART"
-                        value="/microbit/microbituart"
-                        href="#/microbit/microbituart
-                  />,
-                ]}
               />,
+              <ListItem
+                primaryText="BBC micro:bit"
+                primaryTogglesNestedList={true}
+                value="/microbit/microbitintro"
+                href="#/microbit/microbitintro"
+                nestedItems={[
+                  <ListItem
+                    primaryText="Accelerometer"
+                    value="/microbit/microbitaccelerometer"
+                    href="#/microbit/microbitaccelerometer"
+                  />,
+                  <ListItem
+                    primaryText="Button"
+                    value="/microbit/microbitbutton"
+                    href="#/microbit/microbitbutton"
+                  />,
+                  <ListItem
+                    primaryText="Device Information"
+                    value="/microbit/microbitdeviceinformation"
+                    href="#/microbit/microbitdeviceinformation"
+                  />,
+                  <ListItem
+                    primaryText="Dfu Control"
+                    value="/microbit/microbitdfucontrol"
+                    href="#/microbit/microbitdfucontrol"
+                  />,
+                  <ListItem
+                    primaryText="Event"
+                    value="/microbit/microbitevent"
+                    href="#/microbit/microbitevent"
+                  />,
+                  <ListItem
+                    primaryText="Generic Access"
+                    value="/microbit/microbitgenericaccess"
+                    href="#/microbit/microbitgenericaccess"
+                  />,
+                  <ListItem
+                    primaryText="Generic Attribute"
+                    value="/microbit/microbitgenericattribute"
+                    href="#/microbit/microbitgenericattribute"
+                  />,
+                  <ListItem
+                    primaryText="io Pin"
+                    value="/microbit/microbitiopin"
+                    href="#/microbit/microbitiopin"
+                  />,
+                  <ListItem
+                    primaryText="LED"
+                    value="/microbit/microbitled"
+                    href="#/microbit/microbitled"
+                  />,
+                  <ListItem
+                    primaryText="Magnetometer"
+                    value="/microbit/microbitmagnetometer"
+                    href="#/microbit/microbitmagnetometer"
+                  />,
+                  <ListItem
+                    primaryText="Temperature"
+                    value="/microbit/microbitemperature"
+                    href="#/microbit/microbittemperature"
+                  />,
+                  <ListItem
+                    primaryText="UART"
+                    value="/microbit/microbituart"
+                    href="#/microbit/microbituart"
+                  />
+                ]}
+              />
+            ]}
+          />
           <ListItem
             primaryText="Help"
             value="/help/intro"
