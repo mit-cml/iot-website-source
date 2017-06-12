@@ -2,7 +2,7 @@
 
 The Arduino 101 Sound Recorder extension lets users control a sound recorder and playback device connected to a Grove Shield.<br>
 
-<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101SoundRecorder.aia' target='_blank'>sample project</a>.</li><li>Vew the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Sound_Recorder.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Sound Recorder.</li></ul>
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101SoundRecorder.aia' target='_blank'>sample project</a>.</li><li>Vew the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Sound_Recorder.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Sound Recorder.</li></ul>
 
 ## Properties
 

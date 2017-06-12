@@ -2,7 +2,7 @@
 
 The Arduino 101 Light Sensor component lets users receive data from a light sensor attached to the Arduino, however it can be used for any similar device that provides a linear analog signal based on some external phenomenon.<br>
 
-<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101LightSensor.aia' target='_blank'>sample project</a></li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Light_Sensor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Light Sensor.</li></ul>
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101LightSensor.aia' target='_blank'>sample project</a></li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Light_Sensor.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Light Sensor.</li></ul>
 
 ## Properties
 

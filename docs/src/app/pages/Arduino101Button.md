@@ -2,7 +2,7 @@
 
 The Arduino101Button component lets users listen to events triggered by a button connected to a digital pin on the Arduino. The extension responds to voltage changes on the specified digital <code>Pin</code> and so can be used to respond to any hardware component that signals high/low based on some external phenomenon, such as a motion detector.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/examples/SampleArduino101Button.aia' target='_blank'>sample AIA</a> for the Arduino 101 Button.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Button.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Button.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Button.aia' target='_blank'>sample project</a> for the Arduino 101 Button.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Button.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Button.</li></ul>
 
 ## Properties
 

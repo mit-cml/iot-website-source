@@ -2,7 +2,7 @@
 
 The <code>Microbit_LED</code> extension provides App Inventor users with the ability to programmatically change the BBC micro:bit's 5x5 LED matrix, either by coding custom patterns or writing text strings. The scrolling speed of the display may also be customized.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitLed.aia' target='_blank'>sample projects</a> for the micro:bit LED matrix.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_Led.pdf' target='_blank'>how to instructions</a> for the micro:bit LED matrix.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitLED.aia' target='_blank'>sample projects</a> for the micro:bit LED matrix.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_LED.pdf' target='_blank'>how to instructions</a> for the micro:bit LED matrix.</li></ul>
 
 ## Properties
 

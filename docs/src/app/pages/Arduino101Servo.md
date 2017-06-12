@@ -2,7 +2,7 @@
 
 The Arduino 101 Servo extension lets users remotely control servos connected toan Arduino 101.<br>
 
-<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/examples/SampleArduino101Servo.aia' target='_blank'>sample project</a>.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Servo.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Servo.</li></ul>
+<strong>More Links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Servo.aia' target='_blank'>sample project</a> for the Arduino 101 Servo.</li><!--<li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Servo.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Servo.</li>--></ul>
 
 ## Properties
 
