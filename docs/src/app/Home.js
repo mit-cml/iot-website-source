@@ -140,9 +140,9 @@ class HomePage extends Component {
           <center>
             <RaisedButton
               label="Learn more about IoT" href="#LearnMore"
-              secondary="true"
+              primary="true"
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <RaisedButton
               label="Learn more about MIT App Inventor"
               href="http://appinventor.mit.edu" target="_blank"
