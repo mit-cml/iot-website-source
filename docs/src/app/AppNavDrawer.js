@@ -258,6 +258,15 @@ class AppNavDrawer extends Component {
             href="#/help/intro"
           />
           <ListItem
+            primaryText="FAQ"
+            value="/faq/faq"
+            href="#/faq/faq"
+          />
+          <ListItem
+            primaryText="Forum"
+            href="https://groups.google.com/forum/#!forum/mitappinventortest"
+          />
+          <ListItem
             primaryText="Contact Us"
             href="http://appinventor.mit.edu/explore/contact.html"
           />
