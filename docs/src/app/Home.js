@@ -124,7 +124,7 @@ class HomePage extends Component {
         contentType="p"
         className="home-purpose"
       >
-        <h3>Make apps that connect to the Internet of Things with MIT App Inventor!</h3>
+        <h3>Make apps for the Internet of Things with MIT App Inventor!</h3>
         <br /><br />
         MIT App Inventor helps people around the world build mobile apps that can make a difference for their
         families, schools, and communities&mdash; even if they've never programmed before.
