@@ -32,7 +32,7 @@ We maintain a list of classes and conferences related to MIT App Inventor on our
 
 ### How can I get started with MIT App Inventor?
 
-We provide a number of [tutorials](http://appinventor.mit.edu/explore/ai2/tutorials.html) on our explore website. There is also a <a href="http://www.appinventor.org/book2" target="_blank">free book</a>) available online for your use in learning MIT App Inventor.
+We provide many [tutorials](http://appinventor.mit.edu/explore/ai2/tutorials.html) on our explore website. There is also a <a href="http://www.appinventor.org/book2" target="_blank">free book</a>) available online for your use in learning MIT App Inventor.
 
 ### How can I learn more about MIT App Inventor?
 
@@ -110,7 +110,7 @@ Please try unplugging and reconnecting your Arduino. Please also check that the 
 
 ### Uploading the sketch is failing/My Arduino won't connect, what should I do?
 
-There are a number of reasons that uploading might fail or the board may not connect via Bluetooth. Make sure that the correct board model and port are selected under the "Tools" menu in the Arduino editor. It may also help to press the `RESET` button on the Arduino 101 to clear any error states. Please see the following questions to help diagnose the issue further.
+There are several reasons that uploading might fail or the board may not connect via Bluetooth. Make sure that the correct board model and port are selected under the "Tools" menu in the Arduino editor. It may also help to press the `RESET` button on the Arduino 101 to clear any error states. Please see the following questions to help diagnose the issue further.
 
 #### I get the message "Error compiling board for Arduino/Genuino Uno" or similar.
 
