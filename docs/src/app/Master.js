@@ -13,6 +13,7 @@ import NavigationClose from 'material-ui/svg-icons/navigation/menu';
 import ForTeachersMenu from './ForTeachersMenu';
 import ForStudentsMenu from './ForStudentsMenu';
 import ForMakersMenu from './ForMakersMenu';
+import DocumentationMenu from './DocumentationMenu';
 
 class Master extends Component {
   static propTypes = {
@@ -200,11 +201,7 @@ class Master extends Component {
               <ForTeachersMenu />
               <ForStudentsMenu />
               <ForMakersMenu />
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/devices/devicesintro"
-                label="Documentation"
-              />
+              <DocumentationMenu />
               <FlatButton
                 labelStyle={styles.iconButton}
                 href="#/help/intro"
