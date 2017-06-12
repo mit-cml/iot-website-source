@@ -74,10 +74,6 @@ We currently support Arduino 101 and micro:bit. We plan to add support for addit
 
 Check that you have imported the correct extension and dragged an instance of your target device into the designer.
 
-### I followed the tutorials! Now what?
-
-It's up to you! Happy inventing!
-
 ### I didn't find help for my issue. What should I do?
 
 Please refer to the tutorials and How To's. Please join the MIT App Inventor forum. You can also refer to the core MIT App Inventor help documents such as [http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html](http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html). If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
