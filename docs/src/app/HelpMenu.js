@@ -6,7 +6,7 @@ import MenuItem from 'material-ui/MenuItem';
 import {Link} from 'react-router';
 import {white} from 'material-ui/styles/colors';
 
-class DocumentationMenu extends Component {
+class HelpMenu extends Component {
 
   constructor(props) {
     super(props);
@@ -37,7 +37,7 @@ class DocumentationMenu extends Component {
         <FlatButton
           style={{color: white, position: 'relative', verticalAlign: 'middle'}}
           onTouchTap={this.handleTouchTap}
-          label="Documentation"
+          label="Help"
           labelPosition="before"
           icon={<i className="material-icons">arrow_drop_down</i>}
         />
@@ -51,23 +51,20 @@ class DocumentationMenu extends Component {
         >
           <Menu>
             <MenuItem
-              primaryText="Devices"
-              containerElement={<Link to="/devices/devicesintro" />}
+              primaryText="FAQ"
+              containerElement={<Link to="/faq/faq" />}
               onClick={this.handleRequestClose}
             />
             <MenuItem
-              primaryText="BluetoothLE"
-              containerElement={<Link to="/bluetoothle/bluetoothleintro" />}
+              primaryText="Forum"
+              containerElement={<a
+                href="https://groups.google.com/forum/#!forum/mitappinventortest"
+                target="_blank" />}
               onClick={this.handleRequestClose}
             />
             <MenuItem
-              primaryText="Arduino 101"
-              containerElement={<Link to="/arduino101/arduino101intro" />}
-              onClick={this.handleRequestClose}
-            />
-            <MenuItem
-              primaryText="BBC micro:bit"
-              containerElement={<Link to="/microbit/microbitintro" />}
+              primaryText="Contact Us"
+              containerElement={<a href="https://appinventor.mit.edu/explore/contact.html" target="_blank" />}
               onClick={this.handleRequestClose}
             />
           </Menu>
@@ -77,4 +74,4 @@ class DocumentationMenu extends Component {
   }
 }
 
-export default DocumentationMenu;
+export default HelpMenu;

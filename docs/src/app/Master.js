@@ -14,6 +14,7 @@ import ForTeachersMenu from './ForTeachersMenu';
 import ForStudentsMenu from './ForStudentsMenu';
 import ForMakersMenu from './ForMakersMenu';
 import DocumentationMenu from './DocumentationMenu';
+import HelpMenu from './HelpMenu';
 
 class Master extends Component {
   static propTypes = {
@@ -168,6 +169,8 @@ class Master extends Component {
                       router.isActive('/arduino101') ? 'Arduino 101' :
                         router.isActive('/faq') ? 'FAQ' :
                           router.isActive('/forum') ? 'Forum' : '';
+                            router.isActive('/contactus') ? 'Contact US' : '';
+
 
     let docked = false;
     let showMenuIconButton = true;
@@ -202,11 +205,7 @@ class Master extends Component {
               <ForStudentsMenu />
               <ForMakersMenu />
               <DocumentationMenu />
-              <FlatButton
-                labelStyle={styles.iconButton}
-                href="#/help/intro"
-                label="Help"
-              />
+              <HelpMenu />
             </div>
           }
           zDepth={1}

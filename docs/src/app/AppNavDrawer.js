@@ -5,9 +5,7 @@ import FontIcon from 'material-ui/FontIcon';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import {white} from 'material-ui/styles/colors';
 import {List, ListItem, makeSelectable} from 'material-ui/List';
-import Subheader from 'material-ui/Subheader';
 import {spacing, typography, zIndex} from 'material-ui/styles';
-import Divider from 'material-ui/Divider';
 const SelectableList = makeSelectable(List);
 
 const styles = {
@@ -100,9 +98,6 @@ class AppNavDrawer extends Component {
             value="/teachers/examples"
             href="#/teachers/examples"
           />
-          <Divider />
-          <div><ListItem primaryText={'Documentation'} /></div>
-          <Divider />
           <ListItem
             primaryText="Devices"
             primaryTogglesNestedList={true}
@@ -255,14 +250,19 @@ class AppNavDrawer extends Component {
               />,
             ]}
           />
-          <Divider />
           <ListItem
-            primaryText="Help"
-            value="/help/intro"
-            href="#/help/intro"
+            primaryText="FAQ"
+            value="/faq/"
+            href="#/faq/faq"
+          />
+          <ListItem
+            primaryText="Forum"
+            value="/forum/"
+            href="https://groups.google.com/forum/#!forum/mitappinventortest"
           />
           <ListItem
             primaryText="Contact Us"
+            value="/forum/"
             href="http://appinventor.mit.edu/explore/contact.html"
           />
         </SelectableList>
