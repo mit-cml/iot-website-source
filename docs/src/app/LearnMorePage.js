@@ -9,6 +9,7 @@ import spacing from 'material-ui/styles/spacing';
 import typography from 'material-ui/styles/typography';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import {darkWhite} from 'material-ui/styles/colors';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class LearnMorePage extends Component {
 
@@ -24,6 +25,12 @@ class LearnMorePage extends Component {
     const styles = {
       root: {
         backgroundColor: darkWhite,
+      },
+      floatLeft: {
+        float: 'left',
+      },
+      floatRight: {
+        float: 'right',
       },
       content: {
         maxWidth: 900,
@@ -64,6 +71,19 @@ class LearnMorePage extends Component {
         App Inventor IoT is designed to operate with an extended collection of interfaces that link to families of
         devices. This first App Inventor IoT release works with the Arduino 101 and the BBC micro:bit, and we will
         be adding more devices soon!
+        <br /><br />
+        <div>
+          <div style={styles.floatLeft}>
+            <RaisedButton
+              label="Get started!" href="#LearnMore"
+              primary="true"
+            /></div>
+          <div style={styles.floatRight}>
+            <RaisedButton
+              label="Back to Home"
+              href="#"
+            /></div>
+        </div>
       </FullWidthSection>
     );
   }
