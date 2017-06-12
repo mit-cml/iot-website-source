@@ -19,19 +19,19 @@ attach sensors and modules.
 
 <b>Setting up your computer (~ 30 minutes)</b><br>
 You will first need to install software and set up your computer to work with the Arduino 101 device controller. You can find a tutorial
-on how to do this [here](https://drive.google.com/file/d/0B51cwz24uqobMUJwNDVSeGNoQVk/view). You will then need to
+on how to do this [here](/assets/tutorials/MIT_App_Inventor_IoT_Setup.pdf). You will then need to
 connect MIT App Inventor to the Arduino 101.  You can learn how to do that 
-[here](https://drive.google.com/file/d/0B51cwz24uqobanJ2XzhLbGpQOFk/view).
+[here](/assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf).
 
 <b>Start with a simple IoT app (~ 30 minutes)</b><br>
 Before you begin with a full tutorial or a How To exercise, you may want to start with a simple app to turn an LED light 
-on and off. This [Starter Tutorial]() <em>example not yet ready</em> will take about 30 minutes.
+on and off. This [Starter Tutorial](/assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf) <em>example not yet ready</em> will take about 30 minutes.
 
 <b>Then try a How To sensor app</b><br>
 Now that you have tried the Starter Tutorial, you may want to try connecting with different types of sensors and
 modules such as:
 
-- Temperature sensor
-- Button
+- [Temperature sensor](/assets/howtos/MIT_App_Inventor_IoT_Temperature_Sensor.pdf)
+- [Button](/assets/howtos/MIT_App_Inventor_IoT_Button.pdf)
 
 Visit the [How To](#/teachers/howtos) page for a full list of demonstration apps available in this MIT App Inventor IoT release.
