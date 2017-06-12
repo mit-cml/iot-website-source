@@ -1,6 +1,6 @@
 # App Inventor IoT Frequently Asked Questions (Draft)
 
-Below is a list of frequently asked questions from MIT App Inventor users working with Internet of Things. Don't see your question in the list? You may also ask questions in our [forum](https://groups.google.com/forum/#!forum/mitappinventortest). This page will be updated with new questions and answers from time to time.
+Below is a list of frequently asked questions from MIT App Inventor users working with Internet of Things. Don't see your question in the list? You may also ask questions in our <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">forum</a>. This page will be updated with new questions and answers from time to time.
 
 * [General](#/faq/faq/general)
 * [Companion](#/faq/faq/companion)
@@ -20,7 +20,7 @@ The MIT App Inventor for IoT framework allows you to connect to external devices
 
 ### How can I support MIT App Inventor?
 
-Please participate in the forums, and consider a donation to the foundation via [MIT Giving](https://giving.mit.edu/give/to?fundId=3832320).
+Please participate in the forums, and consider a donation to the foundation via <a href="https://giving.mit.edu/give/to?fundId=3832320" target="_blank">MIT Giving</a>.
 
 ### I want my school to use MIT App Inventor. How can I set that up?
 
@@ -32,7 +32,7 @@ We maintain a list of classes and conferences related to MIT App Inventor on our
 
 ### How can I get started with MIT App Inventor?
 
-We provide a number of [tutorials](http://appinventor.mit.edu/explore/ai2/tutorials.html) on our explore website. There is also a [free book](http://www.appinventor.org/book2) available online for your use in learning MIT App Inventor.
+We provide a number of [tutorials](http://appinventor.mit.edu/explore/ai2/tutorials.html) on our explore website. There is also a <a href="http://www.appinventor.org/book2" target="_blank">free book</a>) available online for your use in learning MIT App Inventor.
 
 ### How can I learn more about MIT App Inventor?
 
@@ -80,7 +80,7 @@ It's up to you! Happy inventing!
 
 ### I didn't find help for my issue. What should I do?
 
-Please refer to the tutorials and How To's. Please join the MIT App Inventor forum. You can also refer to the core MIT App Inventor help documents such as [http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html](http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html). If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
+Please refer to the [tutorials](#/teachers/tutorials) and [How To's](#/teachers/howtos). Please join the <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">MIT App Inventor forum</a>. You can also refer to <a href="http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html" target="_blank">MIT App Inventor troubleshooting</a>. If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
 
 ## <a name="/faq/faq/companion"></a>Companion
 
@@ -96,7 +96,7 @@ If you have other apps running the background on your mobile device that have es
 
 ### How do I use a Bluetooth device that's not on the supported list?
 
-You can use any device via the Bluetooth low energy extension, but you will need to build additional code around the basic read/write functions provided by the extension. 
+You can use any device via the Bluetooth low energy extension, but you will need to build additional code around the basic read/write functions provided by the extension.
 
 ### I built a MIT App Inventor app to connect my IoT board, but my Android device cannot find my board while scanning. What should I do?
 
