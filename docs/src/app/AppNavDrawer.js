@@ -100,9 +100,6 @@ class AppNavDrawer extends Component {
             value="/teachers/examples"
             href="#/teachers/examples"
           />
-          <Divider />
-          <div><ListItem primaryText={'Documentation'} /></div>
-          <Divider />
           <ListItem
             primaryText="Devices"
             primaryTogglesNestedList={true}
@@ -255,7 +252,6 @@ class AppNavDrawer extends Component {
               />,
             ]}
           />
-          <Divider />
           <ListItem
             primaryText="Help"
             value="/help/intro"
