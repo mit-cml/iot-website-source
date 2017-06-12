@@ -3,9 +3,8 @@
 You may already know how to build mobile apps with
 MIT App Inventor, but if you are new to this way of building apps we
 suggest you
-<a href="http://appinventor.mit.edu/explore/ai2/tutorials.html">please click here</a>
-to become familiar with some basic functions in MIT App
-Inventor.
+<a href="http://appinventor.mit.edu/explore/ai2/tutorials.html" target="_blank">become familiar</a>
+with some basic functions in MIT App Inventor.
 
 <b>Hardware</b><br>
 To build Internet of Things (IoT) apps with MIT App Inventor, you will be working with external
@@ -18,20 +17,19 @@ attach sensors and modules.
 - Sensors as needed for specific projects
 
 <b>Setting up your computer (~ 30 minutes)</b><br>
-You will first need to install software and set up your computer to work with the Arduino 101 device controller. You can find a tutorial
-on how to do this [here](/assets/tutorials/MIT_App_Inventor_IoT_Setup.pdf). You will then need to
-connect MIT App Inventor to the Arduino 101.  You can learn how to do that 
-[here](/assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf).
+You will first need to <a href="/assets/tutorials/MIT_App_Inventor_IoT_Setup.pdf" target="_blank">install software and set up your computer</a>
+to work with the Arduino 101 device controller. You will then need to
+<a href="/assets/tutorials/MIT_App_Inventor_Basic_Connection.pdf" target="_blank">connect to the Arduino 101</a> using MIT App Inventor.
 
 <b>Start with a simple IoT app (~ 30 minutes)</b><br>
 Before you begin with a full tutorial or a How To exercise, you may want to start with a simple app to turn an LED light 
-on and off. This [Starter Tutorial](/assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf) <em>example not yet ready</em> will take about 30 minutes.
+on and off. This <a href="/assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf" target="_blank">Starter Tutorial</a> will take about 30 minutes.
 
 <b>Then try a How To sensor app</b><br>
 Now that you have tried the Starter Tutorial, you may want to try connecting with different types of sensors and
 modules such as:
 
-- [Temperature sensor](/assets/howtos/MIT_App_Inventor_IoT_Temperature_Sensor.pdf)
-- [Button](/assets/howtos/MIT_App_Inventor_IoT_Button.pdf)
+- <a href="/assets/howtos/MIT_App_Inventor_IoT_Temperature_Sensor.pdf" target="_blank">Temperature sensor</a>
+- <a href="/assets/howtos/MIT_App_Inventor_IoT_Button.pdf" target="_blank">Button</a>
 
 Visit the [How To](#/teachers/howtos) page for a full list of demonstration apps available in this MIT App Inventor IoT release.
