@@ -130,6 +130,10 @@ Another potential cause of this error is a change in the port the Arduino is con
 
 You may have downloaded and installed an incorrect version of the Arduino 101 firmware. The sketch currently works with firmware version 1.0.7. Please see the instructions on pages 5-7 of the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf).
 
+#### When I upload my sketch, the Arduino editor gives me the message "BLE firmware version is not in sync with CurieBLE library !!"
+
+This message indicates that you have downloaded the 1.0.7 libraries for Arduino 101, but your Arduino 101 is still running the old firmware. You will need to burn the appropriate bootloader to your Arduino using the instructions on pages 5-7 of the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf).
+
 ### How do I check the firmware for my Arduino 101?
 
 During upload the Arduino editor will check the firmware of your Arduino to confirm that it matches the expected version. If it does not, you will receive instructions indicating how to reprogram your Arduino to use the correct firmware.
@@ -138,7 +142,7 @@ During upload the Arduino editor will check the firmware of your Arduino to conf
 
 Please follow the instructions on pages 5-7 of the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf) to install the appropriate firmware on your Arduino 101.
 
-### I don't see my arduino when I scan for Bluetooth devices with my app. Help!
+### I don't see my Arduino when I scan for Bluetooth devices with my app. Help!
 
 If you have previously connected to the Arduino using an app on your phone or the MIT App Inventor companion, the Arduino's connection might have not been released by the Android device, restart Arduino and/or re-push code to the Arduino.
 
