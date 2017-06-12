@@ -9,6 +9,7 @@ import spacing from 'material-ui/styles/spacing';
 import typography from 'material-ui/styles/typography';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import {darkWhite, white} from 'material-ui/styles/colors';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class HomePage extends Component {
 
@@ -133,8 +134,22 @@ class HomePage extends Component {
         apps.
         <br /><br />
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and
-        the universe of connected devices.&nbsp;&nbsp;
-        <a style={{color: '#00728a', 'textDecoration': 'underline'}} href="#LearnMore">Learn more</a>
+        the universe of connected devices.
+        <br /><br />
+        <span>
+          <center>
+            <RaisedButton
+              label="Learn more about IoT" href="#LearnMore"
+              secondary="true"
+            />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <RaisedButton
+              label="Learn more about MIT App Inventor"
+              href="http://appinventor.mit.edu" target="_blank"
+              primary="true"
+            />
+          </center>
+        </span>
       </FullWidthSection>
     );
   }
