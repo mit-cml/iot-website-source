@@ -121,7 +121,7 @@ class HomePage extends Component {
         style={styles.root}
         useContent={true}
         contentStyle={styles.content}
-        contentType="p"
+        contentType="div"
         className="home-purpose"
       >
         <h3>Make apps for the Internet of Things with MIT App Inventor!</h3>

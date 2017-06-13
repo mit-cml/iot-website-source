@@ -51,7 +51,7 @@ class LearnMorePage extends Component {
         style={styles.root}
         useContent={true}
         contentStyle={styles.content}
-        contentType="p"
+        contentType="div"
         className="home-purpose"
       >
         <h3>Bring computing off the screen and into the world of everyday things!</h3>
