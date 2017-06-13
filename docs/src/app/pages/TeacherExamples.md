@@ -3,7 +3,7 @@
 
 ---
 
-**App name:** Home Lighting Automation System
+**App Name:** Home Lighting Automation System
 
 **Description:** Turn the lights on and off without leaving your bed with a home lighting automation system. This allows individuals who are confined to bed rest to change the lighting independently without needing to request caregiver assistance.
 
@@ -11,7 +11,7 @@
 
 **Location:** Pakistan
 
-**Developers age:** 12
+**Age of Developers:** 12
 
 [![Internet of Things Session at LearnOBots](http://img.youtube.com/vi/9DKTp1LscMg/0.jpg)](http://www.youtube.com/watch?v=9DKTp1LscMg "Internet of Things Session at LearnOBots")
 
@@ -25,6 +25,6 @@
 
 **Location:** India
 
-**Developer’s Age:** 10
+**Age of Developers:** 10
 
 [![PlugTheDrip Live Pitch at MIT App Inventor Summit 2016](http://img.youtube.com/vi/C6zZCzky51A/0.jpg)](http://www.youtube.com/watch?v=C6zZCzky51A "PlugTheDrip Live Pitch at MIT App Inventor Summit 2016")
