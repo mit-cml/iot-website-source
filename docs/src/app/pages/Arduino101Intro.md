@@ -8,7 +8,7 @@ The Arduino 101 is a version of the popular Arduino platform based on the Intel&
 Image source: [Arduino 101 page on Arduino.cc](https://www.arduino.cc/en/Main/ArduinoBoard101)
 </div>
 
-MIT App Inventor provides a sketch for the Arduino 101 and extensions to interact with the sketch. Please follow [these instructions](https://docs.google.com/presentation/d/190VjGID52HFxQqRDHuvF3LBZmh3GE6o2BHv-IlprUug/edit?usp=sharing) to program your Arduino 101 with the [App Inventor sketch](/resources/AIM-for-Things-Arduino101.zip).
+MIT App Inventor provides a sketch for the Arduino 101 and extensions to interact with the sketch. Please follow [these instructions](https://docs.google.com/presentation/d/190VjGID52HFxQqRDHuvF3LBZmh3GE6o2BHv-IlprUug/edit?usp=sharing) to program your Arduino 101 with the [App Inventor sketch](/assets/AIM-for-Things-Arduino101.zip).
 
 The following extensions are available for use with the companion sketch as part of the [Arduino 101 Extension Bundle](/resources/Arduino101.aix):
 
