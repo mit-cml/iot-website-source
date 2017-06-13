@@ -91,7 +91,7 @@ class HomePage extends Component {
     return (
       <FullWidthSection style={styles.root}>
         <div style={styles.tagline}>
-          <h2 style={styles.h1}>MIT App Inventor - Internet of Things</h2>
+          <h2 style={styles.h1}>MIT App Inventor - Internet&nbsp;of&nbsp;Things</h2>
         </div>
       </FullWidthSection>
     );
@@ -216,7 +216,7 @@ class HomePage extends Component {
         style={styles.root}
         useContent={true}
         contentStyle={styles.content}
-        contentType="p"
+        contentType="div"
         className="home-purpose"
       >
         <h3>Bring computing off the screen and into the world of everyday things!</h3>
@@ -224,15 +224,14 @@ class HomePage extends Component {
         You can develop IoT applications the same way you develop any other MIT App Inventor mobile apps,
         but now you can use the apps to interact with objects all around you.
         <br /><br />
-        <center>
+        <div style={{position: 'relative', textAlign: 'center', width: '100%', height: '0', paddingBottom: '71.67%'}}>
           <iframe
-            width="600"  // was 900x645
-            height="430"
+            style={{position: 'absolute', width: '100%', height: '100%', left: '0', top: '0'}}
             src="https://www.youtube.com/embed/qqaNznnNZ8M?rel=0"
             frameBorder="0"
             allowFullScreen={true}
           />
-        </center>
+        </div>
       </FullWidthSection>
     );
   }
