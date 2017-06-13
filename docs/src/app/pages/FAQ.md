@@ -36,7 +36,7 @@ We provide many [tutorials](http://appinventor.mit.edu/explore/ai2/tutorials.htm
 
 ### How can I learn more about MIT App Inventor?
 
-Please the [about us](http://appinventor.mit.edu/explore/about-us.html) page on our explore website.
+Please [read the About Us page](http://appinventor.mit.edu/explore/about-us.html) on our website.
 
 ### How much does it cost?
 
@@ -48,7 +48,7 @@ You will need an Android device (phone or tablet) that supports Android 5.0 or h
 
 ### Does IoT have any special hardware requirements?
 
-Our IoT extensions are built around Bluetooth 4.0 low energy. You will need an Android phone or tablet with harrdware for Bluetooth 4.0 or higher running Android 5.0 (Lollipop) or higher to access the Bluetooth hardware. You will also need to obtain one or more supported peripherals for you micro:bit or Arduino 101.
+Our IoT extensions are built around Bluetooth 4.0 low energy. You will need an Android phone or tablet with harrdware for Bluetooth 4.0 or higher, running Android 5.0 (Lollipop) or higher to access the Bluetooth hardware. You will also need to obtain one or more supported peripherals for your BBC micro:bit or Arduino 101.
 
 ### What version of Bluetooth do I need?
 
@@ -60,11 +60,11 @@ Extensions are components that are published separately from  the main MIT App I
 
 ### How do I import extensions?
 
-In the Designer view, open the __Extensions__ panel in the component palette. There will be a link `Import Extension`. Clicking on this link will open a file upload/import from URL dialog. Using the file uploader, you can upload an extension previously downloaded to your computer. Using the URL importer, you can enter any of the links to extensions from this site (among others) to import an extension from the web.
+In the Designer view, open the __Extensions__ panel in the component palette. There will be a link entitled `Import Extension`. Clicking on this link will open a file upload/import from URL dialog. Using the file uploader, you can upload an extension previously downloaded to your computer. Using the URL importer, you can enter any of the links to extensions from this site (among others) to import an extension from the web.
 
 ### Why are the MIT App Inventor IOT components published as extensions?
 
-We are releasing our Internet of Things components as extensions since can be upgraded more frequently to address pontential bugs and security issues, and to allow for the release of new extensions to be released as support for new platforms becomes available.
+We are releasing our Internet of Things components as extensions since they can be upgraded more frequently to address pontential bugs and security issues, and to allow for the release of new extensions as support for new platforms becomes available.
 
 ### Do you support ...?
 
@@ -76,13 +76,13 @@ Check that you have imported the correct extension and dragged an instance of yo
 
 ### I didn't find help for my issue. What should I do?
 
-Please refer to the [tutorials](#/teachers/tutorials) and [How To's](#/teachers/howtos). Please join the <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">MIT App Inventor forum</a>. You can also refer to <a href="http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html" target="_blank">MIT App Inventor troubleshooting</a>. If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
+Please refer to the [tutorials](#/teachers/tutorials) and [how tos](#/teachers/howtos). Please join the <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">MIT App Inventor forum</a>. You can also refer to <a href="http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html" target="_blank">MIT App Inventor troubleshooting</a>. If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
 
 ## <a name="/faq/faq/companion"></a>Companion
 
 ### When I load the companion, the app crashes.
 
-Check the version of your companion app. For the ai2-test server, the companion version should be 2.41t2. The version from the Google Play store should be 2.42 (not yet released).
+Check the version of your companion app. For the ai2-test server, the companion version should be 2.41t2. The version from the Google Play store should be 2.42. You may also <a href="http://ai2.appinventor.mit.edu/companions/MITAI2Companion.apk">download the latest companion</a>.
 
 ## <a name="/faq/faq/ble"></a>Bluetooth Low Energy
 
@@ -102,7 +102,7 @@ You may need to stop and restart scanning as some Bluetooth chipsets may back of
 
 ### Does the Arduino sketch support Uno, Due, Leonardo, ...?
 
-Currently the Arduino sketch published by the MIT App Inventor team only targets the Arduino 101. Other devices in the Arduino family will have support added in the future.
+Currently the Arduino sketch published by the MIT App Inventor team only targets the Arduino 101. We will be adding support for other devices in the Arduino family in the future.
 
 ### My board doesn't light up. What should I do?
 
@@ -110,7 +110,7 @@ Please try unplugging and reconnecting your Arduino. Please also check that the 
 
 ### Uploading the sketch is failing/My Arduino won't connect, what should I do?
 
-There are several reasons that uploading might fail or the board may not connect via Bluetooth. Make sure that the correct board model and port are selected under the "Tools" menu in the Arduino editor. It may also help to press the `RESET` button on the Arduino 101 to clear any error states. Please see the following questions to help diagnose the issue further.
+There are several reasons that uploading might fail or the board may not connect via Bluetooth. Make sure that the correct board model and port are selected under the "Tools" menu in the Arduino editor. It may also help to press the `RESET` button on the Arduino 101 to clear any error states. Please read the following questions for further diagnosis.
 
 <p style="font-size: 110%">_I get the message "Error compiling board for Arduino/Genuino Uno" or similar._</p>
 
@@ -140,13 +140,13 @@ Please follow the instructions on pages 5-7 of the [Arduino 101 setup instructio
 
 ### I don't see my Arduino when I scan for Bluetooth devices with my app. Help!
 
-If you have previously connected to the Arduino using an app on your phone or the MIT App Inventor companion, the Arduino's connection might have not been released by the Android device, restart Arduino and/or re-push code to the Arduino.
+If you have previously connected to the Arduino using an app on your phone or the MIT App Inventor companion, the Arduino's connection might have not been released by the Android device. Restart the Arduino and/or re-push the code to the Arduino.
 
-If you have never connected to the device, check that it is broadcasting using a Bluetooth low energy scanner app. If you still do not see the device, it may be because you are using an incorrect firmware. The Arduino sketch does not support the most recent 2.0.2 firmware and the Arduino will lock up if it is used. See the previous question about how to change the firmware on your Arduino 101.
+If you have never connected to the device, check that it is broadcasting using a Bluetooth low energy scanner app. If you still do not see the device, it may be because you are using an incorrect version of the firmware. The Arduino sketch is only supported for firmware 1.0.7 at this time. See the previous question about how to switch to the correct firmware version on your Arduino 101.
 
 ### How do I rename my Arduino?
 
-At the top of the sketch file when opened in the Arduino editor is a line:
+When you open the sketch file in the Arduino editor, you will find this line of code:
 
 ```c
 #define NAME "AppInventor"  // no more than 11 characters
@@ -155,11 +155,11 @@ At the top of the sketch file when opened in the Arduino editor is a line:
 Changing the name in quotes from `AppInventor` to another name and then uploading the changes to the Arduino will cause the Arduino to advertise under the new name. Due to limitations in the Bluetooth low energy protocol, names are limited to 11 characters or less.
 
 ### When I run the Arduino sketch, I get ".hh: No Such file or directory"
-This error, referring to Accelerometer.hh or another file that ends in .hh, probably means that your Arduino IDE is out of date. Please download the [latest Arduino IDE](https://www.arduino.cc/en/Main/Software) and try again. At time of writing this, the current version is 1.8.3.
+This error, referring to Accelerometer.hh or another file that ends in .hh, probably means that your Arduino IDE is out of date. Please download the [latest Arduino IDE](https://www.arduino.cc/en/Main/Software) and try again. At the time of writing this, the current version is 1.8.3.
 
 ### The sensors/outputs on my Arduino are behaving oddly/are very jittery.
 
-Some hardware require 5V input rather than 3.3V. If you are using the Grove shield, make sure you have the Arduino's power input set to 5V. The <a href="#/arduino101/arduinorgblcd">RGB LCD</a>, for example, requires 5V otherwise there is not enough power to drive the liquid crystal display and characters will not appear.
+Some hardware require 5V input rather than 3.3V. If you are using the Grove shield, make sure you have the Arduino's power input set to 5V. The <a href="#/arduino101/arduinorgblcd">RGB LCD</a>, for example, requires 5V. Without it, there is not enough power to drive the liquid crystal display and characters will not appear.
 
 ### When I connect to the Arduino over Bluetooth, the app crashes.
 
@@ -186,7 +186,7 @@ The micro:bit uses a secure communication channel between it and your mobile dev
 
 ### How do I pair my micro:bit with my phone/tablet?
 
-Tou pair the micro:bit with your mobile device, you will need to:
+To pair the micro:bit with your mobile device, you will need to:
 
 1. Press and hold the A and B buttons, and while holding the buttons press and release the RESET button.
 2. After restarting, the micro:bit's LED matrix will show the message `PAIRING MODE`.
