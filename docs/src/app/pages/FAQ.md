@@ -142,7 +142,7 @@ Please follow the instructions on pages 5-7 of the [Arduino 101 setup instructio
 
 If you have previously connected to the Arduino using an app on your phone or the MIT App Inventor companion, the Arduino's connection might have not been released by the Android device. Restart the Arduino and/or re-push the code to the Arduino.
 
-If you have never connected to the device, check that it is broadcasting using a Bluetooth low energy scanner app. If you still do not see the device, it may be because you are using an incorrect version of the firmware. The Arduino sketch does not support the most recent 2.0.2 firmware and the Arduino will lock up if it is used. See the previous question about how to change the firmware on your Arduino 101.
+If you have never connected to the device, check that it is broadcasting using a Bluetooth low energy scanner app. If you still do not see the device, it may be because you are using an incorrect version of the firmware. The Arduino sketch is only supported for firmware 1.0.7 at this time. See the previous question about how to switch to the correct firmware version on your Arduino 101.
 
 ### How do I rename my Arduino?
 
