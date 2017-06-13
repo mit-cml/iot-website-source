@@ -96,7 +96,7 @@ class AppNavDrawer extends Component {
             href="#/teachers/howtos"
           />
           <ListItem
-            primaryText="Examples"
+            primaryText="IoT in Action"
             value="/teachers/examples"
             href="#/teachers/examples"
           />

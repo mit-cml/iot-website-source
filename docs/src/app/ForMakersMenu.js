@@ -58,17 +58,17 @@ class ForMakersMenu extends Component {
             />
             <MenuItem
               primaryText="Tutorials"
-              containerElement={<Link to="/makers/tutorials" />}
+              containerElement={<Link to="/teachers/tutorials" />}
               onClick={this.handleRequestClose}
             />
             <MenuItem
               primaryText="How Tos"
-              containerElement={<Link to="/makers/howtos" />}
+              containerElement={<Link to="/teachers/howtos" />}
               onClick={this.handleRequestClose}
             />
             <MenuItem
-              primaryText="Examples"
-              containerElement={<Link to="/makers/examples" />}
+              primaryText="IoT in Action"
+              containerElement={<Link to="/teachers/examples" />}
               onClick={this.handleRequestClose}
             />
           </Menu>

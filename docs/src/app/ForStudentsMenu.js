@@ -58,17 +58,17 @@ class ForTeachersMenu extends Component {
             />
             <MenuItem
               primaryText="Tutorials"
-              containerElement={<Link to="/students/tutorials" />}
+              containerElement={<Link to="/teachers/tutorials" />}
               onClick={this.handleRequestClose}
             />
             <MenuItem
               primaryText="How Tos"
-              containerElement={<Link to="/students/howtos" />}
+              containerElement={<Link to="/teachers/howtos" />}
               onClick={this.handleRequestClose}
             />
             <MenuItem
-              primaryText="Examples"
-              containerElement={<Link to="/students/examples" />}
+              primaryText="IoT in Action"
+              containerElement={<Link to="/teachers/examples" />}
               onClick={this.handleRequestClose}
             />
           </Menu>

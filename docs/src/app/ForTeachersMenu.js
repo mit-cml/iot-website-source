@@ -67,7 +67,7 @@ class ForTeachersMenu extends Component {
               onClick={this.handleRequestClose}
             />
             <MenuItem
-              primaryText="Examples"
+              primaryText="IoT in Action"
               containerElement={<Link to="/teachers/examples" />}
               onClick={this.handleRequestClose}
             />
