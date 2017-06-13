@@ -75,7 +75,7 @@ class LearnMorePage extends Component {
         <div>
           <div style={styles.floatLeft}>
             <RaisedButton
-              label="Get started!" href="#LearnMore"
+              label="Get started!" href="#/getstarted/intro"
               primary="true"
             /></div>
           <div style={styles.floatRight}>
