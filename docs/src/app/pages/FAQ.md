@@ -112,21 +112,21 @@ Please try unplugging and reconnecting your Arduino. Please also check that the 
 
 There are a number of reasons that uploading might fail or the board may not connect via Bluetooth. Make sure that the correct board model and port are selected under the "Tools" menu in the Arduino editor. It may also help to press the `RESET` button on the Arduino 101 to clear any error states. Please see the following questions to help diagnose the issue further.
 
-#### I get the message "Error compiling board for Arduino/Genuino Uno" or similar.
+<p style="font-size: 110%">_I get the message "Error compiling board for Arduino/Genuino Uno" or similar._</p>
 
 This error indicates that the Arduino IDE is targeting the wrong board type during compilation. To target the Arduino 101, select the menu item Tools > Board > Arduino/Genuino 101. For more details, see the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf).
 
-#### I get the message "An error occurred while uploading the sketch"
+<p style="font-size: 110%">_I get the message "An error occurred while uploading the sketch"_</p>
 
 Occassionally the Arduino board may stop responding to commands from your computer during programming. To fix this issue, press the `MASTER RESET` button on the Arduino 101 and restart the upload process by clicking the "Upload" button in the Arduino editor.
 
 Another potential cause of this error is a change in the port the Arduino is connected to. Check that you have selected the right port and board type via the Tools > Port menu in the Arduino editor.
 
-#### I get the message "Your Arduino firmware is out of date" or "Your Arduino firmware does not match the expected version"
+<p style="font-size: 110%">_I get the message "Your Arduino firmware is out of date" or "Your Arduino firmware does not match the expected version"_</p>
 
 You may have downloaded and installed an incorrect version of the Arduino 101 firmware. The sketch currently works with firmware version 1.0.7. Please see the instructions on pages 5-7 of the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf).
 
-#### When I upload my sketch, the Arduino editor gives me the message "BLE firmware version is not in sync with CurieBLE library !!"
+<p style="font-size: 110%">_When I upload my sketch, the Arduino editor gives me the message "BLE firmware version is not in sync with CurieBLE library !!"_</p>
 
 This message indicates that you have downloaded the 1.0.7 libraries for Arduino 101, but your Arduino 101 is still running the old firmware. You will need to burn the appropriate bootloader to your Arduino using the instructions on pages 5-7 of the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf).
 
