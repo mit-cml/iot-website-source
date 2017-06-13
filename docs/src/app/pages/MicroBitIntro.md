@@ -1,6 +1,6 @@
 # Platform: BBC micro:bit
 
-The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by a number of different editors, including a [blocks editor](https://pxt.microbit.org) provided by Microsoft. Learn more about the micro:bit at the <a rel="nofollow" href="http://microbit.org/about/">Micro:bit Educational Foundation's website</a>.
+The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by a number of different editors, including a <a href="https://pxt.microbit.org" target="_blank" rel="nofollow">blocks editor</a> provided by Microsoft. Learn more about the micro:bit at the <a rel="nofollow" href="http://microbit.org/about/" target="_blank">Micro:bit Educational Foundation's website</a>.
 
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
 ![micro:bit Front Image](./images/microbit-front.png)
