@@ -1,4 +1,4 @@
-# Microbit_Event
+# Microbit\_Event
 
 Component for Microbit_Event
 

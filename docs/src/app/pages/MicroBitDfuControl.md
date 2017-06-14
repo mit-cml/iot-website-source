@@ -1,4 +1,4 @@
-# Microbit_Dfu_Control
+# Microbit\_Dfu\_Control
 
 Component for Microbit_Dfu_Control
 

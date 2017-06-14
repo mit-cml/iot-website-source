@@ -1,4 +1,4 @@
-# Microbit_Device_Information
+# Microbit\_Device\_Information
 
 Component for Microbit_Device_Information
 

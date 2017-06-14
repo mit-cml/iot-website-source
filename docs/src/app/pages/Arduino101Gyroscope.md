@@ -2,7 +2,7 @@
 
 The Arduino101Gyroscope component lets users configure the Arduino 101's on-board gyroscope and receive one or more gyroscope samples via the appropriate methods.<br>
 
-<strong>More links:</strong><ul><li>View the <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Gyroscope.aia' target='_blank'>sample project</a> for the Arduino 101 Gyroscope.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Arduino101Gyroscope.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Gyroscope.</li></ul>
+<strong>More links:</strong><ul><li>View the <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Gyroscope.aia' target='_blank'>sample project</a> for the Arduino 101 Gyroscope.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Gyroscope.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Gyroscope.</li></ul>
 
 ## Properties
 

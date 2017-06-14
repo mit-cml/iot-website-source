@@ -202,16 +202,6 @@ class AppNavDrawer extends Component {
                 href="#/microbit/microbitbutton"
               />,
               <ListItem
-                primaryText="Dev. Info. Service"
-                value="/microbit/microbitdeviceinformation"
-                href="#/microbit/microbitdeviceinformation"
-              />,
-              <ListItem
-                primaryText="Generic Access"
-                value="/microbit/microbitgenericaccess"
-                href="#/microbit/microbitgenericaccess"
-              />,
-              <ListItem
                 primaryText="IO Pin"
                 value="/microbit/microbitiopin"
                 href="#/microbit/microbitiopin"
@@ -228,7 +218,7 @@ class AppNavDrawer extends Component {
               />,
               <ListItem
                 primaryText="Temperature"
-                value="/microbit/microbitemperature"
+                value="/microbit/microbittemperature"
                 href="#/microbit/microbittemperature"
               />,
               <ListItem

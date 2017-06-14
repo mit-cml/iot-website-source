@@ -2,7 +2,7 @@
 
 The Arduino101Accelerometer component lets users configure the Arduino 101's on-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Accelerometer.aia' target='_blank'>sample project</a> for the Arduino 101 Accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Arduino101Accelerometer.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Accelerometer.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Accelerometer.aia' target='_blank'>sample project</a> for the Arduino 101 Accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Accelerometer.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Accelerometer.</li></ul>
 
 ## Properties
 
