@@ -24,15 +24,15 @@ const tutorialsList = [
     img: 'assets/tutorials/arduino_logo.png',
     link: 'assets/tutorials/MIT_App_Inventor_IoT_Setup.pdf',
   }, {
+    title: 'MIT App Inventor IoT BLE Basic Connection',
+    author: 'MIT App Inventor Project',
+    img: 'assets/tutorials/bluetooth_logo.png',
+    link: 'assets/tutorials/MIT_App_Inventor_Basic_Connection.pdf'
+  }, {
     title: 'MIT App Inventor IoT Starter',
     author: 'MIT App Inventor Project',
     img: 'assets/tutorials/arduino_101.png',
     link: 'assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf',
-  }, {
-    title: 'LED Control Tutorial',
-    author: 'MIT App Inventor Project',
-    img: 'assets/tutorials/grove_led.png',
-    link: 'assets/tutorials/MIT_App_Inventor_LED_Control_Tutorial.pdf',
   }, {
     title: 'MIT App Inventor IoT Healthy Plant',
     author: 'MIT App Inventor Project',
