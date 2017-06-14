@@ -100,6 +100,7 @@ class AppNavDrawer extends Component {
             value="/teachers/examples"
             href="#/teachers/examples"
           />
+          <Divider />
           <ListItem
             primaryText="Devices"
             primaryTogglesNestedList={true}
@@ -237,6 +238,7 @@ class AppNavDrawer extends Component {
               />,
             ]}
           />
+          <Divider />
           <ListItem
             primaryText="Help"
             value="/help/intro"
@@ -251,6 +253,7 @@ class AppNavDrawer extends Component {
             primaryText="Forum"
             href="https://groups.google.com/forum/#!forum/mitappinventortest"
           />
+          <Divider />
           <ListItem
             primaryText="Contact Us"
             href="http://appinventor.mit.edu/explore/contact.html"
