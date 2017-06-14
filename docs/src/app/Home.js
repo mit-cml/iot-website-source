@@ -114,6 +114,27 @@ class HomePage extends Component {
         letterSpacing: 0,
         color: typography.textDarkBlack,
       },
+      buttonCluster: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+      },
+      buttonHolder: {
+        flexGrow: 0,
+        padding: 1,
+      },
+      buttonHolderCenter: {
+        display: 'flex',
+        flexGrow: 1,
+        padding: 1,
+        justifyContent: 'center',
+      },
+      button200: {
+        width: 200,
+      },
+      buttonCenter: {
+        alignSelf: 'center',
+      },
     };
 
     return (
@@ -135,21 +156,32 @@ class HomePage extends Component {
         <br /><br />
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and
         the universe of connected devices.
-        <br /><br />
-        <span>
-          <center>
+        <br /><br /><br />
+        <div style={styles.buttonCluster}>
+          <span style={styles.buttonHolder}>
             <RaisedButton
+              style={styles.button200}
               label="Learn more about IoT" href="#LearnMore"
               primary={true}
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span style={styles.buttonHolderCenter}>
             <RaisedButton
               label="Learn more about MIT App Inventor"
               href="http://appinventor.mit.edu" target="_blank"
               primary={true}
             />
-          </center>
-        </span>
+          </span>
+          <span style={styles.buttonHolder}>
+            <RaisedButton
+              style={styles.button200}
+              label="Create Apps!"
+              href="http://ai2.appinventor.mit.edu" target="_blank"
+              primary={true}
+            />
+          </span>
+        </div>
+
       </FullWidthSection>
     );
   }
