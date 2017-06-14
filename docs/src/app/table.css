@@ -1,0 +1,29 @@
+.app-list table {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.app-list tr>td {
+    border-top: 1px solid black;
+    padding: 4px;
+}
+
+.app-list tr>td:first-child {
+    padding-right: 12px;
+}
+
+.app-list tr>td:nth-child(2) {
+    width: 50%;
+}
+
+.app-list tr>td emph {
+    font-style: italic;
+}
+
+.app-list tr>td:nth-child(3) {
+    text-align: center;
+    width: 90px;
+}
