@@ -1,4 +1,4 @@
-# App Inventor IoT Frequently Asked Questions (Draft)
+# App Inventor IoT Frequently Asked Questions
 
 Below is a list of frequently asked questions from MIT App Inventor users working with Internet of Things. Don't see your question in the list? You may also ask questions in our <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">forum</a>. This page will be updated with new questions and answers from time to time.
 
