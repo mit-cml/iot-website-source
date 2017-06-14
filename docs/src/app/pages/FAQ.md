@@ -1,4 +1,4 @@
-# App Inventor IoT Frequently Asked Questions (Draft)
+# App Inventor IoT Frequently Asked Questions
 
 Below is a list of frequently asked questions from MIT App Inventor users working with Internet of Things. Don't see your question in the list? You may also ask questions in our <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">forum</a>. This page will be updated with new questions and answers from time to time.
 
@@ -12,15 +12,15 @@ Below is a list of frequently asked questions from MIT App Inventor users workin
 
 ### What is IoT?
 
-IoT stands for Internet of Things. It refers to the growing interconnectedness of devices and people.
+IoT stands for Internet of Things. It refers to the growing interconnectedness of devices and people. By networking devices in our everyday lives, we can leverage those devices as a means of interacting with the world by sending and receiving data, and by sensing and effecting the environment in which things reside.
 
 ### Why would I want to use this?
 
-The MIT App Inventor for IoT framework allows you to connect to external devices via your App Inventor apps.
+The Internet of THings allows you to change your relationship with the objects in your everyday life. While there is an increase in "smart" objects (like refridgerators, home heating, and even lighting), most of the time we are only passive users of technology. With MIT App Inventor for IoT, you can have the power to build apps to control Internet of Things enabled devices around you &ndash; decide exactly how you want to interact with the world around you, and have more control over the data you share.
 
 ### How can I support MIT App Inventor?
 
-Please participate in the forums, and consider a donation to the foundation via <a href="https://giving.mit.edu/give/to?fundId=3832320" target="_blank">MIT Giving</a>.
+Please participate in the <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">forums</a>, and consider a donation to the MIT App Inventor fund via <a href="https://giving.mit.edu/give/to?fundId=3832320" target="_blank">MIT Giving</a>.
 
 ### I want my school to use MIT App Inventor. How can I set that up?
 
@@ -60,7 +60,11 @@ Extensions are components that are published separately from  the main MIT App I
 
 ### How do I import extensions?
 
-In the Designer view, open the __Extensions__ panel in the component palette. There will be a link entitled `Import Extension`. Clicking on this link will open a file upload/import from URL dialog. Using the file uploader, you can upload an extension previously downloaded to your computer. Using the URL importer, you can enter any of the links to extensions from this site (among others) to import an extension from the web.
+In the Designer view, open the __Extensions__ panel in the component palette. There will be a link entitled `Import Extension` (see below). Clicking on this link will open a file upload/import from URL dialog. Using the file uploader, you can upload an extension previously downloaded to your computer. Using the URL importer, you can enter any of the links to extensions from this site (among others) to import an extension from the web. For more information on the extensions mechanism, <a href="http://ai2.appinventor.mit.edu/reference/other/extensions.html" target="_blank">view the extensions overview document</a>.
+
+<p style="text-align: center;">
+![Go to Palette, then Extensions, then click Import Extension](/assets/faq/import_extension.png) ![Select the extension from your computer and click Import](/assets/faq/import_extension2.png)
+</p>
 
 ### Why are the MIT App Inventor IOT components published as extensions?
 
@@ -96,7 +100,7 @@ You can use any device via the Bluetooth low energy extension, but you will need
 
 ### I built a MIT App Inventor app to connect my IoT board, but my Android device cannot find my board while scanning. What should I do?
 
-You may need to stop and restart scanning as some Bluetooth chipsets may back off exponentially during scanning to reduce power consumption. Restarting the scanning process may pick up on new devices. If you still do not see your IoT device, consider power cycling it in case it is stuck in an error state.
+You may need to stop and restart scanning as some Bluetooth chipsets may slowly increase the time between scans to reduce power consumption. Restarting the scanning process may pick up on new devices. If you still do not see your IoT device, consider disconnecting and reconnecting (power cycling) it in case it is stuck in an error state.
 
 ## <a name="/faq/faq/arduino"></a>Arduino
 
@@ -111,6 +115,8 @@ Please try unplugging and reconnecting your Arduino. Please also check that the 
 ### Uploading the sketch is failing/My Arduino won't connect, what should I do?
 
 There are several reasons that uploading might fail or the board may not connect via Bluetooth. Make sure that the correct board model and port are selected under the "Tools" menu in the Arduino editor. It may also help to press the `RESET` button on the Arduino 101 to clear any error states. Please read the following questions for further diagnosis.
+
+<p style="text-align: center;"><span style="width: 320px;">![Image indicating the location of the reset buttons on either side of the Arduino's USB header](/assets/faq/reset_buttons.png)</span></p>
 
 <p style="font-size: 110%">_I get the message "Error compiling board for Arduino/Genuino Uno" or similar._</p>
 
@@ -134,6 +140,12 @@ This message indicates that you have downloaded the 1.0.7 libraries for Arduino 
 
 During upload the Arduino editor will check the firmware of your Arduino to confirm that it matches the expected version. If it does not, you will receive instructions indicating how to reprogram your Arduino to use the correct firmware.
 
+<p style="text-align: center;">
+<span style="max-width: 569px; width: 100%;">
+![If your firmware is out of date, you will see an error in the Arduino editor](/assets/faq/firmware_mismatch.png)
+</span>
+</p>
+
 ### How do I change the firmware on my Arduino 101?
 
 Please follow the instructions on pages 5-7 of the [Arduino 101 setup instructions](/assets/howtos/MIT_App_Inventor_IoT_Setup.pdf) to install the appropriate firmware on your Arduino 101.
@@ -146,7 +158,7 @@ If you have never connected to the device, check that it is broadcasting using a
 
 ### How do I rename my Arduino?
 
-When you open the sketch file in the Arduino editor, you will find this line of code:
+When you open the sketch file `AIM-for-Things-Arduino101.ino` in the Arduino editor, you will find this line of code:
 
 ```c
 #define NAME "AppInventor"  // no more than 11 characters
@@ -178,7 +190,7 @@ Please see the resources published by Arduino AG [online](https://www.arduino.cc
 
 ### When I scan for Bluetooth devices I do not see my micro:bit. Help!
 
-You may not have paired your phone or tablet with the micro:bit. Your micro:bit will only be listed if pairing has occurred.
+You may not have paired your phone or tablet with the micro:bit. Your micro:bit will only be listed if pairing has occurred. See below for how to pair your micro:bit with your phone or tablet.
 
 ### Why do I need to pair my micro:bit with my phone/tablet?
 
