@@ -16,7 +16,7 @@ IoT stands for Internet of Things. It refers to the growing interconnectedness o
 
 ### Why would I want to use this?
 
-The Internet of THings allows you to change your relationship with the objects in your everyday life. While there is an increase in "smart" objects (like refridgerators, home heating, and even lighting), most of the time we are only passive users of technology. With MIT App Inventor for IoT, you can have the power to build apps to control Internet of Things enabled devices around you &ndash; decide exactly how you want to interact with the world around you, and have more control over the data you share.
+The Internet of Things allows you to change your relationship with the objects in your everyday life. While there is an increase in "smart" objects (like refrigerators, home heating, and even lighting), most of the time we are only passive users of technology. With MIT App Inventor for IoT, you can have the power to build apps to control Internet of Things enabled devices around you &ndash; decide exactly how you want to interact with the world around you, and have more control over the data you share.
 
 ### How can I support MIT App Inventor?
 
