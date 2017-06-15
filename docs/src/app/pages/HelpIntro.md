@@ -2,7 +2,7 @@
 
 Now that you're up and running you're ready to start building Apps! We suggest starting with the
 <a href="/assets/howtos/MIT_App_Inventor_IoT_Light_Sensor.pdf" target="_blank">Light Sensor</a>
-and <a href="/assets/resources/MIT_App_Inventor_IoT_RgbLcd.pdf" target="_blank">RGB LCD Display</a>
+and <a href="/assets/howtos/MIT_App_Inventor_IoT_RgbLcd.pdf" target="_blank">RGB LCD Display</a>
 tutorials, then exploring on your own! We also have resources available to help you with building your IoT apps with MIT App Inventor.
 
 ## [IoT Devices](#/devices/devicesintro)
