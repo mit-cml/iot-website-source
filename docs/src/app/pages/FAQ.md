@@ -44,7 +44,7 @@ MIT App Inventor is free to use! However, you will need to provide your own IoT 
 
 ### What hardware do I need to get started?
 
-You will need an Android device (phone or tablet) that supports Android 5.0 or higher and has hardware support for Bluetooth 4.0 low energy. You will also need any of our supported Bluetooth low energy devices ([BBC micro:bit](https://microbit.org) or [Arduino 101](https://www.arduino.cc)) and a computer to access the [MIT App Inventor site](http://ai2.appinventor.mit.edu) to build your apps.
+You will need an Android device (phone or tablet) that supports Android 5.0 or higher and has hardware support for Bluetooth 4.0 low energy. You will also need any of our supported Bluetooth low energy devices ([BBC micro:bit](#/microbit/microbitintro) or [Arduino 101](#/arduino101/arduino101intro)) and a computer to access the [MIT App Inventor site](http://ai2.appinventor.mit.edu) to build your apps.
 
 ### Does IoT have any special hardware requirements?
 
