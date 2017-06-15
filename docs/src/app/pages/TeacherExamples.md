@@ -5,7 +5,7 @@
 
 **App Name:** Home Lighting Automation System
 
-**Description:** Turn the lights on and off without leaving your bed with a home lighting automation system. This allows individuals who are confined to bed rest to change the lighting independently without needing to request caregiver assistance.
+**Description:** Turn the lights on and off without leaving your bed with a home lighting automation system. This allows individuals who are confined to bed rest to change the lighting independently, without caregiver assistance.
 
 **Benefit:** This app gives an individual more power over their environment, rather than having to rely on others. Developing this app helped these two young innovators measurably improve the lives of others.
 
