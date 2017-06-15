@@ -1,10 +1,8 @@
 ## Getting Started with MIT App Inventor IoT
 
 You may already know how to build mobile apps with
-MIT App Inventor, but if you are new to this way of building apps we
-suggest you
-<a href="http://appinventor.mit.edu/explore/ai2/tutorials.html" target="_blank">become familiar</a>
-with some basic functions in MIT App Inventor.
+MIT App Inventor, but if you are new to this system, please
+<a href="http://appinventor.mit.edu/explore/ai2/tutorials.html" target="_blank">click here</a> to become familiar with some basic functions in MIT App Inventor.
 
 <b>Hardware</b><br>
 To build Internet of Things (IoT) apps with MIT App Inventor, you will be working with external
@@ -22,7 +20,7 @@ to work with the Arduino 101 device controller. You will then need to
 <a href="/assets/tutorials/MIT_App_Inventor_Basic_Connection.pdf" target="_blank">connect to the Arduino 101</a> using MIT App Inventor.
 
 <b>Start with a simple IoT app (~ 30 minutes)</b><br>
-Before you begin with a full tutorial or a How To exercise, you may want to start with a simple app to turn an LED light 
+Before you begin with a full tutorial or a How To exercise, you may want to start with a simple app to turn an LED light
 on and off. This <a href="/assets/tutorials/MIT_App_Inventor_IoT_Starter_Tutorial.pdf" target="_blank">Starter Tutorial</a> will take about 30 minutes.
 
 <b>Then try a How To sensor app</b><br>

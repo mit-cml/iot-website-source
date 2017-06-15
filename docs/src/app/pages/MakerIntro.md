@@ -3,10 +3,7 @@
 # Welcome, Makers!
 
 The maker movement has drawn enormous vitality over the past decade
-from two computing breakthroughs.  One is mobile
-computing: we now carry around with us computers of tremendous power
-that can link over the Internet to vast resources of data and computation.
-The other is the Internet of Things (IoT), which brings an entire
+from two computing breakthroughs. One is mobile computing: we now carry with us computers of tremendous power that link to vast resources of data and computation. The other is the Internet of Things (IoT), which brings an entire
 realm of physical objects within the scope of digital sensing and
 control.
 
