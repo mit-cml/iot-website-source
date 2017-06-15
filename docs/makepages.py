@@ -17,6 +17,7 @@ import Home from './Home';
 import TutorialsPage from './Tutorials';
 import HowTosPage from './HowTos';
 import LearnMorePage from './LearnMorePage';
+import DevicesIntroPage from './DevicesIntroPage';
 '''
 
 appRoutesChunk = '''
