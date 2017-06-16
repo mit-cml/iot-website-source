@@ -32,7 +32,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![get BluetoothLE1 BatteryValue ](blocks/BluetoothLE.BatteryValue_getter.svg)
 
-+ <a name="ConnectedDeviceName"></a>`ConnectedDeviceName` – 
++ <a name="ConnectedDeviceName"></a>`ConnectedDeviceName` – The advertised name of the connected device. If no device is connected or Bluetooth low energy is not supported, this will return the empty string.
 
 
 ![get BluetoothLE1 ConnectedDeviceName ](blocks/BluetoothLE.ConnectedDeviceName_getter.svg)
@@ -42,7 +42,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![get BluetoothLE1 ConnectedDeviceRssi ](blocks/BluetoothLE.ConnectedDeviceRssi_getter.svg)
 
-+ <a name="ConnectionTimeout"></a>`ConnectionTimeout` – The amount of time, in seconds, that the BluetoothLE component will wait for a connection to be established with a device when <a href='#Connect'></code>Connection</code></a> or <a href='#ConnectWithAddress'><code>ConnectWithAddress</code></a>. If a connection is not established in the given amount of time, the attempt will be aborted and the <a href='#ConnectionFailed'><code>ConnectionFailed</code></a> event will be run.
++ <a name="ConnectionTimeout"></a>`ConnectionTimeout` – The amount of time, in seconds, that the BluetoothLE component will wait for a connection to be established with a device after a call to <a href='#Connect'><code>Connect</code></a> or <a href='#ConnectWithAddress'><code>ConnectWithAddress</code></a>. If a connection is not established in the given amount of time, the attempt will be aborted and the <a href='#ConnectionFailed'><code>ConnectionFailed</code></a> event will be run.
 
 
 ![get BluetoothLE1 ConnectionTimeout ](blocks/BluetoothLE.ConnectionTimeout_getter.svg)
@@ -50,7 +50,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![set BluetoothLE1 ConnectionTimeout  to](blocks/BluetoothLE.ConnectionTimeout_setter.svg)
 
-+ <a name="DeviceCharacteristics"></a>`DeviceCharacteristics` – 
++ <a name="DeviceCharacteristics"></a>`DeviceCharacteristics` – A list of triples, one for each characteristic advertised by the connected device, containing the service UUID, characteristic UUID, and the characteristic's name, if known. The format of the list will be ((service1 characteristic1 name1) (service2 characteristic2 name2) ...). If no device is connected or Bluetooth low energy is not supported, then an empty list will be returned.
 
 
 ![get BluetoothLE1 DeviceCharacteristics ](blocks/BluetoothLE.DeviceCharacteristics_getter.svg)
@@ -60,7 +60,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![get BluetoothLE1 DeviceList ](blocks/BluetoothLE.DeviceList_getter.svg)
 
-+ <a name="DeviceServices"></a>`DeviceServices` – 
++ <a name="DeviceServices"></a>`DeviceServices` – A list of pairs, one for each advertised service, indicating the service's UUID and its name, if known. The format of the list will be ((uuid1 name1) (uuid2 name2) ...). If no device is connected or Bluetooth low energy is not supported, then an empty list will be returned.
 
 
 ![get BluetoothLE1 DeviceServices ](blocks/BluetoothLE.DeviceServices_getter.svg)
@@ -144,7 +144,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
  __Parameters__:
 
-     * <code>address</code> (<emph><a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">string</a></emph>) &mdash;
+     * <code>address</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">_text_</a>) &mdash;
        The MAC address of the target device, of the form "12:34:56:78:90:ab"
 
 ![call BluetoothLE1 ConnectWithAddressaddress](blocks/BluetoothLE.ConnectWithAddress.svg)
@@ -157,7 +157,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
  __Parameters__:
 
-     * <code>address</code> (<emph><a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">string</a></emph>) &mdash;
+     * <code>address</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">_text_</a>) &mdash;
        The Media Access Control (MAC) address of the device to disconnect, of the form "12:34:56:78:90:ab"
 
 ![call BluetoothLE1 DisconnectWithAddressaddress](blocks/BluetoothLE.DisconnectWithAddress.svg)
@@ -230,7 +230,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        The unique identifier of the service passed in the read or register call.
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
-     * <code>shortFloats</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
+     * <code>shortFloat</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
        Interpret the floats as 16-bit half-precision (true) or 32-bit single-precision (false).
 
 ![call BluetoothLE1 ReadFloatsserviceUuidcharacteristicUuidshortFloat](blocks/BluetoothLE.ReadFloats.svg)
@@ -270,8 +270,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 ![call BluetoothLE1 ReadShortsserviceUuidcharacteristicUuidsigned](blocks/BluetoothLE.ReadShorts.svg)
 
 + <a name="ReadStrings"></a>`ReadStrings` – Reads one or more null-terminated strings from a connected BluetoothLE device. Service Unique ID
- and Characteristic UniqueID are required. The <code>utf16</code> parameter indicates whether
- the content should be decoded as UTF-8 (false) or UTF-16 (true) code points when converting to
+ and Characteristic Unique ID are required. The <code>utf16</code> parameter indicates whether
+ the content should be decoded as UTF-16 (true) or UTF-8 (false) code points when converting to
  App Inventor strings. After the strings are read, the
  <a href="#StringsReceived"><code>StringsReceived</code></a> event will be run.
 
@@ -282,7 +282,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
      * <code>utf16</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
-       Interpret the string content as UTF-8 (false) or UTF-16 (true) code points.
+       Interpret the string content as UTF-16 (true) or UTF-8 (false) code points.
 
 ![call BluetoothLE1 ReadStringsserviceUuidcharacteristicUuidutf16](blocks/BluetoothLE.ReadStrings.svg)
 
@@ -303,7 +303,20 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![call BluetoothLE1 RegisterForBytesserviceUuidcharacteristicUuidsigned](blocks/BluetoothLE.RegisterForBytes.svg)
 
-+ <a name="RegisterForFloats"></a>`RegisterForFloats` – Register to receive updates when one or more floating point values from a connected Bluetooth device change.
++ <a name="RegisterForFloats"></a>`RegisterForFloats` – Registers to receive updates when one or more IEEE 754 floating point numbers from a connected
+ BluetoothLE device are changed. Service Unique ID and Characteristic Unique ID are required. The
+ <code>shortFloat</code> parameter indicates whether the floats are either 16-bit half-precision
+ floating point or 32-bit single precision floating point numbers. Whenever a change is received,
+ the <a href="#FloatsReceived"><code>FloatsReceived</code></a> event will be run.
+
+ __Parameters__:
+
+     * <code>serviceUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the service passed in the read or register call.
+     * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the characteristic in the read or register call.
+     * <code>shortFloat</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
+       Interpret the floats as 16-bit half-precision (true) or 32-bit single-precision (false).
 
 ![call BluetoothLE1 RegisterForFloatsserviceUuidcharacteristicUuidshortFloat](blocks/BluetoothLE.RegisterForFloats.svg)
 
@@ -343,8 +356,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 + <a name="RegisterForStrings"></a>`RegisterForStrings` – Registers to receive updates when one or more null-terminated strings from a connected
  BluetoothLE device are changed. Service Unique ID and Characteristic Unique ID are required. The
- <code>utf16</code> parameter indicates whether the content should be decoded as UTF-8 (false)
- or UTF-16 (true) code points when converting to App Inventor strings. Whenever a change is
+ <code>utf16</code> parameter indicates whether the content should be decoded as UTF-16 (true)
+ or UTF-8 (false) code points when converting to App Inventor strings. Whenever a change is
  received, the <a href="#StringsReceived"><code>StringsReceived</code></a> event will be run.
 
  __Parameters__:
@@ -354,7 +367,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
      * <code>utf16</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
-       Interpret the string content as UTF-8 (false) or UTF-16 (true) code points.
+       Interpret the string content as UTF-16 (true) or UTF-8 (false) code points.
 
 ![call BluetoothLE1 RegisterForStringsserviceUuidcharacteristicUuidutf16](blocks/BluetoothLE.RegisterForStrings.svg)
 
@@ -425,8 +438,9 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 + <a name="WriteBytes"></a>`WriteBytes` – Writes one or more 8-bit integer values to a connected BluetoothLE device. Service Unique ID
  and Characteristic Unique ID are required. The values parameter can either be a single numeric
- value or a list of values. If signed is true, the acceptable values are between -128 and 127.
- If signed is false, the acceptable values are between 0 and 255.
+ value or a list of values. If <code>signed</code> is true, the acceptable values are
+ between -128 and 127. If <code>signed</code> is false, the acceptable values are
+ between 0 and 255.
 
  __Parameters__:
 
@@ -444,8 +458,9 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 + <a name="WriteBytesWithResponse"></a>`WriteBytesWithResponse` – Writes one or more 8-bit integer values to a connected BluetoothLE device and waits for an
  acknowledgement via the <a href="#BytesWritten"><code>BytesWritten</code></a> event.
  Service Unique ID and Characteristic Unique ID are required. The values parameter can either
- be a single numeric value or a list of values. If signed is true, the acceptable values are
- between -128 and 127. If signed is false, the acceptable values are between 0 and 255.
+ be a single numeric value or a list of values. If <code>signed</code> is true, the acceptable
+ values are between -128 and 127. If <code>signed</code> is false, the acceptable values are
+ between 0 and 255.
 
  __Parameters__:
 
@@ -462,8 +477,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 + <a name="WriteFloats"></a>`WriteFloats` – Writes one or more IEEE 754 floating point numbers to a connected BluetoothLE device. Service Unique ID
  and Characteristic Unique ID are required. The values parameter can either be a single numeric
- value or a list of values. If <code>shortFloats</code> is true, then each numeric value will be
- compressed to fit into a 16-bit half-precision floating point value. If <code>shortFloats</code>
+ value or a list of values. If <code>shortFloat</code> is true, then each numeric value will be
+ compressed to fit into a 16-bit half-precision floating point value. If <code>shortFloat</code>
  is false, then each numeric value will be sent as a 32-bit single precision floating point value.
 
  __Parameters__:
@@ -472,7 +487,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        The unique identifier of the service passed in the read or register call.
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
-     * <code>shortFloats</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
+     * <code>shortFloat</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
        Interpret the floats as 16-bit half-precision (true) or 32-bit single-precision (false).
      * <code>values</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash;
        A list of values to write to the device.
@@ -482,7 +497,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 + <a name="WriteFloatsWithResponse"></a>`WriteFloatsWithResponse` – Writes one or more IEEE 754 floating point values to a connected BluetoothLE device and waits for an
  acknowledgement via the <a href="#FloatsWritten"><code>FloatsWritten</code></a> event.
  Service Unique ID and Characteristic Unique ID are required. The values parameter can either
- be a single numeric value or a list of values. If <code>shortFloats</code> is false,
+ be a single numeric value or a list of values. If <code>shortFloat</code> is false,
  then each numeric value will be sent as a 32-bit single precision floating point value.
 
  __Parameters__:
@@ -491,7 +506,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        The unique identifier of the service passed in the read or register call.
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
-     * <code>shortFloats</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
+     * <code>shortFloat</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
        Interpret the floats as 16-bit half-precision (true) or 32-bit single-precision (false).
      * <code>values</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash;
        A list of values to write to the device.
@@ -500,8 +515,9 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 + <a name="WriteIntegers"></a>`WriteIntegers` – Writes one or more 32-bit integer values to a connected BluetoothLE device. Service Unique ID
  and Characteristic Unique ID are required. The values parameter can either be a single numeric
- value or a list of values. If signed is true, the acceptable values are between -2147483648 and
- 2147483647. If signed is false, the acceptable values are between 0 and 4294967295.
+ value or a list of values. If <code>signed</code> is true, the acceptable values are
+ between -2147483648 and 2147483647. If <code>signed</code> is false, the acceptable values are
+ between 0 and 4294967295.
 
  __Parameters__:
 
@@ -519,9 +535,9 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 + <a name="WriteIntegersWithResponse"></a>`WriteIntegersWithResponse` – Writes one or more 32-bit integer values to a connected BluetoothLE device and waits for an
  acknowledgement via the <a href="#IntegersWritten"><code>IntegersWritten</code></a> event.
  Service Unique ID and Characteristic Unique ID are required. The values parameter can either
- be a single numeric value or a list of values. If signed is true, the acceptable values are
- between -2147483648 and 2147483647. If signed is false, the acceptable values are between 0
- and 4294967295.
+ be a single numeric value or a list of values. If <code>signed</code> is true, the acceptable
+ values are between -2147483648 and 2147483647. If <code>signed</code> is false, the acceptable
+ values are between 0 and 4294967295.
 
  __Parameters__:
 
@@ -538,8 +554,9 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 + <a name="WriteShorts"></a>`WriteShorts` – Writes one or more 16-bit integer values to a connected BluetoothLE device. Service Unique ID
  and Characteristic Unique ID are required. The values parameter can either be a single numeric
- value or a list of values. If signed is true, the acceptable values are between -32768 and 32767.
- If signed is false, the acceptable values are between 0 and 65535.
+ value or a list of values. If <code>signed</code> is true, the acceptable values are
+ between -32768 and 32767. If <code>signed</code> is false, the acceptable values are
+ between 0 and 65535.
 
  __Parameters__:
 
@@ -557,8 +574,9 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 + <a name="WriteShortsWithResponse"></a>`WriteShortsWithResponse` – Writes one or more 16-bit integer values to a connected BluetoothLE device and waits for an
  acknowledgement via the <a href="#ShortsWritten"><code>ShortsWritten</code></a> event.
  Service Unique ID and Characteristic Unique ID are required. The values parameter can either
- be a single numeric value or a list of values. If signed is true, the acceptable values are
- between -32768 and 32767. If signed is false, the acceptable values are between 0 and 65535.
+ be a single numeric value or a list of values. If <code>signed</code> is true, the acceptable
+ values are between -32768 and 32767. If <code>signed</code> is false, the acceptable values
+ are between 0 and 65535.
 
  __Parameters__:
 
@@ -586,7 +604,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
      * <code>utf16</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
-       Send the string encoded as UTF-8 (false) or UTF-16 (true) code points.
+       Send the string encoded as UTF-16 little endian (true) or UTF-8 (false) code points.
      * <code>values</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash;
        A list of values to write to the device.
 
@@ -606,7 +624,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
      * <code>utf16</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/logic.html#true" target="_blank">_boolean_</a>)
-       Send the string encoded as UTF-8 (false) or UTF-16 little endian (true) code points.
+       Send the string encoded as UTF-16 little endian (true) or UTF-8 (false) code points.
      * <code>values</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash;
        A list of values to write to the device.
 
@@ -619,8 +637,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
  <a href="#ReadBytes"><code>ReadBytes</code></a> or
  <a href="#RegisterForBytes"><code>RegisterForBytes</code></a> for the given
  <code>serviceUuid</code> and <code>characteristicUuid</code>, the <code>byteValues</code> list
- will contain numbers ranging from 0 to 255 (<code>signed = false</code>) or -128 to 127
- (<code>signed = true</code>).
+ will contain numbers ranging from -128 to 127 (<code>signed = true</code>)
+ or 0 to 255 (<code>signed = false</code>).
 
  __Parameters__:
 
@@ -664,7 +682,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
  __Parameters__:
 
-     * <code>reason</code> (<emph><a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">string</a></emph>) &mdash;
+     * <code>reason</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">_text_</a>) &mdash;
        The reason the connection failed, if known.
 
 ![when BluetoothLE1 ConnectionFailed reason do](blocks/BluetoothLE.ConnectionFailed.svg)
@@ -681,12 +699,12 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 ![when BluetoothLE1 Disconnecteddo](blocks/BluetoothLE.Disconnected.svg)
 
 + <a name="FloatsReceived"></a>`FloatsReceived` – The <code>FloatsReceived</code> event is run when one or more IEEE 754 floating point values are received from a
- connected Bluetooth device. Depending on the <code>shortFloats</code> parameter of the last call to
+ connected Bluetooth device. Depending on the <code>shortFloat</code> parameter of the last call to
  <a href="#ReadFloats"><code>ReadFloats</code></a> or
  <a href="#RegisterForFloats"><code>RegisterForFloats</code></a> for the given
  <code>serviceUuid</code> and <code>characteristicUuid</code>, the <code>floatValues</code> list
- will contain numbers ranging from -3.402823466E38 to 3.402823466E38 (<code>shortFloats = false</code>) or
- -65504.0 to 65504.0 (<code>shortFloats = true</code>).
+ will contain numbers ranging from -65504.0 to 65504.0 (<code>shortFloat = true</code>)
+ or -3.402823466E38 to 3.402823466E38 (<code>shortFloat = false</code>).
 
  __Parameters__:
 
@@ -720,8 +738,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
  <a href="#ReadIntegers"><code>ReadIntegers</code></a> or
  <a href="#RegisterForIntegers"><code>RegisterForIntegers</code></a> for the given
  <code>serviceUuid</code> and <code>characteristicUuid</code>, the <code>intValues</code> list
- will contain numbers ranging from 0 to 4294967296 (<code>signed = false</code>) or
- -2147483648 to 2147483647 (<code>signed = true</code>).
+ will contain numbers ranging from -2147483648 to 2147483647 (<code>signed = true</code>)
+ or 0 to 4294967296 (<code>signed = false</code>).
 
  __Parameters__:
 
@@ -759,8 +777,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
  <a href="#ReadShorts"><code>ReadShorts</code></a> or
  <a href="#RegisterForShorts"><code>RegisterForShorts</code></a> for the given
  <code>serviceUuid</code> and <code>characteristicUuid</code>, the <code>shortValues</code> list
- will contain numbers ranging from 0 to 65535 (<code>signed = false</code>) or -32768 to 32767
- (<code>signed = true</code>).
+ will contain numbers ranging from -32768 to 32767 (<code>signed = true</code>)
+ or 0 to 65535 (<code>signed = false</code>).
 
  __Parameters__:
 
@@ -794,8 +812,8 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
  <a href="#ReadStrings"><code>ReadStrings</code></a> or
  <a href="#RegisterForStrings"><code>RegisterForStrings</code></a> for the given
  <code>serviceUuid</code> and <code>characteristicUuid</code>, the <code>stringValues</code> list
- will contain either a UTF-8 decoded (<code>utf16 = false</code>) or UTF-16 little endian
- decoded (<code>utf16 = true</code>) strings. The string length is limited by the maximum
+ will contain either a UTF-16 little endian decoded (<code>utf16 = true</code>) or UTF-8
+ decoded (<code>utf16 = false</code>) strings. The string length is limited by the maximum
  transmission unit (MTU) of the Bluetooth device, which is typically 23 bytes.
 
  __Parameters__:
@@ -805,7 +823,7 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
      * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
        The unique identifier of the characteristic in the read or register call.
      * <code>stringValues</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash;
-       A list of values read from the device. The strings will be decoded as UTF-8 or UTF-16 based on the <code>utf16</code> flag previously specified in the call to read or register.
+       A list of values read from the device. The strings will be decoded as UTF-16 or UTF-8 based on the <code>utf16</code> flag previously specified in the call to read or register.
 
 ![when BluetoothLE1 StringsReceived serviceUuid characteristicUuid stringValues do](blocks/BluetoothLE.StringsReceived.svg)
 

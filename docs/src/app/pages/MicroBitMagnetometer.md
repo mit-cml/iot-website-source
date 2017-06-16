@@ -1,6 +1,6 @@
 # Microbit\_Magnetometer
 
-The <code>Microbit_Magnetometer</code> provides App Inventor users with the ability toconfigure the BBC micro:bit's on-board magnetometer and receive one or more magnetometer samples via the appropriate methods.
+The <code>Microbit_Magnetometer</code> provides the ability to configure the BBC micro:bit's on-board magnetometer and receive one or more magnetometer samples via the appropriate methods.
 
 ## Properties
 

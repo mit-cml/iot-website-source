@@ -1,6 +1,6 @@
 # Microbit\_Uart
 
-The <code>Microbit_Uart</code> sensor provides App Inventor users with the ability to read from and write strings to the BBC micro:bit's serial UART port.
+The <code>Microbit_Uart</code> sensor provides the ability to read from and write strings to the BBC micro:bit's serial UART port.
 
 ## Properties
 
@@ -14,20 +14,20 @@ The <code>Microbit_Uart</code> sensor provides App Inventor users with the abili
 
 ## Methods
 
-+ <a name="RequestTXCharacteristic"></a>`RequestTXCharacteristic` – Request notifications of messages received from the micro:bit's serial UART. New messages will
++ <a name="RequestTXCharacteristic"></a>`RequestTXCharacteristic` – Requests notifications of messages received from the micro:bit's serial UART. New messages will
  be received through the
  <a href='#TXCharacteristicReceived'><code>TXCharacteristicReceived</code></a>
  event.
 
 ![call Microbit_Uart1 RequestTXCharacteristic](blocks/Microbit_Uart.RequestTXCharacteristic.svg)
 
-+ <a name="StopTXCharacteristicUpdates"></a>`StopTXCharacteristicUpdates` – Stop receiving updates from the micro:bit's serial UART. Note that there may be pending
++ <a name="StopTXCharacteristicUpdates"></a>`StopTXCharacteristicUpdates` – Stops receiving updates from the micro:bit's serial UART. Note that there may be pending
  messages from the device that will still be reported through the
  <a href='#TXCharacteristicReceived'><code>TXCharacteristicReceived</code></a> event.
 
 ![call Microbit_Uart1 StopTXCharacteristicUpdates](blocks/Microbit_Uart.StopTXCharacteristicUpdates.svg)
 
-+ <a name="WriteRXCharacteristic"></a>`WriteRXCharacteristic` – Write the given value <code>UART_TX</code> to the micro:bit. The size of the message will
++ <a name="WriteRXCharacteristic"></a>`WriteRXCharacteristic` – Writes the given value <code>UART_TX</code> to the micro:bit. The size of the message will
  depend on the value of <code>UART_TX</code>. Numbers will be converted to integers and sent
  as 32-bit integer values. Strings will be encoded using UTF-8. Lists of objects will be
  sent as a sequence of bytes using the aforementioned rules for numbers and strings.
