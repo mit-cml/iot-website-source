@@ -1,8 +1,6 @@
-# Microbit_Io_Pin
+# Microbit\_Io\_Pin
 
-The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bit's analog pins for input and output, and to read, write, and request notifications for theI/O pin states.<br>
-
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitIoPins.aia' target='_blank'>sample project</> for the micro:bit IO pins.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_IO_Pins.pdf' target='_blank'>how to instructions</a> for the micro:bit IO pins.</li></ul>
+The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bit's analog pins for input and output, and to read, write, and request notifications for the I/O pin states.
 
 ## Properties
 
@@ -54,13 +52,13 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
  __Parameters__:
 
-     * <code>PWM_Control_Field</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>PWM\_Control\_Field</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        The PWM control field data as defined in the WritePWMControl method description.
 
 ![call Microbit_Io_Pin1 WritePWMControlPWM_Control_Field](blocks/Microbit_Io_Pin.WritePWMControl.svg)
 
 + <a name="WritePinADConfiguration"></a>`WritePinADConfiguration` – The <code>WritePinADConfiguration</code> is used to configure whether pins on the micro:bit
- are analog or digital. The <code>Pin_AD_Config_Value</code> is composed of three bytes that
+ are analog or digital. The <code>Pin\_AD\_Config\_Value</code> is composed of three bytes that
  represent 19 bits, one for each pin on the micro:bit. A 0 bit indicates a digital pin and a
  1 bit indicates an analog pin. The
  <a href="#WrotePinADConfiguration"><code>WrotePinADConfiguration</code></a> event will be run
@@ -68,7 +66,7 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
  __Parameters__:
 
-     * <code>Pin_AD_Config_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>Pin\_AD\_Config\_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        A list of 8-bit values that are composed into a 19-bit mask, one bit per pin on the micro:bit.
 
 ![call Microbit_Io_Pin1 WritePinADConfigurationPin_AD_Config_Value](blocks/Microbit_Io_Pin.WritePinADConfiguration.svg)
@@ -80,12 +78,12 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
  __Parameters__:
 
-     * <code>IO_Pin_Data</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash; A list of up to 19 values from 0-255 to be output to the micro:bit's pins.
+     * <code>IO\_Pin\_Data</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash; A list of up to 19 values from 0-255 to be output to the micro:bit's pins.
 
 ![call Microbit_Io_Pin1 WritePinDataIO_Pin_Data](blocks/Microbit_Io_Pin.WritePinData.svg)
 
 + <a name="WritePinIOConfiguration"></a>`WritePinIOConfiguration` – The <code>WritePinIOConfiguration</code> method is used to configure the micro:bit's pins for
- input or output. The <code>Pin_IO_Config_Value</code> parameter should be a 3-element list
+ input or output. The <code>Pin\_IO\_Config\_Value</code> parameter should be a 3-element list
  where each element is a number from 0-255 composing a 19-bit bitmask. A 0-bit indicates an
  output and a 1-bit indicates an input.
 
@@ -104,7 +102,7 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
  __Parameters__:
 
-     * <code>Pin_AD_Config_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>Pin\_AD\_Config\_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        A list of analog/digital pin states configured on the micro:bit.
 
 ![when Microbit_Io_Pin1 PinADConfigurationReceived Pin_AD_Config_Value do](blocks/Microbit_Io_Pin.PinADConfigurationReceived.svg)
@@ -122,35 +120,35 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 ![when Microbit_Io_Pin1 PinDataReceived IO_Pin_Data do](blocks/Microbit_Io_Pin.PinDataReceived.svg)
 
 + <a name="PinIOConfigurationReceived"></a>`PinIOConfigurationReceived` – The <code>PinIOConfigurationReceived</code> event will be run after the micro:bit's pins'
- input/output configuration is read. <code>Pin_IO_Config_Value</code> will be a list of three
+ input/output configuration is read. <code>Pin\_IO\_Config\_Value</code> will be a list of three
  bytes valued from 0-255 composing a 19-bit mask indicating the input or output state of each
  of the 19 pins provided by the micro:bit. A 0 bit indicates output and a 1 bit indicates input.
 
  __Parameters__:
 
-     * <code>Pin_IO_Config_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>Pin\_IO\_Config\_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        A list of 8-bit values that are composed into a 19-bit mask, one bit per pin on the micro:bit.
 
 ![when Microbit_Io_Pin1 PinIOConfigurationReceived Pin_IO_Config_Value do](blocks/Microbit_Io_Pin.PinIOConfigurationReceived.svg)
 
 + <a name="WrotePWMControl"></a>`WrotePWMControl` – The <code>WrotePWMControl</code> event is run after a successful write to the micro:bit's
  pulse-width modulation control service. The value of the control field that was written will
- be passed as the <code>PWM_Control_Field</code>.
+ be passed as the <code>PWM\_Control\_Field</code>.
 
  __Parameters__:
 
-     * <code>PWM_Control_Field</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>PWM\_Control\_Field</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        The control information written to the micro:bit.
 
 ![when Microbit_Io_Pin1 WrotePWMControl PWM_Control_Field do](blocks/Microbit_Io_Pin.WrotePWMControl.svg)
 
 + <a name="WrotePinADConfiguration"></a>`WrotePinADConfiguration` – The <code>WrotePinADConfiguration</code> event is run after a successful write to the
- micro:bit's configuration server for analog and digital pins. <code>Pin_AD_Config_Value</code>
+ micro:bit's configuration server for analog and digital pins. <code>Pin\_AD\_Config\_Value</code>
  will be the list of bytes that were written as part of the last call to the service.
 
  __Parameters__:
 
-     * <code>Pin_AD_Config_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>Pin\_AD\_Config\_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        A list of 8-bit values that are composed into a 19-bit mask, one bit per pin on the micro:bit.
 
 ![when Microbit_Io_Pin1 WrotePinADConfiguration Pin_AD_Config_Value do](blocks/Microbit_Io_Pin.WrotePinADConfiguration.svg)
@@ -161,18 +159,18 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
  __Parameters__:
 
-     * <code>IO_Pin_Data</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash; A list of up to 19 values from 0-255 that were written to the micro:bit's
-                    pins from the last call to <a href="#WritePinData"><code>WritePinData</code></a>.
+     * <code>IO\_Pin\_Data</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#makealist">_list_</a>) &mdash; A list of up to 19 values from 0-255 that were written to the micro:bit's
+       pins from the last call to <a href="#WritePinData"><code>WritePinData</code></a>.
 
 ![when Microbit_Io_Pin1 WrotePinData IO_Pin_Data do](blocks/Microbit_Io_Pin.WrotePinData.svg)
 
 + <a name="WrotePinIOConfiguration"></a>`WrotePinIOConfiguration` – The <code>WrotePinIOConfiguration</code> event will run after a successful update of the
- micro:bit's input/output pin configuration. <code>Pin_IO_Config_Value</code> that was sent to
+ micro:bit's input/output pin configuration. <code>Pin\_IO\_Config\_Value</code> that was sent to
  the device will be passed as a parameter to the event.
 
  __Parameters__:
 
-     * <code>Pin_IO_Config_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
+     * <code>Pin\_IO\_Config\_Value</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#emptylist">_list_</a>) &mdash;
        A list of 8-bit values that are composed into a 19-bit mask, one bit per pin on the micro:bit.
 
 ![when Microbit_Io_Pin1 WrotePinIOConfiguration Pin_IO_Config_Value do](blocks/Microbit_Io_Pin.WrotePinIOConfiguration.svg)

@@ -1,8 +1,6 @@
 # Arduino101Pins
 
-The Arduino101Pins extension provides a general purpose interface to any hardware connected to the Arduino's digital or analog I/O pins.<br>
-
-<strong>More links</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/Arduino101Pins.aia' target='_blank'>sample project</a> for the Arduino 101 Pins.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Pins.pdf' target='_blank'>how to instructions</a> for the Arduino 101 Pins extension.</li></ul>
+The Arduino101Pins extension provides a general purpose interface to any hardware connected to the Arduino's digital or analog I/O pins.
 
 ## Properties
 

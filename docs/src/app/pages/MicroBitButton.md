@@ -1,9 +1,7 @@
-# Microbit_Button
+# Microbit\_Button
 
 The <code>Microbit_Button</code> extension provides App Inventor with information about the state of the BBC micro:bit's buttons. Developers can use this extension to request updates for when a user presses a button or read the current state of the buttons. The buttons have three states:<br>
-<ul><li>0 - up</li><li>1 - down</li><li>2 - long pressed</li></ul><br>
-
-<strong>More links:</strong><ul><li>Download a<a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitButton.aia' target='_blank'>sample project</a> for the micro:bit buttons.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_Button.pdf' target='_blank'>how to instructions</a> for the micro:bit buttons.</li></ul>
+<ul><li>0 - up</li><li>1 - down</li><li>2 - long pressed</li></ul>
 
 ## Properties
 
@@ -18,12 +16,12 @@ The <code>Microbit_Button</code> extension provides App Inventor with informatio
 ## Methods
 
 + <a name="ReadButtonAState"></a>`ReadButtonAState` – Read the current state of the micro:bit's A button. After a successful read, the
- <a href="#ButtonAStateReceived"><code>ButtonAStateReceived/code></a> event will be run.
+ <a href="#ButtonAStateReceived"><code>ButtonAStateReceived</code></a> event will be run.
 
 ![call Microbit_Button1 ReadButtonAState](blocks/Microbit_Button.ReadButtonAState.svg)
 
 + <a name="ReadButtonBState"></a>`ReadButtonBState` – Read the current state of the micro:bit's B button. After a successful read, the
- <a href="#ButtonBStateReceived"><code>ButtonBStateReceived/code></a> event will be run.
+ <a href="#ButtonBStateReceived"><code>ButtonBStateReceived</code></a> event will be run.
 
 ![call Microbit_Button1 ReadButtonBState](blocks/Microbit_Button.ReadButtonBState.svg)
 

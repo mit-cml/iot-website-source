@@ -1,4 +1,4 @@
-# Microbit_Generic_Attribute
+# Microbit\_Generic\_Attribute
 
 Component for Microbit_Generic_Attribute
 

@@ -1,10 +1,10 @@
-# Microbit_Temperature
+# Microbit\_Temperature
 
 The <code>Microbit_Temperature</code> sensor provides App Inventor users with the ability to configure the BBC micro:bit's on-board temperature sensor and receive one or more temperature samples via the appropriate methods.<br>
 
 The temperature sensor's reportrate, or period, determines how frequently data will be sent to App Inventor.<br>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitTemperature.aia' target='_blank'>sample project</a> for the micro:bit temperature sensor.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_Temperature.pdf' target='_blank'>how to instructions</a> for the micro:bit temperature sensor.</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitTemperature.aia' target='_blank'>sample project</a> for the micro:bit temperature sensor.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_Microbit_Temperature.pdf' target='_blank'>how to instructions</a> for the micro:bit temperature sensor.</li></ul>
 
 ## Properties
 

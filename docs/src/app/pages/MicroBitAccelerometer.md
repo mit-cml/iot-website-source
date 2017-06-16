@@ -1,10 +1,8 @@
-# Microbit_Accelerometer
+# Microbit\_Accelerometer
 
 The <code>Microbit_Accelerometer</code> component lets users configure the BBC micro:bit's on-board accelerometer and receive one or more accelerometer samples via the appropriate methods.<br>
 
-The accelerometer's report rate, or period, determines how frequently data will be sent to App Inventor.<br>
-
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitAccelerometer.aia'target='_blank'>sample project</a> for the micro:bit accelerometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_IoT_Microbit_Accelerometer.pdf' target='_blank'>how to instructions</a> for the micro:bit accelerometer.</li></ul>
+The accelerometer's report rate, or period, determines how frequently data will be sent to App Inventor.
 
 ## Properties
 
