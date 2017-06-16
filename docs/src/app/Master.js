@@ -15,6 +15,8 @@ import ForStudentsMenu from './ForStudentsMenu';
 import ForMakersMenu from './ForMakersMenu';
 import DocumentationMenu from './DocumentationMenu';
 
+require('./icon.css');
+
 class Master extends Component {
   static propTypes = {
     children: PropTypes.node,
@@ -215,7 +217,7 @@ class Master extends Component {
           }
           iconElementRight={
             <a href="http://appinventor.mit.edu" style={prepareStyles(styles.browserstackLogo)} target="_blank">
-              <img src="images/logo-white.png" width="auto" />
+              <span className="aim-icon" />
             </a>
           }
           style={
