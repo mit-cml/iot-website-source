@@ -35,11 +35,10 @@ class DocumentationMenu extends Component {
     return (
       <span>
         <FlatButton
-          style={{color: white, position: 'relative', verticalAlign: 'middle'}}
+          style={{color: white, position: 'relative', verticalAlign: 'middle', minWidth: 'auto'}}
           onTouchTap={this.handleTouchTap}
-          label="Documentation"
+          children={<span><span className="small-only">Docs</span><span className='big-only'>Documentation</span><i className="material-icons">arrow_drop_down</i></span>}
           labelPosition="before"
-          icon={<i className="material-icons">arrow_drop_down</i>}
         />
         <Popover
           open={this.state.open}

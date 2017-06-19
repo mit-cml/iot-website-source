@@ -5,7 +5,7 @@ span.aim-icon {
   display: inline-block;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 879px) {
   span.aim-icon {
       width: 48px;
       margin-right: 6px;
