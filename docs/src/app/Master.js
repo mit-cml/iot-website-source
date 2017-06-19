@@ -44,7 +44,12 @@ class Master extends Component {
 
   componentWillMount() {
     this.setState({
-      muiTheme: getMuiTheme(),
+        muiTheme: getMuiTheme({
+            palette: {
+                primary1Color: '#a5cf47',
+                accent1Color: '#00728a',
+            }
+        }),
     });
   }
 

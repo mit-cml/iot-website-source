@@ -46,6 +46,7 @@ class HomeFeature extends Component {
       image: {
         // Not sure why this is needed but it fixes a display issue in chrome
         marginBottom: -6,
+        width: '100%'
       },
       heading: {
         fontSize: 20,
