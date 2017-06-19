@@ -28,7 +28,7 @@ const DeviceList = () => (
       <tbody>
         {deviceList.map((app) => (
           <tr key={app.link}>
-            <td style={{textAlign: 'center'}}><a style={{textDecoration: 'none'}} href={app.link}><img src={app.img} alt={app.title} style={{width: '240px', minWidth: '40px', maxWidth: '320px'}} /></a></td>
+            <td style={{textAlign: 'center'}}><a style={{textDecoration: 'none'}} href={app.link}><img src={app.img} alt={app.title} style={{width: '100%', minWidth: '40px', maxWidth: '320px'}} /></a></td>
             <td><a style={{display: 'block', textDecoration: 'none', color: 'black'}} href={app.link}><strong>{app.title}</strong><br />{app.description}</a></td>
           </tr>
         ))}
