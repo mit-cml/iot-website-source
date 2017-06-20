@@ -182,6 +182,16 @@ Check that you have the right pin set in the property tab for the device in the 
 1. Make sure that in the sketch you have set the appropriate service to `ENABLED`.
 2. Check that you've set the right `Pin` in the designer for services that require a pin.
 
+### I am not receiving any readings from my attached sensor, or my RGB LCD is not showing text.
+
+Many sensors/displays require 5 volts for their power. If you are using the Grove shield, verify that the voltage selector switch is set to 5V instead of 3.3V (see image).
+
+![Move the voltage selector on the Grove Shield from 3.3V to 5V to increase the power.](/assets/faq/voltage_select.png)
+
+### I still am not receiving data for the proximity sensor, even after checking that the voltage switch is set to 5V.
+
+The proximity sensors provided by Seeed Studios are three-pin sensors. Unfortunately, the signal pin (yellow wire) is not attached to the correct socket on the 4-pin header that connects to Grove Shield. Therefore, if you attach the proximity sensor to A0, the reading will actually be received on A1 (A1 on A2, and so forth). Increase by one the pin number you provide to the Arduino101ProximitySensor component's Pin property to correct for this issue.
+
 ### How can I get more support for my Arduino?
 
 Please see the resources published by Arduino AG [online](https://www.arduino.cc/en/Main/FAQ).
