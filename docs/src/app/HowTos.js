@@ -145,7 +145,7 @@ const HowTos = () => (
     <div className='app-list'>
     <table>
     <tbody>
-    <tr><th colSpan="2">How To Name &amp; Description</th><th>Est. Time</th><th>Hardware</th></tr>
+    <tr><th colSpan="2">Name &amp; Description</th><th>Est. Time</th><th>Hardware</th></tr>
     {howtosList.map((app) => (
         <tr key={app.link}>
         <td style={{textAlign: 'center'}}><a style={{textDecoration: 'none'}} href={app.link}><img src={app.img} alt={app.title} style={{width: '100%', minWidth: '40px', maxWidth: '320px'}} /></a></td>
