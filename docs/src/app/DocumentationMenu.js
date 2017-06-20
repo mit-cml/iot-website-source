@@ -51,7 +51,6 @@ class DocumentationMenu extends Component {
           <Menu>
             <MenuItem
               primaryText="Devices"
-              primary={false}
               containerElement={<Link to="/devices/devicesintro" />}
               onClick={this.handleRequestClose}
             />
