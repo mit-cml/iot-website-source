@@ -1,0 +1,31 @@
+/* -*- mode: css; css-indent-offset: 2; -*- */
+.primary {
+  background-color: rgb(102, 187, 106);
+}
+
+.secondary {
+  background-color: rgb(0, 114, 138);
+}
+
+.button-holder {
+  width: 100%;
+}
+
+@media(min-width: 750px) {
+  .button-holder>.button200 {
+    width: 200px;
+  }
+}
+
+@media(max-width: 749px) {
+  .button-holder {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .button-holder>span, .button-holder>span>div {
+    width: 100%;
+  }
+  .button-holder>span>div {
+    margin-bottom: 6pt;
+  }
+}

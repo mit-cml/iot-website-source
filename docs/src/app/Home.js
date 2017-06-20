@@ -11,6 +11,8 @@ import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import {darkWhite, white} from 'material-ui/styles/colors';
 import RaisedButton from 'material-ui/RaisedButton';
 
+require('./main.css');
+
 class HomePage extends Component {
 
   static propTypes = {
@@ -91,7 +93,7 @@ class HomePage extends Component {
     return (
       <FullWidthSection style={styles.root}>
         <div style={styles.tagline}>
-          <h2 style={styles.h1}>MIT App Inventor - Internet&nbsp;of&nbsp;Things</h2>
+          <h2 style={styles.h1}>MIT App Inventor + Internet&nbsp;of&nbsp;Things</h2>
         </div>
       </FullWidthSection>
     );
@@ -122,15 +124,13 @@ class HomePage extends Component {
       buttonHolder: {
         flexGrow: 0,
         padding: 1,
+        margin: '0 auto'
       },
       buttonHolderCenter: {
         display: 'flex',
         flexGrow: 1,
         padding: 1,
         justifyContent: 'center',
-      },
-      button200: {
-        width: 200,
       },
       buttonCenter: {
         alignSelf: 'center',
@@ -157,10 +157,10 @@ class HomePage extends Component {
         MIT App Inventor now brings that same power and simplicity of app creation to the Internet of Things (IoT) and
         the universe of connected devices.
         <br /><br /><br />
-        <div style={styles.buttonCluster}>
+        <div className="button-holder" style={styles.buttonCluster}>
           <span style={styles.buttonHolder}>
             <RaisedButton
-              style={styles.button200}
+              className="button200"
               label="Learn more about IoT" href="#LearnMore"
               primary={true}
             />
@@ -174,7 +174,7 @@ class HomePage extends Component {
           </span>
           <span style={styles.buttonHolder}>
             <RaisedButton
-              style={styles.button200}
+              className="button200"
               label="Create Apps!"
               href="http://ai2.appinventor.mit.edu" target="_blank"
               primary={true}
