@@ -1,0 +1,103 @@
+#home {
+  text-decoration: none;
+  color: white;
+}
+
+div.nav-container {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+}
+
+.app-bar nav {
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+}
+
+.app-bar button>div, .app-bar nav a>div {
+  color: white;
+  position: relative;
+  vertical-align: middle;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 16px;
+  letter-spacing: 0;
+}
+
+.app-bar nav a, .app-bar nav button {
+    pointer-events: auto;
+}
+
+.app-bar nav a>div {
+  padding: 0 16px;
+}
+
+.app-bar button>div>span i {
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-right: 12px;
+}
+
+.app-bar span.small-only {
+  display: none;
+}
+
+@media(max-width: 1399px) {
+  .app-bar button>div, .app-bar nav a>div {
+    padding-left: 0;
+  }
+  .app-bar nav a>div {
+    padding: 0 10px;
+  }
+  .app-bar button>div>span i {
+    margin-left: 4px;
+    margin-right: 6px;
+  }
+}
+
+@media(max-width: 1199px) {
+  .app-bar span.title {
+    font-size: 20px;
+  }
+  .app-bar button>div span.big-only {
+    display: none;
+  }
+  .app-bar button>div i {
+    display: none;
+  }
+  .app-bar button>div {
+    padding: 0 10px;
+  }
+  .app-bar button>div {
+    padding-left: 6px;
+  }
+  .app-bar button>div span.small-only {
+    display: inline;
+  }
+}
+
+@media(max-width: 879px) {
+  .app-bar .title.big-only {
+    display: none;
+  }
+  .app-bar .title.small-only {
+    display: inline;
+  }
+}
+
+@media(max-width: 639px) {
+  .app-bar nav {
+    display: none;
+  }
+  .app-bar .title.big-only {
+    display: inline;
+  }
+  .app-bar .title.small-only {
+    display: none;
+  }
+}

@@ -16,6 +16,7 @@ import ForMakersMenu from './ForMakersMenu';
 import DocumentationMenu from './DocumentationMenu';
 
 require('./icon.css');
+require('./menu.css');
 
 class Master extends Component {
   static propTypes = {
@@ -109,6 +110,7 @@ class Master extends Component {
       },
       iconButton: {
         color: white,
+        minWidth: 'auto',
       },
       iconStyles: {
         marginRight: 24,
@@ -197,23 +199,25 @@ class Master extends Component {
         <AppBar
           onLeftIconButtonTouchTap={this.handleTouchTapLeftIconButton}
           title={
-            <div style={styles.title}>Internet of Things
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div style={styles.title}><a id="home" href="#"><span className="title big-only">Internet of Things</span><span className="title small-only">IoT</span></a>
+              <div className="nav-container"><nav>
               <FlatButton
+                style={{minWidth: 'auto'}}
                 labelStyle={styles.iconButton}
                 href="#/getstarted/intro"
-                label="Getting Started"
+                children={<span>Getting Started</span>}
               />
               <ForTeachersMenu />
               <ForStudentsMenu />
               <ForMakersMenu />
               <DocumentationMenu />
               <FlatButton
+                style={{minWidth: 'auto'}}
                 labelStyle={styles.iconButton}
                 href="#/help/intro"
-                label="Help"
+                children={<span>Help</span>}
               />
+              </nav></div>
             </div>
           }
           zDepth={1}
@@ -228,6 +232,7 @@ class Master extends Component {
           style={
             styles.appBar
           }
+          className="app-bar"
           showMenuIconButton={
             showMenuIconButton
           }
