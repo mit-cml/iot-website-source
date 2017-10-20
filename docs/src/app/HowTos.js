@@ -138,6 +138,14 @@ const howtosList = [
     description: 'Make a simple app that controls the LED light on an Arduino controller. Turn the light on and off, and change its intensity with a slider.',
     equipment: ['Arduino 101', 'LED (optional)'],
     time: 20,
+  }, {
+    title: 'How to: LED blinking',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/LinkIt_7697.png',
+    link: 'assets/tutorials/MIT_App_Inventor_LED_7697.pdf',
+    description: 'Control the LED light on LinkIt 7697 (Arduino compatible). Turn the light on and off by buttons and speech recognizer.',
+    equipment: ['LinkIt 7697', 'LED (optional)'],
+    time: 20,
   }
 ];
 
