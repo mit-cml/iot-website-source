@@ -228,6 +228,30 @@ class AppNavDrawer extends Component {
               />,
             ]}
           />
+		  <ListItem
+            primaryText="LinkIt series boards"
+            primaryTogglesNestedList={true}
+            value="/linkit/linkitintro"
+            href="#/linkit/linkitintro"
+            nestedItems={[
+              <ListItem
+                primaryText="LinkIt 7697"
+                value="/linkit/linkit7697"
+                href="#/linkit/linkit7697"
+              />,
+              <ListItem
+                primaryText="LinkIt 7688"
+                value="/linkit/linkit7688"
+                href="#/linkit/linkit7688"
+              />,
+            ]}
+          />
+		  <ListItem
+            primaryText="LEGO® MINDSTORMS® EV3 robot"
+            primaryTogglesNestedList={false}
+            value="/legoev3/legoev3intro"
+            href="#/legoev3/legoev3intro"
+          />
           <Divider />
           <ListItem
             primaryText="Help"
