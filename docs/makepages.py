@@ -106,6 +106,7 @@ const AppRoutes = (
       <Route path="linkit7688" component={linkit7688Page} />
 	</Route>
 	<Route path="legoev3">
+	  <Route path="legoev3intro" component={legoev3introPage} />
 	</Route>
 	<Route path="faq">
       <Route path="faq" component={FAQPage} />
