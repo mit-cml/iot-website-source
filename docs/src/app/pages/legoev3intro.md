@@ -21,4 +21,5 @@ MIT App Inventor provides complete support to interact with Lego EV3, including:
 Please check tutorials:
 
 * [Button Control](assets/howtos/MIT_App_Inventor_EV3_ButtonControl.pdf) &mdash; Control Lego EV3 robot with buttons. You can also adjust the motor speed by sliders..
-* [Sensor panel](assets/howtos/MIT_App_Invento_EV3_SensorPanel.pdf) &mdash; View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors..
+* [Sensor panel](assets/howtos/MIT_App_Invento_EV3_SensorPanel.pdf) &mdash; View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors.
+* [One Touch Control](assets/howtos/MIT_App_Invento_EV3_OneTouchControl.pdf) &mdash; Control Lego EV3 robot with one finger.

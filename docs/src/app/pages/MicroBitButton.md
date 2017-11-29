@@ -6,7 +6,6 @@ The <code>Microbit_Button</code> extension provides App Inventor with informatio
 <strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitButton.aia' target='_blank'>sample projects</a> for the micro:bit onboard buttons.</li>
                                 <li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_Microbit_Button.pdf' target='_blank'>how to instructions</a> for the micro:bit onboard buttons</li></ul>
 
-
 ## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
