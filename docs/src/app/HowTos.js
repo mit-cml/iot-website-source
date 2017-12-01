@@ -145,7 +145,7 @@ const howtosList = [
     link: 'assets/howtos/MIT_App_Inventor_7697_LED.pdf',
     description: 'Control the LED light on LinkIt 7697 (Arduino compatible). Turn the light on and off by buttons and speech recognizer.',
     equipment: ['LinkIt 7697', 'LED (optional)'],
-    time: 20,
+    time: 90,
   },{
     title: 'How to: Read analog data',
     author: 'MIT App Inventor Project',
@@ -153,8 +153,25 @@ const howtosList = [
     link: 'assets/howtos/MIT_App_Inventor_7697_analogread.pdf',
     description: 'Read analog pin data of LinkIt 7697 (Arduino compatible). This time we use a moisture sensor to monitor the soil.',
     equipment: ['LinkIt 7697', 'moisture sensor (or any analog input component)'],
-    time: 20,
+    time: 90,
+  },{
+    title: 'How to: Wheeled robot control (BLE)',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/LinkIt_7697.png',
+    link: 'assets/howtos/MIT_App_Inventor_7697_BLEWheeledRobot.pdf',
+    description: 'XXX',
+    equipment: ['LinkIt 7697', 'wheeled robot chassis'],
+    time: 90,
   }, {
+    title: 'How to: RGB LED control (Wi-Fi)',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/LinkIt_7697.png',
+    link: 'assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf',
+    description: 'XXX',
+    equipment: ['LinkIt 7697', 'RGB LED'],
+    time: 90,
+  },
+  /*{
     title: 'How to: Video Streaming',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/LinkIt_7688duo.png',
@@ -162,14 +179,15 @@ const howtosList = [
     description: 'Receive the streaming video from LinkIt 7688 (Arduino compatible) in WebViewer component.',
     equipment: ['LinkIt 7688', 'Webcam(Logitech, but others should be fine)'],
     time: 20,
-  }, {
+  },*/
+  {
     title: 'How to: Button control',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/LegoEV3.png',
     link: 'assets/howtos/MIT_App_Inventor_EV3_ButtonControl.pdf',
     description: 'Control Lego EV3 robot with buttons. You can also adjust the motor speed by sliders.',
     equipment: ['Lego EV3 robot kit'],
-    time: 20,
+    time: 60,
   },{
     title: 'How to: Sensor Panel',
     author: 'MIT App Inventor Project',
@@ -177,7 +195,16 @@ const howtosList = [
     link: 'assets/howtos/MIT_App_Inventor_EV3_SensorPanel.pdf',
     description: 'View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors.',
     equipment: ['Lego EV3 robot kit'],
-    time: 20,
+    time: 60,
+  },
+  {
+    title: 'How to: One touch control',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/LegoEV3.png',
+    link: 'assets/howtos/MIT_App_Inventor_EV3_OneTouchControl.pdf',
+    description: 'Control Lego EV3 robot with one finger. You can learn the basic concept of Trigonometric function.',
+    equipment: ['Lego EV3 robot kit'],
+    time: 60,
   }
 ];
 

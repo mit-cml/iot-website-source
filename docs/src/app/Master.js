@@ -177,7 +177,7 @@ class Master extends Component {
                       router.isActive('/arduino101') ? 'Arduino 101' :
                         router.isActive('/faq') ? 'FAQ' :
                           router.isActive('/forum') ? 'Forum' : '';
-
+                            //router.isActive('/linkit') ? 'LinkIt' : '';
     let docked = false;
     let showMenuIconButton = true;
 
@@ -211,6 +211,7 @@ class Master extends Component {
               <ForStudentsMenu />
               <ForMakersMenu />
               <DocumentationMenu />
+			  <haha />
               <FlatButton
                 style={{minWidth: 'auto'}}
                 labelStyle={styles.iconButton}
