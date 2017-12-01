@@ -69,12 +69,12 @@ class DocumentationMenu extends Component {
               containerElement={<Link to="/microbit/microbitintro" />}
               onClick={this.handleRequestClose}
             />
-			<MenuItem
+            <MenuItem
               primaryText="Lego EV3 robot"
               containerElement={<Link to="/legoev3/legoev3intro" />}
               onClick={this.handleRequestClose}
             />
-			<MenuItem
+            <MenuItem
               primaryText="LinkIt series boards"
               containerElement={<Link to="/linkit/linkitintro" />}
               onClick={this.handleRequestClose}

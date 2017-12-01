@@ -12,7 +12,7 @@ View the documentation for the supported [IoT Devices](#/devices/devicesintro).
 *   [Arduino 101](#/arduino101/arduino101intro)
 *   [BBC micro:bit](#/microbit/microbitintro)
 *   [Lego EV3 robot](#/legoev3/legoev3intro)
-*   [LinkIt series boards](#/linkit/linkitbitintro)
+*   [LinkIt series boards](#/linkit/linkitintro)
 
 ## [FAQ](#/faq/faq)
 Stuck? We've collected answers to the most frequently asked questions from our users. Please check out the [FAQ](#/faq/faq) for potential solutions.

@@ -1,4 +1,3 @@
-# Platform: Lego EV3 robot platform
 # Platform: LEGO® MINDSTORMS® EV3 robot platform
 
 <a href="https://www.lego.com/en-us/mindstorms/about-ev3" target="_blank">Lego Mindstorms EV3</a> is the third generation robotics kit in Lego's Mindstorms product line. It can connect up to four motors and four sensors and has a 100 x 64 pixel LED, audio output. 

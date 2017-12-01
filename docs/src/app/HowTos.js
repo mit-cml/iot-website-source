@@ -141,7 +141,7 @@ const howtosList = [
   }, {
     title: 'How to: LED blinking',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LinkIt_7697.png',
+    img: 'assets/howtos/grove_light.png',
     link: 'assets/howtos/MIT_App_Inventor_7697_LED.pdf',
     description: 'Control the LED light on LinkIt 7697 (Arduino compatible). Turn the light on and off by buttons and speech recognizer.',
     equipment: ['LinkIt 7697', 'LED (optional)'],
@@ -149,7 +149,7 @@ const howtosList = [
   },{
     title: 'How to: Read analog data',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LinkIt_7697.png',
+    img: 'assets/howtos/grove_moisture.png',
     link: 'assets/howtos/MIT_App_Inventor_7697_analogread.pdf',
     description: 'Read analog pin data of LinkIt 7697 (Arduino compatible). This time we use a moisture sensor to monitor the soil.',
     equipment: ['LinkIt 7697', 'moisture sensor (or any analog input component)'],
@@ -157,17 +157,17 @@ const howtosList = [
   },{
     title: 'How to: Wheeled robot control (BLE)',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LinkIt_7697.png',
-    link: 'assets/howtos/MIT_App_Inventor_7697_BLEWheeledRobot.pdf',
-    description: 'XXX',
+    img: 'assets/howtos/linkit_wheeledrobot.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_7697_BLE_WheeledRobot.pdf',
+    description: 'Control a wheeled robot moving around and its headlight(LED) through Bluetooth.',
     equipment: ['LinkIt 7697', 'wheeled robot chassis'],
     time: 90,
   }, {
     title: 'How to: RGB LED control (Wi-Fi)',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LinkIt_7697.png',
+    img: 'assets/howtos/RGBLED.jpg',
     link: 'assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf',
-    description: 'XXX',
+    description: 'Control LinkIt 7697 RGB LED to shine in four different colors through Wi-Fi',
     equipment: ['LinkIt 7697', 'RGB LED'],
     time: 90,
   },
@@ -179,7 +179,7 @@ const howtosList = [
     description: 'Receive the streaming video from LinkIt 7688 (Arduino compatible) in WebViewer component.',
     equipment: ['LinkIt 7688', 'Webcam(Logitech, but others should be fine)'],
     time: 20,
-  },*/
+  },remove comment when tutorial is ready - David*/
   {
     title: 'How to: Button control',
     author: 'MIT App Inventor Project',
@@ -197,7 +197,7 @@ const howtosList = [
     equipment: ['Lego EV3 robot kit'],
     time: 60,
   },
-  {
+  /*{
     title: 'How to: One touch control',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/LegoEV3.png',
@@ -205,7 +205,7 @@ const howtosList = [
     description: 'Control Lego EV3 robot with one finger. You can learn the basic concept of Trigonometric function.',
     equipment: ['Lego EV3 robot kit'],
     time: 60,
-  }
+  } remove comment when tutorial is ready - David*/
 ];
 
 const HowTos = () => (

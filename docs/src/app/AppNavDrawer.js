@@ -246,7 +246,7 @@ class AppNavDrawer extends Component {
                 href="#/linkit/linkit7697"
               />,
               <ListItem
-                primaryText="LinkIt 7688"
+                primaryText="LinkIt Smart 7688/7688 Duo"
                 value="/linkit/linkit7688"
                 href="#/linkit/linkit7688"
               />,

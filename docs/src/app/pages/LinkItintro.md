@@ -1,6 +1,6 @@
 # Platform: LinkIt IoT platform
 
-LinkIt IoT platform are a series of co-branded dev boards developed by Mediatek and Seeed Studio. 
+LinkIt IoT platform is a series of co-branded dev boards developed by Mediatek and Seeed Studio. 
 LinkIt 7697 and LinkIt Smart 7688/7688 Duo are part of the LinkIt IoT platform, providing hardware development kits (HDKs) for user to develop prototypes of IoT devices. 
 These dev boards can interact with App Inventor through Bluetooth Low energy(LinkIt 7697) and Wi-Fi(LinkIt 7697/ 7688/ 7688 Duo).
 
@@ -25,4 +25,4 @@ Image source: <a href="https://labs.mediatek.com/en/platform/linkit-smart-7688" 
 App Inventor can interact with them through BluetoothLE component and Web component. Please follow links below for more instructions:
 
 * [LinkIt 7697](#/linkit/linkit7697) &mdash; Access pins through BLE and Wi-Fi, tutorials including LED, moisture detection and robot control.
-* [LinkIt Smart 7688/ 7688 Duo](#/linkit/linkit7688) &mdash; Access pins and webcam iamge through Wi-Fi, tutorials including video streaming and robot control.
+* [LinkIt Smart 7688/ 7688 Duo](#/linkit/linkit7688) &mdash; Access pins and webcam streaming video through Wi-Fi, tutorials including video streaming and robot control.
