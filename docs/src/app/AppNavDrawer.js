@@ -229,6 +229,12 @@ class AppNavDrawer extends Component {
             ]}
           />
 		  <ListItem
+            primaryText="LEGO® MINDSTORMS® EV3 robot"
+            primaryTogglesNestedList={false}
+            value="/legoev3/legoev3intro"
+            href="#/legoev3/legoev3intro"
+          />
+		  <ListItem
             primaryText="LinkIt series boards"
             primaryTogglesNestedList={true}
             value="/linkit/linkitintro"
@@ -240,18 +246,13 @@ class AppNavDrawer extends Component {
                 href="#/linkit/linkit7697"
               />,
               <ListItem
-                primaryText="LinkIt 7688"
+                primaryText="LinkIt Smart 7688/7688 Duo"
                 value="/linkit/linkit7688"
                 href="#/linkit/linkit7688"
               />,
             ]}
           />
-		  <ListItem
-            primaryText="LEGO® MINDSTORMS® EV3 robot"
-            primaryTogglesNestedList={false}
-            value="/legoev3/legoev3intro"
-            href="#/legoev3/legoev3intro"
-          />
+		  
           <Divider />
           <ListItem
             primaryText="Help"

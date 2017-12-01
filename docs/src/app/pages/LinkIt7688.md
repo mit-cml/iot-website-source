@@ -37,5 +37,6 @@ Key features:
 
 Please follow our tutorials to get start:
 
-* [Video streaming] &mdash; Use App Inventor's WebViewer component to receive the streaming video from LinkIt 7688.
+* [Video streaming (coming soon)] &mdash; Use App Inventor's WebViewer component to receive the streaming video from LinkIt 7688.
+* [Wi-Fi robot control (coming soon)] &mdash; Use App Inventor to control a LinkIt 7688 Duo robot through Wi-Fi.
 
