@@ -212,7 +212,6 @@ class Master extends Component {
               <ForStudentsMenu />
               <ForMakersMenu />
               <DocumentationMenu />
-			  <haha />
               <FlatButton
                 style={{minWidth: 'auto'}}
                 labelStyle={styles.iconButton}

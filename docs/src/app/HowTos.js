@@ -170,20 +170,11 @@ const howtosList = [
     description: 'Control LinkIt 7697 RGB LED to shine in four different colors through Wi-Fi',
     equipment: ['LinkIt 7697', 'RGB LED'],
     time: 90,
-  },
-  /*{
-    title: 'How to: Video Streaming',
-    author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LinkIt_7688duo.png',
-    link: 'assets/howtos/MIT_App_Inventor_7688_video.pdf',
-    description: 'Receive the streaming video from LinkIt 7688 (Arduino compatible) in WebViewer component.',
-    equipment: ['LinkIt 7688', 'Webcam(Logitech, but others should be fine)'],
-    time: 20,
-  },remove comment when tutorial is ready - David*/
+  }, 
   {
     title: 'How to: Button control',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LegoEV3.png',
+    img: 'assets/howtos/LegoEV3Robot.jpg',
     link: 'assets/howtos/MIT_App_Inventor_EV3_ButtonControl.pdf',
     description: 'Control Lego EV3 robot with buttons. You can also adjust the motor speed by sliders.',
     equipment: ['Lego EV3 robot kit'],
@@ -196,16 +187,15 @@ const howtosList = [
     description: 'View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors.',
     equipment: ['Lego EV3 robot kit'],
     time: 60,
-  },
-  /*{
+  },{
     title: 'How to: One touch control',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/LegoEV3.png',
+    img: 'assets/howtos/LegoEV3Robot.jpg',
     link: 'assets/howtos/MIT_App_Inventor_EV3_OneTouchControl.pdf',
     description: 'Control Lego EV3 robot with one finger. You can learn the basic concept of Trigonometric function.',
     equipment: ['Lego EV3 robot kit'],
     time: 60,
-  } remove comment when tutorial is ready - David*/
+  } 
 ];
 
 const HowTos = () => (
