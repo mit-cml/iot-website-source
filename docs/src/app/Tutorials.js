@@ -51,7 +51,7 @@ const tutorialsList = [
     img: 'assets/tutorials/healthy_plant.png',
     link: 'assets/tutorials/MIT_App_Inventor_IoT_Healthy_Plant.pdf',
     description: 'Make an environmental app that monitors the health of your plant using various sensors. Moisture, light, and temperature are displayed in a bar graph based on sensor readings from the Arduino controller.',
-    equipment: ['Arduino 101', 'Light Sensor', 'Moisture Sensor', 'RBB LCD', 'Temperature & Humidity Sensor'],
+    equipment: ['Arduino 101', 'Light Sensor', 'Moisture Sensor', 'RGB LCD', 'Temperature & Humidity Sensor'],
     time: 90,
   },
 ];
