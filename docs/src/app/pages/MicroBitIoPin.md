@@ -1,6 +1,6 @@
 # Microbit\_Io\_Pin
 
-The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bit's analog pins for input and output, and to read, write, and request notifications for the I/O pin states.
+The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bit's analog pins for input and output, and to read, write, and request notifications for the I/O pin states.<br>
  
 ## Properties
 

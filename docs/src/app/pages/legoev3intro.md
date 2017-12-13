@@ -10,16 +10,20 @@ Image source: <a href="https://www.lego.com/en-us/mindstorms/about-ev3" target="
 </div>
 
 MIT App Inventor provides complete support to interact with Lego EV3, including:
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Motors' target='_blank'>Ev3Motors</a> &mdash; control motor speed and direction.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Ev3ColorSensor' target='_blank'>Ev3ColorSensor</a> &mdash; detect light intensity and color code.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3GyroSensor' target='_blank'>Ev3GyroSensor</a> &mdash; detect angular velocity.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3TouchSensor' target='_blank'>Ev3TouchSensor</a> &mdash; detect whether this sensor is pressed/released.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3UltrasonicSensor' target='_blank'>Ev3UltrasonicSensor</a> &mdash; detect distance between object ahead.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3UI' target='_blank'>Ev3UI</a> &mdash; diplay text/number/image on Ev3's 100x64 pixel monochrome LED.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Sound' target='_blank'>Ev3Sound</a> &mdash; play music or short sound effects on Ev3 brick.</li></ul>
-<ul><li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Commands' target='_blank'>Ev3Commands</a> &mdash; low level commands can talk to Ev3 brick directly.</li></ul>
+<ul>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Motors' target='_blank'>Ev3Motors</a> &mdash; control motor speed and direction.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Ev3ColorSensor' target='_blank'>Ev3ColorSensor</a> &mdash; detect light intensity and color code.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3GyroSensor' target='_blank'>Ev3GyroSensor</a> &mdash; detect angular velocity.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3TouchSensor' target='_blank'>Ev3TouchSensor</a> &mdash; detect whether this sensor is pressed/released.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3UltrasonicSensor' target='_blank'>Ev3UltrasonicSensor</a> &mdash; detect distance between object ahead.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3UI' target='_blank'>Ev3UI</a> &mdash; diplay text/number/image on Ev3's 100x64 pixel monochrome LED.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Sound' target='_blank'>Ev3Sound</a> &mdash; play music or short sound effects on Ev3 brick.</li>
+<li><a href='http://ai2.appinventor.mit.edu/reference/components/legomindstorms.html#Ev3Commands' target='_blank'>Ev3Commands</a> &mdash; low level commands can talk to Ev3 brick directly.</li>
+</ul>
 
 Please check Lego EV3 tutorials:
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_EV3_ButtonControl.pdf' target='_blank'>Button Control</a> &mdash; Control Lego EV3 robot with buttons. You can also adjust the motor speed by sliders.</li></ul>
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Invento_EV3_SensorPanel.pdf' target='_blank'>Sensor panel</a> &mdash; View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors.</li></ul>
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Invento_EV3_OneTouchControl.pdf' target='_blank'>One Touch Control</a> &mdash; Control Lego EV3 robot with one finger.</li></ul>
+<ul>
+<li><a href='/assets/howtos/MIT_App_Inventor_EV3_ButtonControl.pdf' target='_blank'>Button Control</a> &mdash; Control Lego EV3 robot with buttons. You can also adjust the motor speed by sliders.</li>
+<li><a href='/assets/howtos/MIT_App_Invento_EV3_SensorPanel.pdf' target='_blank'>Sensor panel</a> &mdash; View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors.</li>
+<li><a href='/assets/howtos/MIT_App_Invento_EV3_OneTouchControl.pdf' target='_blank'>One Touch Control</a> &mdash; Control Lego EV3 robot with one finger.</li>
+</ul>

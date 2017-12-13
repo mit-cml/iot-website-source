@@ -27,8 +27,10 @@ Key features:
 * Open hardware board reference design including schematic, <a href="https://labs.mediatek.com/en/download/1ega2lbl" target="_blank">layouts and pin details.</a>
 
 Please follow our instructions:
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_7697_LED.pdf' target='_blank'>LED Control (BluetoothLE)</a> &mdash; Control the onboard LED by button and voice through Bluetooth.</li></ul>
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_7697_analogread.pdf' target='_blank'>Soil moisture detection (BluetoothLE)</a> &mdash; Detect soil moisture level by moisture sensor through Bluetooth.</li></ul>
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_7697_BLE_WheeledRobot.pdf' target='_blank'>Wheeled robot control (BluetoothLE)</a> &mdash; Control a two-wheel robot  through Bluetooth.</li></ul>
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_7697_BLE_WalkingRobot.pdf' target='_blank'>Walking robot control (BluetoothLE)</a> &mdash; Control a two-legged walking robot through Bluetooth.</li></ul>
-<ul><li><a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf' target='_blank'>RGB LED control (Wi-Fi)</a> &mdash; Control a RGB LED through Wi-Fi.</li></ul>
+<ul>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_LED.pdf' target='_blank'>LED Control (BluetoothLE)</a> &mdash; Control the onboard LED by button and voice through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_analogread.pdf' target='_blank'>Soil moisture detection (BluetoothLE)</a> &mdash; Detect soil moisture level by moisture sensor through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WheeledRobot.pdf' target='_blank'>Wheeled robot control (BluetoothLE)</a> &mdash; Control a two-wheel robot  through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WalkingRobot.pdf' target='_blank'>Walking robot control (BluetoothLE)</a> &mdash; Control a two-legged walking robot through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf' target='_blank'>RGB LED control (Wi-Fi)</a> &mdash; Control a RGB LED through Wi-Fi.</li>
+</ul>

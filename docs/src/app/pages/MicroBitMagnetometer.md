@@ -2,8 +2,7 @@
 
 The <code>Microbit_Magnetometer</code> provides the ability to configure the BBC micro:bit's on-board magnetometer and receive one or more magnetometer samples via the appropriate methods.
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitMagnetometer.aia' target='_blank'>sample projects</a> for the micro:bit onboard magnetometer.</li>
-                                <li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_Microbit_Magnetometer.pdf' target='_blank'>how to instructions</a> for the micro:bit onboard magnetometer</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitMagnetometer.aia' target='_blank'>sample projects</a> for the micro:bit onboard magnetometer.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_Microbit_Magnetometer.pdf' target='_blank'>how to instructions</a> for the micro:bit onboard magnetometer</li></ul>
 
 ## Properties
 
