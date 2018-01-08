@@ -3,7 +3,7 @@
 The <code>Microbit_Button</code> extension provides App Inventor with information about the state of the BBC micro:bit's buttons. Developers can use this extension to request updates for when a user presses a button or read the current state of the buttons. The buttons have three states:<br>
 <ul><li>0 - up</li><li>1 - down</li><li>2 - long pressed</li></ul>
 
-<strong>More links:</strong><ul><li>Download a <a href='http://iot.appinventor.mit.edu/assets/samples/MicrobitButton.aia' target='_blank'>sample projects</a> for the micro:bit onboard buttons.</li><li>View the <a href='http://iot.appinventor.mit.edu/assets/howtos/MIT_App_Inventor_Microbit_Button.pdf' target='_blank'>how to instructions</a> for the micro:bit onboard buttons</li></ul>
+<strong>More links:</strong><ul><li>Download a <a href='/assets/samples/MicrobitButton.aia' target='_blank'>sample projects</a> for the micro:bit onboard buttons.</li><li>View the <a href='/assets/howtos/MIT_App_Inventor_Microbit_Button.pdf' target='_blank'>how to instructions</a> for the micro:bit onboard buttons</li></ul>
 
 ## Properties
 
