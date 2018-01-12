@@ -28,9 +28,10 @@ Key features:
 
 Please follow our instructions:
 <ul>
-<li><a href='/assets/howtos/MIT_App_Inventor_7697_LED.pdf' target='_blank'>LED Control (BluetoothLE)</a> &mdash; Control the onboard LED by button and voice through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_LED.pdf' target='_blank'>LED blinking (BluetoothLE)</a> &mdash; Control the onboard LED by button and voice through Bluetooth.</li>
 <li><a href='/assets/howtos/MIT_App_Inventor_7697_analogread.pdf' target='_blank'>Soil moisture detection (BluetoothLE)</a> &mdash; Detect soil moisture level by moisture sensor through Bluetooth.</li>
-<li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WheeledRobot.pdf' target='_blank'>Wheeled robot control (BluetoothLE)</a> &mdash; Control a two-wheel robot  through Bluetooth.</li>
-<li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WalkingRobot.pdf' target='_blank'>Walking robot control (BluetoothLE)</a> &mdash; Control a two-legged walking robot through Bluetooth.</li>
-<li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf' target='_blank'>RGB LED control (Wi-Fi)</a> &mdash; Control a RGB LED through Wi-Fi.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WheeledRobot.pdf' target='_blank'>Wheeled robot (BluetoothLE)</a> &mdash; Control a two-wheel robot through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WalkingRobot.pdf' target='_blank'>Walking robot (BluetoothLE)</a> &mdash; Control a two-legged walking robot through Bluetooth.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf' target='_blank'>RGB LED blinking (Wi-Fi)</a> &mdash; Control a RGB LED through Wi-Fi.</li>
+<li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFIWheeledRobot.pdf' target='_blank'>Wheeled robot (Wi-Fi)</a> &mdash; Control a two-wheel robot through Wi-Fi.</li>
 </ul>

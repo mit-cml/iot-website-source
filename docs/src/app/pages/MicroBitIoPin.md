@@ -1,6 +1,8 @@
 # Microbit\_Io\_Pin
 
 The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bit's analog pins for input and output, and to read, write, and request notifications for the I/O pin states.
+
+<strong>More links:</strong><ul><li>RGB LED control: <a href='/assets/samples/MicrobitIOpin_RGBLED.aia' target='_blank'>sample project</a> and <a href='/assets/samples/MIT_App_Inventor_Microbit_IOpin_RGBLED.pdf'>tutorial</a>.</li><li>Read knob status: <a href='/assets/samples/MicrobitIOpin_potentiometer.aia' target='_blank'>sample project</a> and <a href='/assets/howtos/MIT_App_Inventor_Microbit_IOpin_potentiometer.pdf'>tutorial</a>.</li><li>Read switch status: <a href='/assets/samples/MicrobitIOpin_button.aia' target='_blank'>sample project</a> and <a href='/assets/howtos/MIT_App_Inventor_Microbit_IOpin_button.pdf'>tutorial</a>.</li></ul>
  
 ## Properties
 
