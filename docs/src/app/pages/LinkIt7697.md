@@ -34,5 +34,4 @@ Please follow our instructions:
 <li><a href='/assets/howtos/MIT_App_Inventor_7697_BLE_WalkingRobot.pdf' target='_blank'>Walking robot (BluetoothLE)</a> &mdash; Control a two-legged walking robot through Bluetooth.</li>
 <li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFILED.pdf' target='_blank'>RGB LED blinking (Wi-Fi)</a> &mdash; Control a RGB LED through Wi-Fi.</li>
 <li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFIWheeledRobot.pdf' target='_blank'>Wheeled robot (Wi-Fi)</a> &mdash; Control a two-wheel robot through Wi-Fi.</li>
-<li><a href='/assets/howtos/MIT_App_Inventor_7697_WIFI_lightsensor.pdf' target='_blank'>Read light sensor (Wi-Fi)</a> &mdash; Read light sensor value through Wi-Fi.</li>
 </ul>

@@ -151,7 +151,7 @@ const howtosList = [
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/microbit_potentiometer.jpg',
     link: 'assets/howtos/MIT_App_Inventor_Microbit_IOpin_potentiometer.pdf',
-    description: 'Read BBC micro:bit analog input pin status with a potentiometer connected (or any other analog input component.',
+    description: 'Read BBC micro:bit I/O pin status with a potentiometer connected (or any other analog input component.',
     equipment: ['BBC micro:bit','potentiometer','breadboard'],
     time: 60,
   },{
@@ -159,7 +159,7 @@ const howtosList = [
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/microbit_button.jpg',
     link: 'assets/howtos/MIT_App_Inventor_Microbit_IOpin_button.pdf',
-    description: 'Read BBC micro:bit analog input pin status with a button connected.',
+    description: 'Read BBC micro:bit I/O pin status with a button connected.',
     equipment: ['BBC micro:bit','button','breadboard'],
     time: 60,
   }  ,{
@@ -209,14 +209,6 @@ const howtosList = [
     link: 'assets/howtos/MIT_App_Inventor_7697_WIFIWheeledRobot.pdf',
     description: 'Control a wheeled robot moving around and its headlight(LED) through Wi-Fi.',
     equipment: ['LinkIt 7697', 'wheeled robot chassis'],
-    time: 90,
-  },{
-    title: 'How to: read light sensor data (Wi-Fi)',
-    author: 'MIT App Inventor Project',
-    img: 'assets/howtos/linkit_wheeledrobot.jpg',
-    link: 'assets/howtos/MIT_App_Inventor_7697_WIFI_lightsensor.pdf',
-    description: 'Control a wheeled robot moving around and its headlight(LED) through Wi-Fi.',
-    equipment: ['LinkIt 7697', 'Grove light sensor'],
     time: 90,
   },{
     title: 'How to: moviing robot with buttons',
