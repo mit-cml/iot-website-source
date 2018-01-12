@@ -144,7 +144,7 @@ const howtosList = [
     img: 'assets/howtos/microbit_rgbled.jpg',
     link: 'assets/howtos/MIT_App_Inventor_Microbit_IOpin_RGBLED.pdf',
     description: 'Control BBC micro:bit digital output pin status, here we use a RGB LED to demo.',
-    equipment: ['BBC micro:bit','RGB LED'],
+    equipment: ['BBC micro:bit','RGB LED','breadboard'],
     time: 60,
   },{
     title: 'How to: Read potentiometer status with BBC micro:bit I/O pin',
@@ -152,9 +152,17 @@ const howtosList = [
     img: 'assets/howtos/microbit_potentiometer.jpg',
     link: 'assets/howtos/MIT_App_Inventor_Microbit_IOpin_potentiometer.pdf',
     description: 'Read BBC micro:bit analog input pin status with a potentiometer connected (or any other analog input component.',
-    equipment: ['BBC micro:bit','potentiometer'],
+    equipment: ['BBC micro:bit','potentiometer','breadboard'],
     time: 60,
   },{
+    title: 'How to: Read button status with BBC micro:bit I/O pin',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/microbit_button.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_Microbit_IOpin_button.pdf',
+    description: 'Read BBC micro:bit analog input pin status with a button connected.',
+    equipment: ['BBC micro:bit','button','breadboard'],
+    time: 60,
+  }  ,{
     title: 'LED Control Tutorial',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/grove_led.png',
