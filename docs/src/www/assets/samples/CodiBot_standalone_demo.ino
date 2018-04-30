@@ -53,12 +53,12 @@ void getDistance()
 {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(5);
-  digitalWrite(trigPin, HIGH);     // 給 Trig 高電位，持續 10微秒
+  digitalWrite(trigPin, HIGH);         // high level on trigger pin for 10us
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
-  duration = pulseIn(echoPin, HIGH);   // 收到高電位時的時間
+  duration = pulseIn(echoPin, HIGH);   
 
-  cm = (duration / 2) / 29.1;       // 將時間換算成距離 cm 或 inch
+  cm = (duration / 2) / 29.1;          // convert time duration into distance (cm/inch)
   inches = (duration / 2) / 74;
 
   Serial.print("Distance : ");
@@ -68,7 +68,7 @@ void getDistance()
   Serial.print("cm");
   Serial.println();
   delay(250);
-  if (cm < 20) {    //something is to close
+  if (cm < 20) { //something is too close
     digitalWrite(LED_LWing, HIGH);
     digitalWrite(LED_RWing, HIGH);
   }
