@@ -79,6 +79,11 @@ class DocumentationMenu extends Component {
               containerElement={<Link to="/linkit/linkitintro" />}
               onClick={this.handleRequestClose}
             />
+			<MenuItem
+              primaryText="MIT App Inventor Codi Bot"
+              containerElement={<Link to="/codibot/codibotintro" />}
+              onClick={this.handleRequestClose}
+            />
           </Menu>
         </Popover>
       </span>

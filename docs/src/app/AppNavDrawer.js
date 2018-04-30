@@ -252,7 +252,12 @@ class AppNavDrawer extends Component {
               />,
             ]}
           />
-		  
+		  <ListItem
+            primaryText="MIT App Inventor Codi Bot"
+            primaryTogglesNestedList={false}
+            value="/codibot/codibotintro"
+            href="#/codibot/codibotintro"
+          />
           <Divider />
           <ListItem
             primaryText="Help"
