@@ -108,6 +108,9 @@ const AppRoutes = (
       <Route path="linkit7697" component={LinkIt7697Page} />
       <Route path="linkit7688" component={LinkIt7688Page} />
 	</Route>
+    <Route path="codibot">
+	  <Route path="codibotintro" component={codibotintroPage} />
+	</Route>
 	<Route path="faq">
       <Route path="faq" component={FAQPage} />
     </Route>

@@ -5,19 +5,19 @@ LinkIt 7697 and LinkIt Smart 7688/7688 Duo are part of the LinkIt IoT platform, 
 These dev boards can interact with App Inventor through Bluetooth Low energy(LinkIt 7697) and Wi-Fi(LinkIt 7697/ 7688/ 7688 Duo).
 
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
-![Image of the LinkIt 7697. Source: arduino.cc](/assets/howtos/LinkIt_7697.png)
+![Image of the LinkIt 7697. Source: Mediatek Labs](/assets/howtos/LinkIt_7697.png)
 <br>
 Image source: <a href="https://docs.labs.mediatek.com/resource/linkit7697-arduino/en" target="_blank">LinkIt 7697 on Mediatek Labs</a>
 </div>
 
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
-![Image of the LinkIt 7697. Source: arduino.cc](/assets/howtos/LinkIt_7688Duo.png)
+![Image of the LinkIt 7688Duo. Source: Mediatek Labs](/assets/howtos/LinkIt_7688duo.png)
 <br>
 Image source: <a href="https://labs.mediatek.com/en/platform/linkit-smart-7688" target="_blank">LinkIt 7688 Duo on Mediatek Labs</a>
 </div>
 
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
-![Image of the LinkIt 7697. Source: arduino.cc](/assets/howtos/LinkIt_7688.png)
+![Image of the LinkIt 7688. Source: Mediatek Labs](/assets/howtos/LinkIt_7688.png)
 <br>
 Image source: <a href="https://labs.mediatek.com/en/platform/linkit-smart-7688" target="_blank">LinkIt 7688 on Mediatek Labs</a>
 </div>

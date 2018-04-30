@@ -211,7 +211,7 @@ const howtosList = [
     equipment: ['LinkIt 7697', 'wheeled robot chassis'],
     time: 90,
   },{
-    title: 'How to: moviing robot with buttons',
+    title: 'How to: moving robot with buttons',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/LegoEV3Robot.jpg',
     link: 'assets/howtos/MIT_App_Inventor_EV3_ButtonControl.pdf',
@@ -224,7 +224,7 @@ const howtosList = [
     img: 'assets/howtos/LegoEV3.png',
     link: 'assets/howtos/MIT_App_Inventor_EV3_SensorPanel.pdf',
     description: 'View Lego EV3 sensor status on app screen: touch, ultrasonic and color sensors.',
-    equipment: ['Lego EV3 brick', 'touch sensor', 'light sensor', 'ultrasonic sensor'],
+    equipment: ['Legoddd EV3 brick', 'touch sensor', 'light sensor', 'ultrasonic sensor'],
     time: 60,
   },{
     title: 'How to: moving robot with one touch point',
@@ -234,7 +234,39 @@ const howtosList = [
     description: 'Control Lego EV3 robot with one finger. You can learn the basic concept of Trigonometric function.',
     equipment: ['Lego EV3 brick', 'motor x2', 'assemble bricks'],
     time: 60,
-  } 
+  },{
+    title: 'MIT App Inventor Codi Bot standalone demo',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/codibot1.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_CodiBot_Standalone_Demo.pdf',
+    description: 'Use this sketch to check hardware functions correctly. Notice this demo has no interaction with App Inventor.',
+    equipment: ['MIT App Inventor Codi Bot'],
+    time: 30,
+  },{
+    title: 'MIT App Inventor Codi Bot LED flashing',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/codibot2.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_CodiBot_LED.pdf',
+    description: 'Control RGB LED at base and green/purple LEDs on two wings by button and slider.',
+    equipment: ['MIT App Inventor Codi Bot'],
+    time: 60,
+  },{
+    title: 'MIT App Inventor Codi Bot wings flapping',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/codibot3.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_CodiBot_Wing.pdf',
+    description: 'Control servo of beebot wing by slider.',
+    equipment: ['MIT App Inventor Codi Bot'],
+    time: 60,
+  },{
+    title: 'MIT App Inventor Codi Bot making sounds',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/codibot1.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_CodiBot_Sound.pdf',
+    description: 'Tell Codi Bot to make sounds.',
+    equipment: ['MIT App Inventor Codi Bot'],
+    time: 60,
+  }
 ];
 
 const HowTos = () => (

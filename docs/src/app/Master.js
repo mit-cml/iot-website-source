@@ -177,8 +177,9 @@ class Master extends Component {
                       router.isActive('/arduino101') ? 'Arduino 101' :
                         router.isActive('/legoev3') ? 'Lego' :
                           router.isActive('/linkit') ? 'LinkIt' :
-                            router.isActive('/faq') ? 'FAQ' :
-                              router.isActive('/forum') ? 'Forum' : '';
+                            router.isActive('/codibot') ? 'MIT App Inventor Codi Bot' :
+                              router.isActive('/faq') ? 'FAQ' : 
+                                router.isActive('/forum') ? 'Forum' : '';
     let docked = false;
     let showMenuIconButton = true;
 

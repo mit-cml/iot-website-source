@@ -2,7 +2,7 @@
 
 LinkIt 7697 is an Arduino-compatible dev board of the LinkIt IoT platform with onboard Bluetooth Low energy and Wi-Fi communication.
 It provides hardware development kits (HDKs) for user to develop prototypes of IoT devices. 
-LinkIt 7697 can interact with App Inventor through Bluetooth Low energy and Wi-Fi.
+LinkIt 7697 can interact with App Inventor through Bluetooth Low Energy and Wi-Fi.
 
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
 ![Image of the LinkIt 7697. Source: arduino.cc](/assets/howtos/LinkIt_7697.png)
@@ -10,7 +10,7 @@ LinkIt 7697 can interact with App Inventor through Bluetooth Low energy and Wi-F
 Image source: <a href="https://docs.labs.mediatek.com/resource/linkit7697-arduino/en" target="_blank">LinkIt 7697 on Mediatek Labs</a>
 </div>
 
-Key features:
+## Key features:
 * ARM Cortex-M4 based MT7697 SoC @ 192MHz
 * 802.11b/g/n wireless connectivity
 * Bluetooth 4.2 Low Energy
@@ -26,7 +26,7 @@ Key features:
 * Size: 48 x 26 mm
 * Open hardware board reference design including schematic, <a href="https://labs.mediatek.com/en/download/1ega2lbl" target="_blank">layouts and pin details.</a>
 
-Please follow our instructions:
+## Please follow our tutorials to get start:
 <ul>
 <li><a href='/assets/howtos/MIT_App_Inventor_7697_LED.pdf' target='_blank'>LED blinking (BluetoothLE)</a> &mdash; Control the onboard LED by button and voice through Bluetooth.</li>
 <li><a href='/assets/howtos/MIT_App_Inventor_7697_analogread.pdf' target='_blank'>Soil moisture detection (BluetoothLE)</a> &mdash; Detect soil moisture level by moisture sensor through Bluetooth.</li>
