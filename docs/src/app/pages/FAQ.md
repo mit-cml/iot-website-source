@@ -268,9 +268,9 @@ The MIT App Inventor Codi Bot is a hands-on IoT kit. Our adorable mascot can be 
 
 From a technical view, of course you can replace the LinkIt 7697 with other Bluetooth Low Energy dev boards like the Arduino 101. But since MIT App Inventor Codi Bot is designed with [LinkIt 7697](#/linkit/linkit7697) and <a href="https://www.robotkingdom.com.tw/product/linkit-7697%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%93%B4%E5%85%85%E6%9D%BF-robot-shield-for-linkit-7697/" target="_blank">Robot Shield for LinkIt 7697 V2.0</a>, other boards may not fit into Codi Bot's body.
 
-### Where to buy a kit?
+### Where to buy a MIT App Inventor Codi Bot?
 
-<a href="http://www.robotkingdom.com.tw" target="_blank">Purchase link</a>
+<a href="https://www.robotkingdom.com.tw/product/mit-app-inventor-codi-bot/" target="_blank">Purchase link</a>
 
 ### How can I get more support for LinkIt 7697?
 
