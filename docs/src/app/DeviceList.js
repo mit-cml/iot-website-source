@@ -38,6 +38,12 @@ const deviceList = [
     link: '#/linkit/linkit7697',
     description: "LinkIt 7697 is an Arduino-compatible dev board of the LinkIt IoT platform with onboard Bluetooth Low energy and W-fi ommunication. It provides hardware development kits (HDKs) for user to develop prototypes of IoT devices. LinkIt 7697 can interact with App Inventor through Bluetooth Low energy and Wi-Fi.",
   },
+  {
+    title: 'MIT App Inventor Codi Bot',
+    img: 'assets/howtos/codibot1.jpg',
+    link: '#/codibot/codibotintro',
+    description: "The MIT App Inventor Codi Bot is a hands-on IoT kit. Our adorable mascot can be controlled via App Inventor through Bluetooth communication. This educational kit is easy to use and guides users through the whole process of development, from building a robot to programming it.",
+  },
 ];
 
 const DeviceList = () => (

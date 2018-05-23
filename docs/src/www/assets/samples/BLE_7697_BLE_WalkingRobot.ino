@@ -1,4 +1,4 @@
-/* To control OTTO's wlkaing and light with MIT App Inventor BLE and turn */
+/* To control OTTO's walking and light with MIT App Inventor */
 /* Please refer to otto.h for API usage */
 
 #include <Otto.h>
