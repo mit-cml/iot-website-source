@@ -2,6 +2,8 @@
 
 The Arduino 101 is a version of the popular Arduino platform based on the Intel&reg; Curie&trade; chipset. It has the same form factor as many other Arduino but supports built-in Bluetooth&reg; low energy.
 
+<a href="/assets/resources/edu.mit.appinventor.iot.arduino101.aix">Download the Arduino 101 extension</a>
+
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
 ![Image of the Arduino/Genuino 101 board. Source: arduino.cc](/images/AG101.jpg)
 <br>

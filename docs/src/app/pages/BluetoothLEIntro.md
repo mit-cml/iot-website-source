@@ -2,6 +2,8 @@
 
 Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new communication protocol similar to classic Bluetooth except that it is designed to consume less power while maintaining comparable functionality. For this reason, Bluetooth LE is the preferred choice of communication with IoT devices that have limited power resources. Starting with Android 4.3, Google introduced built-in support for Bluetooth Low Energy. The BluetoothLE extension requires Android 5.0 or higher to avoid known issues with Google's Bluetooth LE support prior to Android 5.0.
 
+<a href="/assets/resources/edu.mit.appinventor.ble.aix">Download the BluetoothLE extension</a>
+
 ## Properties
 
 + <a name="AdvertisementScanPeriod"></a>`AdvertisementScanPeriod` – Returns the value of ScanPeriod.

@@ -2,6 +2,8 @@
 
 The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by many different editors, including a <a href="https://pxt.microbit.org" target="_blank" rel="nofollow">blocks editor</a> provided by Microsoft. Learn more about the micro:bit at the <a rel="nofollow" href="http://microbit.org/about/" target="_blank">Micro:bit Educational Foundation's website</a>.
 
+<a href="/assets/resources/SimpleMicroBit.aix">Download the BBC micro:bit extension</a>
+
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
 ![micro:bit Front Image](./images/microbit-front.png)
 ![micro:bit Back Image](./images/microbit-back.png)
@@ -14,6 +16,7 @@ MIT App Inventor provides an extension bundle for interacting with the micro:bit
 * [Microbit_Accelerometer](#/microbit/microbitaccelerometer) to access the micro:bit's onboard accelerometer.
 * [Microbit_Button](#/microbit/microbitbutton) to receive messages when the micro:bit's buttons are pressed.
 * [Microbit_Io\_Pin](#/microbit/microbitiopin) to configure the onboard pins of the micro:bit and read/write analog and digital values from those pins.
+* [Microbit_Io\_Pin\_Simple](#/microbit/microbitiopinsimple) for a simple interface to interace with the micro:bit's onboard pins.
 * [Microbit_Led](#/microbit/microbitled) to print strings and custom images to the micro:bit's LED matrix.
 * [Microbit_Magnetometer](#/microbit/microbitmagnetometer) to getting heading/bearing information from the micro:bit.
 * [Microbit_Temperature](#/microbit/microbittemperature) to get environmental temperature readings in Celsius from the micro:bit.

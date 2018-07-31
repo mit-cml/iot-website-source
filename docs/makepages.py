@@ -79,6 +79,7 @@ const AppRoutes = (
       <Route path="microbitgenericaccess" component={MicroBitGenericAccessPage} />
       <Route path="microbitgenericattribute" component={MicroBitGenericAttributePage} />
       <Route path="microbitiopin" component={MicroBitIoPinPage} />
+      <Route path="microbitiopinsimple" component={MicroBitIoPinSimplePage} />
       <Route path="microbitled" component={MicroBitLedPage} />
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
