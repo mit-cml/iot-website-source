@@ -1,13 +1,15 @@
 span.aim-icon {
   background-image: url(/images/logo-white.png);
-  width: 180px;
-  height: 40px;
+  background-repeat: no-repeat;
+  width: 137px;
+  height: 48px;
   display: inline-block;
+  margin-right: 1em;
 }
 
 @media(max-width: 879px) {
   span.aim-icon {
-      width: 74px;
+      width: 60px;
       margin-right: 6px;
   }
 }
