@@ -11,13 +11,13 @@ The micro:bit is a computing platform from the BBC. It is an open platform for d
 Image source: [About | micro:bit](http://microbit.org/about/)
 </div>
 
-MIT App Inventor provides an extension bundle for interacting with the micro:bit. The micro:bit reference documentation includes the following extensions:
+MIT App Inventor has built a set of extensions to allow apps created with MIT App Inventor to interact with a micro:bit. The micro:bit extensions are listed below, with links to documentation for each:
 
-* [Microbit_Accelerometer](#/microbit/microbitaccelerometer) to access the micro:bit's onboard accelerometer.
-* [Microbit_Button](#/microbit/microbitbutton) to receive messages when the micro:bit's buttons are pressed.
-* [Microbit_Io\_Pin](#/microbit/microbitiopin) to configure the onboard pins of the micro:bit and read/write analog and digital values from those pins.
-* [Microbit_Io\_Pin\_Simple](#/microbit/microbitiopinsimple) for a simple interface to interace with the micro:bit's onboard pins.
-* [Microbit_Led](#/microbit/microbitled) to print strings and custom images to the micro:bit's LED matrix.
-* [Microbit_Magnetometer](#/microbit/microbitmagnetometer) to getting heading/bearing information from the micro:bit.
-* [Microbit_Temperature](#/microbit/microbittemperature) to get environmental temperature readings in Celsius from the micro:bit.
-* [Microbit_Uart](#/microbit/microbituart) to send and receive messages using the software serial port (UART) interface for the micro:bit. This can be used to send messages to custom software installed on the micro:bit.
+* [Microbit_Accelerometer](#/microbit/microbitaccelerometer) - access the micro:bit's onboard accelerometer.
+* [Microbit_Button](#/microbit/microbitbutton) - receive messages when the micro:bit's buttons are pressed.
+* [Microbit_Io\_Pin](#/microbit/microbitiopin) - configure the onboard pins of the micro:bit and read analog and digital values from the pins and write both analog and digital values to the pins.
+* [Microbit_Io\_Pin\_Simple](#/microbit/microbitiopinsimple) - a simpler interface to interact with the micro:bit's onboard pins.
+* [Microbit_Led](#/microbit/microbitled) - print strings and custom images to the micro:bit's LED matrix.
+* [Microbit_Magnetometer](#/microbit/microbitmagnetometer) - get heading/bearing information from the micro:bit.
+* [Microbit_Temperature](#/microbit/microbittemperature) - get external temperature readings (in degrees Celsius) from the micro:bit.
+* [Microbit_Uart](#/microbit/microbituart) - send and receive messages using the software serial port (UART) interface for the micro:bit. This can be used to send messages to custom software installed on the micro:bit.
