@@ -7,7 +7,7 @@
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   color: #333;
-  font-family: "Roboto", sans-serif;
+  font-family: 'San Francisco', "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
@@ -122,6 +122,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 1.1;
+  font-family: 'Futura', 'Roboto', sans-serif;
 }
 /*
 .markdown-body h1 {
