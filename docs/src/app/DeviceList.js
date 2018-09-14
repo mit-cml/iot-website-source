@@ -9,16 +9,19 @@ const deviceList = [
     img: 'assets/tutorials/bluetooth_logo.png',
     link: '#/bluetoothle/bluetoothleintro',
     description: 'Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new protocol similar to classic Bluetooth except that it is designed to consume less power while maintaining comparable functionality.',
+    aixUrl: '/assets/resources/edu.mit.appinventor.ble.aix',
   }, {
     title: 'Arduino 101',
     img: 'assets/howtos/arduino_101.png',
     link: '#/arduino101/arduino101intro',
     description: 'The Arduino 101 is a version of the popular Arduino platform based on the Intel® Curie™ chipset. It has the same form factor as many other Arduino but supports built-in Bluetooth® low energy.',
+    aixUrl: '/assets/resources/edu.mit.appinventor.iot.arduino101.aix',
   }, {
     title: 'BBC micro:bit',
     img: 'assets/howtos/microbit_back.png',
     link: '#/microbit/microbitintro',
     description: "The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by many different editors, including a blocks editor provided by Microsoft. Learn more about the micro:bit at the Micro:bit Educational Foundation's website.",
+    aixUrl: '/assets/resources/SimpleMicrobit.aix',
   },
   {
     title: 'Lego EV3 robot',
@@ -37,6 +40,7 @@ const deviceList = [
     img: 'assets/howtos/linkit_7697.png',
     link: '#/linkit/linkit7697',
     description: "LinkIt 7697 is an Arduino-compatible dev board of the LinkIt IoT platform with onboard Bluetooth Low energy and W-fi ommunication. It provides hardware development kits (HDKs) for user to develop prototypes of IoT devices. LinkIt 7697 can interact with App Inventor through Bluetooth Low energy and Wi-Fi.",
+    aixUrl: '/assets/resources/edu.mit.appinventor.iot.mt7697.aix',
   },
   {
     title: 'MIT App Inventor Codi Bot',
@@ -49,11 +53,19 @@ const deviceList = [
 const DeviceList = () => (
   <div className="app-list">
     <table>
+      <thead>
+        <tr>
+          <th>Device</th>
+          <th>Description</th>
+          <th>Extension</th>
+        </tr>
+      </thead>
       <tbody>
         {deviceList.map((app) => (
           <tr key={app.link}>
             <td style={{textAlign: 'center'}}><a style={{textDecoration: 'none'}} href={app.link}><img src={app.img} alt={app.title} style={{width: '100%', minWidth: '40px', maxWidth: '320px'}} /></a></td>
             <td><a style={{display: 'block', textDecoration: 'none', color: 'black'}} href={app.link}><strong>{app.title}</strong><br />{app.description}</a></td>
+            <td>{app.aixUrl && <a href={app.aixUrl}>Download</a>}</td>
           </tr>
         ))}
       </tbody>
