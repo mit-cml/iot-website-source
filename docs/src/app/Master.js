@@ -47,8 +47,8 @@ class Master extends Component {
     this.setState({
         muiTheme: getMuiTheme({
             palette: {
-                primary1Color: '#a5cf47',
-                accent1Color: '#00728a',
+                primary1Color: '#00728a',
+                accent1Color: '#f88d34',
             }
         }),
     });
@@ -263,13 +263,13 @@ class Master extends Component {
         <FullWidthSection style={styles.footer}>
           <a href="https://creativecommons.org/licenses/by/4.0/">
             <img alt="Creative Commons License" src="images/4.0_88x31.png" /></a>
-          <font color="a5cf47">
+          <font color="white">
             <br />This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">
-              <font color="a5cf47">Creative Commons Attribution 4.0 International License</font></a>
+              <font color="00728a">Creative Commons Attribution 4.0 International License</font></a>
             <br /> © 2017-2018 <a href="http://web.mit.edu/">
-              <font color="a5cf47">Massachusetts Institute of Technology</font></a>
+              <font color="00728a">Massachusetts Institute of Technology</font></a>
             <br />
-            <a href="http://appinventor.mit.edu/explore/contact.html"><font color="a5cf47">Contact Us</font></a>
+            <a href="http://appinventor.mit.edu/explore/contact.html"><font color="00728a">Contact Us</font></a>
           </font>
         </FullWidthSection>
       </div>

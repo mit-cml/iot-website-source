@@ -17,7 +17,7 @@ const styles = {
     color: white,
     lineHeight: `${spacing.desktopKeylineIncrement}px`,
     fontWeight: typography.fontWeightNormal,
-    backgroundColor: '#a5cf47',
+    backgroundColor: '#00728a',
     paddingLeft: spacing.desktopGutter,
     marginBottom: 8,
   },

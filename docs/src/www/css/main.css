@@ -6,8 +6,12 @@
 
 /* link color changed from #a13547, which did not have enough contrast */
 a {
-  color: #00ff00;
+  color: #00728a;
   text-decoration: none;
+}
+
+a:visited {
+  color: #92267c;
 }
 
 a:hover {

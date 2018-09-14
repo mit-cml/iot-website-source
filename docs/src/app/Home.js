@@ -325,7 +325,6 @@ class HomePage extends Component {
 
     return (
       <div style={style}>
-        {this.homePageTitleBanner()}
         {this.homePurposeAbout()}
         {this.homeFeatures()}
         {this.homePurposeIOT()}
