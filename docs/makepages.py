@@ -129,7 +129,7 @@ pageTemplate = '''
 import React from 'react';
 import Title from 'react-title-component';
 import MarkdownElement from '../../MarkdownElement';
-import %(page)sText from './%(page)s.md';
+import %(page)sText from '../../pages/%(page)s.md';
 
 const %(page)sPage = () => (
   <div>
@@ -164,10 +164,10 @@ def processPage(filename):
     except OSError:
         pass                 # We get here if the directory already exists
     ## Create the .md file without the header
-    f = open('%s/src/app/tmp/%s/%s.md' % (workDir, rootname, rootname), 'w')
-    for line in rest:
-        f.write(line)
-    f.close()
+    # f = open('%s/src/app/tmp/%s/%s.md' % (workDir, rootname, rootname), 'w')
+    # for line in rest:
+    #     f.write(line)
+    # f.close()
     ## Create Pages.js
     f = open('%s/src/app/tmp/%s/Page.js' % (workDir, rootname), 'w')
     f.write(pageTemplate % { 'dirname' : workDir,
