@@ -57,7 +57,7 @@ const tutorialsList = [
     title: 'MIT App Inventor Codi Bot',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/codibot1.jpg',
-    link: 'assets/howtos/MIT_App_Inventor_CodiBot_complete.pdf',
+    link: 'assets/howtos/MIT_App_Inventor_CodiBot_Complete.pdf',
     description: 'Control Codi Bot LEDs, wings, sounds. Assembly time (90 mins) is not included.',
     equipment: ['MIT App Inventor Codi Bot'],
     time: 90,
