@@ -69,6 +69,21 @@ class DocumentationMenu extends Component {
               containerElement={<Link to="/microbit/microbitintro" />}
               onClick={this.handleRequestClose}
             />
+            <MenuItem
+              primaryText="Lego EV3 robot"
+              containerElement={<Link to="/legoev3/legoev3intro" />}
+              onClick={this.handleRequestClose}
+            />
+            <MenuItem
+              primaryText="LinkIt series boards"
+              containerElement={<Link to="/linkit/linkitintro" />}
+              onClick={this.handleRequestClose}
+            />
+			<MenuItem
+              primaryText="MIT App Inventor Codi Bot"
+              containerElement={<Link to="/codibot/codibotintro" />}
+              onClick={this.handleRequestClose}
+            />
           </Menu>
         </Popover>
       </span>

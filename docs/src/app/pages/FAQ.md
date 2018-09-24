@@ -7,6 +7,8 @@ Below is a list of frequently asked questions from MIT App Inventor users workin
 * [Bluetooth Low Energy](#/faq/faq/ble)
 * [Arduino](#/faq/faq/arduino)
 * [BBC micro:bit](#/faq/faq/microbit)
+* [LinkIt series boards](#/faq/faq/linkit)
+* [MIT App Inventor Codi Bot](#/faq/faq/codibot) 
 
 ## <a name="/faq/faq/general"></a>General
 
@@ -44,11 +46,11 @@ MIT App Inventor is free to use! However, you will need to provide your own IoT 
 
 ### What hardware do I need to get started?
 
-You will need an Android device (phone or tablet) that supports Android 5.0 or higher and has hardware support for Bluetooth 4.0 low energy. You will also need any of our supported Bluetooth low energy devices ([BBC micro:bit](#/microbit/microbitintro) or [Arduino 101](#/arduino101/arduino101intro)) and a computer to access the [MIT App Inventor site](http://ai2.appinventor.mit.edu) to build your apps.
+You will need an Android device (phone or tablet) that supports Android 5.0 or higher and has hardware support for Bluetooth 4.0 low energy. You will also need any of our supported Bluetooth low energy devices ([BBC micro:bit](#/microbit/microbitintro) or [Arduino 101](#/arduino101/arduino101intro), [LinkIt series board](#/linkit/linkitintro) and a computer to access the [MIT App Inventor site](http://ai2.appinventor.mit.edu) to build your apps.
 
 ### Does IoT have any special hardware requirements?
 
-Our IoT extensions are built around Bluetooth 4.0 low energy. You will need an Android phone or tablet with harrdware for Bluetooth 4.0 or higher, running Android 5.0 (Lollipop) or higher to access the Bluetooth hardware. You will also need to obtain one or more supported peripherals for your BBC micro:bit or Arduino 101.
+Our IoT extensions are built around Bluetooth 4.0 low energy. You will need an Android phone or tablet with harrdware for Bluetooth 4.0 or higher, running Android 5.0 (Lollipop) or higher to access the Bluetooth hardware. You will also need to obtain one or more supported peripherals for your BBC micro:bit, Arduino 101 or LinkIt series board.
 
 ### What version of Bluetooth do I need?
 
@@ -72,9 +74,9 @@ We are releasing our Internet of Things components as extensions since they can 
 
 ### Do you support ...?
 
-We currently support Arduino 101 and micro:bit. We plan to add support for additional Arduino variants and Raspberry Pi in a future release.
+We currently support Arduino 101, micro:bit and LinkIt series boards(Arduino variant). We plan to add support for additional Arduino variants and Raspberry Pi in a future release.
 
-### I don't see the blocks I need for my Arduino/micro:bit.
+### I don't see the blocks I need for my Arduino/micro:bit/LinkIt.
 
 Check that you have imported the correct extension and dragged an instance of your target device into the designer.
 
@@ -222,3 +224,54 @@ To pair the micro:bit with your mobile device, you will need to:
 ### How can I get more support for my micro:bit?
 
 Please see the resources published by the micro:bit Foundation [online](https://support.microbit.org/support/home).
+
+## <a name="/faq/faq/linkit"></a>LinkIt series boards
+
+### What are LinkIt series boards ?
+
+LinkIt series boards refer to [the IoT platforms of MediaTek Labs](https://labs.mediatek.com/en/platform/overview). For now, MIT App Inventor supports [LinkIt Smart 7688/7688 Duo](#/linkit/linkit7688)(Wi-Fi) and [LinkIt 7697](#/linkit/linkit7697)(Wi-Fi/Bluetooth LE).  
+
+### What's the difference between LinkIt series boards and Arduino?
+
+LinkIt 7697 have two software development environments: [LinkIt SDK for RTOS and Arduino IDE](https://docs.labs.mediatek.com/resource/linkit7697-arduino/en). On the other hand, LinkIt Smart 7688 Duo has an on-board ATmega32U4 MCU, users can program it as an ordinary Arduino boards in Arduino IDE or develop Python, Node.js and native C in its OpenWrt environment.
+
+### How can I make sure I am ready to upload sketch to LinkIt 7697?
+
+Please follow [LinkIt LED Control tutorial](/assets/howtos/MIT_App_Inventor_7697_LED.pdf) to install Arduino IDE and LinkIt SDK/driver.
+
+### Where can I check the Bluetooth address of My LinkIt 7697?
+
+After the environment is ready, upload SimplePeripheral.ino under /File/Examples/LBLE directory. Open Arduino serial monitor and check the Bluetooth address as below.
+
+```c
+Serial.print(LBLE.getDeviceAddress()); //show Bluetooth address on Arduino serial monitor
+```
+![show LinkIt 7697 Bluetooth address on Arduino serial monitor.](/assets/faq/linkit_ble_addr.png)
+
+### How do I rename my LinkIt 7697 to be searched throught Bluetooth?
+
+When you open [this sketch](/assets/samples/MT7697.zip) in the Arduino editor, you will find `constants.cpp` and look for this line of code:
+
+```c
+static const char DEVICE_NAME[] = "MT7697 for AI2";
+```
+
+Changing the name in quotes from `MT7697 for AI2` to another name and then uploading the changes to the LinkIt 7697 will cause it to advertise under the new name. Due to limitations in the Bluetooth low energy protocol.
+
+## <a name="/faq/faq/codibot"></a>MIT App Inventor Codi Bot
+
+### What is MIT App Inventor Codi Bot?
+
+The MIT App Inventor Codi Bot is a hands-on IoT kit. Our adorable mascot can be controlled via App Inventor through Bluetooth communication. This educational kit is easy to use and guides users through the whole process of development, from building a robot to programming it.
+
+### Can I replace LinkIt 7697 with other Bluetooth dev boards?
+
+From a technical view, of course you can replace the LinkIt 7697 with other Bluetooth Low Energy dev boards like the Arduino 101. But since MIT App Inventor Codi Bot is designed with [LinkIt 7697](#/linkit/linkit7697) and <a href="https://www.robotkingdom.com.tw/product/linkit-7697%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%93%B4%E5%85%85%E6%9D%BF-robot-shield-for-linkit-7697/" target="_blank">Robot Shield for LinkIt 7697 V2.0</a>, other boards may not fit into Codi Bot's body.
+
+### Where to buy a MIT App Inventor Codi Bot?
+
+<a href="https://www.robotkingdom.com.tw/product/mit-app-inventor-codi-bot/" target="_blank">Purchase link</a>
+
+### How can I get more support for LinkIt 7697?
+
+Please see the resources on <a href="https://en.forum.labs.mediatek.com/" target="_blank">MediaTek Labs Forum</a>. 

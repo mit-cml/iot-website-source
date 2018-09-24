@@ -20,6 +20,30 @@ const deviceList = [
     link: '#/microbit/microbitintro',
     description: "The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by many different editors, including a blocks editor provided by Microsoft. Learn more about the micro:bit at the Micro:bit Educational Foundation's website.",
   },
+  {
+    title: 'Lego EV3 robot',
+    img: 'assets/howtos/legoev3.png',
+    link: '#/legoev3/legoev3intro',
+    description: "Lego Mindstorms EV3 is the third generation robotics kit in Lego's Mindstorms product line. Lego EV3 can interact with App Inventor through Bluetooth and Wi-Fi(need additional Wi-Fi dongle).",
+  },
+  {
+    title: 'LinkIt Smart 7688/7688 Duo',
+    img: 'assets/howtos/linkit_7688duo.png',
+    link: '#/linkit/linkit7688',
+    description: "The LinkIt Smart 7688 Duo development board uses MT7688AN as its MPU, complemented by an ATmega32U4 MCU. In addition to application development in Python, Node.js and native C for MT7688AN, applications for the MCU can be developed using the Arduino IDE. LinkIt Smart 7688/7688 Duo can interact with App Inventor through Wi-Fi.",
+  },
+  {
+    title: 'LinkIt 7697',
+    img: 'assets/howtos/linkit_7697.png',
+    link: '#/linkit/linkit7697',
+    description: "LinkIt 7697 is an Arduino-compatible dev board of the LinkIt IoT platform with onboard Bluetooth Low energy and W-fi ommunication. It provides hardware development kits (HDKs) for user to develop prototypes of IoT devices. LinkIt 7697 can interact with App Inventor through Bluetooth Low energy and Wi-Fi.",
+  },
+  {
+    title: 'MIT App Inventor Codi Bot',
+    img: 'assets/howtos/codibot1.jpg',
+    link: '#/codibot/codibotintro',
+    description: "The MIT App Inventor Codi Bot is a hands-on IoT kit. Our adorable mascot can be controlled via App Inventor through Bluetooth communication. This educational kit is easy to use and guides users through the whole process of development, from building a robot to programming it.",
+  },
 ];
 
 const DeviceList = () => (

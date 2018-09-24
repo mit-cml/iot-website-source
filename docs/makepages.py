@@ -84,7 +84,7 @@ const AppRoutes = (
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
-      <Route path="arduino101">
+    <Route path="arduino101">
       <Route path="arduino101intro" component={Arduino101IntroPage} />
       <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
       <Route path="arduinobutton" component={Arduino101ButtonPage} />
@@ -100,7 +100,18 @@ const AppRoutes = (
       <Route path="arduinoservo" component={Arduino101ServoPage} />
       <Route path="arduinosoundrecorder" component={Arduino101SoundRecorderPage} />
     </Route>
-    <Route path="faq">
+    <Route path="legoev3">
+	  <Route path="legoev3intro" component={legoev3introPage} />
+	</Route>
+	<Route path="linkit">
+	  <Route path="linkitintro" component={LinkItintroPage} />
+      <Route path="linkit7697" component={LinkIt7697Page} />
+      <Route path="linkit7688" component={LinkIt7688Page} />
+	</Route>
+    <Route path="codibot">
+	  <Route path="codibotintro" component={codibotintroPage} />
+	</Route>
+	<Route path="faq">
       <Route path="faq" component={FAQPage} />
     </Route>
     <Route path="forum">

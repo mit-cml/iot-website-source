@@ -51,9 +51,17 @@ const tutorialsList = [
     img: 'assets/tutorials/healthy_plant.png',
     link: 'assets/tutorials/MIT_App_Inventor_IoT_Healthy_Plant.pdf',
     description: 'Make an environmental app that monitors the health of your plant using various sensors. Moisture, light, and temperature are displayed in a bar graph based on sensor readings from the Arduino controller.',
-    equipment: ['Arduino 101', 'Light Sensor', 'Moisture Sensor', 'RBB LCD', 'Temperature & Humidity Sensor'],
+    equipment: ['Arduino 101', 'Light Sensor', 'Moisture Sensor', 'RGB LCD', 'Temperature & Humidity Sensor'],
     time: 90,
-  },
+  },{
+    title: 'MIT App Inventor Codi Bot',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/codibot1.jpg',
+    link: 'assets/howtos/MIT_App_Inventor_CodiBot_complete.pdf',
+    description: 'Control Codi Bot LEDs, wings, sounds. Assembly time (90 mins) is not included.',
+    equipment: ['MIT App Inventor Codi Bot'],
+    time: 90,
+  }
 ];
 
 const Tutorials = () => (
