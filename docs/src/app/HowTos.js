@@ -253,7 +253,7 @@ const howtosList = [
   },{
     title: 'MIT App Inventor Codi Bot wings flapping',
     author: 'MIT App Inventor Project',
-    img: 'assets/howtos/codibot3.jpg',
+    img: 'assets/howtos/codibot3.JPG',
     link: 'assets/howtos/MIT_App_Inventor_CodiBot_Wing.pdf',
     description: 'Control servo of beebot wing by slider.',
     equipment: ['MIT App Inventor Codi Bot'],

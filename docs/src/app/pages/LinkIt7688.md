@@ -4,7 +4,7 @@ LinkIt Smart 7688 and LinkIt Smart 7688 Duo are part of the LinkIt IoT platform,
 They can insteract with App Inventor through Wi-Fi.
 
 <div style="text-align: center; font-size: 75%; margin: 16pt 0;">
-![Image of the LinkIt 7697. Source: arduino.cc](/assets/howtos/LinkIt_7688Duo.png)
+![Image of the LinkIt 7697. Source: arduino.cc](/assets/howtos/LinkIt_7688duo.png)
 <br>
 Image source: <a href="https://labs.mediatek.com/en/platform/linkit-smart-7688" target="_blank">LinkIt 7688 Duo on Mediatek Labs</a>
 </div>
