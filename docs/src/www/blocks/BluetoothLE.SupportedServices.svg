@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewport="0 0 333.75 32" width="333.75" height="32"><style xmlns="http://www.w3.org/1999/xhtml">.blocklyDraggable {}
+<svg xmlns="http://www.w3.org/2000/svg" viewport="0 0 318.046875 32" width="318.046875" height="32"><style xmlns="http://www.w3.org/1999/xhtml">.blocklyDraggable {}
 .blocklySvg {
 background-color: #fff;
 outline: none;
@@ -709,7 +709,7 @@ padding: 0;
   font-weight: bold !important;
   border-color: #246 #9bd #9bd #246;
   color: #fff;
-}</style><g class="blocklyDraggable" transform="translate(8, 0)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#63426a" d="m 0,0 H 316.75 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z
-"/><path class="blocklyPath" fill="#7C5385" d="m 0,0 H 316.75 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z
-"/><path class="blocklyPathLight" stroke="#a387aa" d="m 0.5,0.5 H 316.25 M 316.25,0.5 M 0.5,24.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1
-"/><text class="blocklyText" y="12.5" transform="translate(10,5)">call </text><g class="blocklyEditableText" transform="translate(49.34375,5)" style="cursor: default;"><rect rx="4" ry="4" x="-5" y="0" height="16" width="119.421875"/><text class="blocklyText" y="12.5" text-anchor="start" x="0">BluetoothLE1<tspan style="fill: #7c5385;"> ▾</tspan></text></g><text class="blocklyText" y="12.5" transform="translate(168.765625,5)">.SupportedServices</text></g></svg>
+}</style><g class="blocklyDraggable" transform="translate(8, 0)"><path class="blocklyPathDark" transform="translate(1,1)" fill="#63426a" d="m 0,0 H 301.046875 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z
+"/><path class="blocklyPath" fill="#7C5385" d="m 0,0 H 301.046875 v 25 H 0 V 20 c 0,-10 -8,8 -8,-7.5 s 8,2.5 8,-7.5 z
+"/><path class="blocklyPathLight" stroke="#a387aa" d="m 0.5,0.5 H 300.546875 M 300.546875,0.5 M 0.5,24.5 V 18.5 m -7.36,-0.5 q -1.52,-5.5 0,-11 m 7.36,1 V 0.5 H 1
+"/><text class="blocklyText" y="12.5" transform="translate(10,5)">call </text><g class="blocklyEditableText" transform="translate(46.640625,5)" style="cursor: default;"><rect rx="4" ry="4" x="-5" y="0" height="16" width="113.671875"/><text class="blocklyText" y="12.5" text-anchor="start" x="0">BluetoothLE1<tspan style="fill: #7c5385;"> ▾</tspan></text></g><text class="blocklyText" y="12.5" transform="translate(160.3125,5)">.SupportedServices</text></g></svg>

@@ -2,9 +2,24 @@
 
 Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new communication protocol similar to classic Bluetooth except that it is designed to consume less power while maintaining comparable functionality. For this reason, Bluetooth LE is the preferred choice of communication with IoT devices that have limited power resources. Starting with Android 4.3, Google introduced built-in support for Bluetooth Low Energy. The BluetoothLE extension requires Android 5.0 or higher to avoid known issues with Google's Bluetooth LE support prior to Android 5.0.
 
-<a href="/assets/resources/edu.mit.appinventor.ble-20181124.aix">Download the BluetoothLE extension (version 20181124)</a>
+<a href="/assets/resources/edu.mit.appinventor.ble-20190701.aix">Download the BluetoothLE extension (version 20190701)</a>
 
 ### Version History
+
+#### Build 20190701
+
+* Add new property `NullTerminatedStrings` to control whether sent strings should include a null character or not
+* Add new methods:
+  * `ConnectToDeviceType` - Connect to a given device type with a given name. Extensions that use BluetoothLE can leverage this API to simplify establishing a connection.
+  * `ConnectToDeviceWithServiceAndName` - Connect to a device advertising the given service UUID and the given device name.
+  * `ReadConnectedRssi` - Read the Received Signal Strength Indicator (RSSI) of the connected device.
+  * `RequestMTU` - Request a change in the size of the maximum transmission unit if the underlying hardware supports it.
+  * `ScanForDevice` - Scan for a device of a specific type. Extensions that use BluetoothLE can leverage this API to simplify establishing a connection.
+  * `ScanForService` - Scan for devices that advertise a specific service UUID.
+* Add new event `MTUChanged` to report a change in the maximum transmission unit
+* Allow `ConnectWithAddress` to connect without previously scanning
+* Fix accumulation issue in `GetSupportedCharacteristics`
+* Fix crash due to "addPos not implemented" error
 
 #### Build 20181124
 
@@ -98,6 +113,15 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![get BluetoothLE1 IsDeviceConnected ](blocks/BluetoothLE.IsDeviceConnected_getter.svg)
 
++ <a name="NullTerminateStrings"></a>`NullTerminateStrings` – Instructs the BluetoothLE component to terminate strings with a null byte (true) or not (false)
+ when sending string data to a connected device.
+
+
+![get BluetoothLE1 NullTerminateStrings ](blocks/BluetoothLE.NullTerminateStrings_getter.svg)
+
+
+![set BluetoothLE1 NullTerminateStrings  to](blocks/BluetoothLE.NullTerminateStrings_setter.svg)
+
 + <a name="Scanning"></a>`Scanning` – The scanning state of the Bluetooth low energy component.
 
 
@@ -158,6 +182,31 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        The index of the target device, which must be between 1 and the length of the list.
 
 ![call BluetoothLE1 Connectindex](blocks/BluetoothLE.Connect.svg)
+
++ <a name="ConnectToDeviceType"></a>`ConnectToDeviceType` – Connects to the first device found advertising with the given
+ <code>name</code> and the service UUID associated with <code>device</code>.
+
+ __Parameters__:
+
+   * <code>device</code> (<a href="">_component_</a>) &mdash;
+     A component block that represents a Bluetooth Low Energy device
+   * <code>name</code> (a href="">_name_</a>) &mdash;
+     The name advertised by the desired device,
+
+![call BluetoothLE1 ConnectToDeviceTypedevicename](blocks/BluetoothLE.ConnectToDeviceType.svg)
+
++ <a name="ConnectToDeviceWithServiceAndName"></a>`ConnectToDeviceWithServiceAndName` – Connects to the first device found advertising with the given
+ <code>name</code> and the service UUID associated with <code>device</code>.
+
+ __Parameters__:
+
+   * <code>serviceUuid</code> (<a href="">_text_</a>) &mdash;
+     The unique identifier of the service being broadcast by the device(s)
+     of interest.
+   * <code>name</code> (a href="">_name_</a>) &mdash;
+     The name advertised by the desired device,
+
+![call BluetoothLE1 ConnectToDeviceWithServiceAndNameserviceUuidname](blocks/BluetoothLE.ConnectToDeviceWithServiceAndName.svg)
 
 + <a name="ConnectWithAddress"></a>`ConnectWithAddress` – Use the <code>ConnectWithAddress</code> method to connect to a specific Bluetooth low energy
  device if its Media Access Control (MAC) address is known. If none of the devices in the device
@@ -240,6 +289,11 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        Interpret the bytes as signed (true) or unsigned (false).
 
 ![call BluetoothLE1 ReadBytesserviceUuidcharacteristicUuidsigned](blocks/BluetoothLE.ReadBytes.svg)
+
++ <a name="ReadConnectedRssi"></a>`ReadConnectedRssi` – Initiates a read of the connected device's Received Signal Strength Indicator (RSSI). The
+ resulting value will be reported via the RssiChanged event.
+
+![call BluetoothLE1 ReadConnectedRssi](blocks/BluetoothLE.ReadConnectedRssi.svg)
 
 + <a name="ReadFloats"></a>`ReadFloats` – Reads one or more IEEE 754 floating point numbers from a connected BluetoothLE device. Service Unique ID
  and Characteristic UniqueID are required. The <code>shortFloat</code> parameter indicates whether
@@ -394,6 +448,20 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 ![call BluetoothLE1 RegisterForStringsserviceUuidcharacteristicUuidutf16](blocks/BluetoothLE.RegisterForStrings.svg)
 
++ <a name="RequestMTU"></a>`RequestMTU` – Requests a new minimum transmission unit (MUT) for the BluetoothLE connection. This feature
+ is only supported when both devices support Bluetooth 4.2 or higher. If the MTU is changed
+ successfully, the MTUChanged event will be run. The default MTU is 20.
+
+ This block is intended for advanced apps that need to change the size of the messages sent
+ between the BLE devices. Most developers will not need to adjust this value.
+
+ __Parameters__:
+
+   * <code>bytes</code> (<a href="">_number_</a>) &mdash;
+     The desired MTU size.
+
+![call BluetoothLE1 RequestMTUbytes](blocks/BluetoothLE.RequestMTU.svg)
+
 + <a name="ScanAdvertisements"></a>`ScanAdvertisements` – Scans for advertising Bluetooth low energy devices.
 
  __Parameter__:
@@ -402,6 +470,27 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        The amount of time to spend scanning, in milliseconds.
 
 ![call BluetoothLE1 ScanAdvertisementsscanPeriod](blocks/BluetoothLE.ScanAdvertisements.svg)
+
++ <a name="ScanForDevice"></a>`ScanForDevice` – Scans for a particular type of device. The device component must implement
+ the BLEDevice interface in order for this method to work.
+
+ __Parameters__:
+
+   * <code>param</code> (<a href="">_component_</a>) &mdash;
+     A component block that expects a particular service.
+
+![call BluetoothLE1 ScanForDevicedevice](blocks/BluetoothLE.ScanForDevice.svg)
+
++ <a name="ScanForService"></a>`ScanForService` – Scans for devices advertising a particular Bluetooth low energy service
+ by UUID.
+
+ __Parameters__:
+
+   * <code>serviceUuid</code> (<a href="">_text_</a>) &mdash;
+     The unique identifier of the service being broadcast by the device(s)
+     of interest.
+
+![call BluetoothLE1 ScanForServiceserviceUuid](blocks/BluetoothLE.ScanForService.svg)
 
 + <a name="ServiceByIndex"></a>`ServiceByIndex` – Returns the Unique ID of the service at the given index in the service list.
 
@@ -790,6 +879,17 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        A list of values written to the device.
 
 ![when BluetoothLE1 IntegersWritten serviceUuid characteristicUuid intValues do](blocks/BluetoothLE.IntegersWritten.svg)
+
++ <a name="MTUChanged"></a>`MTUChanged` – The MTUChanged event is run when the two BluetoothLE devices have successfully changed their
+ maximum transmission unit (MTU) to a different value. This event will only run in response
+ to a call to the method block RequestMTU.
+
+ __Parameters__:
+
+   * <code>bytes</code> (<a href="">_number_</a>) &mdash;
+     The new size, in bytes, of the new MTU.
+
+![when BluetoothLE1 MTUChanged bytes do](blocks/BluetoothLE.MTUChanged.svg)
 
 + <a name="RssiChanged"></a>`RssiChanged` – Trigger event when RSSI (Received Signal Strength Indicator) of found BluetoothLE device changes
 
