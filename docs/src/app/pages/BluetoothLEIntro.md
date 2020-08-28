@@ -2,9 +2,19 @@
 
 Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new communication protocol similar to classic Bluetooth except that it is designed to consume less power while maintaining comparable functionality. For this reason, Bluetooth LE is the preferred choice of communication with IoT devices that have limited power resources. Starting with Android 4.3, Google introduced built-in support for Bluetooth Low Energy. The BluetoothLE extension requires Android 5.0 or higher to avoid known issues with Google's Bluetooth LE support prior to Android 5.0.
 
-<a href="/assets/resources/edu.mit.appinventor.ble-20190701.aix">Download the BluetoothLE extension (version 20190701)</a>
+<a href="/assets/resources/edu.mit.appinventor.ble-20200828.aix">Download the BluetoothLE extension (version 20200828)</a>
 
 ### Version History
+
+#### Build 20200828
+
+* Update extension permissions to be compatible with Android Q
+* Add new methods:
+  * `CanReadCharacteristic` - Test whether the given (`serviceUuid`, `characteristicUuid`) is readable
+  * `CanRegisterForCharacteristic` - Test whether the given (`serviceUuid`, `characteristicUuid`) can be used to register for notifications
+  * `CanWriteCharacteristic` - Test whether the given (`serviceUuid`, `characteristicUuid`) is writable
+  * `CanWriteCharacteristicWithResponse` - Test whether the given (`serviceUuid`, `characteristicUuid`) is writable with a response
+* Provide new BLEExtension class for extension developers to use
 
 #### Build 20190701
 
@@ -162,6 +172,50 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
        The Media Access Control (MAC) address of the target Bluetooth low energy device.
 
 ![call BluetoothLE1 AdvertiserServiceUuidsdeviceAddress](blocks/BluetoothLE.AdvertiserServiceUuids.svg)
+
++ <a name="CanReadCharacteristic"></a>`CanReadCharacteristic` – Tests whether the given characteristic can be read.
+
+ __Parameters__:
+
+     * <code>serviceUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the service to test for read capability.
+     * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the characteristic to test for read capability.
+
+![call BluetoothLE1 CanReadCharacteristicserviceUuidcharacteristicUuid](blocks/BluetoothLE.CanReadCharacteristic.svg)
+
++ <a name="CanRegisterForCharacteristic"></a>`CanRegisterForCharacteristic` – Tests whether the given characteristic can be used to register for notifications.
+
+ __Parameters__:
+
+     * <code>serviceUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the service to test for notification capability.
+     * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the characteristic to test for notification capability.
+
+![call BluetoothLE1 CanRegisterForCharacteristicserviceUuidcharacteristicUuid](blocks/BluetoothLE.CanRegisterForCharacteristic.svg)
+
++ <a name="CanWriteCharacteristic"></a>`CanWriteCharacteristic` – Tests whether the given characteristic can be written.
+
+ __Parameters__:
+
+     * <code>serviceUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the service to test for write capability.
+     * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the characteristic to test for write capability.
+
+![call BluetoothLE1 CanWriteCharacteristicserviceUuidcharacteristicUuid](blocks/BluetoothLE.CanWriteCharacteristic.svg)
+
++ <a name="CanWriteCharacteristicWithResponse"></a>`CanWriteCharacteristicWithResponse` – Tests whether the given characteristic can be written with an acknowledgement by the device.
+
+ __Parameters__:
+
+     * <code>serviceUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the service to test for write with response capability.
+     * <code>characteristicUuid</code> (<a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">_text_</a>) &mdash;
+       The unique identifier of the characteristic to test for write with response capability.
+
+![call BluetoothLE1 CanWriteCharacteristicWithResponseserviceUuidcharacteristicUuid](blocks/BluetoothLE.CanWriteCharacteristicWithResponse.svg)
 
 + <a name="CharacteristicByIndex"></a>`CharacteristicByIndex` – Returns Unique ID of selected characteristic with index. Index specified by list
  of supported characteristics for a connected device, starting from 1.

@@ -334,13 +334,13 @@ fill: #ccc;
 fill: #bbb;
 }
 .blocklyZoom>image {
-opacity: .4;
+opacity: 0.9;
 }
 .blocklyZoom>image:hover {
-opacity: .6;
+opacity: 1;
 }
 .blocklyZoom>image:active {
-opacity: .8;
+opacity: 1;
 }
 .blocklyFlyout .blocklyScrollbarHandle {
 fill: #bbb;
@@ -379,7 +379,7 @@ padding: 0 !important;
 }
 .blocklyWidgetDiv .goog-option-selected .goog-menuitem-checkbox,
 .blocklyWidgetDiv .goog-option-selected .goog-menuitem-icon {
-background: url(./assets/sprites.png) no-repeat -48px -16px !important;
+background: url(./static/media/sprites.png) no-repeat -48px -16px !important;
 }
 .blocklyToolboxDiv {
 background-color: #ddd;
@@ -427,7 +427,7 @@ padding: 5px 0;
 margin: 0 5px;
 }
 .blocklyTreeIcon {
-background-image: url(./assets/sprites.png);
+background-image: url(./static/media/sprites.png);
 height: 16px;
 vertical-align: middle;
 width: 16px;
