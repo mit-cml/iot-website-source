@@ -147,6 +147,8 @@ class HomePage extends Component {
       >
         <h3>Make apps for the Internet of Things with MIT App Inventor!</h3>
         <br /><br />
+        <h4>Please Note: Some of the tutorials and other materials on this website may be outdated, resulting in non-functioning apps. We are currently creating new Internet of Things components and tutorials. For specific technical questions, search or post on our <a href="https://community.appinventor.mit.edu/" target="_blank">community discussion forum</a>. -- The App Inventor Team 3/31/22</h4>
+        <br /><br />
         MIT App Inventor helps people around the world build mobile apps that can make a difference for their
         families, schools, and communities&mdash; even if they've never programmed before.
         <br /><br />

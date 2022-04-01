@@ -1,5 +1,7 @@
 # Platform: Arduino 101
 
+<h3>Please note: The tutorials in this section all depend on an Arduino model no longer sold, the Arduino 101. We plan to provide revised tutorials for current Arduino models. For specific technical questions, search or post on our [community discussion forum](https://community.appinventor.mit.edu/). -- The App Inventor Team 3/31/22</h3>
+
 The Arduino 101 is a version of the popular Arduino platform based on the Intel&reg; Curie&trade; chipset. It has the same form factor as many other Arduino but supports built-in Bluetooth&reg; low energy.
 
 <a href="/assets/resources/edu.mit.appinventor.iot.arduino101.aix">Download the Arduino 101 extension</a>

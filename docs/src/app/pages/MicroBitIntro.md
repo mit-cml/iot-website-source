@@ -1,5 +1,7 @@
 # Platform: BBC micro:bit
 
+<h3>Please note: Some of the tutorials in the Microbit may be outdated, resulting in non-functioning apps. We are currently creating new Internet of Things components and tutorials for Microbit. For specific technical questions, search or post on our [community discussion forum](https://community.appinventor.mit.edu/). -- The App Inventor Team 3/31/22</h3>
+
 The micro:bit is a computing platform from the BBC. It is an open platform for developing all manner of projects and is programmable by many different editors, including a <a href="https://pxt.microbit.org" target="_blank" rel="nofollow">blocks editor</a> provided by Microsoft. Learn more about the micro:bit at the <a rel="nofollow" href="http://microbit.org/about/" target="_blank">Micro:bit Educational Foundation's website</a>.
 
 <a href="/assets/resources/SimpleMicrobit.aix">Download the BBC micro:bit extension</a>
