@@ -17,7 +17,10 @@ RUN mv /etc/periodic/daily/logrotate /etc/periodic/hourly/logrotate && chmod 644
 # ADD jis.pem /etc/jis.pem
 # ADD passwd /etc/nginx/passwd
 ADD docs/build /var/www
+ADD docs/src/www/blocks /var/www/blocks
+ADD docs/src/www/assets /var/www/assets
 ADD ssl /etc/nginx/ssl
+
 
 CMD /etc/start
 
