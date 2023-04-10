@@ -243,6 +243,11 @@ class Master extends Component {
         {title !== '' ?
           <div style={prepareStyles(styles.root)}>
             <div style={prepareStyles(styles.content)}>
+         <span style={{color: "red"}}>
+         <span style={{fontSize: "1.5em"}}>
+         <strong>WARNING:</strong> This page may be obsolete. Some links may be broken, guides may be outdated, and software extensions for App Inventor may be old, resulting in non-functioning apps. Please see <a href="https://appinventor.mit.edu/explore/ai2/IoT_unit">https://appinventor.mit.edu/explore/ai2/IoT_unit</a>
+         </span>
+         </span>
               {React.cloneElement(children, {
                 onChangeMuiTheme: this.handleChangeMuiTheme,
               })}
