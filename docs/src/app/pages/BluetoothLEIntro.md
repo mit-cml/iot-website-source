@@ -2,9 +2,15 @@
 
 Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new communication protocol similar to classic Bluetooth except that it is designed to consume less power while maintaining comparable functionality. For this reason, Bluetooth LE is the preferred choice of communication with IoT devices that have limited power resources. Starting with Android 4.3, Google introduced built-in support for Bluetooth Low Energy. The BluetoothLE extension requires Android 5.0 or higher to avoid known issues with Google's Bluetooth LE support prior to Android 5.0.
 
-<a href="/assets/resources/edu.mit.appinventor.ble-20200828.aix">Download the BluetoothLE extension (version 20200828)</a>
+<a href="/assets/resources/edu.mit.appinventor.ble-20230728.aix">Download the BluetoothLE extension (version 20230728)</a>
 
 ### Version History
+
+#### Build 20230728
+
+* Update extension permissions to be compatible with Android S
+* Add new designer property:
+  * `NoLocationNeeded` - Assert that the BLE extension won't be used to acquire user location data
 
 #### Build 20200828
 
@@ -122,6 +128,10 @@ Bluetooth Low Energy, also referred to as Bluetooth LE or simply BLE, is a new c
 
 
 ![get BluetoothLE1 IsDeviceConnected ](blocks/BluetoothLE.IsDeviceConnected_getter.svg)
+
++ <a name="NoLocationNeeded"></a>`NoLocationNeeded` – Enable this option to assert that your app does not use Bluetooth to derive location data.
+ If enabled, ACCESS_FINE_LOCATION permission will not be needed by the compiled app nor will
+ the extension attempt to request permission.
 
 + <a name="NullTerminateStrings"></a>`NullTerminateStrings` – Instructs the BluetoothLE component to terminate strings with a null byte (true) or not (false)
  when sending string data to a connected device.
