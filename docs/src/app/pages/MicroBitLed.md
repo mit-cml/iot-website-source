@@ -6,7 +6,7 @@ The <code>Microbit_LED</code> extension provides App Inventor users with the abi
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Led1 BluetoothDevice ](blocks/Microbit_Led.BluetoothDevice_getter.svg)
@@ -69,7 +69,7 @@ The <code>Microbit_LED</code> extension provides App Inventor users with the abi
 + <a name="LEDMatrixStateReceived"></a>`LEDMatrixStateReceived` – The <code>LEDMatrixStateReceived</code> event is run when the state of the micro:bit's LED
  matrix is read from the device. The <code>LED_Matrix_State</code> is a list of 5 values, one
  for each row of the matrix. Each value is an number from 0-31. From left to right, the LEDs
- are valued 16, 8, 4, 2, 1.<br>\n\n
+ are valued 16, 8, 4, 2, 1.<br>
 
  __Parameters__:
 

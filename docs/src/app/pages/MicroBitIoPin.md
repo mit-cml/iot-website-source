@@ -6,7 +6,7 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
  
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Io_Pin1 BluetoothDevice ](blocks/Microbit_Io_Pin.BluetoothDevice_getter.svg)

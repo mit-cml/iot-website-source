@@ -83,7 +83,7 @@ const AppRoutes = (
       <Route path="microbitled" component={MicroBitLedPage} />
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
-      <Route path="microbituart" component={MicroBitUartPage} />
+      <Route path="microbituart" component={MicroBitUartSimplePage} />
     </Route>
     <Route path="arduino101">
       <Route path="arduino101intro" component={Arduino101IntroPage} />

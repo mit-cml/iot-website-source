@@ -6,7 +6,7 @@ The accelerometer's report rate, or period, determines how frequently data will 
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Accelerometer1 BluetoothDevice ](blocks/Microbit_Accelerometer.BluetoothDevice_getter.svg)

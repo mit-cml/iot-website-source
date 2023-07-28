@@ -8,7 +8,7 @@ The temperature sensor's reportrate, or period, determines how frequently data w
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Temperature1 BluetoothDevice ](blocks/Microbit_Temperature.BluetoothDevice_getter.svg)

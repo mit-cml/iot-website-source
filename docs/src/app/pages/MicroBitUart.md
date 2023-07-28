@@ -4,7 +4,7 @@ The <code>Microbit_Uart</code> sensor provides the ability to read from and writ
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Uart1 BluetoothDevice ](blocks/Microbit_Uart.BluetoothDevice_getter.svg)

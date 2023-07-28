@@ -4,7 +4,7 @@ Component for Microbit_Dfu_Control
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – Property for BluetoothDevice
 
 
 ![get Microbit_Dfu_Control1 BluetoothDevice ](blocks/Microbit_Dfu_Control.BluetoothDevice_getter.svg)

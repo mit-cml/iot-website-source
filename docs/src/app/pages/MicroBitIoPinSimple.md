@@ -4,7 +4,7 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Io_Pin_Simple1 BluetoothDevice ](blocks/Microbit_Io_Pin_Simple.BluetoothDevice_getter.svg)
@@ -34,10 +34,22 @@ The <code>Microbit_Io_Pin</code> component lets users configure the BBC micro:bi
 
 ![call Microbit_Io_Pin_Simple1 WriteOutputPinDatapinNumberpinValue](blocks/Microbit_Io_Pin_Simple.WriteOutputPinData.svg)
 
++ <a name="WritePWMControl"></a>`WritePWMControl` – Method for WritePWMControl
+
+![call Microbit_Io_Pin_Simple1 WritePWMControlpinNumbervalueperiod](blocks/Microbit_Io_Pin_Simple.WritePWMControl.svg)
+
 ## Events
 
 + <a name="InputPinDataReceived"></a>`InputPinDataReceived` – Event for InputPinDataReceived
 
 ![when Microbit_Io_Pin_Simple1 InputPinDataReceived IO_Pin_Data do](blocks/Microbit_Io_Pin_Simple.InputPinDataReceived.svg)
+
++ <a name="WroteOutputPinData"></a>`WroteOutputPinData` – Event for WroteOutputPinData
+
+![when Microbit_Io_Pin_Simple1 WroteOutputPinData IO_Pin_Data do](blocks/Microbit_Io_Pin_Simple.WroteOutputPinData.svg)
+
++ <a name="WrotePWMControl"></a>`WrotePWMControl` – Event for WrotePWMControl
+
+![when Microbit_Io_Pin_Simple1 WrotePWMControl PWM_Control_Field do](blocks/Microbit_Io_Pin_Simple.WrotePWMControl.svg)
 
 

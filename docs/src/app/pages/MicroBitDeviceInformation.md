@@ -7,7 +7,7 @@ The <code>Microbit_Device_Information</code> extension provides App Inventor wit
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – Property for BluetoothDevice
 
 
 ![get Microbit_Device_Information1 BluetoothDevice ](blocks/Microbit_Device_Information.BluetoothDevice_getter.svg)

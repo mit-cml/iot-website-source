@@ -7,7 +7,7 @@ The <code>Microbit_Button</code> extension provides App Inventor with informatio
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device.
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – The BluetoothLE component connected to the micro:bit device (setter).
 
 
 ![get Microbit_Button1 BluetoothDevice ](blocks/Microbit_Button.BluetoothDevice_getter.svg)

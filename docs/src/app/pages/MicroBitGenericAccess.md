@@ -4,7 +4,7 @@ Component for Microbit_Generic_Access
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – Property for BluetoothDevice
 
 
 ![get Microbit_Generic_Access1 BluetoothDevice ](blocks/Microbit_Generic_Access.BluetoothDevice_getter.svg)

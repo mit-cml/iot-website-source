@@ -4,7 +4,7 @@ Component for Microbit_Event
 
 ## Properties
 
-+ <a name="BluetoothDevice"></a>`BluetoothDevice` – 
++ <a name="BluetoothDevice"></a>`BluetoothDevice` – Property for BluetoothDevice
 
 
 ![get Microbit_Event1 BluetoothDevice ](blocks/Microbit_Event.BluetoothDevice_getter.svg)
