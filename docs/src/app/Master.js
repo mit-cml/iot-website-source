@@ -271,10 +271,12 @@ class Master extends Component {
           <font color="white">
             <br />This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">
               <font color="00728a">Creative Commons Attribution 4.0 International License</font></a>
-            <br /> © 2017-2018 <a href="http://web.mit.edu/">
+            <br /> © 2017-2024 <a href="http://web.mit.edu/">
               <font color="00728a">Massachusetts Institute of Technology</font></a>
             <br />
             <a href="http://appinventor.mit.edu/explore/contact.html"><font color="00728a">Contact Us</font></a>
+            <br />
+            <a href="https://accessibility.mit.edu" target="_blank"><font color="00728a">Accessibility</font></a>
           </font>
         </FullWidthSection>
       </div>
