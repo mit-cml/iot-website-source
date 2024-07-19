@@ -1,6 +1,6 @@
 # App Inventor IoT Frequently Asked Questions
 
-Below is a list of frequently asked questions from MIT App Inventor users working with Internet of Things. Don't see your question in the list? You may also ask questions in our <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">forum</a>. This page will be updated with new questions and answers from time to time.
+Below is a list of frequently asked questions from MIT App Inventor users working with Internet of Things. Don't see your question in the list? You may also ask questions in our <a href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5" target="_blank">forum</a>. This page will be updated with new questions and answers from time to time.
 
 * [General](#/faq/faq/general)
 * [Companion](#/faq/faq/companion)
@@ -22,7 +22,7 @@ The Internet of Things allows you to change your relationship with the objects i
 
 ### How can I support MIT App Inventor?
 
-Please participate in the <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">forums</a>, and consider a donation to the MIT App Inventor fund via <a href="https://giving.mit.edu/give/to?fundId=3832320" target="_blank">MIT Giving</a>.
+Please participate in the <a href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5" target="_blank">forums</a>, and consider a donation to the MIT App Inventor fund via <a href="https://giving.mit.edu/give/to?fundId=3832320" target="_blank">MIT Giving</a>.
 
 ### I want my school to use MIT App Inventor. How can I set that up?
 
@@ -82,7 +82,7 @@ Check that you have imported the correct extension and dragged an instance of yo
 
 ### I didn't find help for my issue. What should I do?
 
-Please refer to the [tutorials](#/teachers/tutorials) and [how tos](#/teachers/howtos). Please join the <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">MIT App Inventor forum</a>. You can also refer to <a href="http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html" target="_blank">MIT App Inventor troubleshooting</a>. If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
+Please refer to the [tutorials](#/teachers/tutorials) and [how tos](#/teachers/howtos). Please join the <a href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5" target="_blank">MIT App Inventor forum</a>. You can also refer to <a href="http://appinventor.mit.edu/explore/ai2/support/troubleshooting.html" target="_blank">MIT App Inventor troubleshooting</a>. If you have any further questions, please [contact us](http://appinventor.mit.edu/explore/contact.html).
 
 ## <a name="/faq/faq/companion"></a>Companion
 

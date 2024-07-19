@@ -18,5 +18,5 @@ View the documentation for the supported [IoT Devices](#/devices/devicesintro).
 ## [FAQ](#/faq/faq)
 Stuck? We've collected answers to the most frequently asked questions from our users. Please check out the [FAQ](#/faq/faq) for potential solutions.
 
-## <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">Forum</a>
-Still having trouble? The MIT App Inventor forum is an active user community helping one another to build amazing apps. Please feel free to <a href="https://groups.google.com/forum/#!categories/mitappinventortest" target="_blank">ask us a question</a>.
+## <a href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5" target="_blank">Forum</a>
+Still having trouble? The MIT App Inventor forum is an active user community helping one another to build amazing apps. Please feel free to <a href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5" target="_blank">ask us a question</a>.

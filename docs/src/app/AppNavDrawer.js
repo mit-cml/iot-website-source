@@ -270,7 +270,7 @@ class AppNavDrawer extends Component {
           />
           <ListItem
             primaryText="Forum"
-            href="https://groups.google.com/forum/#!forum/mitappinventortest"
+            href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5"
           />
           <Divider />
           <ListItem

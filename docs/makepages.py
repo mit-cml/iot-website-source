@@ -117,7 +117,7 @@ const AppRoutes = (
       <Route path="faq" component={FAQPage} />
     </Route>
     <Route path="forum">
-      <Route path="forum" component={ForumPage} />
+      <Route path="forum" component={ExternalRedirect} href="https://community.appinventor.mit.edu/c/mit-app-inventor-help/5" />
     </Route>
   </Route>
 );
