@@ -18,6 +18,7 @@ import TutorialsPage from './Tutorials';
 import HowTosPage from './HowTos';
 import LearnMorePage from './LearnMorePage';
 import DevicesIntroPage from './DevicesIntroPage';
+import ExternalRedirect from './ExternalRedirect';
 '''
 
 appRoutesChunk = '''
@@ -44,20 +45,20 @@ const AppRoutes = (
     </Route>
     <Route path="teachers">
       <Route path="intro" component={TeacherIntroPage} />
-      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="tutorials" component={ExternalRedirect} href="https://appinventor.mit.edu/explore/ai2/IoT_unit" />
       <Route path="howtos" component={HowTosPage} />
       <Route path="examples" component={TeacherExamplesPage} />
       <Route path="curriculum" component={TeacherCurriculumPage} />
     </Route>
     <Route path="students">
       <Route path="intro" component={StudentIntroPage} />
-      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="tutorials" component={ExternalRedirect} href="https://appinventor.mit.edu/explore/ai2/IoT_unit" />
       <Route path="howtos" component={HowTosPage} />
       <Route path="examples" component={StudentExamplesPage} />
     </Route>
     <Route path="makers">
       <Route path="intro" component={MakerIntroPage} />
-      <Route path="tutorials" component={TutorialsPage} />
+      <Route path="tutorials" component={ExternalRedirect} href="https://appinventor.mit.edu/explore/ai2/IoT_unit" />
       <Route path="howtos" component={HowTosPage} />
     </Route>
     <Route path="help">

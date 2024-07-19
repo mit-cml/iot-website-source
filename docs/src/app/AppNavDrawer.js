@@ -87,8 +87,7 @@ class AppNavDrawer extends Component {
           />
           <ListItem
             primaryText="Tutorials"
-            value="/teachers/tutorials"
-            href="#/teachers/tutorials"
+            href="https://appinventor.mit.edu/explore/ai2/IoT_unit"
           />
           <ListItem
             primaryText="How Tos"
