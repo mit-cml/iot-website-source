@@ -178,13 +178,13 @@ def processPage(filename):
 
 def main():
     import re
-    M = re.compile('.*\.md$')
+    M = re.compile('.*\\.md$')
     shutil.rmtree('%s/src/app/tmp' % workDir, True)
     pages = os.listdir('src/app/pages')
     pages = filter(M.match, pages) # Get rid of backup files, only MD files please
     chunks = []
     for page in pages:
-        print 'Processing %s' % page
+        print('Processing %s' % page)
         chunk = processPage(page)
         if chunk:               # Only add it if it isn't None
             chunks.append(chunk)
