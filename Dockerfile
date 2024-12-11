@@ -20,7 +20,7 @@ ADD docs/build /var/www
 ADD docs/src/www/blocks /var/www/blocks
 ADD docs/src/www/assets /var/www/assets
 ADD ssl /etc/nginx/ssl
-
+ADD robots.txt /var/www/robots.txt
 
 CMD /etc/start
 
